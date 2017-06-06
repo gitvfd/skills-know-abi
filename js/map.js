@@ -115,7 +115,7 @@
 
     });
 
-    d3.json("data/zaf.json", function(error, worldData) {
+    d3.json("data/ZAF.json", function(error, worldData) {
 			SouthAfricaMap.selectAll(".southAfrica")
                         .data(worldData.features)
                         .enter().append("path")
