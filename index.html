@@ -1,0 +1,252 @@
+<!--http://www.isbarackobamathepresident.com/-->
+<!DOCTYPE html>
+<meta charset="utf-8">
+<head>
+<script src="libs/d3.v4.min.js"></script>
+</head>
+<style type="text/css">
+
+body{
+	max-width: 900px;
+	margin:auto;
+}
+
+
+.treeText {
+	font: 2vw TheSerif;
+	font-weight: 700; 
+	fill:#8EA4B1;
+	opacity: 1;
+}
+
+
+.links line {
+  stroke: #999;
+}
+
+
+
+.tooltip {
+	position: absolute;
+	top: 100px;
+	left: 100px;
+  	-moz-border-radius:5px;
+	border-radius: 5px;
+  	border: 2px solid #000;
+  	background: #fff;
+	opacity: .9;
+	 color: black;
+	padding: 10px;
+	width: 125px;
+	font-size: 12px;
+	z-index: 10;
+}
+
+.tooltip .title {
+	font-size: 13px;
+}
+
+.tooltip .name {
+  font-weight:bold;
+}
+
+
+
+#countryTooltipSetUP {
+  position: absolute;
+  width: auto;
+  height: auto;
+  padding: 10px;
+  background-color: rgb(252,252,252);
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  pointer-events: none;
+}
+
+#countryTooltipSetUP.hidden {
+  display: none;
+}
+
+#countryTooltipSetUP p {
+  margin: 0;
+  font-family: sans-serif;
+  font-size: 10px;
+  line-height: 12px;
+}
+
+#countryName{
+	font-family:TheSerif;
+	font-size:24px ;
+	font-weight: bold;
+	color: #0297C9;
+}
+
+#dropDownButton{
+	font-family:TheSerif;
+	font-size:18px ;
+	font-weight: bold;
+	color: #0297C9;
+	margin-bottom: 10px
+}
+
+ #selCountry{
+	font-family:TheSerif;
+	font-size:18px ;
+	font-weight: bold;
+	color: #0297C9;
+}
+#usageIntro{
+	display: none;
+}
+
+#usageIntro{
+	font-size:16px;
+	color:#575757;
+}
+
+#vizIntro{
+	font-size:16px;
+	color:#575757;
+}
+
+.vizExplanation.hidden {
+  display: none;
+}
+
+
+
+.legendCircle {
+		stroke-width:.5;
+		stroke:#006FB3;
+		stroke-dasharray:2 2;
+		fill:none;
+	}
+
+
+.legendLine {
+	stroke-width: 1x;
+	stroke: #575757;
+	shape-rendering: crispEdges;
+}
+
+.legendTitle {
+	font-family: TheSerif;
+	fill: #575757;
+	font-size: 1vw;
+	font-weight: lighter;
+	text-anchor: start;
+}
+
+.legendText {
+	fill: #7A7A7A;
+	font-size: 0.8vw;
+	text-anchor: start;
+
+}
+
+.inVizText{
+	font-family: TheSerif;
+	fill: #7A7A7A;
+	font-size: 1.75vw;
+	font-style: italic;
+	-webkit-font-smoothing: antialiased;
+}
+
+
+
+#countries {
+  stroke: #8EA4B1;
+  stroke-width: 0.5px;
+  fill: #F8FAFC;
+}
+
+
+.splitCountries {
+  stroke: white;
+  stroke-width: 1px;
+}
+
+
+
+.bar--positive {
+  fill: steelblue;
+}
+
+.bar--negative {
+  fill: brown;
+}
+
+
+</style>
+<body>
+	<Br/>
+	<div id="vizIntro">Discover the skills, knowledge and abilities, country will need or have in excess in the future. Click on a country to get the details, mouse over or click on the bubbles to have more information on the country details.</div>
+	<Br/>
+	<div id="map"></div>
+	
+	<Br/>
+	<select id="dropDownButton" onchange="initialiseAll(this.value)";>
+		<option value="PIC" selected="selected">Explanations</option>
+		<option value="AUT" >Austria</option>
+		<option value="BEL" >Belgium</option>
+		<option value="BGR" >Bulgaria</option>
+		<option value="CYP" >Cyprus</option>
+		<option value="CZE" >Czech Republic</option>
+		<option value="DNK" >Denmark</option>
+		<option value="EST" >Estonia</option>
+		<option value="FIN" >Finland</option>
+		<option value="FRA" >France</option>
+		<option value="DEU" >Germany</option>
+		<option value="GRC" >Greece</option>
+		<option value="HUN" >Hungary</option>
+		<option value="ISL" >Iceland</option>
+		<option value="IRL" >Ireland</option>
+		<option value="ITA" >Italy</option>
+		<option value="LVA" >Latvia</option>
+		<option value="LTU" >Lithuania</option>
+		<option value="LUX" >Luxembourg</option>
+		<option value="NLD" >Netherlands</option>
+		<option value="NOR" >Norway</option>
+		<option value="POL" >Poland</option>
+		<option value="PRT" >Portugal</option>
+		<option value="ROU" >Romania</option>
+		<option value="SVK" >Slovak Republic</option>
+		<option value="SVN" >Slovenia</option>
+		<option value="ESP" >Spain</option>
+	  	<option value="SWE" >Sweden</option>
+	  	<option value="CHE" >Switzerland</option>
+	  	<option value="ZAF" >South Africa</option>
+		<option value="GBR" >United Kingdom</option>
+	</select>
+	<Br/>
+	<!--<div id="vizIntro" class=vizExplanation>Discover the skills, knowledge and abilities, country will need or have in excess in the future. Click on a country to get the details, mouse over or click on the bubbles to have more information on the country details.</div>-->
+
+	<Br/>
+	
+	<div id="viz"></div>
+	<Br/>
+	<div id="usageIntro">For this skills, <span id="countryName">Italy</span> has the following occupations</div>
+	<div id="usage"></div>
+	<Br/>
+	<!--<div id="skillsChart"></div>
+	<div id="knowledgeChart"></div>
+	<div id="abilitiesChart"></div>-->
+    <Br/>
+	<Br/>
+
+    <div id="countryTooltipSetUP" class="hidden">
+              <p><span id="countryTooltip">All</span></i>
+    </div>
+
+<script src="js/skillsChart.js"></script>
+<script src="js/hideShow.js"></script>
+<script src="js/tooltip.js"></script>
+<script src="js/bubble.js"></script>
+<script src="js/legend.js"></script>
+<script src="js/setup.js"></script>
+<script src="js/map.js"></script>
+<body>

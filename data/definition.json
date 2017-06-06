@@ -1,0 +1,554 @@
+[
+  {
+    "id": "skills_Basic_Cont",
+    "def": ""
+  },
+  {
+    "id": "skills_Basic_Process",
+    "def": ""
+  },
+  {
+    "id": "skills_Social",
+    "def": ""
+  },
+  {
+    "id": "skills_Complex_Pb",
+    "def": ""
+  },
+  {
+    "id": "skills_Tech",
+    "def": ""
+  },
+  {
+    "id": "skills_Syst",
+    "def": ""
+  },
+  {
+    "id": "skills_Res_Mgmt",
+    "def": ""
+  },
+  {
+    "id": "skills_Basic_Cont_1",
+    "def": ""
+  },
+  {
+    "id": "skills_Basic_Cont_2",
+    "def": ""
+  },
+  {
+    "id": "skills_Basic_Cont_3",
+    "def": ""
+  },
+  {
+    "id": "skills_Basic_Cont_4",
+    "def": ""
+  },
+  {
+    "id": "skills_Basic_Cont_5",
+    "def": ""
+  },
+  {
+    "id": "skills_Basic_Cont_6",
+    "def": ""
+  },
+  {
+    "id": "skills_Basic_Process_1",
+    "def": ""
+  },
+  {
+    "id": "skills_Basic_Process_2",
+    "def": ""
+  },
+  {
+    "id": "skills_Basic_Process_3",
+    "def": ""
+  },
+  {
+    "id": "skills_Social_1",
+    "def": ""
+  },
+  {
+    "id": "skills_Social_2",
+    "def": ""
+  },
+  {
+    "id": "skills_Social_3",
+    "def": ""
+  },
+  {
+    "id": "skills_Complex_Pb_1",
+    "def": ""
+  },
+  {
+    "id": "skills_Complex_Pb_2",
+    "def": ""
+  },
+  {
+    "id": "skills_Complex_Pb_3",
+    "def": ""
+  },
+  {
+    "id": "skills_Complex_Pb_4",
+    "def": ""
+  },
+  {
+    "id": "skills_Complex_Pb_5",
+    "def": ""
+  },
+  {
+    "id": "skills_Tech_1",
+    "def": ""
+  },
+  {
+    "id": "skills_Tech_2",
+    "def": ""
+  },
+  {
+    "id": "skills_Syst_1",
+    "def": ""
+  },
+  {
+    "id": "skills_Syst_2",
+    "def": ""
+  },
+  {
+    "id": "skills_Syst_3",
+    "def": ""
+  },
+  {
+    "id": "skills_Res_Mgmt_1",
+    "def": ""
+  },
+  {
+    "id": "skills_Res_Mgmt_2",
+    "def": ""
+  },
+  {
+    "id": "ab_verbal",
+    "def": ""
+  },
+  {
+    "id": "ab_reason",
+    "def": ""
+  },
+  {
+    "id": "ab_quant",
+    "def": ""
+  },
+  {
+    "id": "ab_mem",
+    "def": ""
+  },
+  {
+    "id": "ab_percep",
+    "def": ""
+  },
+  {
+    "id": "ab_spatial",
+    "def": ""
+  },
+  {
+    "id": "ab_attent",
+    "def": ""
+  },
+  {
+    "id": "ab_manip",
+    "def": ""
+  },
+  {
+    "id": "ab_control_mov",
+    "def": ""
+  },
+  {
+    "id": "ab_reac_time",
+    "def": ""
+  },
+  {
+    "id": "ab_strength",
+    "def": ""
+  },
+  {
+    "id": "ab_endur",
+    "def": ""
+  },
+  {
+    "id": "ab_flex",
+    "def": ""
+  },
+  {
+    "id": "ab_visual",
+    "def": ""
+  },
+  {
+    "id": "ab_audio",
+    "def": ""
+  },
+  {
+    "id": "ab_verbal_1",
+    "def": "The ability to listen to and understand information and ideas presented through spoken words and sentences."
+  },
+  {
+    "id": "ab_verbal_2",
+    "def": "The ability to read and understand information and ideas presented in writing."
+  },
+  {
+    "id": "ab_verbal_3",
+    "def": "The ability to communicate information and ideas in speaking so others will understand."
+  },
+  {
+    "id": "ab_verbal_4",
+    "def": "The ability to communicate information and ideas in writing so others will understand."
+  },
+  {
+    "id": "ab_reason_1",
+    "def": "The ability to come up with a number of ideas about a topic (the number of ideas is important, not their quality, correctness, or creativity)."
+  },
+  {
+    "id": "ab_reason_2",
+    "def": "The ability to come up with unusual or clever ideas about a given topic or situation, or to develop creative ways to solve a problem."
+  },
+  {
+    "id": "ab_reason_3",
+    "def": "The ability to tell when something is wrong or is likely to go wrong. It does not involve solving the problem, only recognizing there is a problem."
+  },
+  {
+    "id": "ab_reason_4",
+    "def": "The ability to apply general rules to specific problems to produce answers that make sense."
+  },
+  {
+    "id": "ab_reason_5",
+    "def": "The ability to combine pieces of information to form general rules or conclusions (includes finding a relationship among seemingly unrelated events)."
+  },
+  {
+    "id": "ab_reason_6",
+    "def": "The ability to arrange things or actions in a certain order or pattern according to a specific rule or set of rules (e.g., patterns of numbers, letters, words, pictures, mathematical operations)."
+  },
+  {
+    "id": "ab_reason_7",
+    "def": "The ability to generate or use different sets of rules for combining or grouping things in different ways."
+  },
+  {
+    "id": "ab_quant_1",
+    "def": "The ability to choose the right mathematical methods or formulas to solve a problem."
+  },
+  {
+    "id": "ab_quant_2",
+    "def": "The ability to add, subtract, multiply, or divide quickly and correctly."
+  },
+  {
+    "id": "ab_mem_1",
+    "def": "The ability to remember information such as words, numbers, pictures, and procedures."
+  },
+  {
+    "id": "ab_percep_1",
+    "def": "The ability to quickly make sense of, combine, and organize information into meaningful patterns."
+  },
+  {
+    "id": "ab_percep_2",
+    "def": "The ability to identify or detect a known pattern (a figure, object, word, or sound) that is hidden in other distracting material."
+  },
+  {
+    "id": "ab_percep_3",
+    "def": "The ability to quickly and accurately compare similarities and differences among sets of letters, numbers, objects, pictures, or patterns. The things to be compared may be presented at the same time or one after the other. This ability also includes comparing a presented object with a remembered object."
+  },
+  {
+    "id": "ab_spatial_1",
+    "def": "The ability to know your location in relation to the environment or to know where other objects are in relation to you."
+  },
+  {
+    "id": "ab_spatial_2",
+    "def": "The ability to imagine how something will look after it is moved around or when its parts are moved or rearranged."
+  },
+  {
+    "id": "ab_attent_1",
+    "def": "The ability to concentrate on a task over a period of time without being distracted."
+  },
+  {
+    "id": "ab_attent_2",
+    "def": "The ability to shift back and forth between two or more activities or sources of information (such as speech, sounds, touch, or other sources)."
+  },
+  {
+    "id": "ab_manip_1",
+    "def": "The ability to keep your hand and arm steady while moving your arm or while holding your arm and hand in one position."
+  },
+  {
+    "id": "ab_manip_2",
+    "def": "The ability to quickly move your hand, your hand together with your arm, or your two hands to grasp, manipulate, or assemble objects."
+  },
+  {
+    "id": "ab_manip_3",
+    "def": "The ability to make precisely coordinated movements of the fingers of one or both hands to grasp, manipulate, or assemble very small objects."
+  },
+  {
+    "id": "ab_control_mov_1",
+    "def": "The ability to quickly and repeatedly adjust the controls of a machine or a vehicle to exact positions."
+  },
+  {
+    "id": "ab_control_mov_2",
+    "def": "The ability to coordinate two or more limbs (for example, two arms, two legs, or one leg and one arm) while sitting, standing, or lying down. It does not involve performing the activities while the whole body is in motion."
+  },
+  {
+    "id": "ab_control_mov_3",
+    "def": "The ability to choose quickly between two or more movements in response to two or more different signals (lights, sounds, pictures). It includes the speed with which the correct response is started with the hand, foot, or other body part."
+  },
+  {
+    "id": "ab_control_mov_4",
+    "def": "The ability to time your movements or the movement of a piece of equipment in anticipation of changes in the speed and/or direction of a moving object or scene."
+  },
+  {
+    "id": "ab_reac_time_1",
+    "def": "The ability to quickly respond (with the hand, finger, or foot) to a signal (sound, light, picture) when it appears."
+  },
+  {
+    "id": "ab_reac_time_2",
+    "def": "The ability to make fast, simple, repeated movements of the fingers, hands, and wrists."
+  },
+  {
+    "id": "ab_reac_time_3",
+    "def": "The ability to quickly move the arms and legs."
+  },
+  {
+    "id": "ab_strength_1",
+    "def": "The ability to exert maximum muscle force to lift, push, pull, or carry objects."
+  },
+  {
+    "id": "ab_strength_2",
+    "def": "The ability to use short bursts of muscle force to propel oneself (as in jumping or sprinting), or to throw an object."
+  },
+  {
+    "id": "ab_strength_3",
+    "def": "The ability to exert muscle force repeatedly or continuously over time. This involves muscular endurance and resistance to muscle fatigue."
+  },
+  {
+    "id": "ab_strength_4",
+    "def": "The ability to use your abdominal and lower back muscles to support part of the body repeatedly or continuously over time without 'giving out' or fatiguing."
+  },
+  {
+    "id": "ab_endur_1",
+    "def": "The ability to exert yourself physically over long periods of time without getting winded or out of breath."
+  },
+  {
+    "id": "ab_flex_1",
+    "def": "The ability to bend, stretch, twist, or reach with your body, arms, and/or legs."
+  },
+  {
+    "id": "ab_flex_2",
+    "def": "The ability to quickly and repeatedly bend, stretch, twist, or reach out with your body, arms, and/or legs."
+  },
+  {
+    "id": "ab_flex_3",
+    "def": "The ability to coordinate the movement of your arms, legs, and torso together when the whole body is in motion."
+  },
+  {
+    "id": "ab_flex_4",
+    "def": "The ability to keep or regain your body balance or stay upright when in an unstable position."
+  },
+  {
+    "id": "ab_visual_1",
+    "def": "The ability to see details at close range (within a few feet of the observer)."
+  },
+  {
+    "id": "ab_visual_2",
+    "def": "The ability to see details at a distance."
+  },
+  {
+    "id": "ab_visual_3",
+    "def": "The ability to match or detect differences between colors, including shades of color and brightness."
+  },
+  {
+    "id": "ab_visual_4",
+    "def": "The ability to see under low light conditions."
+  },
+  {
+    "id": "ab_visual_5",
+    "def": "The ability to see objects or movement of objects to one's side when the eyes are looking ahead."
+  },
+  {
+    "id": "ab_visual_6",
+    "def": "The ability to judge which of several objects is closer or farther away from you, or to judge the distance between you and an object."
+  },
+  {
+    "id": "ab_visual_7",
+    "def": "The ability to see objects in the presence of glare or bright lighting."
+  },
+  {
+    "id": "ab_audio_1",
+    "def": "The ability to detect or tell the differences between sounds that vary in pitch and loudness."
+  },
+  {
+    "id": "ab_audio_2",
+    "def": "The ability to focus on a single source of sound in the presence of other distracting sounds."
+  },
+  {
+    "id": "ab_audio_3",
+    "def": "The ability to tell the direction from which a sound originated."
+  },
+  {
+    "id": "ab_audio_4",
+    "def": "The ability to identify and understand the speech of another person."
+  },
+  {
+    "id": "ab_audio_5",
+    "def": "The ability to speak clearly so others can understand you."
+  },
+  {
+    "id": "know_bis",
+    "def": ""
+  },
+  {
+    "id": "know_manu",
+    "def": ""
+  },
+  {
+    "id": "know_eng",
+    "def": ""
+  },
+  {
+    "id": "know_math",
+    "def": ""
+  },
+  {
+    "id": "know_health",
+    "def": ""
+  },
+  {
+    "id": "know_edu",
+    "def": ""
+  },
+  {
+    "id": "know_arts",
+    "def": ""
+  },
+  {
+    "id": "know_law",
+    "def": ""
+  },
+  {
+    "id": "know_com",
+    "def": ""
+  },
+  {
+    "id": "know_trans",
+    "def": ""
+  },
+  {
+    "id": "know_bis_1",
+    "def": ""
+  },
+  {
+    "id": "know_bis_2",
+    "def": ""
+  },
+  {
+    "id": "know_bis_3",
+    "def": ""
+  },
+  {
+    "id": "know_bis_4",
+    "def": ""
+  },
+  {
+    "id": "know_bis_5",
+    "def": ""
+  },
+  {
+    "id": "know_manu_1",
+    "def": ""
+  },
+  {
+    "id": "know_manu_2",
+    "def": ""
+  },
+  {
+    "id": "know_eng_1",
+    "def": ""
+  },
+  {
+    "id": "know_eng_2",
+    "def": ""
+  },
+  {
+    "id": "know_eng_3",
+    "def": ""
+  },
+  {
+    "id": "know_eng_4",
+    "def": ""
+  },
+  {
+    "id": "know_eng_5",
+    "def": ""
+  },
+  {
+    "id": "know_math_1",
+    "def": ""
+  },
+  {
+    "id": "know_math_2",
+    "def": ""
+  },
+  {
+    "id": "know_math_3",
+    "def": ""
+  },
+  {
+    "id": "know_math_4",
+    "def": ""
+  },
+  {
+    "id": "know_math_5",
+    "def": ""
+  },
+  {
+    "id": "know_math_6",
+    "def": ""
+  },
+  {
+    "id": "know_math_7",
+    "def": ""
+  },
+  {
+    "id": "know_health_1",
+    "def": ""
+  },
+  {
+    "id": "know_health_2",
+    "def": ""
+  },
+  {
+    "id": "know_arts_1",
+    "def": ""
+  },
+  {
+    "id": "know_arts_2",
+    "def": ""
+  },
+  {
+    "id": "know_arts_3",
+    "def": ""
+  },
+  {
+    "id": "know_law_1",
+    "def": ""
+  },
+  {
+    "id": "know_law_2",
+    "def": ""
+  },
+  {
+    "id": "know_com_1",
+    "def": ""
+  },
+  {
+    "id": "know_com_2",
+    "def": ""
+  },
+  {
+    "id": "know_trans_1",
+    "def": ""
+  },
+  {
+    "id": "know_trans_2",
+    "def": ""
+  }
+]
