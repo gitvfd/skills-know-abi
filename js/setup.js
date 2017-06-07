@@ -30,7 +30,7 @@
     //scale radius usage dots
 	var colorScale = d3.scaleQuantize()
 	    //.range(["#5AB9D2","#7FABD5","#A29BCC","#BE8BBA","#CF7DA0","#D57383"])
-	    .range(["#537C98","#4AB891"])
+	    .range(["#4AB891","#537C98"])
 	    .domain([-1, 1]);
 
 	var center = { x: width / 2, y: height / 2 };
@@ -127,6 +127,12 @@ function initialiseAll(isoCode) {
 				if(d.country==isoCode)
 					data_usage.push(d.data);
 			});
+		
+
+        
+		d3.select("#map").selectAll("path").style("fill","#F8FAFC");
+		classCountry="."+isoCode
+		d3.select(classCountry).style("fill","rgb(57,97,125)")
 		});
 	}
 
