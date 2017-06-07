@@ -381,6 +381,17 @@ function bubbleChart() {
 			})
 			.call(wrap,wrapWidth);
 
+			usageBubbles.append("text")
+			.attr("class","usage")
+			.attr("dy", "0.35em")
+      		.attr('text-anchor', 'middle')
+      		.attr('font-size',"11px")
+			.attr("x",-width/50)
+			.attr("y",-height_usage/8)
+			.text(function(d){
+				return format(d.value);
+			})
+			.call(wrap,wrapWidth);
 
 		
 	}

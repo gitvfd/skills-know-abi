@@ -1,8 +1,8 @@
 	// SVG for usage bubbles
 	var map= d3.select("#map")
       .append('svg')
-      .attr('width', width)
-      .attr('height', 3*height_usage/2);
+      .attr("width", width)
+      .attr("height", 3*height_usage/2);
 
     map.append("rect")
 	    .attr("x",0)

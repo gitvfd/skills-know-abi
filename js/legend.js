@@ -11,7 +11,7 @@ function addLegend(svg,radiusUsage,maxValue){
 
 
 	var rectSize = 15, //dimensions of the colored square
-		columnWidth = 30, //height of a row in the legend
+		columnWidth = 50, //height of a row in the legend
 		rowHeight = 20, //height of a row in the legend
 		maxWidth = 15; //widht of each row
 		  
@@ -56,7 +56,7 @@ function addLegend(svg,radiusUsage,maxValue){
 
 
 
-legendWrapper.append("line")
+/**legendWrapper.append("line")
 .attr("class","legendLine")
 	.attr("x1",squareMargin + 5/4 * columnWidth)
 	.attr("x2",squareMargin + 10/4 * columnWidth)
@@ -69,7 +69,7 @@ legendWrapper.append("line")
 	.attr("x1",squareMargin + 17/4 * columnWidth)
 	.attr("x2",squareMargin + 22/4 * columnWidth)
 	.attr("y1",(height-2*legendHeight/3 + 4*rectSize/3 ))
-	.attr("y2",(height-2*legendHeight/3 + 4*rectSize/3 ));
+	.attr("y2",(height-2*legendHeight/3 + 4*rectSize/3 ));**/
 
 
 
@@ -79,7 +79,7 @@ legendWrapper.append("line")
 		.attr("transform", "translate(" + (width*2.75/10 ) + "," + (height - legendHeight )+")");
 	
 	//Draw the bubble size legend
-	bubbleLegend(bubbleSizeLegend, radiusUsage, legendSizes = [maxValue/4,maxValue/2,maxValue], legendName = "");		
+	//bubbleLegend(bubbleSizeLegend, radiusUsage, legendSizes = [maxValue/4,maxValue/2,maxValue], legendName = "");		
 
 	//////////////////////////////////////////////////////
 	/////////////////// Bubble Legend ////////////////////

@@ -29,7 +29,8 @@
 
     //scale radius usage dots
 	var colorScale = d3.scaleQuantize()
-	    .range(["#5AB9D2","#7FABD5","#A29BCC","#BE8BBA","#CF7DA0","#D57383"])
+	    //.range(["#5AB9D2","#7FABD5","#A29BCC","#BE8BBA","#CF7DA0","#D57383"])
+	    .range(["#537C98","#4AB891"])
 	    .domain([-1, 1]);
 
 	var center = { x: width / 2, y: height / 2 };
