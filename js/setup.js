@@ -92,14 +92,16 @@ function initialiseAll(isoCode) {
 
  
 	if(isoCode=="PIC"){
-
 		d3.select("#viz")
 	      .append('svg')
 	      .attr('width', 900)
 	      .attr('height', 430)
 		.append("svg:image")
-		      .attr("xlink:href", "pics/intro.jpg")
-		      .attr("width", width);
+		   .attr('x',0)
+		   .attr('y',0)
+		   .attr('width', 900)
+		   .attr('height', 430)
+		      .attr("xlink:href", "pics/intro.jpg");
 
 	}else{
 		// Load the data.
