@@ -87,7 +87,7 @@ body{
 
 #dropDownButton{
 	font-family:TheSerif;
-	font-size:18px ;
+	font-size:12px ;
 	font-weight: bold;
 	color: #0297C9;
 	margin-bottom: 10px
@@ -184,13 +184,11 @@ body{
 </style>
 <body>
 	<Br/>
-	<div id="vizIntro">Discover the skills, knowledge and abilities, country will need or have in excess in the future. Click on a country to get the details, mouse over or click on the bubbles to have more information on the country details.</div>
-	<Br/>
-	<div id="map"></div>
-	
+	<div id="vizIntro">Because of imbalance between the demand and supply for skills, countries will have skills that are in <b>shortage</b> and skills that are in <b>surplus</b>. Shortage and surpluses of <b>knowledge</b>, <b>skill</b> and <b>abilities</b> are presented in the OECD Skills for Jobs database.<br/><b>Find out</b> more about skills shortages and surpluses by selecting a country of interest. <br/><b>Explore</b> the different trees to find out which skills, knowledge and abilities are in shortage or surplus in the selected country. <b>Mouse over</b> a skill (bubble) to find out more details about the skill (in pop-up box), as well as the occupations that contribute most to the shortage or surplus (at the bottom). More disaggregated skills open up when clicking on a bubble.“
+</div>
 	<Br/>
 	<select id="dropDownButton" onchange="initialiseAll(this.value)";>
-		<option value="PIC" selected="selected">Explanations</option>
+		<option value="PIC" selected="selected">Select country</option>
 		<option value="AUT" >Austria</option>
 		<option value="BEL" >Belgium</option>
 		<option value="BGR" >Bulgaria</option>
@@ -223,13 +221,17 @@ body{
 		<option value="GBR" >United Kingdom</option>
 	</select>
 	<Br/>
+	<div id="map"></div>
+	
+
+	<Br/>
 	<!--<div id="vizIntro" class=vizExplanation>Discover the skills, knowledge and abilities, country will need or have in excess in the future. Click on a country to get the details, mouse over or click on the bubbles to have more information on the country details.</div>-->
 
 	<Br/>
 	
 	<div id="viz"></div>
 	<Br/>
-	<div id="usageIntro">For this skills, <span id="countryName">Italy</span> has the following occupations</div>
+	<div id="usageIntro">In <span id="countryName">Italy</span>, the following occupations contribute most to the skill imbalance</div>
 	<div id="usage"></div>
 	<Br/>
 	<!--<div id="skillsChart"></div>
