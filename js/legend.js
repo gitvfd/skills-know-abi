@@ -38,9 +38,9 @@ function addLegend(svg,radiusUsage,maxValue){
 		  .attr("dy", ".35em")		  
 		  .text(function(d,i) { 
 		  	if (i==0)
-		  		return "Shortage"
-		  	else if (i==(colorScale.range().length/2))
 		  		return "Surplus"
+		  	else if (i==(colorScale.range().length/2))
+		  		return "Shortage"
 			else
 		  		return ""
 		  	//return formatDecimalRectLegend(-1 + 2*i/5)
