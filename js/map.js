@@ -100,17 +100,28 @@
 							d3.select("#countryTooltipSetUP").classed("hidden", false);
 						})
 						.on("mouseout", function(d) {
-                    		d3.select(this).style("fill","#F8FAFC");
+							console.log(d)
+							if(document.getElementById("dropDownButton").value==d.properties.ISO3_CODE)
+								d3.select(this).style("fill","rgb(57,97,125)")
+                    		else 
+                    			d3.select(this).style("fill","#F8FAFC");
 
 
 							d3.select("#countryTooltipSetUP").classed("hidden", true);
 						})
 						.on("click",function(d){	
 
+
+                    		d3.selectAll("path").style("fill","#F8FAFC");
+
+                    		d3.select(this).style("fill","rgb(57,97,125)");
 							//viz explanations are hidden as long as you haven't clicked on a country
 							//d3.select(".vizExplanation").classed("hidden", false);
 							document.getElementById("dropDownButton").value = d.properties.ISO3_CODE;
+
+
 							initialiseAll(d.properties.ISO3_CODE)
+                    		
 						});
 
     });
