@@ -1,14 +1,14 @@
-function skillsChart(selector,data){
+function abilitiesChart(selector,data){
 
 	var heightChart=height/1.25;
-	var skillsData=[];
+	var abilitiesData=[];
 	var marginTop=20;
 	var marginRight=10,
 	marginLeft=10;
 	    	
 	(data[0].nodes).forEach (function(d,i) {		
-		if(d.subgroup==2 && d.group=="Skills")
-			skillsData.push(d);
+		if(d.subgroup==2 && d.group=="Abilities")
+			abilitiesData.push(d);
 	});
 
 
@@ -22,15 +22,15 @@ function skillsChart(selector,data){
 	    x = d3.scaleLinear().rangeRound([marginLeft, width/3-marginRight]);
 
 
-	var skillsData=skillsData.sort(function (a, b) {return (parseFloat(b.value) - parseFloat(a.value));})
-	
-	x.domain(d3.extent(skillsData, function(d) { return parseFloat(d.value); })).nice();
-	y.domain(skillsData.map(function(d) { return d.name; }));
+	var abilitiesData=abilitiesData.sort(function (a, b) {return (parseFloat(b.value) - parseFloat(a.value));})
 
-//var test=skillsData.sort(function (a, b) {return (parseFloat(b.value) - parseFloat(a.value));})
+	x.domain(d3.extent(abilitiesData, function(d) { return parseFloat(d.value); })).nice();
+	y.domain(abilitiesData.map(function(d) { return d.name; }));
+
+//var test=abilitiesData.sort(function (a, b) {return (parseFloat(b.value) - parseFloat(a.value));})
 	svg.selectAll(".bar")
-		.attr("class","skillsChart")
-	    .data(skillsData)
+		.attr("class","abilitiesChart")
+	    .data(abilitiesData)
 	    .enter()
 	    .append("rect")
 	    .attr("class", function(d) { return "bar bar--" + (parseFloat(d.value) < 0 ? "negative" : "positive"); })
@@ -45,7 +45,7 @@ function skillsChart(selector,data){
 			var xPosition = event.pageX-20;
 			var yPosition = event.pageY+15;
 
-			if (yPosition>window.innerHeight-200)
+			if (yPosition>window.innerHeight-50)
 				yPosition=yPosition-100;
 
 		     d3.select("#chartBarName")
@@ -86,7 +86,7 @@ function skillsChart(selector,data){
       		.attr('font-size',"11px")
 			.attr("x",width/6)
 			.attr("y",10)
-			.text("Skills")
+			.text("Abilities")
 
 	function type(d) {
 	  d.value = +d.value;

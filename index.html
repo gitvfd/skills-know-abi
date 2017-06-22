@@ -9,8 +9,21 @@
 body{
 	max-width: 900px;
 	margin:auto;
+	/**background:#DDE9EF;**/
 }
 
+#logo{
+	float:left;
+	width:20%;
+}
+#footer{
+	float:left;
+	width:80%;
+	font-family: TheSerif;
+	fill: #575757;
+	font-size: 2vw;
+	font-weight: normal;
+}
 
 .treeText {
 	font: 2vw TheSerif;
@@ -100,7 +113,7 @@ body{
 	color: #0297C9;
 }
 #usageIntro{
-	display: none;
+	visibility: hidden;
 }
 
 #usageIntro{
@@ -111,6 +124,13 @@ body{
 #vizIntro{
 	font-size:16px;
 	color:#575757;
+}
+
+
+#smallChartIntro{
+	font-size:16px;
+	color:#575757;
+	visibility: hidden;
 }
 
 .vizExplanation.hidden {
@@ -151,7 +171,7 @@ body{
 .inVizText{
 	font-family: TheSerif;
 	fill: #7A7A7A;
-	font-size: 1.75vw;
+	font-size: 1.65vw;
 	font-style: italic;
 	-webkit-font-smoothing: antialiased;
 }
@@ -170,22 +190,152 @@ body{
   stroke-width: 1px;
 }
 
+#transitionChart{
+	visibility: hidden;
+}
 
+#introWhatIAm,#introWhatIBecome{
+	width:45%;
+	float:left;
+	margin-right:2.5%;
+	margin-left:2.5%;
+	margin-bottom:10px;
+	font-family:TheSerif;
+	font-size:14px ;
+	font-weight: bold;
+	color: #575757;
+}
+
+#dropDownWhatIAm,#dropDownWhatIBecome{
+	width:45%;
+	float:left;
+	margin-right:2.5%;
+	margin-left:2.5%;
+	margin-bottom:15px;
+	font-family:TheSerif;
+	font-size:12px ;
+	font-weight: bold;
+	color: #0297C9;
+}
+#WhatIAm, #WhatIBecome{
+	width:45%;
+	float:left;
+	margin-right:2.5%;
+	margin-left:2.5%;
+	height:75px;
+
+}
+
+.toHighlight{
+	font-family:TheSerif;
+	font-weight: bold;
+	color: #575757;
+}
+
+
+
+
+#skillsChart, #knowledgeChart, #abilitiesChart,#transitionSkillsChart, #transitionKnowledgeChart, #transitionAbilitiesChart{
+	width:33%;
+	float:left;
+
+}
+
+.skillsChart, .knowledgeChart, .abilitiesChart,.transitionSkillsChart, .transitionKnowledgeChart, .transitionAbilitiesChart{
+	font-family: TheSerif;
+	fill: #8EA4B1;
+	font-size: 1.5vw;
+	font-weight: 700;
+	text-anchor: start;
+
+}
 
 .bar--positive {
-  fill: steelblue;
+  fill: #4AB891;
 }
-
 .bar--negative {
-  fill: brown;
+  fill: #537C98;
 }
 
 
+
+#chartTooltip {
+  position: absolute;
+  width: auto;
+  height: auto;
+  padding: 10px;
+  background-color: rgb(252,252,252);
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  pointer-events: none;
+}
+
+#chartTooltip.hidden {
+  display: none;
+}
+
+#chartTooltip p {
+  margin: 0;
+  font-family: sans-serif;
+  font-size: 10px;
+  line-height: 12px;
+}
+
+
+
+
+/** css for toggle section **/
+input {
+  display: none;
+  visibility: hidden;
+}
+label {
+  display: block;
+  padding: 0.5em;
+  text-align: center;
+  border-bottom: 1px solid #CCC;
+  color: #666;
+  visibility: hidden;
+}
+label:hover {
+  color: #000;
+}
+label::before {
+  font-family: TheSerif;
+  font-weight: bold;
+  font-size: 15px;
+  content: "+";
+  vertical-align: text-middle;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 3px;
+  background: radial-gradient(ellipse at center, #d3d3d3 50%, transparent 50%);
+}
+#expand {
+  height: 0px;
+  overflow: hidden;
+  transition: height 0.5s;
+  color: #FFF;
+}
+section {
+  padding: 0 20px;
+}
+#toggle:checked ~ #expand {
+  height: 430px;
+}
+#toggle:checked ~ label::before {
+  content: "-";
+}**/
 </style>
 <body>
 	<Br/>
-	<div id="vizIntro">Because of imbalance between the demand and supply for skills, countries will have skills that are in <b>shortage</b> and skills that are in <b>surplus</b>. Shortage and surpluses of <b>knowledge</b>, <b>skill</b> and <b>abilities</b> are presented in the OECD Skills for Jobs database.<br/><b>Find out</b> more about skills shortages and surpluses by selecting a country of interest. <br/><b>Explore</b> the different trees to find out which skills, knowledge and abilities are in shortage or surplus in the selected country. <b>Mouse over</b> a skill (bubble) to find out more details about the skill (in pop-up box), as well as the occupations that contribute most to the shortage or surplus (at the bottom). More disaggregated skills open up when clicking on a bubble.“
-</div>
+	<div id="vizIntro">Because of imbalance between the demand and supply for skills, countries will have skills that are in <b>shortage</b> and skills that are in <b>surplus</b>. Shortage and surpluses of <b>knowledge</b>, <b>skill</b> and <b>abilities</b> are presented in the OECD Skills for Jobs database.
+	</div>
 	<Br/>
 	<select id="dropDownButton" onchange="initialiseAll(this.value)";>
 		<option value="PIC" selected="selected">Select country</option>
@@ -225,26 +375,107 @@ body{
 	
 
 	<Br/>
-	<!--<div id="vizIntro" class=vizExplanation>Discover the skills, knowledge and abilities, country will need or have in excess in the future. Click on a country to get the details, mouse over or click on the bubbles to have more information on the country details.</div>-->
+	<!-- 	***********************************************
+		***********************************************
+		***********************************************
+						BUBBLE CHART
+		***********************************************
+		***********************************************-->
 
-	<Br/>
-	
 	<div id="viz"></div>
-	<Br/>
+
+	<!-- 	***********************************************
+		***********************************************
+		***********************************************
+						OCCUPATION CHART
+		***********************************************
+		***********************************************-->
 	<div id="usageIntro">In <span id="countryName">Italy</span>, the following occupations contribute most to the skill imbalance</div>
 	<div id="usage"></div>
 	<Br/>
-	<!--<div id="skillsChart"></div>
-	<div id="knowledgeChart"></div>
-	<div id="abilitiesChart"></div>-->
-    <Br/>
+	<!-- 	***********************************************
+	***********************************************
+	***********************************************
+					DETAILLED CHART
+	***********************************************
+	***********************************************-->
 	<Br/>
 
+	<input id="toggle" type="checkbox" >
+  	<label id="hideShowToggle" for="toggle">For more detailled data, please expand</label>
+	<div id="expand">
+    <section>
+	<div id="vizIntro">Detailled view of the skills, abilities and knowledge shortages and surplus for <span id="countrySmallChart">the selected country</span>
+	</div>
+	<Br/>   
+		<div id="skillsChart"></div>
+		<div id="knowledgeChart"></div>
+		<div id="abilitiesChart"></div>
+    </section>
+	</div>
+	<Br/>
+	<!-- 	***********************************************
+	***********************************************
+	***********************************************
+					TRANSITION OCCUPATION CHART
+	***********************************************
+	***********************************************-->
+
+	<div id="transitionChart">
+
+		<div id="vizIntro">Find out which skills knowledge and abilities you have in surplus or shortage when passing from one activity to another. Select the activity you're currently in and the activity you would like to do , to see your assets and things to develop.</div><Br/>
+		<div id="introWhatIAm" >My current occupation:</div>
+		<div id="introWhatIBecome">What I'd like to become:</div>
+		<Br/>
+		<select id="dropDownWhatIAm" onchange="transitionChart()";></select>
+		<select id="dropDownWhatIBecome" onchange="transitionChart()";></select>
+		<Br/>
+		<div id="WhatIAm"><span class="toHighlight" id="countrySmallChartWhatIAm">the selected country</span> has a <span class="toHighlight"  id="WhatIAmValue">shortage/surplus</span> of <span class="toHighlight"  id="WhatIAmName">the occupation</span>.</div>
+		<div id="WhatIBecome"><span class="toHighlight"  id="countrySmallChartWhatIBecome">the selected country</span> has a <span class="toHighlight"  id="WhatIBecomeValue">shortage/surplus</span> of <span class="toHighlight"  id="WhatIBecomeName">the occupation</span>.</div>
+		<Br/>		
+		<div id="vizIntro">You see below the skills, abilities and knowledge you have to develop and the ones you have in surplus.</div>
+		<Br/>
+		<div id="transitionSkillsChart"></div>
+		<div id="transitionKnowledgeChart"></div>
+		<div id="transitionAbilitiesChart"></div>
+	</div>
+
+
+
+	<!--<div>
+	<img id="logo" src="pics/logo.jpg"></img>
+	<div id="footer">test</div>
+	</div>-->
+	<!-- 	***********************************************
+			***********************************************
+			***********************************************
+							TOOLTIP
+			***********************************************
+			***********************************************-->
     <div id="countryTooltipSetUP" class="hidden">
               <p><span id="countryTooltip">All</span></i>
     </div>
+	<div id="chartTooltip" class="hidden">
+	              <p><b><span id="chartBarName">All</span></b></p>
+	              <p><i><span id="chartBarValue">All</span></i></p>
+	</div>
 
+
+	<!-- 	***********************************************
+			***********************************************
+			***********************************************
+							SCRIPTS
+			***********************************************
+			***********************************************-->
+
+<script src="js/transitionSkillsChart.js"></script>
+<script src="js/transitionKnowledgeChart.js"></script>
+<script src="js/transitionAbilitiesChart.js"></script>
+<script src="js/transitionChart.js"></script>
+<script src="js/feedDropDown.js"></script>
 <script src="js/skillsChart.js"></script>
+<script src="js/abilityChart.js"></script>
+<script src="js/knowledgeChart.js"></script>
 <script src="js/hideShow.js"></script>
 <script src="js/tooltip.js"></script>
 <script src="js/bubble.js"></script>

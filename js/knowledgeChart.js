@@ -1,14 +1,14 @@
-function skillsChart(selector,data){
+function knowledgeChart(selector,data){
 
 	var heightChart=height/1.25;
-	var skillsData=[];
+	var knowledgeData=[];
 	var marginTop=20;
 	var marginRight=10,
 	marginLeft=10;
 	    	
 	(data[0].nodes).forEach (function(d,i) {		
-		if(d.subgroup==2 && d.group=="Skills")
-			skillsData.push(d);
+		if(d.subgroup==2 && d.group=="Knowledge")
+			knowledgeData.push(d);
 	});
 
 
@@ -22,15 +22,15 @@ function skillsChart(selector,data){
 	    x = d3.scaleLinear().rangeRound([marginLeft, width/3-marginRight]);
 
 
-	var skillsData=skillsData.sort(function (a, b) {return (parseFloat(b.value) - parseFloat(a.value));})
+	var knowledgeData=knowledgeData.sort(function (a, b) {return (parseFloat(b.value) - parseFloat(a.value));})
 	
-	x.domain(d3.extent(skillsData, function(d) { return parseFloat(d.value); })).nice();
-	y.domain(skillsData.map(function(d) { return d.name; }));
+	x.domain(d3.extent(knowledgeData, function(d) { return parseFloat(d.value); })).nice();
+	y.domain(knowledgeData.map(function(d) { return d.name; }));
 
-//var test=skillsData.sort(function (a, b) {return (parseFloat(b.value) - parseFloat(a.value));})
+//var test=knowledgeData.sort(function (a, b) {return (parseFloat(b.value) - parseFloat(a.value));})
 	svg.selectAll(".bar")
-		.attr("class","skillsChart")
-	    .data(skillsData)
+		.attr("class","knowledgeChart")
+	    .data(knowledgeData)
 	    .enter()
 	    .append("rect")
 	    .attr("class", function(d) { return "bar bar--" + (parseFloat(d.value) < 0 ? "negative" : "positive"); })
@@ -78,6 +78,7 @@ function skillsChart(selector,data){
 	      .attr("transform", "translate(0," + heightChart + ")")
 	      .call(d3.axisBottom(x));
 
+
 	
 	svg.append("text")
 			.attr("class","skillsChart")
@@ -86,7 +87,7 @@ function skillsChart(selector,data){
       		.attr('font-size',"11px")
 			.attr("x",width/6)
 			.attr("y",10)
-			.text("Skills")
+			.text("Knowledge")
 
 	function type(d) {
 	  d.value = +d.value;

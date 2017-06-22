@@ -18,7 +18,8 @@
 	var usageCircles= d3.select("#usage")
       .append('svg')
       .attr('width', width)
-      .attr('height', height_usage);
+      .attr('height', height_usage)
+      .style('background-color','#F8FAFC');
 
 
     //scale radius usage dots !!! Used only for usage data. For the main viz we use radiusScale define in bubble.js
@@ -51,7 +52,7 @@
   // X locations of the year titles.
   	var treeTitleX = {
     	"Skills": 1*width/4,
-    	"Knowledge": width / 2,
+    	"Knowledge": 2*width / 5,
     	"Abilities": 3 * width / 4
   	};
 
@@ -73,6 +74,12 @@ d3.json('data/definition.json', function(data){
 })	
 
 
+var transitionData=[];
+		d3.tsv('data/transition_Data.csv', function(data){ 
+			data.forEach (function(d,i) {	
+					transitionData.push(d);
+			});
+		});
 
 function initialiseAll(isoCode) {
 	//reset svgs and data
@@ -80,8 +87,29 @@ function initialiseAll(isoCode) {
 		.selectAll("*")
 		.remove();
 
-	d3.selectAll("#legend")
-		.selectAll("g")
+
+	d3.selectAll("#skillsChart")
+		.selectAll("*")
+		.remove();
+
+	d3.selectAll("#knowledgeChart")
+		.selectAll("*")
+		.remove();
+
+	d3.selectAll("#abilitiesChart")
+		.selectAll("*")
+		.remove();
+
+	d3.selectAll("#transitionSkillsChart")
+		.selectAll("*")
+		.remove();
+
+	d3.selectAll("#transitionKnowledgeChart")
+		.selectAll("*")
+		.remove();
+
+	d3.selectAll("#transitionAbilitiesChart")
+		.selectAll("*")
 		.remove();
 
 	linkNetwork=[];
@@ -117,26 +145,37 @@ function initialiseAll(isoCode) {
 					data2Use.push(d.data);
 			});
 
+
 		  	myTreeChart('#viz', data2Use);
-		  	//skillsChart('#skillsChart', data2Use)
+		  	skillsChart('#skillsChart', data2Use)
+		  	knowledgeChart('#knowledgeChart', data2Use)
+		  	abilitiesChart('#abilitiesChart', data2Use)
+		  	transitionChart();
+
+		  	var selectedCou= document.getElementById("dropDownButton").options[document.getElementById("dropDownButton").selectedIndex].text;
+			document.getElementById("countrySmallChart").innerHTML = selectedCou;	
+		  	d3.select("#smallChartIntro").style("visibility","visible")
+		  	d3.select("#transitionChart").style("visibility","visible")
+		  	d3.select("#hideShowToggle").style("visibility","visible")
 		});
 
 
-		d3.json('data/data_usage.json', function(usage){ 
+		d3.json('data/data_occupation.json', function(usage){ 
 			usage.forEach (function(d,i) {		
 				if(d.country==isoCode)
 					data_usage.push(d.data);
 			});
-		
+		});
 
         
 		d3.select("#map").selectAll("path").style("fill","#F8FAFC");
 		classCountry="."+isoCode
 		d3.select(classCountry).style("fill","rgb(57,97,125)")
-		});
+
 	}
 
 }
 
 //start it all
 initialiseAll("PIC");
+feedDropDown();

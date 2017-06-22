@@ -10,29 +10,30 @@ function addLegend(svg,radiusUsage,maxValue){
 					.attr("transform", "translate(" + legendMargin.left + "," + legendMargin.top +")");
 
 
-	var rectSize = 15, //dimensions of the colored square
+	var circleSize = 10, //dimensions of the colored square
 		columnWidth = 50, //height of a row in the legend
 		rowHeight = 20, //height of a row in the legend
 		maxWidth = 15; //widht of each row
 		  
 	//Create container per rect/text pair  
-	var legend = legendWrapper.selectAll('.legendSquare')  	
+	var legend = legendWrapper.selectAll('.legendCircle')  	
 			  .data(colorScale.range())                              
 			  .enter().append('g')   
-			  .attr('class', 'legendSquare') 
+			  .attr('class', 'legendCircle') 
 			  .attr("transform", function(d,i) { return "translate(" + ( squareMargin + i * columnWidth) + "," + (height-2*legendHeight/3 )+ ")"; });
 
 
 	
 	//Append small squares to Legend
-	legend.append('rect')                                     
-		  .attr('width', rectSize) 
-		  .attr('height', rectSize) 			 
+	legend.append('circle')                                     
+		  .attr('r', circleSize) 
+		 // .attr('height', circleSize) 		
+		  .style("stroke","none")	 
 		  .style('fill', function(d) {return d;});  
 
 	//Append text to Legend
 	legend.append('text')                                     
-		  .attr('transform', function(d,i) { return "translate(" + 0 + "," + 4*rectSize/3 + ")"; })
+		  .attr('transform', function(d,i) { return "translate(" + (-circleSize) + "," + 5*circleSize/3 + ")"; })
 		  .attr("class", "legendText")
 		  .style("font-size", "10px")
 		  .attr("dy", ".35em")		  
@@ -46,13 +47,13 @@ function addLegend(svg,radiusUsage,maxValue){
 		  	//return formatDecimalRectLegend(-1 + 2*i/5)
 		  	 });  
 
-	legendWrapper.append("text")
+	/**legendWrapper.append("text")
 		.attr("class","legendTitle")
 		.attr("transform", "translate(" + 50 + "," + (height - legendHeight ) +")")
 		.attr("x", 0 + "px")
 		.attr("y", 0 + "px")
 		.attr("dy", "1em")
-		.text("Scale ");
+		.text("Scale ");**/
 
 
 
@@ -60,16 +61,16 @@ function addLegend(svg,radiusUsage,maxValue){
 .attr("class","legendLine")
 	.attr("x1",squareMargin + 5/4 * columnWidth)
 	.attr("x2",squareMargin + 10/4 * columnWidth)
-	.attr("y1",(height-2*legendHeight/3 + 4*rectSize/3 ))
-	.attr("y2",(height-2*legendHeight/3 + 4*rectSize/3 ));
+	.attr("y1",(height-2*legendHeight/3 + 4*circleSize/3 ))
+	.attr("y2",(height-2*legendHeight/3 + 4*circleSize/3 ));
 
 
 legendWrapper.append("line")
 .attr("class","legendLine")
 	.attr("x1",squareMargin + 17/4 * columnWidth)
 	.attr("x2",squareMargin + 22/4 * columnWidth)
-	.attr("y1",(height-2*legendHeight/3 + 4*rectSize/3 ))
-	.attr("y2",(height-2*legendHeight/3 + 4*rectSize/3 ));**/
+	.attr("y1",(height-2*legendHeight/3 + 4*circleSize/3 ))
+	.attr("y2",(height-2*legendHeight/3 + 4*circleSize/3 ));**/
 
 
 
