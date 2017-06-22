@@ -11,7 +11,7 @@ function bubbleChart() {
   	var nodes = [];
 
 	function charge(d) {
-	return -Math.pow(d.radius, 2.4) * forceStrength;
+	return -Math.pow(d.radius, 2.3) * forceStrength;
 	}
 
 
@@ -69,13 +69,14 @@ function bubbleChart() {
 		
 
 		rawData[0].nodes.forEach(function(d) {
-				if(d.subgroup=="0"){
+			//Deleted the country links
+				/**if(d.subgroup=="0"){
 					linkNetwork.push({
 						"source" : "country",
 						"target" : d.id,
 						"value" :0
 					})
-		  		} else if (d.subgroup=="1"){
+		  		} else **/if (d.subgroup=="1"){
 					linkNetwork.push({
 						"source": d.group.toLowerCase(),
 						"target":d.id,
@@ -115,6 +116,7 @@ function bubbleChart() {
 	    // @v4 Selections are immutable, so lets capture the
 	    //  enter selection to apply our transtition to below.
 	    var bubblesE = bubbles.enter().append('circle')
+      		.filter(function(d) { return d.subgroup != -1 }) // Deleted the country node
 	   		//.class('bubble', true)
 	   		.attr("class",function(d){
 	   			if (d.subgroup==1)
@@ -255,83 +257,111 @@ function bubbleChart() {
     	trees.enter().append('text')
       		.attr('class', 'treeText')
       		.attr('x', function (d) { return treeTitleX[d]; })
-      		.attr('y', 85/100*height)
+      		.attr('y', 87.5/100*height)
       		//.attr("transform", "rotate(-90)")
-      		.attr('text-anchor', 'middle')
+      		.attr('text-anchor', 
+      			function(d,i){
+      			if(i==0)
+      				return 'middle';
+      			else if(i==1)
+      				return 'start';
+      			else
+      				return 'end';
+
+
+      		})
       		.text(function (d) { return d; });
   	}	
 
   	function showDetail(d) {
-  		d3.select(this)
-  			.attr("fill","#ffffff");
+  		if(d.subgroup>0){
+	  		d3.select(this)
+	  			//.attr("fill","#F08373")
+	  			.style('opacity',0.8);
 
-  		var filtered_nodes=[];
-
-  		data_usage[0].nodes.forEach(function(k) {
-    		if (k.group === d.name) {
-        		filtered_nodes.push(k);
-    		}
-		});
-		var filtered_links=[];
-
-  		linkNetwork.forEach(function(k) {
-    		if (k.group === d.name) {
-        		filtered_links.push(k);
-    		}
-		});
-
-		if(filtered_nodes.length>0){
-			showUsage(filtered_nodes);
-
-	  		d3.select("#usageIntro")
-	  			.style("display","block")
-  		}
-
-  		if(d.subgroup>0 ){
-
-  			var text2Display;
-  			definitions.forEach(function(k){
-				if(k.id==d.id){
-					text2Display = k.def;
-				}
-			})
-  			if (text2Display!=""){
-	    		var content = "<span class=\"name\">Skills: </span><span class=\"value\">" +  d.name + 
-	    		"</span><br/>" + 
-	    		"<span class=\"name\">Value: </span><span class=\"value\">" + format(d.value) + "</span>" + 
-	    		"</span><br/>" +
-	    		"<span class=\"name\">Def: </span><span class=\"value\">" + text2Display + "</span>" ;
-	    		
-	    		tooltip.showTooltip(content, d3.event);
-    		}else{
-	    		var content = "<span class=\"name\">Skills: </span><span class=\"value\">" +  d.name + 
-	    		"</span><br/>" + 
-	    		"<span class=\"name\">Value: </span><span class=\"value\">" + format(d.value) + "</span>" + 
-	    		"</span><br/>" ;
-	    		
-	    		tooltip.showTooltip(content, d3.event);
-
-    		}
+	  		var filtered_nodes=[];
 
 
+	  		data_usage[0].nodes.forEach(function(k) {
+	    		if (k.group === d.name) {
+	        		filtered_nodes.push(k);
+	    		}
+			});
+			var filtered_links=[];
 
+	  		linkNetwork.forEach(function(k) {
+	    		if (k.group === d.name) {
+	        		filtered_links.push(k);
+	    		}
+			});
+
+			if(filtered_nodes.length>0){
+				showUsage(filtered_nodes,colorScale(parseFloat(d.value)));
+
+		  		d3.select("#usageIntro")
+		  			.style("visibility","visible")
+	  		}
+	  		
+
+	  		if(d.subgroup>0 ){
+
+	  			var text2Display;
+	  			definitions.forEach(function(k){
+					if(k.id==d.id){
+						text2Display = k.def;
+					}
+				})
+	  			/**if (text2Display!=""){
+		    		var content = "<span class=\"name\">Skills: </span><span class=\"value\">" +  d.name + 
+		    		"</span><br/>" + 
+		    		"<span class=\"name\">Value: </span><span class=\"value\">" + format(d.value) + "</span>" + 
+		    		"</span><br/>" +
+		    		"<span class=\"name\">Def: </span><span class=\"value\">" + text2Display + "</span>" ;
+		    		
+		    		tooltip.showTooltip(content, d3.event);
+	    		}else{
+		    		var content = "<span class=\"name\">Skills: </span><span class=\"value\">" +  d.name + 
+		    		"</span><br/>" + 
+		    		"<span class=\"name\">Value: </span><span class=\"value\">" + format(d.value) + "</span>" + 
+		    		"</span><br/>" ;
+
+		    		tooltip.showTooltip(content, d3.event);
+
+	    		}**/
+				if (text2Display!=""){
+		    		var content = "<span class=\"name\"></span><span class=\"value\"><b>" +  d.name + 
+		    		"</b></span><br/>" + 
+		    		"<span class=\"name\"></span><span class=\"value\"><i>" + text2Display + "</i></span>" ;
+		    		
+		    		tooltip.showTooltip(content, d3.event);
+	    		}else{
+		    		var content = "<span class=\"name\"></span><span class=\"value\"><b>" +  d.name + 
+		    		"</b></span><br/>" ;
+
+		    		tooltip.showTooltip(content, d3.event);
+
+	    		}
+
+
+	    	}
     	}
   	}
 
   	function hideDetail(d) {
   		d3.select(this)
-  			.attr("fill",function (d) { 
+  			/**.attr("fill",function (d) { 
 	      		if(d.subgroup>0){
 	      			return colorScale(parseFloat(d.value));
 	      		}else{
 	      			return "#39617D";
 	      		}
-	      	});
+	      	})**/
+			.style('opacity',1);
 		
 		removeUsage();
 
   		d3.select("#usageIntro")
-  			.style("display","none")
+  			.style("visibility","hidden")
 
 
 
@@ -346,9 +376,10 @@ function bubbleChart() {
   	}  
   
 
-	function showUsage(data){
-		//var selectedCou= document.getElementById("dropDownButton").options[document.getElementById("dropDownButton").selectedIndex].text;
-		//document.getElementById("countryName").innerHTML = selectedCou;
+	function showUsage(data,colorNode){
+		var selectedCou= document.getElementById("dropDownButton").options[document.getElementById("dropDownButton").selectedIndex].text;
+		document.getElementById("countryName").innerHTML = selectedCou;
+			
 		var i=0;
 
 		var usageBubbles = usageCircles.selectAll("g")
@@ -365,9 +396,7 @@ function bubbleChart() {
 			.attr("r",function(d){
 				return (radiusUsage(parseFloat(d.value)));
 			})
-			.style("fill",function(d){
-				return (colorScale(parseFloat(d.value)));
-			});
+			.style("fill",colorNode);
 			
 			usageBubbles.append("text")
 			.attr("class","usage")
@@ -381,7 +410,7 @@ function bubbleChart() {
 			})
 			.call(wrap,wrapWidth);
 
-			usageBubbles.append("text")
+			/**usageBubbles.append("text")
 			.attr("class","usage")
 			.attr("dy", "0.35em")
       		.attr('text-anchor', 'middle')
@@ -391,7 +420,7 @@ function bubbleChart() {
 			.text(function(d){
 				return format(d.value);
 			})
-			.call(wrap,wrapWidth);
+			.call(wrap,wrapWidth);**/
 
 		
 	}

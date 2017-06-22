@@ -1,15 +1,11 @@
-function skillsChart(selector,data){
+function transitionSkillsChart(selector,data){
 
-	var heightChart=height/1.25;
-	var skillsData=[];
+	var heightChart=height/1.15;
 	var marginTop=20;
 	var marginRight=10,
 	marginLeft=10;
 	    	
-	(data[0].nodes).forEach (function(d,i) {		
-		if(d.subgroup==2 && d.group=="Skills")
-			skillsData.push(d);
-	});
+
 
 
     svg = d3.select(selector)
@@ -22,21 +18,20 @@ function skillsChart(selector,data){
 	    x = d3.scaleLinear().rangeRound([marginLeft, width/3-marginRight]);
 
 
-	var skillsData=skillsData.sort(function (a, b) {return (parseFloat(b.value) - parseFloat(a.value));})
+	var transSkillsData=data.sort(function (a, b) {return (parseFloat(b.score) - parseFloat(a.score));})
 	
-	x.domain(d3.extent(skillsData, function(d) { return parseFloat(d.value); })).nice();
-	y.domain(skillsData.map(function(d) { return d.name; }));
+	x.domain(d3.extent(transSkillsData, function(d) { return parseFloat(d.score); })).nice();
+	y.domain(transSkillsData.map(function(d) { return d.label; }));
 
-//var test=skillsData.sort(function (a, b) {return (parseFloat(b.value) - parseFloat(a.value));})
 	svg.selectAll(".bar")
-		.attr("class","skillsChart")
-	    .data(skillsData)
+		.attr("class","transitionSkillsChart")
+	    .data(transSkillsData)
 	    .enter()
 	    .append("rect")
-	    .attr("class", function(d) { return "bar bar--" + (parseFloat(d.value) < 0 ? "negative" : "positive"); })
-	    .attr("x", function(d) { return x(Math.min(0, parseFloat(d.value))); })
-	    .attr("y", function(d) { return y(d.name); })
-	    .attr("width", function(d) { return Math.abs(x(parseFloat(d.value)) - x(0)); })
+	    .attr("class", function(d) { return "bar bar--" + (parseFloat(d.score) < 0 ? "negative" : "positive"); })
+	    .attr("x", function(d) { return x(Math.min(0, parseFloat(d.score))); })
+	    .attr("y", function(d) { return y(d.label); })
+	    .attr("width", function(d) { return Math.abs(x(parseFloat(d.score)) - x(0)); })
 	    .attr("height", y.bandwidth())
 	    .on("mouseover",function(d){
 	    	d3.select(this)
@@ -48,18 +43,25 @@ function skillsChart(selector,data){
 			if (yPosition>window.innerHeight-200)
 				yPosition=yPosition-100;
 
-		     d3.select("#chartBarName")
-		        .text(function(){ return d.name;});
-
-
-
 		     d3.select("#chartBarValue")
-		        .text(function(){ return format(d.value);});
+		        .text(function(){ return d.label;});
+
+		    if(format(d.score)>0){
+		     	d3.select("#chartBarName")
+		        	.text("You don't have enough skills in");
+		    }	else if(format(d.score)<0){
+		     	d3.select("#chartBarName")
+		        	.text("You already have enough skills in");
+		    }	else {
+		     	d3.select("#chartBarName")
+		        	.text("You already have the right level of skills in");
+		    }
+
+
+
 			d3.select("#chartTooltip")
 		        .style("left", xPosition + "px")
-		        .style("top", yPosition + "px") 
-		        .select("#countryTooltip")
-		        .text(d.Country);
+		        .style("top", yPosition + "px");
 
 			d3.select("#chartTooltip").classed("hidden", false);
 	    })
@@ -73,14 +75,14 @@ function skillsChart(selector,data){
 		});
 
 
-	  svg.append("g")
+	  /**svg.append("g")
 	      .attr("class", "x axis")
 	      .attr("transform", "translate(0," + heightChart + ")")
-	      .call(d3.axisBottom(x));
+	      .call(d3.axisBottom(x));**/
 
 	
 	svg.append("text")
-			.attr("class","skillsChart")
+			.attr("class","transitionSkillsChart")
 			.attr("dy", "0.35em")
       		.attr('text-anchor', 'middle')
       		.attr('font-size',"11px")
@@ -92,5 +94,6 @@ function skillsChart(selector,data){
 	  d.value = +d.value;
 	  return d;
 	}
+
 
 }

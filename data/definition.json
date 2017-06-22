@@ -1,187 +1,63 @@
 [
   {
-    "id": "skills_Basic_Cont",
-    "def": ""
-  },
-  {
-    "id": "skills_Basic_Process",
-    "def": ""
-  },
-  {
-    "id": "skills_Social",
-    "def": ""
-  },
-  {
-    "id": "skills_Complex_Pb",
-    "def": ""
-  },
-  {
-    "id": "skills_Tech",
-    "def": ""
-  },
-  {
-    "id": "skills_Syst",
-    "def": ""
-  },
-  {
-    "id": "skills_Res_Mgmt",
-    "def": ""
-  },
-  {
-    "id": "skills_Basic_Cont_1",
-    "def": ""
-  },
-  {
-    "id": "skills_Basic_Cont_2",
-    "def": ""
-  },
-  {
-    "id": "skills_Basic_Cont_3",
-    "def": ""
-  },
-  {
-    "id": "skills_Basic_Cont_4",
-    "def": ""
-  },
-  {
-    "id": "skills_Basic_Cont_5",
-    "def": ""
-  },
-  {
-    "id": "skills_Basic_Cont_6",
-    "def": ""
-  },
-  {
-    "id": "skills_Basic_Process_1",
-    "def": ""
-  },
-  {
-    "id": "skills_Basic_Process_2",
-    "def": ""
-  },
-  {
-    "id": "skills_Basic_Process_3",
-    "def": ""
-  },
-  {
-    "id": "skills_Social_1",
-    "def": ""
-  },
-  {
-    "id": "skills_Social_2",
-    "def": ""
-  },
-  {
-    "id": "skills_Social_3",
-    "def": ""
-  },
-  {
-    "id": "skills_Complex_Pb_1",
-    "def": ""
-  },
-  {
-    "id": "skills_Complex_Pb_2",
-    "def": ""
-  },
-  {
-    "id": "skills_Complex_Pb_3",
-    "def": ""
-  },
-  {
-    "id": "skills_Complex_Pb_4",
-    "def": ""
-  },
-  {
-    "id": "skills_Complex_Pb_5",
-    "def": ""
-  },
-  {
-    "id": "skills_Tech_1",
-    "def": ""
-  },
-  {
-    "id": "skills_Tech_2",
-    "def": ""
-  },
-  {
-    "id": "skills_Syst_1",
-    "def": ""
-  },
-  {
-    "id": "skills_Syst_2",
-    "def": ""
-  },
-  {
-    "id": "skills_Syst_3",
-    "def": ""
-  },
-  {
-    "id": "skills_Res_Mgmt_1",
-    "def": ""
-  },
-  {
-    "id": "skills_Res_Mgmt_2",
-    "def": ""
-  },
-  {
     "id": "ab_verbal",
-    "def": ""
+    "def": "Abilities that influence the acquisition and application of verbal information in problem solving"
   },
   {
     "id": "ab_reason",
-    "def": ""
+    "def": "Abilities that influence the application and manipulation of information in problem solving"
   },
   {
     "id": "ab_quant",
-    "def": ""
+    "def": "Abilities that influence the solution of problems involving mathematical relationships"
   },
   {
     "id": "ab_mem",
-    "def": ""
+    "def": "Abilities related to the recall of available information"
   },
   {
     "id": "ab_percep",
-    "def": ""
+    "def": "Abilities related to the acquisition and organization of visual information"
   },
   {
     "id": "ab_spatial",
-    "def": ""
+    "def": "Abilities related to the manipulation and organization of spatial information"
   },
   {
     "id": "ab_attent",
-    "def": ""
+    "def": "Abilities related to application of attention"
   },
   {
     "id": "ab_manip",
-    "def": ""
+    "def": "Abilities related to the manipulation of objects"
   },
   {
     "id": "ab_control_mov",
-    "def": ""
+    "def": "Abilities related to the control and manipulation of objects in time and space"
   },
   {
     "id": "ab_reac_time",
-    "def": ""
+    "def": "Abilities related to speed of manipulation of objects"
   },
   {
     "id": "ab_strength",
-    "def": ""
+    "def": "Abilities related to the capacity to exert force"
   },
   {
     "id": "ab_endur",
-    "def": ""
+    "def": "The ability to exert oneself physically over long periods without getting out of breath"
   },
   {
     "id": "ab_flex",
-    "def": ""
+    "def": "Abilities related to the control of gross body movements"
   },
   {
     "id": "ab_visual",
-    "def": ""
+    "def": "Abilities related to visual sensory input"
   },
   {
     "id": "ab_audio",
-    "def": ""
+    "def": "Abilities related to auditory and oral input"
   },
   {
     "id": "ab_verbal_1",
@@ -201,15 +77,15 @@
   },
   {
     "id": "ab_reason_1",
-    "def": "The ability to come up with a number of ideas about a topic (the number of ideas is important, not their quality, correctness, or creativity)."
+    "def": "The ability to come up with a number of ideas about a topic (the number of ideas is important"
   },
   {
     "id": "ab_reason_2",
-    "def": "The ability to come up with unusual or clever ideas about a given topic or situation, or to develop creative ways to solve a problem."
+    "def": "The ability to come up with unusual or clever ideas about a given topic or situation"
   },
   {
     "id": "ab_reason_3",
-    "def": "The ability to tell when something is wrong or is likely to go wrong. It does not involve solving the problem, only recognizing there is a problem."
+    "def": "The ability to tell when something is wrong or is likely to go wrong. It does not involve solving the problem"
   },
   {
     "id": "ab_reason_4",
@@ -221,7 +97,7 @@
   },
   {
     "id": "ab_reason_6",
-    "def": "The ability to arrange things or actions in a certain order or pattern according to a specific rule or set of rules (e.g., patterns of numbers, letters, words, pictures, mathematical operations)."
+    "def": "The ability to arrange things or actions in a certain order or pattern according to a specific rule or set of rules (e.g."
   },
   {
     "id": "ab_reason_7",
@@ -233,23 +109,23 @@
   },
   {
     "id": "ab_quant_2",
-    "def": "The ability to add, subtract, multiply, or divide quickly and correctly."
+    "def": "The ability to add"
   },
   {
     "id": "ab_mem_1",
-    "def": "The ability to remember information such as words, numbers, pictures, and procedures."
+    "def": "The ability to remember information such as words"
   },
   {
     "id": "ab_percep_1",
-    "def": "The ability to quickly make sense of, combine, and organize information into meaningful patterns."
+    "def": "The ability to quickly make sense of"
   },
   {
     "id": "ab_percep_2",
-    "def": "The ability to identify or detect a known pattern (a figure, object, word, or sound) that is hidden in other distracting material."
+    "def": "The ability to identify or detect a known pattern (a figure"
   },
   {
     "id": "ab_percep_3",
-    "def": "The ability to quickly and accurately compare similarities and differences among sets of letters, numbers, objects, pictures, or patterns. The things to be compared may be presented at the same time or one after the other. This ability also includes comparing a presented object with a remembered object."
+    "def": "The ability to quickly and accurately compare similarities and differences among sets of letters"
   },
   {
     "id": "ab_spatial_1",
@@ -265,7 +141,7 @@
   },
   {
     "id": "ab_attent_2",
-    "def": "The ability to shift back and forth between two or more activities or sources of information (such as speech, sounds, touch, or other sources)."
+    "def": "The ability to shift back and forth between two or more activities or sources of information (such as speech"
   },
   {
     "id": "ab_manip_1",
@@ -273,11 +149,11 @@
   },
   {
     "id": "ab_manip_2",
-    "def": "The ability to quickly move your hand, your hand together with your arm, or your two hands to grasp, manipulate, or assemble objects."
+    "def": "The ability to quickly move your hand"
   },
   {
     "id": "ab_manip_3",
-    "def": "The ability to make precisely coordinated movements of the fingers of one or both hands to grasp, manipulate, or assemble very small objects."
+    "def": "The ability to make precisely coordinated movements of the fingers of one or both hands to grasp"
   },
   {
     "id": "ab_control_mov_1",
@@ -285,11 +161,11 @@
   },
   {
     "id": "ab_control_mov_2",
-    "def": "The ability to coordinate two or more limbs (for example, two arms, two legs, or one leg and one arm) while sitting, standing, or lying down. It does not involve performing the activities while the whole body is in motion."
+    "def": "The ability to coordinate two or more limbs (for example"
   },
   {
     "id": "ab_control_mov_3",
-    "def": "The ability to choose quickly between two or more movements in response to two or more different signals (lights, sounds, pictures). It includes the speed with which the correct response is started with the hand, foot, or other body part."
+    "def": "The ability to choose quickly between two or more movements in response to two or more different signals (lights"
   },
   {
     "id": "ab_control_mov_4",
@@ -297,11 +173,11 @@
   },
   {
     "id": "ab_reac_time_1",
-    "def": "The ability to quickly respond (with the hand, finger, or foot) to a signal (sound, light, picture) when it appears."
+    "def": "The ability to quickly respond (with the hand"
   },
   {
     "id": "ab_reac_time_2",
-    "def": "The ability to make fast, simple, repeated movements of the fingers, hands, and wrists."
+    "def": "The ability to make fast"
   },
   {
     "id": "ab_reac_time_3",
@@ -309,11 +185,11 @@
   },
   {
     "id": "ab_strength_1",
-    "def": "The ability to exert maximum muscle force to lift, push, pull, or carry objects."
+    "def": "The ability to exert maximum muscle force to lift"
   },
   {
     "id": "ab_strength_2",
-    "def": "The ability to use short bursts of muscle force to propel oneself (as in jumping or sprinting), or to throw an object."
+    "def": "The ability to use short bursts of muscle force to propel oneself (as in jumping or sprinting)"
   },
   {
     "id": "ab_strength_3",
@@ -329,15 +205,15 @@
   },
   {
     "id": "ab_flex_1",
-    "def": "The ability to bend, stretch, twist, or reach with your body, arms, and/or legs."
+    "def": "The ability to bend"
   },
   {
     "id": "ab_flex_2",
-    "def": "The ability to quickly and repeatedly bend, stretch, twist, or reach out with your body, arms, and/or legs."
+    "def": "The ability to quickly and repeatedly bend"
   },
   {
     "id": "ab_flex_3",
-    "def": "The ability to coordinate the movement of your arms, legs, and torso together when the whole body is in motion."
+    "def": "The ability to coordinate the movement of your arms"
   },
   {
     "id": "ab_flex_4",
@@ -353,7 +229,7 @@
   },
   {
     "id": "ab_visual_3",
-    "def": "The ability to match or detect differences between colors, including shades of color and brightness."
+    "def": "The ability to match or detect differences between colors"
   },
   {
     "id": "ab_visual_4",
@@ -365,7 +241,7 @@
   },
   {
     "id": "ab_visual_6",
-    "def": "The ability to judge which of several objects is closer or farther away from you, or to judge the distance between you and an object."
+    "def": "The ability to judge which of several objects is closer or farther away from you"
   },
   {
     "id": "ab_visual_7",
@@ -392,163 +268,323 @@
     "def": "The ability to speak clearly so others can understand you."
   },
   {
-    "id": "know_bis",
-    "def": ""
-  },
-  {
-    "id": "know_manu",
-    "def": ""
-  },
-  {
-    "id": "know_eng",
-    "def": ""
-  },
-  {
-    "id": "know_math",
-    "def": ""
-  },
-  {
-    "id": "know_health",
-    "def": ""
-  },
-  {
-    "id": "know_edu",
-    "def": ""
+    "id": "know_bis_1",
+    "def": "Knowledge of business and management principles involved in strategic planning"
   },
   {
     "id": "know_arts",
-    "def": ""
-  },
-  {
-    "id": "know_law",
-    "def": ""
-  },
-  {
-    "id": "know_com",
-    "def": ""
-  },
-  {
-    "id": "know_trans",
-    "def": ""
-  },
-  {
-    "id": "know_bis_1",
-    "def": ""
-  },
-  {
-    "id": "know_bis_2",
-    "def": ""
-  },
-  {
-    "id": "know_bis_3",
-    "def": ""
-  },
-  {
-    "id": "know_bis_4",
-    "def": ""
-  },
-  {
-    "id": "know_bis_5",
-    "def": ""
-  },
-  {
-    "id": "know_manu_1",
-    "def": ""
-  },
-  {
-    "id": "know_manu_2",
-    "def": ""
-  },
-  {
-    "id": "know_eng_1",
-    "def": ""
-  },
-  {
-    "id": "know_eng_2",
-    "def": ""
-  },
-  {
-    "id": "know_eng_3",
-    "def": ""
-  },
-  {
-    "id": "know_eng_4",
-    "def": ""
-  },
-  {
-    "id": "know_eng_5",
-    "def": ""
-  },
-  {
-    "id": "know_math_1",
-    "def": ""
-  },
-  {
-    "id": "know_math_2",
-    "def": ""
-  },
-  {
-    "id": "know_math_3",
-    "def": ""
-  },
-  {
-    "id": "know_math_4",
-    "def": ""
+    "def": "Knowledge of facts and principles related to the branches of learning concerned with human thought"
   },
   {
     "id": "know_math_5",
-    "def": ""
+    "def": "Knowledge of plant and animal organisms"
   },
   {
-    "id": "know_math_6",
-    "def": ""
+    "id": "know_eng_5",
+    "def": "Knowledge of materials"
   },
   {
-    "id": "know_math_7",
-    "def": ""
+    "id": "know_bis",
+    "def": "Knowledge of principles and facts related to business administration and accounting"
   },
   {
-    "id": "know_health_1",
-    "def": ""
+    "id": "know_math_4",
+    "def": "Knowledge of the chemical composition"
   },
   {
-    "id": "know_health_2",
-    "def": ""
+    "id": "know_bis_2",
+    "def": "Knowledge of administrative and clerical procedures and systems such as word processing"
   },
   {
-    "id": "know_arts_1",
-    "def": ""
-  },
-  {
-    "id": "know_arts_2",
-    "def": ""
-  },
-  {
-    "id": "know_arts_3",
-    "def": ""
-  },
-  {
-    "id": "know_law_1",
-    "def": ""
-  },
-  {
-    "id": "know_law_2",
-    "def": ""
-  },
-  {
-    "id": "know_com_1",
-    "def": ""
-  },
-  {
-    "id": "know_com_2",
-    "def": ""
+    "id": "know_com",
+    "def": "Knowledge of the science and art of delivering information"
   },
   {
     "id": "know_trans_1",
-    "def": ""
+    "def": "Knowledge of media production"
   },
   {
-    "id": "know_trans_2",
-    "def": ""
+    "id": "know_eng_2",
+    "def": "Knowledge of circuit boards"
+  },
+  {
+    "id": "know_bis_5",
+    "def": "Knowledge of principles and processes for providing customer and personal services. This includes customer needs assessment"
+  },
+  {
+    "id": "know_eng_4",
+    "def": "Knowledge of design techniques"
+  },
+  {
+    "id": "know_bis_3",
+    "def": "Knowledge of economic and accounting principles and practices"
+  },
+  {
+    "id": "know_edu",
+    "def": "Knowledge of principles and methods for curriculum and training design"
+  },
+  {
+    "id": "know_eng_3",
+    "def": "Knowledge of the practical application of engineering science and technology. This includes applying principles"
+  },
+  {
+    "id": "know_eng",
+    "def": "Knowledge of the design"
+  },
+  {
+    "id": "know_arts_2",
+    "def": "Knowledge of the theory and techniques required to compose"
+  },
+  {
+    "id": "know_eng_1",
+    "def": "Knowledge of techniques and equipment for planting"
+  },
+  {
+    "id": "know_health_1",
+    "def": "Knowledge of principles and methods for describing the features of land"
+  },
+  {
+    "id": "know_health",
+    "def": "Knowledge of principles and facts regarding diagnosing"
+  },
+  {
+    "id": "know_arts_3",
+    "def": "Knowledge of historical events and their causes"
+  },
+  {
+    "id": "know_com_1",
+    "def": "Knowledge of laws"
+  },
+  {
+    "id": "know_law",
+    "def": "Knowledge of regulations and methods for maintaining people and property free from danger"
+  },
+  {
+    "id": "know_manu",
+    "def": "Knowledge of principles and facts related to the production"
+  },
+  {
+    "id": "know_math",
+    "def": "Knowledge of the history"
+  },
+  {
+    "id": "know_math_2",
+    "def": "Knowledge of arithmetic"
+  },
+  {
+    "id": "know_math_1",
+    "def": "Knowledge of machines and tools"
+  },
+  {
+    "id": "know_health_2",
+    "def": "Knowledge of the information and techniques needed to diagnose and treat human injuries"
+  },
+  {
+    "id": "know_manu_1",
+    "def": "Knowledge of principles and procedures for personnel recruitment"
+  },
+  {
+    "id": "know_law_1",
+    "def": "Knowledge of different philosophical systems and religions. This includes their basic principles"
+  },
+  {
+    "id": "know_math_3",
+    "def": "Knowledge and prediction of physical principles"
+  },
+  {
+    "id": "know_manu_2",
+    "def": "Knowledge of raw materials"
+  },
+  {
+    "id": "know_math_6",
+    "def": "Knowledge of human behavior and performance; individual differences in ability"
+  },
+  {
+    "id": "know_law_2",
+    "def": "Knowledge of relevant equipment"
+  },
+  {
+    "id": "know_bis_4",
+    "def": "Knowledge of principles and methods for showing"
+  },
+  {
+    "id": "know_math_7",
+    "def": "Knowledge of group behavior and dynamics"
+  },
+  {
+    "id": "know_com_2",
+    "def": "Knowledge of transmission"
+  },
+  {
+    "id": "know_arts_1",
+    "def": "Knowledge of principles"
+  },
+  {
+    "id": "know_trans",
+    "def": "Knowledge of principles and methods for moving people or goods by air"
+  },
+  {
+    "id": "skills_Basic_Cont",
+    "def": "Developed capacities that facilitate learning or the more rapid acquisition of knowledge"
+  },
+  {
+    "id": "skills_Basic_Process",
+    "def": "Developed capacities that facilitate learning or the more rapid acquisition of knowledge"
+  },
+  {
+    "id": "skills_Social",
+    "def": "Developed capacities used to work with people to achieve goals"
+  },
+  {
+    "id": "skills_Complex_Pb",
+    "def": "Developed capacities used to solve novel"
+  },
+  {
+    "id": "skills_Tech",
+    "def": "Developed capacities used to design"
+  },
+  {
+    "id": "skills_Syst",
+    "def": "Developed capacities used to understand"
+  },
+  {
+    "id": "skills_Res_Mgmt",
+    "def": "Developed capacities used to allocate resources efficiently"
+  },
+  {
+    "id": "skills_act_le",
+    "def": "Understanding the implications of new information for both current and future problem-solving and decision-making."
+  },
+  {
+    "id": "skills_act_li",
+    "def": "Giving full attention to what other people are saying"
+  },
+  {
+    "id": "skills_critical",
+    "def": "Using logic and reasoning to identify the strengths and weaknesses of alternative solutions"
+  },
+  {
+    "id": "skills_learning",
+    "def": "Selecting and using training/instructional methods and procedures appropriate for the situation when learning or teaching new things."
+  },
+  {
+    "id": "skills_math",
+    "def": "Using mathematics to solve problems."
+  },
+  {
+    "id": "skills_mon",
+    "def": "Monitoring/Assessing performance of yourself"
+  },
+  {
+    "id": "skills_read_comp",
+    "def": "Understanding written sentences and paragraphs in work related documents."
+  },
+  {
+    "id": "skills_scie",
+    "def": "Using scientific rules and methods to solve problems."
+  },
+  {
+    "id": "skills_speak",
+    "def": "Talking to others to convey information effectively."
+  },
+  {
+    "id": "skills_writ",
+    "def": "Communicating effectively in writing as appropriate for the needs of the audience."
+  },
+  {
+    "id": "skills_Basic_Cont_2",
+    "def": "Adjusting actions in relation to others' actions."
+  },
+  {
+    "id": "skills_Basic_Cont_5",
+    "def": "Teaching others how to do something."
+  },
+  {
+    "id": "skills_Basic_Cont_4",
+    "def": "Bringing others together and trying to reconcile differences."
+  },
+  {
+    "id": "skills_Basic_Cont_3",
+    "def": "Persuading others to change their minds or behavior."
+  },
+  {
+    "id": "skills_Basic_Cont_6",
+    "def": "Actively looking for ways to help people."
+  },
+  {
+    "id": "skills_Basic_Cont_1",
+    "def": "Being aware of others' reactions and understanding why they react as they do."
+  },
+  {
+    "id": "skills_Complex_Pb_2",
+    "def": "Performing routine maintenance on equipment and determining when and what kind of maintenance is needed."
+  },
+  {
+    "id": "skills_Basic_Process_3",
+    "def": "Determining the kind of tools and equipment needed to do a job."
+  },
+  {
+    "id": "skills_Social_1",
+    "def": "Installing equipment"
+  },
+  {
+    "id": "skills_Complex_Pb_1",
+    "def": "Controlling operations of equipment or systems."
+  },
+  {
+    "id": "skills_Social_3",
+    "def": "Watching gauges"
+  },
+  {
+    "id": "skills_Basic_Process_1",
+    "def": "Analyzing needs and product requirements to create a design."
+  },
+  {
+    "id": "skills_Social_2",
+    "def": "Writing computer programs for various purposes."
+  },
+  {
+    "id": "skills_Complex_Pb_5",
+    "def": "Conducting tests and inspections of products"
+  },
+  {
+    "id": "skills_Complex_Pb_4",
+    "def": "Repairing machines or systems using the needed tools."
+  },
+  {
+    "id": "skills_Basic_Process_2",
+    "def": "Generating or adapting equipment and technology to serve user needs."
+  },
+  {
+    "id": "skills_Complex_Pb_3",
+    "def": "Determining causes of operating errors and deciding what to do about it."
+  },
+  {
+    "id": "skills_Tech_1",
+    "def": "Considering the relative costs and benefits of potential actions to choose the most appropriate one."
+  },
+  {
+    "id": "skills_Tech_2",
+    "def": "Determining how a system should work and how changes in conditions"
+  },
+  {
+    "id": "skills_Syst_1",
+    "def": "Identifying measures or indicators of system performance and the actions needed to improve or correct performance"
+  },
+  {
+    "id": "skills_Syst_3",
+    "def": "Determining how money will be spent to get the work done"
+  },
+  {
+    "id": "skills_Res_Mgmt_1",
+    "def": "Obtaining and seeing to the appropriate use of equipment"
+  },
+  {
+    "id": "skills_Res_Mgmt_2",
+    "def": "Motivating"
+  },
+  {
+    "id": "skills_Syst_2",
+    "def": "Managing one's own time and the time of others."
   }
 ]
