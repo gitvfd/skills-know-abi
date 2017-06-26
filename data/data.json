@@ -20673,1144 +20673,1216 @@
 		"country":"ITA",
 		 "data":{
 		  	"nodes": 
-			[
-			  {
-			    "id": "country",
-			    "name": "Italy",
-			    "group": "Country",
-			    "subgroup": -1,
-			    "cat": "",
-			    "value": ""
-			  },
-			  {
-			    "id": "skills",
-			    "name": "Skills",
-			    "group": "Ref_Skills",
-			    "subgroup": 0,
-			    "cat": "",
-			    "value": ""
-			  },
-			  {
-			    "id": "knowledge",
-			    "name": "Knowledge",
-			    "group": "Ref_Knowledge",
-			    "subgroup": 0,
-			    "cat": "",
-			    "value": ""
-			  },
-			  {
-			    "id": "abilities",
-			    "name": "Abilities",
-			    "group": "Ref_Abilities",
-			    "subgroup": 0,
-			    "cat": "",
-			    "value": ""
-			  },
-			  {
-			    "id": "skills_Basic_Cont",
-			    "name": "Basic Skills (Content)",
-			    "group": "Skills",
-			    "subgroup": 1,
-			    "cat": "skills_Basic_Cont",
-			    "value": 0.014807466417551
-			  },
-			  {
-			    "id": "skills_Basic_Process",
-			    "name": "Basic Skills (Process)",
-			    "group": "Skills",
-			    "subgroup": 1,
-			    "cat": "skills_Basic_Process",
-			    "value": 0.0105892103165388
-			  },
-			  {
-			    "id": "skills_Social",
-			    "name": "Social Skills",
-			    "group": "Skills",
-			    "subgroup": 1,
-			    "cat": "skills_Social",
-			    "value": -0.004185791593045
-			  },
-			  {
-			    "id": "skills_Complex_Pb",
-			    "name": "Complex Problem Solving",
-			    "group": "Skills",
-			    "subgroup": 1,
-			    "cat": "skills_Complex_Pb",
-			    "value": -0.0115039432421327
-			  },
-			  {
-			    "id": "skills_Tech",
-			    "name": "Technical Skills",
-			    "group": "Skills",
-			    "subgroup": 1,
-			    "cat": "skills_Tech",
-			    "value": -0.00395971117541194
-			  },
-			  {
-			    "id": "skills_Syst",
-			    "name": "Systems Skills",
-			    "group": "Skills",
-			    "subgroup": 1,
-			    "cat": "skills_Syst",
-			    "value": 0.0120001994073391
-			  },
-			  {
-			    "id": "skills_Res_Mgmt",
-			    "name": "Resource Management Skills",
-			    "group": "Skills",
-			    "subgroup": 1,
-			    "cat": "skills_Res_Mgmt",
-			    "value": -0.0023106241133064
-			  },
-			  {
-			    "id": "skills_Basic_Cont_1",
-			    "name": "Social Perceptiveness",
-			    "group": "Skills",
-			    "subgroup": 2,
-			    "cat": "skills_Basic_Cont",
-			    "value": 0.00410064915195107
-			  },
-			  {
-			    "id": "skills_Basic_Cont_2",
-			    "name": "Coordination",
-			    "group": "Skills",
-			    "subgroup": 2,
-			    "cat": "skills_Basic_Cont",
-			    "value": 0.00101254403125495
-			  },
-			  {
-			    "id": "skills_Basic_Cont_3",
-			    "name": "Persuasion",
-			    "group": "Skills",
-			    "subgroup": 2,
-			    "cat": "skills_Basic_Cont",
-			    "value": 0.00597076723352075
-			  },
-			  {
-			    "id": "skills_Basic_Cont_4",
-			    "name": "Negotiation",
-			    "group": "Skills",
-			    "subgroup": 2,
-			    "cat": "skills_Basic_Cont",
-			    "value": 0.00564019521698356
-			  },
-			  {
-			    "id": "skills_Basic_Cont_5",
-			    "name": "Instructing",
-			    "group": "Skills",
-			    "subgroup": 2,
-			    "cat": "skills_Basic_Cont",
-			    "value": 0.00831324979662895
-			  },
-			  {
-			    "id": "skills_Basic_Cont_6",
-			    "name": "Service Orientation",
-			    "group": "Skills",
-			    "subgroup": 2,
-			    "cat": "skills_Basic_Cont",
-			    "value": 0.0000773448846302927
-			  },
-			  {
-			    "id": "skills_Basic_Process_1",
-			    "name": "Operations Analysis",
-			    "group": "Skills",
-			    "subgroup": 2,
-			    "cat": "skills_Basic_Process",
-			    "value": 0.0102720325812697
-			  },
-			  {
-			    "id": "skills_Basic_Process_2",
-			    "name": "Technology Design",
-			    "group": "Skills",
-			    "subgroup": 2,
-			    "cat": "skills_Basic_Process",
-			    "value": 0.00554425548762083
-			  },
-			  {
-			    "id": "skills_Basic_Process_3",
-			    "name": "Equipment Selection",
-			    "group": "Skills",
-			    "subgroup": 2,
-			    "cat": "skills_Basic_Process",
-			    "value": 0.0024494188837707
-			  },
-			  {
-			    "id": "skills_Social_1",
-			    "name": "Installation",
-			    "group": "Skills",
-			    "subgroup": 2,
-			    "cat": "skills_Social",
-			    "value": 0.00136984407436103
-			  },
-			  {
-			    "id": "skills_Social_2",
-			    "name": "Programming",
-			    "group": "Skills",
-			    "subgroup": 2,
-			    "cat": "skills_Social",
-			    "value": 0.00855573825538158
-			  },
-			  {
-			    "id": "skills_Social_3",
-			    "name": "Operation Monitoring",
-			    "group": "Skills",
-			    "subgroup": 2,
-			    "cat": "skills_Social",
-			    "value": 0.00277967355214059
-			  },
-			  {
-			    "id": "skills_Complex_Pb_1",
-			    "name": "Operation and Control",
-			    "group": "Skills",
-			    "subgroup": 2,
-			    "cat": "skills_Complex_Pb",
-			    "value": -0.000888074573595077
-			  },
-			  {
-			    "id": "skills_Complex_Pb_2",
-			    "name": "Equipment Maintenance",
-			    "group": "Skills",
-			    "subgroup": 2,
-			    "cat": "skills_Complex_Pb",
-			    "value": 0.00238934508524835
-			  },
-			  {
-			    "id": "skills_Complex_Pb_3",
-			    "name": "Troubleshooting",
-			    "group": "Skills",
-			    "subgroup": 2,
-			    "cat": "skills_Complex_Pb",
-			    "value": 0.00248869159258902
-			  },
-			  {
-			    "id": "skills_Complex_Pb_4",
-			    "name": "Repairing",
-			    "group": "Skills",
-			    "subgroup": 2,
-			    "cat": "skills_Complex_Pb",
-			    "value": 0.00348371593281627
-			  },
-			  {
-			    "id": "skills_Complex_Pb_5",
-			    "name": "Quality Control Analysis",
-			    "group": "Skills",
-			    "subgroup": 2,
-			    "cat": "skills_Complex_Pb",
-			    "value": 0.0051121823489666
-			  },
-			  {
-			    "id": "skills_Tech_1",
-			    "name": "Judgment and Decision Making",
-			    "group": "Skills",
-			    "subgroup": 2,
-			    "cat": "skills_Tech",
-			    "value": 0.0116582689806819
-			  },
-			  {
-			    "id": "skills_Tech_2",
-			    "name": "Systems Analysis",
-			    "group": "Skills",
-			    "subgroup": 2,
-			    "cat": "skills_Tech",
-			    "value": 0.0123658291995525
-			  },
-			  {
-			    "id": "skills_Syst_1",
-			    "name": "Systems Evaluation",
-			    "group": "Skills",
-			    "subgroup": 2,
-			    "cat": "skills_Syst",
-			    "value": 0.0119764981791377
-			  },
-			  {
-			    "id": "skills_Syst_2",
-			    "name": "Time Management",
-			    "group": "Skills",
-			    "subgroup": 2,
-			    "cat": "skills_Syst",
-			    "value": 0.00686282385140657
-			  },
-			  {
-			    "id": "skills_Syst_3",
-			    "name": "Management of Financial Resources",
-			    "group": "Skills",
-			    "subgroup": 2,
-			    "cat": "skills_Syst",
-			    "value": -0.000223077833652496
-			  },
-			  {
-			    "id": "skills_Res_Mgmt_1",
-			    "name": "Management of Material Resources",
-			    "group": "Skills",
-			    "subgroup": 2,
-			    "cat": "skills_Res_Mgmt",
-			    "value": -0.000613104493822902
-			  },
-			  {
-			    "id": "skills_Res_Mgmt_2",
-			    "name": "Management of Personnel Resources",
-			    "group": "Skills",
-			    "subgroup": 2,
-			    "cat": "skills_Res_Mgmt",
-			    "value": 0.00321585475467145
-			  },
-			  {
-			    "id": "ab_verbal",
-			    "name": "Verbal Abilities",
-			    "group": "Abilities",
-			    "subgroup": 1,
-			    "cat": "ab_verbal",
-			    "value": 0.0168716497719288
-			  },
-			  {
-			    "id": "ab_reason",
-			    "name": "Reasoning Abilities",
-			    "group": "Abilities",
-			    "subgroup": 1,
-			    "cat": "ab_reason",
-			    "value": 0.0113827688619494
-			  },
-			  {
-			    "id": "ab_quant",
-			    "name": "Quantitative Abilities",
-			    "group": "Abilities",
-			    "subgroup": 1,
-			    "cat": "ab_quant",
-			    "value": 0.0128270070999861
-			  },
-			  {
-			    "id": "ab_mem",
-			    "name": "Memory",
-			    "group": "Abilities",
-			    "subgroup": 1,
-			    "cat": "ab_mem",
-			    "value": 0.00747276656329632
-			  },
-			  {
-			    "id": "ab_percep",
-			    "name": "Perceptual Abilities",
-			    "group": "Abilities",
-			    "subgroup": 1,
-			    "cat": "ab_percep",
-			    "value": 0.00783583521842957
-			  },
-			  {
-			    "id": "ab_spatial",
-			    "name": "Spatial Abilities",
-			    "group": "Abilities",
-			    "subgroup": 1,
-			    "cat": "ab_spatial",
-			    "value": 0.00113961636088789
-			  },
-			  {
-			    "id": "ab_attent",
-			    "name": "Attentiveness",
-			    "group": "Abilities",
-			    "subgroup": 1,
-			    "cat": "ab_attent",
-			    "value": 0.00377127365209162
-			  },
-			  {
-			    "id": "ab_manip",
-			    "name": "Fine Manipulative Abilities",
-			    "group": "Abilities",
-			    "subgroup": 1,
-			    "cat": "ab_manip",
-			    "value": -0.00686760433018208
-			  },
-			  {
-			    "id": "ab_control_mov",
-			    "name": "Control Movement Abilities",
-			    "group": "Abilities",
-			    "subgroup": 1,
-			    "cat": "ab_control_mov",
-			    "value": -0.00524684181436896
-			  },
-			  {
-			    "id": "ab_reac_time",
-			    "name": "Reaction Time and Speed Abilities",
-			    "group": "Abilities",
-			    "subgroup": 1,
-			    "cat": "ab_reac_time",
-			    "value": -0.00360612943768501
-			  },
-			  {
-			    "id": "ab_strength",
-			    "name": "Physical Strength",
-			    "group": "Abilities",
-			    "subgroup": 1,
-			    "cat": "ab_strength",
-			    "value": -0.0144970435649157
-			  },
-			  {
-			    "id": "ab_endur",
-			    "name": "Endurance",
-			    "group": "Abilities",
-			    "subgroup": 1,
-			    "cat": "ab_endur",
-			    "value": -0.0167013388127089
-			  },
-			  {
-			    "id": "ab_flex",
-			    "name": "Flexibility. Balance and Coordination",
-			    "group": "Abilities",
-			    "subgroup": 1,
-			    "cat": "ab_flex",
-			    "value": -0.0118479309603572
-			  },
-			  {
-			    "id": "ab_visual",
-			    "name": "Visual Abilities",
-			    "group": "Abilities",
-			    "subgroup": 1,
-			    "cat": "ab_visual",
-			    "value": 0.000885347719304264
-			  },
-			  {
-			    "id": "ab_audio",
-			    "name": "Auditory and Speech Abilities",
-			    "group": "Abilities",
-			    "subgroup": 1,
-			    "cat": "ab_audio",
-			    "value": 0.00433683488518
-			  },
-			  {
-			    "id": "ab_verbal_1",
-			    "name": "Oral Comprehension",
-			    "group": "Abilities",
-			    "subgroup": 2,
-			    "cat": "ab_verbal",
-			    "value": 0.0128341522067785
-			  },
-			  {
-			    "id": "ab_verbal_2",
-			    "name": "Written Comprehension",
-			    "group": "Abilities",
-			    "subgroup": 2,
-			    "cat": "ab_verbal",
-			    "value": 0.020119983702898
-			  },
-			  {
-			    "id": "ab_verbal_3",
-			    "name": "Oral Expression",
-			    "group": "Abilities",
-			    "subgroup": 2,
-			    "cat": "ab_verbal",
-			    "value": 0.0136172501370311
-			  },
-			  {
-			    "id": "ab_verbal_4",
-			    "name": "Written Expression",
-			    "group": "Abilities",
-			    "subgroup": 2,
-			    "cat": "ab_verbal",
-			    "value": 0.0209152121096849
-			  },
-			  {
-			    "id": "ab_reason_1",
-			    "name": "Fluency of Ideas",
-			    "group": "Abilities",
-			    "subgroup": 2,
-			    "cat": "ab_reason",
-			    "value": 0.0112095465883613
-			  },
-			  {
-			    "id": "ab_reason_2",
-			    "name": "Originality",
-			    "group": "Abilities",
-			    "subgroup": 2,
-			    "cat": "ab_reason",
-			    "value": 0.0102171692997217
-			  },
-			  {
-			    "id": "ab_reason_3",
-			    "name": "Problem Sensitivity",
-			    "group": "Abilities",
-			    "subgroup": 2,
-			    "cat": "ab_reason",
-			    "value": 0.00963654369115829
-			  },
-			  {
-			    "id": "ab_reason_4",
-			    "name": "Deductive Reasoning",
-			    "group": "Abilities",
-			    "subgroup": 2,
-			    "cat": "ab_reason",
-			    "value": 0.0137408468872309
-			  },
-			  {
-			    "id": "ab_reason_5",
-			    "name": "Inductive Reasoning",
-			    "group": "Abilities",
-			    "subgroup": 2,
-			    "cat": "ab_reason",
-			    "value": 0.0139372712001204
-			  },
-			  {
-			    "id": "ab_reason_6",
-			    "name": "Information Ordering",
-			    "group": "Abilities",
-			    "subgroup": 2,
-			    "cat": "ab_reason",
-			    "value": 0.0110368328168988
-			  },
-			  {
-			    "id": "ab_reason_7",
-			    "name": "Category Flexibility",
-			    "group": "Abilities",
-			    "subgroup": 2,
-			    "cat": "ab_reason",
-			    "value": 0.00990116875618696
-			  },
-			  {
-			    "id": "ab_quant_1",
-			    "name": "Mathematical Reasoning",
-			    "group": "Abilities",
-			    "subgroup": 2,
-			    "cat": "ab_quant",
-			    "value": 0.0143243130296469
-			  },
-			  {
-			    "id": "ab_quant_2",
-			    "name": "Number Facility",
-			    "group": "Abilities",
-			    "subgroup": 2,
-			    "cat": "ab_quant",
-			    "value": 0.0113297002390027
-			  },
-			  {
-			    "id": "ab_mem_1",
-			    "name": "Memorization",
-			    "group": "Abilities",
-			    "subgroup": 2,
-			    "cat": "ab_mem",
-			    "value": 0.00747276656329632
-			  },
-			  {
-			    "id": "ab_percep_1",
-			    "name": "Speed of Closure",
-			    "group": "Abilities",
-			    "subgroup": 2,
-			    "cat": "ab_percep",
-			    "value": 0.00703538488596678
-			  },
-			  {
-			    "id": "ab_percep_2",
-			    "name": "Flexibility of Closure",
-			    "group": "Abilities",
-			    "subgroup": 2,
-			    "cat": "ab_percep",
-			    "value": 0.00905887596309185
-			  },
-			  {
-			    "id": "ab_percep_3",
-			    "name": "Perceptual Speed",
-			    "group": "Abilities",
-			    "subgroup": 2,
-			    "cat": "ab_percep",
-			    "value": 0.00741324480623007
-			  },
-			  {
-			    "id": "ab_spatial_1",
-			    "name": "Spatial Orientation",
-			    "group": "Abilities",
-			    "subgroup": 2,
-			    "cat": "ab_spatial",
-			    "value": -0.00180660700425506
-			  },
-			  {
-			    "id": "ab_spatial_2",
-			    "name": "Visualization",
-			    "group": "Abilities",
-			    "subgroup": 2,
-			    "cat": "ab_spatial",
-			    "value": 0.00408583972603083
-			  },
-			  {
-			    "id": "ab_attent_1",
-			    "name": "Selective Attention",
-			    "group": "Abilities",
-			    "subgroup": 2,
-			    "cat": "ab_attent",
-			    "value": 0.00581522006541491
-			  },
-			  {
-			    "id": "ab_attent_2",
-			    "name": "Time Sharing",
-			    "group": "Abilities",
-			    "subgroup": 2,
-			    "cat": "ab_attent",
-			    "value": 0.0017273270059377
-			  },
-			  {
-			    "id": "ab_manip_1",
-			    "name": "Arm-Hand Steadiness",
-			    "group": "Abilities",
-			    "subgroup": 2,
-			    "cat": "ab_manip",
-			    "value": -0.00997229292988777
-			  },
-			  {
-			    "id": "ab_manip_2",
-			    "name": "Manual Dexterity",
-			    "group": "Abilities",
-			    "subgroup": 2,
-			    "cat": "ab_manip",
-			    "value": -0.0109619926661253
-			  },
-			  {
-			    "id": "ab_manip_3",
-			    "name": "Finger Dexterity",
-			    "group": "Abilities",
-			    "subgroup": 2,
-			    "cat": "ab_manip",
-			    "value": 0.00033147245994769
-			  },
-			  {
-			    "id": "ab_control_mov_1",
-			    "name": "Control Precision",
-			    "group": "Abilities",
-			    "subgroup": 2,
-			    "cat": "ab_control_mov",
-			    "value": -0.00398600613698363
-			  },
-			  {
-			    "id": "ab_control_mov_2",
-			    "name": "Multilimb Coordination",
-			    "group": "Abilities",
-			    "subgroup": 2,
-			    "cat": "ab_control_mov",
-			    "value": -0.0130682419985533
-			  },
-			  {
-			    "id": "ab_control_mov_3",
-			    "name": "Response Orientation",
-			    "group": "Abilities",
-			    "subgroup": 2,
-			    "cat": "ab_control_mov",
-			    "value": -0.00277410470880568
-			  },
-			  {
-			    "id": "ab_control_mov_4",
-			    "name": "Rate Control",
-			    "group": "Abilities",
-			    "subgroup": 2,
-			    "cat": "ab_control_mov",
-			    "value": -0.00115901522804052
-			  },
-			  {
-			    "id": "ab_reac_time_1",
-			    "name": "Reaction Time",
-			    "group": "Abilities",
-			    "subgroup": 2,
-			    "cat": "ab_reac_time",
-			    "value": -0.00232710270211101
-			  },
-			  {
-			    "id": "ab_reac_time_2",
-			    "name": "Wrist-Finger Speed",
-			    "group": "Abilities",
-			    "subgroup": 2,
-			    "cat": "ab_reac_time",
-			    "value": -0.000914525357075036
-			  },
-			  {
-			    "id": "ab_reac_time_3",
-			    "name": "Speed of Limb Movement",
-			    "group": "Abilities",
-			    "subgroup": 2,
-			    "cat": "ab_reac_time",
-			    "value": -0.00757676037028432
-			  },
-			  {
-			    "id": "ab_strength_1",
-			    "name": "Static Strength",
-			    "group": "Abilities",
-			    "subgroup": 2,
-			    "cat": "ab_strength",
-			    "value": -0.0197464413940907
-			  },
-			  {
-			    "id": "ab_strength_2",
-			    "name": "Explosive Strength",
-			    "group": "Abilities",
-			    "subgroup": 2,
-			    "cat": "ab_strength",
-			    "value": -0.00303826504386961
-			  },
-			  {
-			    "id": "ab_strength_3",
-			    "name": "Dynamic Strength",
-			    "group": "Abilities",
-			    "subgroup": 2,
-			    "cat": "ab_strength",
-			    "value": -0.0131670283153653
-			  },
-			  {
-			    "id": "ab_strength_4",
-			    "name": "Trunk Strength",
-			    "group": "Abilities",
-			    "subgroup": 2,
-			    "cat": "ab_strength",
-			    "value": -0.0220364369452
-			  },
-			  {
-			    "id": "ab_endur_1",
-			    "name": "Stamina",
-			    "group": "Abilities",
-			    "subgroup": 2,
-			    "cat": "ab_endur",
-			    "value": -0.0167013388127089
-			  },
-			  {
-			    "id": "ab_flex_1",
-			    "name": "Extent Flexibility",
-			    "group": "Abilities",
-			    "subgroup": 2,
-			    "cat": "ab_flex",
-			    "value": -0.0208774488419294
-			  },
-			  {
-			    "id": "ab_flex_2",
-			    "name": "Dynamic Flexibility",
-			    "group": "Abilities",
-			    "subgroup": 2,
-			    "cat": "ab_flex",
-			    "value": -0.00184662046376616
-			  },
-			  {
-			    "id": "ab_flex_3",
-			    "name": "Gross Body Coordination",
-			    "group": "Abilities",
-			    "subgroup": 2,
-			    "cat": "ab_flex",
-			    "value": -0.0143710691481829
-			  },
-			  {
-			    "id": "ab_flex_4",
-			    "name": "Gross Body Equilibrium",
-			    "group": "Abilities",
-			    "subgroup": 2,
-			    "cat": "ab_flex",
-			    "value": -0.0102965869009495
-			  },
-			  {
-			    "id": "ab_visual_1",
-			    "name": "Near Vision",
-			    "group": "Abilities",
-			    "subgroup": 2,
-			    "cat": "ab_visual",
-			    "value": 0.0097050191834569
-			  },
-			  {
-			    "id": "ab_visual_2",
-			    "name": "Far Vision",
-			    "group": "Abilities",
-			    "subgroup": 2,
-			    "cat": "ab_visual",
-			    "value": 0.00258047110401094
-			  },
-			  {
-			    "id": "ab_visual_3",
-			    "name": "Visual Color Discrimination",
-			    "group": "Abilities",
-			    "subgroup": 2,
-			    "cat": "ab_visual",
-			    "value": -0.000204487776500173
-			  },
-			  {
-			    "id": "ab_visual_4",
-			    "name": "Night Vision",
-			    "group": "Abilities",
-			    "subgroup": 2,
-			    "cat": "ab_visual",
-			    "value": -0.000384438026230782
-			  },
-			  {
-			    "id": "ab_visual_5",
-			    "name": "Peripheral Vision",
-			    "group": "Abilities",
-			    "subgroup": 2,
-			    "cat": "ab_visual",
-			    "value": -0.000616982346400619
-			  },
-			  {
-			    "id": "ab_visual_6",
-			    "name": "Depth Perception",
-			    "group": "Abilities",
-			    "subgroup": 2,
-			    "cat": "ab_visual",
-			    "value": -0.00377116678282619
-			  },
-			  {
-			    "id": "ab_visual_7",
-			    "name": "Glare Sensitivity",
-			    "group": "Abilities",
-			    "subgroup": 2,
-			    "cat": "ab_visual",
-			    "value": -0.0011109811021015
-			  },
-			  {
-			    "id": "ab_audio_1",
-			    "name": "Hearing Sensitivity",
-			    "group": "Abilities",
-			    "subgroup": 2,
-			    "cat": "ab_audio",
-			    "value": 0.00290038646198809
-			  },
-			  {
-			    "id": "ab_audio_2",
-			    "name": "Auditory Attention",
-			    "group": "Abilities",
-			    "subgroup": 2,
-			    "cat": "ab_audio",
-			    "value": 0.00112772290594876
-			  },
-			  {
-			    "id": "ab_audio_3",
-			    "name": "Sound Localization",
-			    "group": "Abilities",
-			    "subgroup": 2,
-			    "cat": "ab_audio",
-			    "value": 0.000690103799570352
-			  },
-			  {
-			    "id": "ab_audio_4",
-			    "name": "Speech Recognition",
-			    "group": "Abilities",
-			    "subgroup": 2,
-			    "cat": "ab_audio",
-			    "value": 0.0077471137046814
-			  },
-			  {
-			    "id": "ab_audio_5",
-			    "name": "Speech Clarity",
-			    "group": "Abilities",
-			    "subgroup": 2,
-			    "cat": "ab_audio",
-			    "value": 0.0092188473790884
-			  },
-			  {
-			    "id": "know_bis",
-			    "name": "Business and Management",
-			    "group": "Knowledge",
-			    "subgroup": 1,
-			    "cat": "know_bis",
-			    "value": 0.00381619716063142
-			  },
-			  {
-			    "id": "know_manu",
-			    "name": "Manufacturnig and Production",
-			    "group": "Knowledge",
-			    "subgroup": 1,
-			    "cat": "know_manu",
-			    "value": 0.000408338208217174
-			  },
-			  {
-			    "id": "know_eng",
-			    "name": "Engineering and Technology",
-			    "group": "Knowledge",
-			    "subgroup": 1,
-			    "cat": "know_eng",
-			    "value": 0.00991491973400116
-			  },
-			  {
-			    "id": "know_math",
-			    "name": "Mathematics and Science",
-			    "group": "Knowledge",
-			    "subgroup": 1,
-			    "cat": "know_math",
-			    "value": 0.00456848181784153
-			  },
-			  {
-			    "id": "know_health",
-			    "name": "Health Services",
-			    "group": "Knowledge",
-			    "subgroup": 1,
-			    "cat": "know_health",
-			    "value": -0.00165916339028627
-			  },
-			  {
-			    "id": "know_edu",
-			    "name": "Education and Training",
-			    "group": "Knowledge",
-			    "subgroup": 1,
-			    "cat": "know_edu",
-			    "value": 0.00653430912643671
-			  },
-			  {
-			    "id": "know_arts",
-			    "name": "Arts and Humanities",
-			    "group": "Knowledge",
-			    "subgroup": 1,
-			    "cat": "know_arts",
-			    "value": 0.00242227781563997
-			  },
-			  {
-			    "id": "know_law",
-			    "name": "Law and Public Safety",
-			    "group": "Knowledge",
-			    "subgroup": 1,
-			    "cat": "know_law",
-			    "value": -0.00079172442201525
-			  },
-			  {
-			    "id": "know_com",
-			    "name": "Communications",
-			    "group": "Knowledge",
-			    "subgroup": 1,
-			    "cat": "know_com",
-			    "value": 0.00498503679409623
-			  },
-			  {
-			    "id": "know_trans",
-			    "name": "Transportation",
-			    "group": "Knowledge",
-			    "subgroup": 1,
-			    "cat": "know_trans",
-			    "value": -0.0024842
-			  },
-			  {
-			    "id": "know_bis_1",
-			    "name": "Administration and Management",
-			    "group": "Knowledge",
-			    "subgroup": 2,
-			    "cat": "know_bis",
-			    "value": 0.00295675708912313
-			  },
-			  {
-			    "id": "know_bis_2",
-			    "name": "Clerical",
-			    "group": "Knowledge",
-			    "subgroup": 2,
-			    "cat": "know_bis",
-			    "value": 0.0233428683131933
-			  },
-			  {
-			    "id": "know_bis_3",
-			    "name": "Economics and Accounting",
-			    "group": "Knowledge",
-			    "subgroup": 2,
-			    "cat": "know_bis",
-			    "value": 0.00614584004506469
-			  },
-			  {
-			    "id": "know_bis_4",
-			    "name": "Sales and Marketing",
-			    "group": "Knowledge",
-			    "subgroup": 2,
-			    "cat": "know_bis",
-			    "value": 0.000138868897920474
-			  },
-			  {
-			    "id": "know_bis_5",
-			    "name": "Customer and Personal Service",
-			    "group": "Knowledge",
-			    "subgroup": 2,
-			    "cat": "know_bis",
-			    "value": -0.00424013799056411
-			  },
-			  {
-			    "id": "know_manu_1",
-			    "name": "Personnel and Human Resources",
-			    "group": "Knowledge",
-			    "subgroup": 2,
-			    "cat": "know_manu",
-			    "value": 0.000853401026688516
-			  },
-			  {
-			    "id": "know_manu_2",
-			    "name": "Production and Processing",
-			    "group": "Knowledge",
-			    "subgroup": 2,
-			    "cat": "know_manu",
-			    "value": 0.00459754047915339
-			  },
-			  {
-			    "id": "know_eng_1",
-			    "name": "Food Production",
-			    "group": "Knowledge",
-			    "subgroup": 2,
-			    "cat": "know_eng",
-			    "value": -0.00378086417913437
-			  },
-			  {
-			    "id": "know_eng_2",
-			    "name": "Computers and Electronics",
-			    "group": "Knowledge",
-			    "subgroup": 2,
-			    "cat": "know_eng",
-			    "value": 0.0297054387629032
-			  },
-			  {
-			    "id": "know_eng_3",
-			    "name": "Engineering and Technology",
-			    "group": "Knowledge",
-			    "subgroup": 2,
-			    "cat": "know_eng",
-			    "value": 0.00991491973400116
-			  },
-			  {
-			    "id": "know_eng_4",
-			    "name": "Design",
-			    "group": "Knowledge",
-			    "subgroup": 2,
-			    "cat": "know_eng",
-			    "value": 0.0096923466771841
-			  },
-			  {
-			    "id": "know_eng_5",
-			    "name": "Building and Construction",
-			    "group": "Knowledge",
-			    "subgroup": 2,
-			    "cat": "know_eng",
-			    "value": -0.0107903396710753
-			  },
-			  {
-			    "id": "know_math_1",
-			    "name": "Mechanical",
-			    "group": "Knowledge",
-			    "subgroup": 2,
-			    "cat": "know_math",
-			    "value": 0.00508877169340849
-			  },
-			  {
-			    "id": "know_math_2",
-			    "name": "Mathematics Knowledge",
-			    "group": "Knowledge",
-			    "subgroup": 2,
-			    "cat": "know_math",
-			    "value": 0.016138
-			  },
-			  {
-			    "id": "know_math_3",
-			    "name": "Physics",
-			    "group": "Knowledge",
-			    "subgroup": 2,
-			    "cat": "know_math",
-			    "value": 0.00607933709397912
-			  },
-			  {
-			    "id": "know_math_4",
-			    "name": "Chemistry",
-			    "group": "Knowledge",
-			    "subgroup": 2,
-			    "cat": "know_math",
-			    "value": -0.00190855970140547
-			  },
-			  {
-			    "id": "know_math_5",
-			    "name": "Biology",
-			    "group": "Knowledge",
-			    "subgroup": 2,
-			    "cat": "know_math",
-			    "value": 0.00236072996631265
-			  },
-			  {
-			    "id": "know_math_6",
-			    "name": "Psychology",
-			    "group": "Knowledge",
-			    "subgroup": 2,
-			    "cat": "know_math",
-			    "value": -0.00143606413621455
-			  },
-			  {
-			    "id": "know_math_7",
-			    "name": "Sociology and Anthropology",
-			    "group": "Knowledge",
-			    "subgroup": 2,
-			    "cat": "know_math",
-			    "value": 0.00300128222443163
-			  },
-			  {
-			    "id": "know_health_1",
-			    "name": "Geography",
-			    "group": "Knowledge",
-			    "subgroup": 2,
-			    "cat": "know_health",
-			    "value": 0.00774497492238879
-			  },
-			  {
-			    "id": "know_health_2",
-			    "name": "Medicine and Dentistry",
-			    "group": "Knowledge",
-			    "subgroup": 2,
-			    "cat": "know_health",
-			    "value": -0.00324822869151831
-			  },
-			  {
-			    "id": "know_arts_1",
-			    "name": "Therapy and Counseling",
-			    "group": "Knowledge",
-			    "subgroup": 2,
-			    "cat": "know_arts",
-			    "value": -0.0000700980381225236
-			  },
-			  {
-			    "id": "know_arts_2",
-			    "name": "Fine Arts",
-			    "group": "Knowledge",
-			    "subgroup": 2,
-			    "cat": "know_arts",
-			    "value": 0.00229859258979559
-			  },
-			  {
-			    "id": "know_arts_3",
-			    "name": "History and Archeology",
-			    "group": "Knowledge",
-			    "subgroup": 2,
-			    "cat": "know_arts",
-			    "value": 0.00377617473714054
-			  },
-			  {
-			    "id": "know_law_1",
-			    "name": "Philosophy and Theology",
-			    "group": "Knowledge",
-			    "subgroup": 2,
-			    "cat": "know_law",
-			    "value": 0.00119206635281444
-			  },
-			  {
-			    "id": "know_law_2",
-			    "name": "Public Safety and Security",
-			    "group": "Knowledge",
-			    "subgroup": 2,
-			    "cat": "know_law",
-			    "value": -0.00781296752393246
-			  },
-			  {
-			    "id": "know_com_1",
-			    "name": "Law and Government",
-			    "group": "Knowledge",
-			    "subgroup": 2,
-			    "cat": "know_com",
-			    "value": 0.0062295189127326
-			  },
-			  {
-			    "id": "know_com_2",
-			    "name": "Telecommunications",
-			    "group": "Knowledge",
-			    "subgroup": 2,
-			    "cat": "know_com",
-			    "value": 0.00422609597444534
-			  },
-			  {
-			    "id": "know_trans_1",
-			    "name": "Communications and Media",
-			    "group": "Knowledge",
-			    "subgroup": 2,
-			    "cat": "know_trans",
-			    "value": 0.00574397761374712
-			  },
-			  {
-			    "id": "know_trans_2",
-			    "name": "Transportation",
-			    "group": "Knowledge",
-			    "subgroup": 2,
-			    "cat": "know_trans",
-			    "value": -0.0024842
-			  }
-			]
+				[
+				  {
+				    "id": "country",
+				    "name": "Italy",
+				    "group": "Country",
+				    "subgroup": -1,
+				    "cat": "",
+				    "value": ""
+				  },
+				  {
+				    "id": "skills",
+				    "name": "Skills",
+				    "group": "Ref_Skills",
+				    "subgroup": 0,
+				    "cat": "",
+				    "value": ""
+				  },
+				  {
+				    "id": "knowledge",
+				    "name": "Knowledge",
+				    "group": "Ref_Knowledge",
+				    "subgroup": 0,
+				    "cat": "",
+				    "value": ""
+				  },
+				  {
+				    "id": "abilities",
+				    "name": "Abilities",
+				    "group": "Ref_Abilities",
+				    "subgroup": 0,
+				    "cat": "",
+				    "value": ""
+				  },
+				  {
+				    "id": "ab_attent",
+				    "name": "Attentiveness",
+				    "group": "Abilities",
+				    "subgroup": 1,
+				    "cat": "ab_attent",
+				    "value": 0.0037757
+				  },
+				  {
+				    "id": "ab_attent_1",
+				    "name": "Selective Attention",
+				    "group": "Abilities",
+				    "subgroup": 2,
+				    "cat": "ab_attent",
+				    "value": 0.0058229
+				  },
+				  {
+				    "id": "ab_attent_2",
+				    "name": "Time Sharing",
+				    "group": "Abilities",
+				    "subgroup": 2,
+				    "cat": "ab_attent",
+				    "value": 0.0017286
+				  },
+				  {
+				    "id": "ab_audio",
+				    "name": "Auditory and Speech Abilities",
+				    "group": "Abilities",
+				    "subgroup": 1,
+				    "cat": "ab_audio",
+				    "value": 0.004335
+				  },
+				  {
+				    "id": "ab_audio_1",
+				    "name": "Hearing Sensitivity",
+				    "group": "Abilities",
+				    "subgroup": 2,
+				    "cat": "ab_audio",
+				    "value": 0.0029055
+				  },
+				  {
+				    "id": "ab_audio_2",
+				    "name": "Auditory Attention",
+				    "group": "Abilities",
+				    "subgroup": 2,
+				    "cat": "ab_audio",
+				    "value": 0.0011337
+				  },
+				  {
+				    "id": "ab_audio_3",
+				    "name": "Sound Localization",
+				    "group": "Abilities",
+				    "subgroup": 2,
+				    "cat": "ab_audio",
+				    "value": 0.0006968
+				  },
+				  {
+				    "id": "ab_audio_4",
+				    "name": "Speech Recognition",
+				    "group": "Abilities",
+				    "subgroup": 2,
+				    "cat": "ab_audio",
+				    "value": 0.0077377
+				  },
+				  {
+				    "id": "ab_audio_5",
+				    "name": "Speech Clarity",
+				    "group": "Abilities",
+				    "subgroup": 2,
+				    "cat": "ab_audio",
+				    "value": 0.0092014
+				  },
+				  {
+				    "id": "ab_control_mov",
+				    "name": "Control Movement Abilities",
+				    "group": "Abilities",
+				    "subgroup": 1,
+				    "cat": "ab_control_mov",
+				    "value": -0.0052323
+				  },
+				  {
+				    "id": "ab_control_mov_1",
+				    "name": "Control Precision",
+				    "group": "Abilities",
+				    "subgroup": 2,
+				    "cat": "ab_control_mov",
+				    "value": -0.0039694
+				  },
+				  {
+				    "id": "ab_control_mov_2",
+				    "name": "Multilimb Coordination",
+				    "group": "Abilities",
+				    "subgroup": 2,
+				    "cat": "ab_control_mov",
+				    "value": -0.0130495
+				  },
+				  {
+				    "id": "ab_control_mov_3",
+				    "name": "Response Orientation",
+				    "group": "Abilities",
+				    "subgroup": 2,
+				    "cat": "ab_control_mov",
+				    "value": -0.0027634
+				  },
+				  {
+				    "id": "ab_control_mov_4",
+				    "name": "Rate Control",
+				    "group": "Abilities",
+				    "subgroup": 2,
+				    "cat": "ab_control_mov",
+				    "value": -0.0011469
+				  },
+				  {
+				    "id": "ab_endur",
+				    "name": "Endurance",
+				    "group": "Abilities",
+				    "subgroup": 1,
+				    "cat": "ab_endur",
+				    "value": -0.0166698
+				  },
+				  {
+				    "id": "ab_endur_1",
+				    "name": "Stamina",
+				    "group": "Abilities",
+				    "subgroup": 2,
+				    "cat": "ab_endur",
+				    "value": -0.0166698
+				  },
+				  {
+				    "id": "ab_flex",
+				    "name": "Flexibility, Balance and Coordination",
+				    "group": "Abilities",
+				    "subgroup": 1,
+				    "cat": "ab_flex",
+				    "value": -0.0118291
+				  },
+				  {
+				    "id": "ab_flex_1",
+				    "name": "Extent Flexibility",
+				    "group": "Abilities",
+				    "subgroup": 2,
+				    "cat": "ab_flex",
+				    "value": -0.0208431
+				  },
+				  {
+				    "id": "ab_flex_2",
+				    "name": "Dynamic Flexibility",
+				    "group": "Abilities",
+				    "subgroup": 2,
+				    "cat": "ab_flex",
+				    "value": -0.0018423
+				  },
+				  {
+				    "id": "ab_flex_3",
+				    "name": "Gross Body Coordination",
+				    "group": "Abilities",
+				    "subgroup": 2,
+				    "cat": "ab_flex",
+				    "value": -0.0143488
+				  },
+				  {
+				    "id": "ab_flex_4",
+				    "name": "Gross Body Equilibrium",
+				    "group": "Abilities",
+				    "subgroup": 2,
+				    "cat": "ab_flex",
+				    "value": -0.010282
+				  },
+				  {
+				    "id": "ab_manip",
+				    "name": "Fine Manipulative Abilities",
+				    "group": "Abilities",
+				    "subgroup": 1,
+				    "cat": "ab_manip",
+				    "value": -0.006832
+				  },
+				  {
+				    "id": "ab_manip_1",
+				    "name": "Arm-Hand Steadiness",
+				    "group": "Abilities",
+				    "subgroup": 2,
+				    "cat": "ab_manip",
+				    "value": -0.0099402
+				  },
+				  {
+				    "id": "ab_manip_2",
+				    "name": "Manual Dexterity",
+				    "group": "Abilities",
+				    "subgroup": 2,
+				    "cat": "ab_manip",
+				    "value": -0.01092
+				  },
+				  {
+				    "id": "ab_manip_3",
+				    "name": "Finger Dexterity",
+				    "group": "Abilities",
+				    "subgroup": 2,
+				    "cat": "ab_manip",
+				    "value": 0.0003642
+				  },
+				  {
+				    "id": "ab_mem",
+				    "name": "Memory",
+				    "group": "Abilities",
+				    "subgroup": 1,
+				    "cat": "ab_mem",
+				    "value": 0.0074738
+				  },
+				  {
+				    "id": "ab_mem_1",
+				    "name": "Memorization",
+				    "group": "Abilities",
+				    "subgroup": 2,
+				    "cat": "ab_mem",
+				    "value": 0.0074738
+				  },
+				  {
+				    "id": "ab_percep",
+				    "name": "Perceptual Abilities",
+				    "group": "Abilities",
+				    "subgroup": 1,
+				    "cat": "ab_percep",
+				    "value": 0.0078239
+				  },
+				  {
+				    "id": "ab_percep_1",
+				    "name": "Speed of Closure",
+				    "group": "Abilities",
+				    "subgroup": 2,
+				    "cat": "ab_percep",
+				    "value": 0.0070128
+				  },
+				  {
+				    "id": "ab_percep_2",
+				    "name": "Flexibility of Closure",
+				    "group": "Abilities",
+				    "subgroup": 2,
+				    "cat": "ab_percep",
+				    "value": 0.0090491
+				  },
+				  {
+				    "id": "ab_percep_3",
+				    "name": "Perceptual Speed",
+				    "group": "Abilities",
+				    "subgroup": 2,
+				    "cat": "ab_percep",
+				    "value": 0.0074097
+				  },
+				  {
+				    "id": "ab_quant",
+				    "name": "Quantitative Abilities",
+				    "group": "Abilities",
+				    "subgroup": 1,
+				    "cat": "ab_quant",
+				    "value": 0.0128073
+				  },
+				  {
+				    "id": "ab_quant_1",
+				    "name": "Mathematical Reasoning",
+				    "group": "Abilities",
+				    "subgroup": 2,
+				    "cat": "ab_quant",
+				    "value": 0.0143088
+				  },
+				  {
+				    "id": "ab_quant_2",
+				    "name": "Number Facility",
+				    "group": "Abilities",
+				    "subgroup": 2,
+				    "cat": "ab_quant",
+				    "value": 0.0113059
+				  },
+				  {
+				    "id": "ab_reac_time",
+				    "name": "Reaction Time and Speed Abilities",
+				    "group": "Abilities",
+				    "subgroup": 1,
+				    "cat": "ab_reac_time",
+				    "value": -0.0035995
+				  },
+				  {
+				    "id": "ab_reac_time_1",
+				    "name": "Reaction Time",
+				    "group": "Abilities",
+				    "subgroup": 2,
+				    "cat": "ab_reac_time",
+				    "value": -0.0023248
+				  },
+				  {
+				    "id": "ab_reac_time_2",
+				    "name": "Wrist-Finger Speed",
+				    "group": "Abilities",
+				    "subgroup": 2,
+				    "cat": "ab_reac_time",
+				    "value": -0.0009091
+				  },
+				  {
+				    "id": "ab_reac_time_3",
+				    "name": "Speed of Limb Movement",
+				    "group": "Abilities",
+				    "subgroup": 2,
+				    "cat": "ab_reac_time",
+				    "value": -0.0075647
+				  },
+				  {
+				    "id": "ab_reason",
+				    "name": "Reasoning Abilities",
+				    "group": "Abilities",
+				    "subgroup": 1,
+				    "cat": "ab_reason",
+				    "value": 0.0113746
+				  },
+				  {
+				    "id": "ab_reason_1",
+				    "name": "Fluency of Ideas",
+				    "group": "Abilities",
+				    "subgroup": 2,
+				    "cat": "ab_reason",
+				    "value": 0.011205
+				  },
+				  {
+				    "id": "ab_reason_2",
+				    "name": "Originality",
+				    "group": "Abilities",
+				    "subgroup": 2,
+				    "cat": "ab_reason",
+				    "value": 0.010214
+				  },
+				  {
+				    "id": "ab_reason_3",
+				    "name": "Problem Sensitivity",
+				    "group": "Abilities",
+				    "subgroup": 2,
+				    "cat": "ab_reason",
+				    "value": 0.009618
+				  },
+				  {
+				    "id": "ab_reason_4",
+				    "name": "Deductive Reasoning",
+				    "group": "Abilities",
+				    "subgroup": 2,
+				    "cat": "ab_reason",
+				    "value": 0.013728
+				  },
+				  {
+				    "id": "ab_reason_5",
+				    "name": "Inductive Reasoning",
+				    "group": "Abilities",
+				    "subgroup": 2,
+				    "cat": "ab_reason",
+				    "value": 0.0139306
+				  },
+				  {
+				    "id": "ab_reason_6",
+				    "name": "Information Ordering",
+				    "group": "Abilities",
+				    "subgroup": 2,
+				    "cat": "ab_reason",
+				    "value": 0.0110254
+				  },
+				  {
+				    "id": "ab_reason_7",
+				    "name": "Category Flexibility",
+				    "group": "Abilities",
+				    "subgroup": 2,
+				    "cat": "ab_reason",
+				    "value": 0.0099008
+				  },
+				  {
+				    "id": "ab_spatial",
+				    "name": "Spatial Abilities",
+				    "group": "Abilities",
+				    "subgroup": 1,
+				    "cat": "ab_spatial",
+				    "value": 0.0011465
+				  },
+				  {
+				    "id": "ab_spatial_1",
+				    "name": "Spatial Orientation",
+				    "group": "Abilities",
+				    "subgroup": 2,
+				    "cat": "ab_spatial",
+				    "value": -0.0018013
+				  },
+				  {
+				    "id": "ab_spatial_2",
+				    "name": "Visualization",
+				    "group": "Abilities",
+				    "subgroup": 2,
+				    "cat": "ab_spatial",
+				    "value": 0.0040944
+				  },
+				  {
+				    "id": "ab_strength",
+				    "name": "Physical Strength",
+				    "group": "Abilities",
+				    "subgroup": 1,
+				    "cat": "ab_strength",
+				    "value": -0.0144829
+				  },
+				  {
+				    "id": "ab_strength_1",
+				    "name": "Static Strength",
+				    "group": "Abilities",
+				    "subgroup": 2,
+				    "cat": "ab_strength",
+				    "value": -0.0197262
+				  },
+				  {
+				    "id": "ab_strength_2",
+				    "name": "Explosive Strength",
+				    "group": "Abilities",
+				    "subgroup": 2,
+				    "cat": "ab_strength",
+				    "value": -0.0030421
+				  },
+				  {
+				    "id": "ab_strength_3",
+				    "name": "Dynamic Strength",
+				    "group": "Abilities",
+				    "subgroup": 2,
+				    "cat": "ab_strength",
+				    "value": -0.0131466
+				  },
+				  {
+				    "id": "ab_strength_4",
+				    "name": "Trunk Strength",
+				    "group": "Abilities",
+				    "subgroup": 2,
+				    "cat": "ab_strength",
+				    "value": -0.0220169
+				  },
+				  {
+				    "id": "ab_verbal",
+				    "name": "Verbal Abilities",
+				    "group": "Abilities",
+				    "subgroup": 1,
+				    "cat": "ab_verbal",
+				    "value": 0.0168622
+				  },
+				  {
+				    "id": "ab_verbal_1",
+				    "name": "Oral Comprehension",
+				    "group": "Abilities",
+				    "subgroup": 2,
+				    "cat": "ab_verbal",
+				    "value": 0.0128331
+				  },
+				  {
+				    "id": "ab_verbal_2",
+				    "name": "Written Comprehension",
+				    "group": "Abilities",
+				    "subgroup": 2,
+				    "cat": "ab_verbal",
+				    "value": 0.0201147
+				  },
+				  {
+				    "id": "ab_verbal_3",
+				    "name": "Oral Expression",
+				    "group": "Abilities",
+				    "subgroup": 2,
+				    "cat": "ab_verbal",
+				    "value": 0.0136055
+				  },
+				  {
+				    "id": "ab_verbal_4",
+				    "name": "Written Expression",
+				    "group": "Abilities",
+				    "subgroup": 2,
+				    "cat": "ab_verbal",
+				    "value": 0.0208954
+				  },
+				  {
+				    "id": "ab_visual",
+				    "name": "Visual Abilities",
+				    "group": "Abilities",
+				    "subgroup": 1,
+				    "cat": "ab_visual",
+				    "value": 0.0008882
+				  },
+				  {
+				    "id": "ab_visual_1",
+				    "name": "Near Vision",
+				    "group": "Abilities",
+				    "subgroup": 2,
+				    "cat": "ab_visual",
+				    "value": 0.0096992
+				  },
+				  {
+				    "id": "ab_visual_2",
+				    "name": "Far Vision",
+				    "group": "Abilities",
+				    "subgroup": 2,
+				    "cat": "ab_visual",
+				    "value": 0.0025871
+				  },
+				  {
+				    "id": "ab_visual_3",
+				    "name": "Visual Color Discrimination",
+				    "group": "Abilities",
+				    "subgroup": 2,
+				    "cat": "ab_visual",
+				    "value": -0.0002065
+				  },
+				  {
+				    "id": "ab_visual_4",
+				    "name": "Night Vision",
+				    "group": "Abilities",
+				    "subgroup": 2,
+				    "cat": "ab_visual",
+				    "value": -0.0003799
+				  },
+				  {
+				    "id": "ab_visual_5",
+				    "name": "Peripheral Vision",
+				    "group": "Abilities",
+				    "subgroup": 2,
+				    "cat": "ab_visual",
+				    "value": -0.0006084
+				  },
+				  {
+				    "id": "ab_visual_6",
+				    "name": "Depth Perception",
+				    "group": "Abilities",
+				    "subgroup": 2,
+				    "cat": "ab_visual",
+				    "value": -0.0037652
+				  },
+				  {
+				    "id": "ab_visual_7",
+				    "name": "Glare Sensitivity",
+				    "group": "Abilities",
+				    "subgroup": 2,
+				    "cat": "ab_visual",
+				    "value": -0.0011086
+				  },
+				  {
+				    "id": "know_arts",
+				    "name": "Arts and Humanities",
+				    "group": "Knowledge",
+				    "subgroup": 1,
+				    "cat": "know_arts",
+				    "value": 0.0024071
+				  },
+				  {
+				    "id": "know_arts_1",
+				    "name": "Therapy and Counseling",
+				    "group": "Knowledge",
+				    "subgroup": 2,
+				    "cat": "know_health",
+				    "value": -0.0001066
+				  },
+				  {
+				    "id": "know_arts_2",
+				    "name": "Fine Arts",
+				    "group": "Knowledge",
+				    "subgroup": 2,
+				    "cat": "know_arts",
+				    "value": 0.0022859
+				  },
+				  {
+				    "id": "know_arts_3",
+				    "name": "History and Archeology",
+				    "group": "Knowledge",
+				    "subgroup": 2,
+				    "cat": "know_arts",
+				    "value": 0.0037737
+				  },
+				  {
+				    "id": "know_bis",
+				    "name": "Business and Management",
+				    "group": "Knowledge",
+				    "subgroup": 1,
+				    "cat": "know_bis",
+				    "value": 0.0038231
+				  },
+				  {
+				    "id": "know_bis_1",
+				    "name": "Administration and Management",
+				    "group": "Knowledge",
+				    "subgroup": 2,
+				    "cat": "know_bis",
+				    "value": 0.0029734
+				  },
+				  {
+				    "id": "know_bis_2",
+				    "name": "Clerical",
+				    "group": "Knowledge",
+				    "subgroup": 2,
+				    "cat": "know_bis",
+				    "value": 0.0233372
+				  },
+				  {
+				    "id": "know_bis_3",
+				    "name": "Economics and Accounting",
+				    "group": "Knowledge",
+				    "subgroup": 2,
+				    "cat": "know_bis",
+				    "value": 0.006141
+				  },
+				  {
+				    "id": "know_bis_4",
+				    "name": "Sales and Marketing",
+				    "group": "Knowledge",
+				    "subgroup": 2,
+				    "cat": "know_bis",
+				    "value": 0.0001368
+				  },
+				  {
+				    "id": "know_bis_5",
+				    "name": "Customer and Personal Service",
+				    "group": "Knowledge",
+				    "subgroup": 2,
+				    "cat": "know_bis",
+				    "value": -0.0042209
+				  },
+				  {
+				    "id": "know_com",
+				    "name": "Communications",
+				    "group": "Knowledge",
+				    "subgroup": 1,
+				    "cat": "know_com",
+				    "value": 0.0049729
+				  },
+				  {
+				    "id": "know_com_1",
+				    "name": "Law and Government",
+				    "group": "Knowledge",
+				    "subgroup": 2,
+				    "cat": "know_law",
+				    "value": 0.0062439
+				  },
+				  {
+				    "id": "know_com_2",
+				    "name": "Telecommunications",
+				    "group": "Knowledge",
+				    "subgroup": 2,
+				    "cat": "know_com",
+				    "value": 0.0042157
+				  },
+				  {
+				    "id": "know_edu",
+				    "name": "Education and Training",
+				    "group": "Knowledge",
+				    "subgroup": 1,
+				    "cat": "know_edu",
+				    "value": 0.006542
+				  },
+				  {
+				    "id": "know_eng",
+				    "name": "Engineering, Mechanics and Technology",
+				    "group": "Knowledge",
+				    "subgroup": 1,
+				    "cat": "know_eng",
+				    "value": 0.0158753
+				  },
+				  {
+				    "id": "know_eng_1",
+				    "name": "Food Production",
+				    "group": "Knowledge",
+				    "subgroup": 2,
+				    "cat": "know_manu",
+				    "value": -0.0037815
+				  },
+				  {
+				    "id": "know_eng_2",
+				    "name": "Computers and Electronics",
+				    "group": "Knowledge",
+				    "subgroup": 2,
+				    "cat": "know_eng",
+				    "value": 0.0296585
+				  },
+				  {
+				    "id": "know_eng_3",
+				    "name": "Engineering and Technology",
+				    "group": "Knowledge",
+				    "subgroup": 2,
+				    "cat": "know_eng",
+				    "value": 0.0099145
+				  },
+				  {
+				    "id": "know_eng_4",
+				    "name": "Design",
+				    "group": "Knowledge",
+				    "subgroup": 2,
+				    "cat": "know_eng",
+				    "value": 0.0096929
+				  },
+				  {
+				    "id": "know_eng_5",
+				    "name": "Building and Construction",
+				    "group": "Knowledge",
+				    "subgroup": 2,
+				    "cat": "know_eng",
+				    "value": -0.0107673
+				  },
+				  {
+				    "id": "know_health",
+				    "name": "Health Services",
+				    "group": "Knowledge",
+				    "subgroup": 1,
+				    "cat": "know_health",
+				    "value": -0.0016797
+				  },
+				  {
+				    "id": "know_health_1",
+				    "name": "Geography",
+				    "group": "Knowledge",
+				    "subgroup": 2,
+				    "cat": "know_math",
+				    "value": 0.0077536
+				  },
+				  {
+				    "id": "know_health_2",
+				    "name": "Medicine and Dentistry",
+				    "group": "Knowledge",
+				    "subgroup": 2,
+				    "cat": "know_health",
+				    "value": -0.0032528
+				  },
+				  {
+				    "id": "know_law",
+				    "name": "Law and Public Safety",
+				    "group": "Knowledge",
+				    "subgroup": 1,
+				    "cat": "know_law",
+				    "value": -0.0007735
+				  },
+				  {
+				    "id": "know_law_1",
+				    "name": "Philosophy and Theology",
+				    "group": "Knowledge",
+				    "subgroup": 2,
+				    "cat": "know_arts",
+				    "value": 0.0011616
+				  },
+				  {
+				    "id": "know_law_2",
+				    "name": "Public Safety and Security",
+				    "group": "Knowledge",
+				    "subgroup": 2,
+				    "cat": "know_law",
+				    "value": -0.007791
+				  },
+				  {
+				    "id": "know_manu",
+				    "name": "Manufacturnig and Production",
+				    "group": "Knowledge",
+				    "subgroup": 1,
+				    "cat": "know_manu",
+				    "value": 0.0004048
+				  },
+				  {
+				    "id": "know_manu_1",
+				    "name": "Personnel and Human Resources",
+				    "group": "Knowledge",
+				    "subgroup": 2,
+				    "cat": "know_bis",
+				    "value": 0.0008668
+				  },
+				  {
+				    "id": "know_manu_2",
+				    "name": "Production and Processing",
+				    "group": "Knowledge",
+				    "subgroup": 2,
+				    "cat": "know_manu",
+				    "value": 0.0045911
+				  },
+				  {
+				    "id": "know_math",
+				    "name": "Mathematics and Science",
+				    "group": "Knowledge",
+				    "subgroup": 1,
+				    "cat": "know_math",
+				    "value": 0.0045589
+				  },
+				  {
+				    "id": "know_math_1",
+				    "name": "Mechanical",
+				    "group": "Knowledge",
+				    "subgroup": 2,
+				    "cat": "know_eng",
+				    "value": 0.0051131
+				  },
+				  {
+				    "id": "know_math_2",
+				    "name": "Mathematics Knowledge",
+				    "group": "Knowledge",
+				    "subgroup": 2,
+				    "cat": "know_math",
+				    "value": 0.0161308
+				  },
+				  {
+				    "id": "know_math_3",
+				    "name": "Physics",
+				    "group": "Knowledge",
+				    "subgroup": 2,
+				    "cat": "know_math",
+				    "value": 0.0060843
+				  },
+				  {
+				    "id": "know_math_4",
+				    "name": "Chemistry",
+				    "group": "Knowledge",
+				    "subgroup": 2,
+				    "cat": "know_math",
+				    "value": -0.0019219
+				  },
+				  {
+				    "id": "know_math_5",
+				    "name": "Biology",
+				    "group": "Knowledge",
+				    "subgroup": 2,
+				    "cat": "know_math",
+				    "value": 0.002362
+				  },
+				  {
+				    "id": "know_math_6",
+				    "name": "Psychology",
+				    "group": "Knowledge",
+				    "subgroup": 2,
+				    "cat": "know_math",
+				    "value": -0.0014672
+				  },
+				  {
+				    "id": "know_math_7",
+				    "name": "Sociology and Anthropology",
+				    "group": "Knowledge",
+				    "subgroup": 2,
+				    "cat": "know_math",
+				    "value": 0.0029705
+				  },
+				  {
+				    "id": "know_trans",
+				    "name": "Transportation",
+				    "group": "Knowledge",
+				    "subgroup": 1,
+				    "cat": "know_trans",
+				    "value": -0.0024726
+				  },
+				  {
+				    "id": "know_trans_1",
+				    "name": "Communications and Media",
+				    "group": "Knowledge",
+				    "subgroup": 2,
+				    "cat": "know_com",
+				    "value": 0.0057302
+				  },
+				  {
+				    "id": "skills_Basic_Cont",
+				    "name": "Basic Skills (Content)",
+				    "group": "Skills",
+				    "subgroup": 1,
+				    "cat": "skills_Basic_Cont",
+				    "value": 0.0147949
+				  },
+				  {
+				    "id": "skills_Basic_Cont_1",
+				    "name": "Social Perceptiveness",
+				    "group": "Skills",
+				    "subgroup": 2,
+				    "cat": "skills_Social",
+				    "value": 0.00408
+				  },
+				  {
+				    "id": "skills_Basic_Cont_2",
+				    "name": "Coordination",
+				    "group": "Skills",
+				    "subgroup": 2,
+				    "cat": "skills_Social",
+				    "value": 0.0010039
+				  },
+				  {
+				    "id": "skills_Basic_Cont_3",
+				    "name": "Persuasion",
+				    "group": "Skills",
+				    "subgroup": 2,
+				    "cat": "skills_Social",
+				    "value": 0.0059524
+				  },
+				  {
+				    "id": "skills_Basic_Cont_4",
+				    "name": "Negotiation",
+				    "group": "Skills",
+				    "subgroup": 2,
+				    "cat": "skills_Social",
+				    "value": 0.0056202
+				  },
+				  {
+				    "id": "skills_Basic_Cont_5",
+				    "name": "Instructing",
+				    "group": "Skills",
+				    "subgroup": 2,
+				    "cat": "skills_Social",
+				    "value": 0.008313
+				  },
+				  {
+				    "id": "skills_Basic_Cont_6",
+				    "name": "Service Orientation",
+				    "group": "Skills",
+				    "subgroup": 2,
+				    "cat": "skills_Social",
+				    "value": 0.0000677
+				  },
+				  {
+				    "id": "skills_Basic_Process",
+				    "name": "Basic Skills (Process)",
+				    "group": "Skills",
+				    "subgroup": 1,
+				    "cat": "skills_Basic_Process",
+				    "value": 0.0105734
+				  },
+				  {
+				    "id": "skills_Basic_Process_1",
+				    "name": "Operations Analysis",
+				    "group": "Skills",
+				    "subgroup": 2,
+				    "cat": "skills_Tech",
+				    "value": 0.010257
+				  },
+				  {
+				    "id": "skills_Basic_Process_2",
+				    "name": "Technology Design",
+				    "group": "Skills",
+				    "subgroup": 2,
+				    "cat": "skills_Tech",
+				    "value": 0.0055526
+				  },
+				  {
+				    "id": "skills_Basic_Process_3",
+				    "name": "Equipment Selection",
+				    "group": "Skills",
+				    "subgroup": 2,
+				    "cat": "skills_Tech",
+				    "value": 0.002458
+				  },
+				  {
+				    "id": "skills_Complex_Pb",
+				    "name": "Complex Problem Solving",
+				    "group": "Skills",
+				    "subgroup": 1,
+				    "cat": "skills_Complex_Pb",
+				    "value": 0.0114999
+				  },
+				  {
+				    "id": "skills_Complex_Pb_1",
+				    "name": "Operation and Control",
+				    "group": "Skills",
+				    "subgroup": 2,
+				    "cat": "skills_Tech",
+				    "value": -0.0008872
+				  },
+				  {
+				    "id": "skills_Complex_Pb_2",
+				    "name": "Equipment Maintenance",
+				    "group": "Skills",
+				    "subgroup": 2,
+				    "cat": "skills_Tech",
+				    "value": 0.0023894
+				  },
+				  {
+				    "id": "skills_Complex_Pb_3",
+				    "name": "Troubleshooting",
+				    "group": "Skills",
+				    "subgroup": 2,
+				    "cat": "skills_Tech",
+				    "value": 0.0024895
+				  },
+				  {
+				    "id": "skills_Complex_Pb_4",
+				    "name": "Repairing",
+				    "group": "Skills",
+				    "subgroup": 2,
+				    "cat": "skills_Tech",
+				    "value": 0.0034813
+				  },
+				  {
+				    "id": "skills_Complex_Pb_5",
+				    "name": "Quality Control Analysis",
+				    "group": "Skills",
+				    "subgroup": 2,
+				    "cat": "skills_Tech",
+				    "value": 0.0051023
+				  },
+				  {
+				    "id": "skills_Res_Mgmt",
+				    "name": "Resource Management Skills",
+				    "group": "Skills",
+				    "subgroup": 1,
+				    "cat": "skills_Res_Mgmt",
+				    "value": 0.0023039
+				  },
+				  {
+				    "id": "skills_Res_Mgmt_1",
+				    "name": "Management of Material Resources",
+				    "group": "Skills",
+				    "subgroup": 2,
+				    "cat": "skills_Res_Mgmt",
+				    "value": -0.000627
+				  },
+				  {
+				    "id": "skills_Res_Mgmt_2",
+				    "name": "Management of Personnel Resources",
+				    "group": "Skills",
+				    "subgroup": 2,
+				    "cat": "skills_Res_Mgmt",
+				    "value": 0.003217
+				  },
+				  {
+				    "id": "skills_Social",
+				    "name": "Social Skills",
+				    "group": "Skills",
+				    "subgroup": 1,
+				    "cat": "skills_Social",
+				    "value": 0.0041729
+				  },
+				  {
+				    "id": "skills_Social_1",
+				    "name": "Installation",
+				    "group": "Skills",
+				    "subgroup": 2,
+				    "cat": "skills_Tech",
+				    "value": 0.0013789
+				  },
+				  {
+				    "id": "skills_Social_2",
+				    "name": "Programming",
+				    "group": "Skills",
+				    "subgroup": 2,
+				    "cat": "skills_Tech",
+				    "value": 0.0085516
+				  },
+				  {
+				    "id": "skills_Social_3",
+				    "name": "Operation Monitoring",
+				    "group": "Skills",
+				    "subgroup": 2,
+				    "cat": "skills_Tech",
+				    "value": 0.0027797
+				  },
+				  {
+				    "id": "skills_Syst",
+				    "name": "Systems Skills",
+				    "group": "Skills",
+				    "subgroup": 1,
+				    "cat": "skills_Syst",
+				    "value": 0.0119831
+				  },
+				  {
+				    "id": "skills_Syst_1",
+				    "name": "Systems Evaluation",
+				    "group": "Skills",
+				    "subgroup": 2,
+				    "cat": "skills_Syst",
+				    "value": 0.0119636
+				  },
+				  {
+				    "id": "skills_Syst_2",
+				    "name": "Time Management",
+				    "group": "Skills",
+				    "subgroup": 2,
+				    "cat": "skills_Res_Mgmt",
+				    "value": 0.0068653
+				  },
+				  {
+				    "id": "skills_Syst_3",
+				    "name": "Management of Financial Resources",
+				    "group": "Skills",
+				    "subgroup": 2,
+				    "cat": "skills_Res_Mgmt",
+				    "value": -0.0002395
+				  },
+				  {
+				    "id": "skills_Tech",
+				    "name": "Technical Skills",
+				    "group": "Skills",
+				    "subgroup": 1,
+				    "cat": "skills_Tech",
+				    "value": 0.0039594
+				  },
+				  {
+				    "id": "skills_Tech_1",
+				    "name": "Judgment and Decision Making",
+				    "group": "Skills",
+				    "subgroup": 2,
+				    "cat": "skills_Syst",
+				    "value": 0.0116364
+				  },
+				  {
+				    "id": "skills_Tech_2",
+				    "name": "Systems Analysis",
+				    "group": "Skills",
+				    "subgroup": 2,
+				    "cat": "skills_Syst",
+				    "value": 0.0123493
+				  },
+				  {
+				    "id": "skills_act_le",
+				    "name": "Active Learning",
+				    "group": "Skills",
+				    "subgroup": 2,
+				    "cat": "skills_Basic_Process",
+				    "value": 0.012636
+				  },
+				  {
+				    "id": "skills_act_li",
+				    "name": "Active Listening",
+				    "group": "Skills",
+				    "subgroup": 2,
+				    "cat": "skills_Basic_Cont",
+				    "value": 0.0142603
+				  },
+				  {
+				    "id": "skills_critical",
+				    "name": "Critical Thinking",
+				    "group": "Skills",
+				    "subgroup": 2,
+				    "cat": "skills_Basic_Process",
+				    "value": 0.0135011
+				  },
+				  {
+				    "id": "skills_learning",
+				    "name": "Learning Strategies",
+				    "group": "Skills",
+				    "subgroup": 2,
+				    "cat": "skills_Basic_Process",
+				    "value": 0.0093545
+				  },
+				  {
+				    "id": "skills_math",
+				    "name": "Mathematics Skills",
+				    "group": "Skills",
+				    "subgroup": 2,
+				    "cat": "skills_Basic_Cont",
+				    "value": 0.0127719
+				  },
+				  {
+				    "id": "skills_mon",
+				    "name": "Monitoring",
+				    "group": "Skills",
+				    "subgroup": 2,
+				    "cat": "skills_Basic_Process",
+				    "value": 0.006802
+				  },
+				  {
+				    "id": "skills_read_comp",
+				    "name": "Reading Comprehension",
+				    "group": "Skills",
+				    "subgroup": 2,
+				    "cat": "skills_Basic_Cont",
+				    "value": 0.0206498
+				  },
+				  {
+				    "id": "skills_scie",
+				    "name": "Science",
+				    "group": "Skills",
+				    "subgroup": 2,
+				    "cat": "skills_Basic_Cont",
+				    "value": 0.0092379
+				  },
+				  {
+				    "id": "skills_speak",
+				    "name": "Speaking",
+				    "group": "Skills",
+				    "subgroup": 2,
+				    "cat": "skills_Basic_Cont",
+				    "value": 0.0133667
+				  },
+				  {
+				    "id": "skills_writ",
+				    "name": "Writing",
+				    "group": "Skills",
+				    "subgroup": 2,
+				    "cat": "skills_Basic_Cont",
+				    "value": 0.0184829
+				  }
+				]
 		}
 	},
 	{

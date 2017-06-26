@@ -75,7 +75,7 @@ d3.json('data/definition.json', function(data){
 
 
 var transitionData=[];
-		d3.tsv('data/transition_Data.csv', function(data){ 
+		d3.tsv('data/transition_data.csv', function(data){ 
 			data.forEach (function(d,i) {	
 					transitionData.push(d);
 			});
