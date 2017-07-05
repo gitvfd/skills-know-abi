@@ -6,7 +6,7 @@ function knowledgeChart(selector,data){
 	var marginRight=10,
 	marginLeft=10;
 	    	
-	(data[0].nodes).forEach (function(d,i) {		
+	data.forEach (function(d,i) {		
 		if(d.subgroup==2 && d.group=="Knowledge")
 			knowledgeData.push(d);
 	});
@@ -42,35 +42,47 @@ function knowledgeChart(selector,data){
 	    	d3.select(this)
 				.attr("opacity",0.5);
 
-			var xPosition = event.pageX-20;
-			var yPosition = event.pageY+15;
+			var xPosition = d3.event.pageX-20;
+			var yPosition = d3.event.pageY+15;
 
 			if (yPosition>window.innerHeight-200)
 				yPosition=yPosition-100;
 
-		     d3.select("#chartBarName")
-		        .text(function(){ return d.name;});
+
+		     d3.select("#middleSurplusShortage")
+		        .text(function(){ 
+		        	if (format(d.value)>=0)
+		        		return "shortage";
+		        	else
+		        		return "surplus"
+		        });
+		        
+		    d3.select("#middleSkills")
+		        .text("knowledge");
 
 
+		    d3.select("#middleCat")
+		        .text(d.name);
 
-		     d3.select("#chartBarValue")
-		        .text(function(){ return format(d.value);});
-			d3.select("#chartTooltip")
+
+		    d3.select("#middleCountry")
+		        .text(document.getElementById("dropDownButton").options[document.getElementById("dropDownButton").selectedIndex].text)
+
+			d3.select("#middleChartTooltip")
 		        .style("left", xPosition + "px")
-		        .style("top", yPosition + "px") 
-		        .select("#countryTooltip")
-		        .text(d.Country);
+		        .style("top", yPosition + "px") ;
 
-			d3.select("#chartTooltip").classed("hidden", false);
+			d3.select("#middleChartTooltip").classed("hidden", false);
 	    })
 	    .on("mouseout",function(d){
 				d3.select(this)
 					.attr("opacity",  1)
 	            
 	            //Hide the tooltip
-				d3.select("#chartTooltip").classed("hidden", true);	            
+				d3.select("#middleChartTooltip").classed("hidden", true);	            
 
 		});
+
 
 
 	  svg.append("g")
