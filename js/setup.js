@@ -158,6 +158,7 @@ function initialiseAll(isoCode) {
 		  	d3.select("#transitionChart").style("visibility","hidden")
 		  	d3.select("#hideShowToggle").style("visibility","hidden")
 			d3.select("#map").selectAll("path").style("fill","#F8FAFC");
+			document.getElementById("dropDownButton").value = "PIC";
 
 	}else{
 		// Load the data.
