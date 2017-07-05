@@ -58,7 +58,7 @@ function skillsChart(selector,data){
 		        });
 		        
 		    d3.select("#middleSkills")
-		        .text("skills");
+		        .text(" of skills");
 
 
 		    d3.select("#middleCat")
