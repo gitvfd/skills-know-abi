@@ -28,7 +28,7 @@ function transitionAbilitiesChart(selector,data){
 	    .data(transAbilitiesData)
 	    .enter()
 	    .append("rect")
-	    .attr("class", function(d) { return "bar bar--" + (parseFloat(d.score) < 0 ? "negative" : "positive"); })
+	    .attr("class", function(d) { return "bar bar--" + (parseFloat(d.score) < 0 ? "negative2" : "positive2"); })
 	    .attr("x", function(d) { return x(Math.min(0, parseFloat(d.score))); })
 	    .attr("y", function(d) { return y(d.label); })
 	    .attr("width", function(d) { return Math.abs(x(parseFloat(d.score)) - x(0)); })
@@ -37,8 +37,8 @@ function transitionAbilitiesChart(selector,data){
 	    	d3.select(this)
 				.attr("opacity",0.5);
 
-			var xPosition = event.pageX-20;
-			var yPosition = event.pageY+15;
+			var xPosition = d3.event.pageX+20;
+			var yPosition = d3.event.pageY+15;
 
 			if (yPosition>window.innerHeight-200)
 				yPosition=yPosition-100;
@@ -48,7 +48,7 @@ function transitionAbilitiesChart(selector,data){
 
 		    if(format(d.score)>0){
 		     	d3.select("#chartBarName")
-		        	.text("You don't have enough abilities in");
+		        	.text("You need to strengthen abilities in");
 		    }	else if(format(d.score)<0){
 		     	d3.select("#chartBarName")
 		        	.text("You already have enough abilities in");
@@ -57,6 +57,16 @@ function transitionAbilitiesChart(selector,data){
 		        	.text("You already have the right level of abilities in");
 		    }
 
+  			var definition2display;
+  			definitions.forEach(function(k){
+				if(k.name==d.label){
+					definition2display = k.def;
+				}
+			})
+
+		    d3.select("#chartBarDef")
+		        .text(definition2display);
+		        
 			d3.select("#chartTooltip")
 		        .style("left", xPosition + "px")
 		        .style("top", yPosition + "px");

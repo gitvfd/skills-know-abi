@@ -19,7 +19,7 @@
       .append('svg')
       .attr('width', width)
       .attr('height', height_usage)
-      .style('background-color','#d8e9e5') //lighter background color
+      .style('background-color','#d0e4e0') //lighter background color
       //.style('background-color','#F8FAFC');
 
 
@@ -40,21 +40,21 @@
 	// Location of the tree's branches centres
 	var treeCenters = {
 
-	    "Country": { x: 1* width / 2 , y: 9*height / 10 },
-	    "Skills": { x: 1* width / 4 , y: height / 2 },
-	    "Knowledge": { x: 3 * width / 6 , y: height / 2 },
-	    "Abilities": { x: 3 * width / 4, y: height / 2 },
-	    "Ref_Skills": { x: 1 * width / 4, y: 3* height / 4 },
-	    "Ref_Knowledge": { x:  width / 2, y: 3* height / 4 },
-	    "Ref_Abilities": { x: 3 * width / 4, y: 3* height / 4 }
+	    //"Country": { x: 1* width / 2 , y: 9*height / 10 },
+	    "Skills1": { x: 1* width / 4 , y: 0.75* height / 2 },
+	    "Knowledge1": { x: 3 * width / 6 , y: 0.75* height / 2 },
+	    "Abilities1": { x: 3 * width / 4, y: 0.75* height / 2 },
+	    "Skills2": { x: 1 * width / 4, y: 2.5* height / 4 },
+	    "Knowledge2": { x: 3* width / 6, y: 2.5* height / 4 },
+	    "Abilities2": { x: 3 * width / 4, y: 2.5* height / 4 }
 	};
 
 
   // X locations of the year titles.
   	var treeTitleX = {
-    	"Skills": 1*width/4,
-    	"Knowledge": 2*width / 5,
-    	"Abilities": 3 * width / 4
+    	"Skills": 1*width/5,
+    	"Knowledge": 2.5*width / 5,
+    	"Abilities": 4 * width / 5
   	};
 
 
@@ -81,7 +81,6 @@ var transitionData=[];
 					transitionData.push(d);
 			});
 		});
-
 
 
 var hiddenData=[];
@@ -167,11 +166,11 @@ function initialiseAll(isoCode) {
 					data2Use.push(d.data);
 			});
 
-
 		  	myTreeChart('#viz', data2Use);
 
-			var data2Hide=[];	    	
-			
+
+
+		  	var data2Hide=[];	    	
 			hiddenData.forEach (function(d,i) {		
 				if(d.country==isoCode)
 					data2Hide.push(d);
@@ -181,6 +180,7 @@ function initialiseAll(isoCode) {
 		  	skillsChart('#skillsChart', data2Hide)
 		  	knowledgeChart('#knowledgeChart', data2Hide)
 		  	abilitiesChart('#abilitiesChart', data2Hide)
+		  	
 		  	transitionChart();
 
 		  	var selectedCou= document.getElementById("dropDownButton").options[document.getElementById("dropDownButton").selectedIndex].text;

@@ -12,10 +12,6 @@ body{
 	/**background:#DDE9EF;**/
 }
 
-#logo{
-	float:left;
-	width:20%;
-}
 #footer{
 	float:left;
 	width:80%;
@@ -25,13 +21,46 @@ body{
 	font-weight: normal;
 }
 
+
+#logo{
+	float:left;
+	width:69px;
+	margin-top: -20px;
+	margin-left: -20px;
+	margin-right: 40px;
+}
+
+#title{
+
+    background: #B1D3CC; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(right, #fff, #B1D3CC); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(left, #fff, #B1D3CC); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(left, #fff, #B1D3CC); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to left,#fff, #B1D3CC); /* Standard syntax */
+	/**background: #B1D3CC; /**#DDE9EF;**/**/
+	font-family:TheSerif;
+	font-size:28px ;
+	font-weight: 300;
+	font-style:italic;
+	color: #ffffff;/**#6c97b1;**/
+	margin-bottom: 10px;
+	margin-top: 10px;
+	padding:25px;
+}
 .treeText {
-	font: 2vw TheSerif;
+	font: 1.5vw TheSerif;
 	font-weight: 700; 
 	fill:#8EA4B1;
 	opacity: 1;
 }
 
+.temporary{
+	font: 1.5vw TheSerif;
+	font-weight: 100; 
+	font-style:italic;
+	fill:#8EA4B1;
+	opacity: 1;
+}
 
 .links line {
   stroke: #999;
@@ -53,6 +82,7 @@ body{
 	width: 125px;
 	font-size: 12px;
 	z-index: 10;
+	max-width: 33%;
 }
 
 .tooltip .title {
@@ -78,6 +108,7 @@ body{
   -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
   pointer-events: none;
+	max-width: 33%;
 }
 
 #countryTooltipSetUP.hidden {
@@ -95,15 +126,28 @@ body{
 	font-family:TheSerif;
 	font-size:24px ;
 	font-weight: bold;
-	color: #0297C9;
+	/**color: #0297C9;**/
+	color: #52B1D5;
+
+}
+
+
+#map{
 }
 
 #dropDownButton{
+	margin:auto;
+	position: absolute;
+    left: 82%;
+    top: 210px;
+	z-index: 1;
+	
 	font-family:TheSerif;
-	font-size:12px ;
+	font-size:16px ;
 	font-weight: bold;
-	color: #0297C9;
-	margin-bottom: 10px
+	/**color: #0297C9;**/
+	color: #52B1D5;
+	margin-bottom: 2px
 }
 
  #selCountry{
@@ -162,21 +206,33 @@ body{
 }
 
 .legendText {
-	fill: #7A7A7A;
-	font-size: 0.8vw;
-	text-anchor: start;
+	font-family: TheSerif;
+	fill: #8EA4B1;
+	stroke:none;
+	font-size: 0.9vw;
+	text-anchor: middle;
 
 }
 
 .inVizText{
 	font-family: TheSerif;
-	fill: #7A7A7A;
-	font-size: 1.65vw;
-	font-style: italic;
+	/**fill: #6c97b1;**/
+	fill:#8EA4B1;
+	font-size: 1.55vw;
+	font-style:  italic;
+	font-weight:700;
 	-webkit-font-smoothing: antialiased;
 }
 
-
+.inVizCountryName{
+	font-family: TheSerif;
+	/**fill: #6c97b1;*/
+	fill: #8EA4B1;
+	font-size: 1vw;
+	font-style: normal;
+	font-weight:700;
+	-webkit-font-smoothing: antialiased;
+}
 
 #countries {
   stroke: #8EA4B1;
@@ -213,9 +269,10 @@ body{
 	margin-left:2.5%;
 	margin-bottom:15px;
 	font-family:TheSerif;
-	font-size:12px ;
+	font-size:14px ;
 	font-weight: bold;
-	color: #0297C9;
+	/**color: #0297C9;**/
+	color: #52B1D5;
 }
 #WhatIAm, #WhatIBecome{
 	width:45%;
@@ -257,6 +314,12 @@ body{
   fill: #537C98;
 }
 
+.bar--positive2 {
+  fill: #4aa8b8
+}
+.bar--negative2 {
+  fill: #535a98;
+}
 
 
 #chartTooltip {
@@ -272,6 +335,7 @@ body{
   -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
   pointer-events: none;
+	max-width: 33%;
 }
 
 #chartTooltip.hidden {
@@ -280,10 +344,38 @@ body{
 
 #chartTooltip p {
   margin: 0;
+  /**font-family: sans-serif;
+  font-size: 10px;
+  line-height: 12px;**/
+}
+
+
+#middleChartTooltip {
+  position: absolute;
+  width: auto;
+  height: auto;
+  padding: 10px;
+  background-color: rgb(252,252,252);
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  pointer-events: none;
+	max-width: 33%;
+}
+
+#middleChartTooltip.hidden {
+  display: none;
+}
+
+/**#middleChartTooltip p {
+  margin: 0;
   font-family: sans-serif;
   font-size: 10px;
   line-height: 12px;
-}
+}**/
 
 
 
@@ -330,13 +422,14 @@ section {
 }
 #toggle:checked ~ label::before {
   content: "-";
-}**/
+}
 </style>
 <body>
 	<Br/>
-	<div id="vizIntro">Because of imbalance between the demand and supply for skills, countries will have skills that are in <b>shortage</b> and skills that are in <b>surplus</b>. Shortage and surpluses of <b>knowledge</b>, <b>skill</b> and <b>abilities</b> are presented in the OECD Skills for Jobs database.
+	<!--<div id="vizIntro">Because of imbalance between the demand and supply for skills, countries will have skills that are in <b>shortage</b> and skills that are in <b>surplus</b>. Shortage and surpluses of <b>knowledge</b>, <b>skill</b> and <b>abilities</b> are presented in the OECD Skills for Jobs database.
 	</div>
-	<Br/>
+	<Br/>-->
+	<div id="map"></div>
 	<select id="dropDownButton" onchange="initialiseAll(this.value)";>
 		<option value="PIC" selected="selected">Select country</option>
 		<option value="AUT" >Austria</option>
@@ -371,7 +464,6 @@ section {
 		<option value="GBR" >United Kingdom</option>
 	</select>
 	<Br/>
-	<div id="map"></div>
 	
 
 	<Br/>
@@ -390,7 +482,8 @@ section {
 						OCCUPATION CHART
 		***********************************************
 		***********************************************-->
-	<div id="usageIntro">In <span id="countryName">Italy</span>, the following occupations contribute most to the skill imbalance</div>
+	<!--<div id="usageIntro">In <span id="countryName">Italy</span>, the following occupations contribute most to the skill imbalance</div>-->
+	<div id="usageIntro">In <span id="countryName">Italy</span>, the following occupations contribute most to the <b><span id="bubbleOrientation">shortage or surplus</span></b> of  <b><span id="selBubble">bubble</span></b></div>
 	<div id="usage"></div>
 	<Br/>
 	<!-- 	***********************************************
@@ -402,7 +495,7 @@ section {
 	<Br/>
 
 	<input id="toggle" type="checkbox" >
-  	<label id="hideShowToggle" for="toggle">For more detailled data, please expand</label>
+  	<label id="hideShowToggle" for="toggle">For detail rankings of skills imbalances in <span id="countryNameSel">countryName</span>, please expand</label>
 	<div id="expand">
     <section>
 	<div id="vizIntro">Detailled view of the skills, abilities and knowledge shortages and surplus for <span id="countrySmallChart">the selected country</span>
@@ -422,13 +515,15 @@ section {
 	***********************************************-->
 
 	<div id="transitionChart">
-
+		<div id="title">Changing career?
+			<img id="logo" src="pics/Skills-visual-high-res.png"></img>
+		</div>
 		<div id="vizIntro">Find out which skills knowledge and abilities you have in surplus or shortage when passing from one activity to another. Select the activity you're currently in and the activity you would like to do , to see your assets and things to develop.</div><Br/>
 		<div id="introWhatIAm" >My current occupation:</div>
 		<div id="introWhatIBecome">What I'd like to become:</div>
 		<Br/>
-		<select id="dropDownWhatIAm" onchange="transitionChart()";></select>
-		<select id="dropDownWhatIBecome" onchange="transitionChart()";></select>
+		<select id="dropDownWhatIAm" ></select>
+		<select id="dropDownWhatIBecome" ></select>
 		<Br/>
 		<div id="WhatIAm"><span class="toHighlight" id="countrySmallChartWhatIAm">the selected country</span> has a <span class="toHighlight"  id="WhatIAmValue">shortage/surplus</span> of <span class="toHighlight"  id="WhatIAmName">the occupation</span>.</div>
 		<div id="WhatIBecome"><span class="toHighlight"  id="countrySmallChartWhatIBecome">the selected country</span> has a <span class="toHighlight"  id="WhatIBecomeValue">shortage/surplus</span> of <span class="toHighlight"  id="WhatIBecomeName">the occupation</span>.</div>
@@ -456,10 +551,14 @@ section {
               <p><span id="countryTooltip">All</span></i>
     </div>
 	<div id="chartTooltip" class="hidden">
-	              <p><b><span id="chartBarName">All</span></b></p>
-	              <p><i><span id="chartBarValue">All</span></i></p>
+	              <p><b><span id="chartBarName">All</span></b> <i><span id="chartBarValue">All</span></i></p>
+	              <p><i>that is:</i></p>
+	              <p><span id="chartBarDef">All</span></p>
 	</div>
 
+	<div id="middleChartTooltip" class="hidden">
+		<span id="middleCountry">Country</span> has a <b><span id="middleSurplusShortage">surplus/shortage</span></b> of <span id="middleSkills">Skills/knowledge/abilities</span> in <i><span id="middleCat">XXX</span></i>
+	</div>
 
 	<!-- 	***********************************************
 			***********************************************

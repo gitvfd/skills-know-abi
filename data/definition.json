@@ -1,590 +1,737 @@
 [
   {
     "id": "ab_verbal",
+    "name": "Verbal Abilities",
     "def": "Abilities that influence the acquisition and application of verbal information in problem solving"
   },
   {
     "id": "ab_reason",
+    "name": "Reasoning Abilities",
     "def": "Abilities that influence the application and manipulation of information in problem solving"
   },
   {
     "id": "ab_quant",
+    "name": "Quantitative Abilities",
     "def": "Abilities that influence the solution of problems involving mathematical relationships"
   },
   {
     "id": "ab_mem",
+    "name": "Memory",
     "def": "Abilities related to the recall of available information"
   },
   {
     "id": "ab_percep",
+    "name": "Perceptual Abilities",
     "def": "Abilities related to the acquisition and organization of visual information"
   },
   {
     "id": "ab_spatial",
+    "name": "Spatial Abilities",
     "def": "Abilities related to the manipulation and organization of spatial information"
   },
   {
     "id": "ab_attent",
+    "name": "Attentiveness",
     "def": "Abilities related to application of attention"
   },
   {
     "id": "ab_manip",
+    "name": "Fine Manipulative Abilities",
     "def": "Abilities related to the manipulation of objects"
   },
   {
     "id": "ab_control_mov",
+    "name": "Control Movement Abilities",
     "def": "Abilities related to the control and manipulation of objects in time and space"
   },
   {
     "id": "ab_reac_time",
+    "name": "Reaction Time and Speed Abilities",
     "def": "Abilities related to speed of manipulation of objects"
   },
   {
     "id": "ab_strength",
+    "name": "Physical Strength",
     "def": "Abilities related to the capacity to exert force"
   },
   {
     "id": "ab_endur",
+    "name": "Endurance",
     "def": "The ability to exert oneself physically over long periods without getting out of breath"
   },
   {
     "id": "ab_flex",
+    "name": "Flexibility, Balance and Coordination",
     "def": "Abilities related to the control of gross body movements"
   },
   {
     "id": "ab_visual",
+    "name": "Visual Abilities",
     "def": "Abilities related to visual sensory input"
   },
   {
     "id": "ab_audio",
+    "name": "Auditory and Speech Abilities",
     "def": "Abilities related to auditory and oral input"
   },
   {
     "id": "ab_verbal_1",
+    "name": "Oral Comprehension",
     "def": "The ability to listen to and understand information and ideas presented through spoken words and sentences."
   },
   {
     "id": "ab_verbal_2",
+    "name": "Written Comprehension",
     "def": "The ability to read and understand information and ideas presented in writing."
   },
   {
     "id": "ab_verbal_3",
+    "name": "Oral Expression",
     "def": "The ability to communicate information and ideas in speaking so others will understand."
   },
   {
     "id": "ab_verbal_4",
+    "name": "Written Expression",
     "def": "The ability to communicate information and ideas in writing so others will understand."
   },
   {
     "id": "ab_reason_1",
-    "def": "The ability to come up with a number of ideas about a topic (the number of ideas is important"
+    "name": "Fluency of Ideas",
+    "def": "The ability to come up with a number of ideas about a topic (the number of ideas is important, not their quality, correctness, or creativity)."
   },
   {
     "id": "ab_reason_2",
-    "def": "The ability to come up with unusual or clever ideas about a given topic or situation"
+    "name": "Originality",
+    "def": "The ability to come up with unusual or clever ideas about a given topic or situation, or to develop creative ways to solve a problem."
   },
   {
     "id": "ab_reason_3",
-    "def": "The ability to tell when something is wrong or is likely to go wrong. It does not involve solving the problem"
+    "name": "Problem Sensitivity",
+    "def": "The ability to tell when something is wrong or is likely to go wrong. It does not involve solving the problem, only recognizing there is a problem."
   },
   {
     "id": "ab_reason_4",
+    "name": "Deductive Reasoning",
     "def": "The ability to apply general rules to specific problems to produce answers that make sense."
   },
   {
     "id": "ab_reason_5",
+    "name": "Inductive Reasoning",
     "def": "The ability to combine pieces of information to form general rules or conclusions (includes finding a relationship among seemingly unrelated events)."
   },
   {
     "id": "ab_reason_6",
-    "def": "The ability to arrange things or actions in a certain order or pattern according to a specific rule or set of rules (e.g."
+    "name": "Information Ordering",
+    "def": "The ability to arrange things or actions in a certain order or pattern according to a specific rule or set of rules (e.g., patterns of numbers, letters, words, pictures, mathematical operations)."
   },
   {
     "id": "ab_reason_7",
+    "name": "Category Flexibility",
     "def": "The ability to generate or use different sets of rules for combining or grouping things in different ways."
   },
   {
     "id": "ab_quant_1",
+    "name": "Mathematical Reasoning",
     "def": "The ability to choose the right mathematical methods or formulas to solve a problem."
   },
   {
     "id": "ab_quant_2",
-    "def": "The ability to add"
+    "name": "Number Facility",
+    "def": "The ability to add, subtract, multiply, or divide quickly and correctly."
   },
   {
     "id": "ab_mem_1",
-    "def": "The ability to remember information such as words"
+    "name": "Memorization",
+    "def": "The ability to remember information such as words, numbers, pictures, and procedures."
   },
   {
     "id": "ab_percep_1",
-    "def": "The ability to quickly make sense of"
+    "name": "Speed of Closure",
+    "def": "The ability to quickly make sense of, combine, and organize information into meaningful patterns."
   },
   {
     "id": "ab_percep_2",
-    "def": "The ability to identify or detect a known pattern (a figure"
+    "name": "Flexibility of Closure",
+    "def": "The ability to identify or detect a known pattern (a figure, object, word, or sound) that is hidden in other distracting material."
   },
   {
     "id": "ab_percep_3",
-    "def": "The ability to quickly and accurately compare similarities and differences among sets of letters"
+    "name": "Perceptual Speed",
+    "def": "The ability to quickly and accurately compare similarities and differences among sets of letters, numbers, objects, pictures, or patterns. The things to be compared may be presented at the same time or one after the other. This ability also includes comparing a presented object with a remembered object."
   },
   {
     "id": "ab_spatial_1",
+    "name": "Spatial Orientation",
     "def": "The ability to know your location in relation to the environment or to know where other objects are in relation to you."
   },
   {
     "id": "ab_spatial_2",
+    "name": "Visualization",
     "def": "The ability to imagine how something will look after it is moved around or when its parts are moved or rearranged."
   },
   {
     "id": "ab_attent_1",
+    "name": "Selective Attention",
     "def": "The ability to concentrate on a task over a period of time without being distracted."
   },
   {
     "id": "ab_attent_2",
-    "def": "The ability to shift back and forth between two or more activities or sources of information (such as speech"
+    "name": "Time Sharing",
+    "def": "The ability to shift back and forth between two or more activities or sources of information (such as speech, sounds, touch, or other sources)."
   },
   {
     "id": "ab_manip_1",
+    "name": "Arm-Hand Steadiness",
     "def": "The ability to keep your hand and arm steady while moving your arm or while holding your arm and hand in one position."
   },
   {
     "id": "ab_manip_2",
-    "def": "The ability to quickly move your hand"
+    "name": "Manual Dexterity",
+    "def": "The ability to quickly move your hand, your hand together with your arm, or your two hands to grasp, manipulate, or assemble objects."
   },
   {
     "id": "ab_manip_3",
-    "def": "The ability to make precisely coordinated movements of the fingers of one or both hands to grasp"
+    "name": "Finger Dexterity",
+    "def": "The ability to make precisely coordinated movements of the fingers of one or both hands to grasp, manipulate, or assemble very small objects."
   },
   {
     "id": "ab_control_mov_1",
+    "name": "Control Precision",
     "def": "The ability to quickly and repeatedly adjust the controls of a machine or a vehicle to exact positions."
   },
   {
     "id": "ab_control_mov_2",
-    "def": "The ability to coordinate two or more limbs (for example"
+    "name": "Multilimb Coordination",
+    "def": "The ability to coordinate two or more limbs (for example, two arms, two legs, or one leg and one arm) while sitting, standing, or lying down. It does not involve performing the activities while the whole body is in motion."
   },
   {
     "id": "ab_control_mov_3",
-    "def": "The ability to choose quickly between two or more movements in response to two or more different signals (lights"
+    "name": "Response Orientation",
+    "def": "The ability to choose quickly between two or more movements in response to two or more different signals (lights, sounds, pictures). It includes the speed with which the correct response is started with the hand, foot, or other body part."
   },
   {
     "id": "ab_control_mov_4",
+    "name": "Rate Control",
     "def": "The ability to time your movements or the movement of a piece of equipment in anticipation of changes in the speed and/or direction of a moving object or scene."
   },
   {
     "id": "ab_reac_time_1",
-    "def": "The ability to quickly respond (with the hand"
+    "name": "Reaction Time",
+    "def": "The ability to quickly respond (with the hand, finger, or foot) to a signal (sound, light, picture) when it appears."
   },
   {
     "id": "ab_reac_time_2",
-    "def": "The ability to make fast"
+    "name": "Wrist-Finger Speed",
+    "def": "The ability to make fast, simple, repeated movements of the fingers, hands, and wrists."
   },
   {
     "id": "ab_reac_time_3",
+    "name": "Speed of Limb Movement",
     "def": "The ability to quickly move the arms and legs."
   },
   {
     "id": "ab_strength_1",
-    "def": "The ability to exert maximum muscle force to lift"
+    "name": "Static Strength",
+    "def": "The ability to exert maximum muscle force to lift, push, pull, or carry objects."
   },
   {
     "id": "ab_strength_2",
-    "def": "The ability to use short bursts of muscle force to propel oneself (as in jumping or sprinting)"
+    "name": "Explosive Strength",
+    "def": "The ability to use short bursts of muscle force to propel oneself (as in jumping or sprinting), or to throw an object."
   },
   {
     "id": "ab_strength_3",
+    "name": "Dynamic Strength",
     "def": "The ability to exert muscle force repeatedly or continuously over time. This involves muscular endurance and resistance to muscle fatigue."
   },
   {
     "id": "ab_strength_4",
+    "name": "Trunk Strength",
     "def": "The ability to use your abdominal and lower back muscles to support part of the body repeatedly or continuously over time without 'giving out' or fatiguing."
   },
   {
     "id": "ab_endur_1",
+    "name": "Stamina",
     "def": "The ability to exert yourself physically over long periods of time without getting winded or out of breath."
   },
   {
     "id": "ab_flex_1",
-    "def": "The ability to bend"
+    "name": "Extent Flexibility",
+    "def": "The ability to bend, stretch, twist, or reach with your body, arms, and/or legs."
   },
   {
     "id": "ab_flex_2",
-    "def": "The ability to quickly and repeatedly bend"
+    "name": "Dynamic Flexibility",
+    "def": "The ability to quickly and repeatedly bend, stretch, twist, or reach out with your body, arms, and/or legs."
   },
   {
     "id": "ab_flex_3",
-    "def": "The ability to coordinate the movement of your arms"
+    "name": "Gross Body Coordination",
+    "def": "The ability to coordinate the movement of your arms, legs, and torso together when the whole body is in motion."
   },
   {
     "id": "ab_flex_4",
+    "name": "Gross Body Equilibrium",
     "def": "The ability to keep or regain your body balance or stay upright when in an unstable position."
   },
   {
     "id": "ab_visual_1",
+    "name": "Near Vision",
     "def": "The ability to see details at close range (within a few feet of the observer)."
   },
   {
     "id": "ab_visual_2",
+    "name": "Far Vision",
     "def": "The ability to see details at a distance."
   },
   {
     "id": "ab_visual_3",
-    "def": "The ability to match or detect differences between colors"
+    "name": "Visual Color Discrimination",
+    "def": "The ability to match or detect differences between colors, including shades of color and brightness."
   },
   {
     "id": "ab_visual_4",
+    "name": "Night Vision",
     "def": "The ability to see under low light conditions."
   },
   {
     "id": "ab_visual_5",
+    "name": "Peripheral Vision",
     "def": "The ability to see objects or movement of objects to one's side when the eyes are looking ahead."
   },
   {
     "id": "ab_visual_6",
-    "def": "The ability to judge which of several objects is closer or farther away from you"
+    "name": "Depth Perception",
+    "def": "The ability to judge which of several objects is closer or farther away from you, or to judge the distance between you and an object."
   },
   {
     "id": "ab_visual_7",
+    "name": "Glare Sensitivity",
     "def": "The ability to see objects in the presence of glare or bright lighting."
   },
   {
     "id": "ab_audio_1",
+    "name": "Hearing Sensitivity",
     "def": "The ability to detect or tell the differences between sounds that vary in pitch and loudness."
   },
   {
     "id": "ab_audio_2",
+    "name": "Auditory Attention",
     "def": "The ability to focus on a single source of sound in the presence of other distracting sounds."
   },
   {
     "id": "ab_audio_3",
+    "name": "Sound Localization",
     "def": "The ability to tell the direction from which a sound originated."
   },
   {
     "id": "ab_audio_4",
+    "name": "Speech Recognition",
     "def": "The ability to identify and understand the speech of another person."
   },
   {
     "id": "ab_audio_5",
+    "name": "Speech Clarity",
     "def": "The ability to speak clearly so others can understand you."
   },
   {
     "id": "know_bis_1",
-    "def": "Knowledge of business and management principles involved in strategic planning"
+    "name": "Administration and Management",
+    "def": "Knowledge of business and management principles involved in strategic planning, resource allocation, human resources modeling, leadership technique, production methods, and coordination of people and resources."
   },
   {
     "id": "know_arts",
-    "def": "Knowledge of facts and principles related to the branches of learning concerned with human thought"
+    "name": "Arts and Humanities",
+    "def": "Knowledge of facts and principles related to the branches of learning concerned with human thought, language, and the arts."
   },
   {
     "id": "know_math_5",
-    "def": "Knowledge of plant and animal organisms"
+    "name": "Biology",
+    "def": "Knowledge of plant and animal organisms, their tissues, cells, functions, interdependencies, and interactions with each other and the environment."
   },
   {
     "id": "know_eng_5",
-    "def": "Knowledge of materials"
+    "name": "Building and Construction",
+    "def": "Knowledge of materials, methods, and the tools involved in the construction or repair of houses, buildings, or other structures such as highways and roads."
   },
   {
     "id": "know_bis",
-    "def": "Knowledge of principles and facts related to business administration and accounting"
+    "name": "Business and Management",
+    "def": "Knowledge of principles and facts related to business administration and accounting, human and material resource management in organizations, sales and marketing, economics, and office information and organizing systems"
   },
   {
     "id": "know_math_4",
-    "def": "Knowledge of the chemical composition"
+    "name": "Chemistry",
+    "def": "Knowledge of the chemical composition, structure, and properties of substances and of the chemical processes and transformations that they undergo. This includes uses of chemicals and their interactions, danger signs, production techniques, and disposal methods."
   },
   {
     "id": "know_bis_2",
-    "def": "Knowledge of administrative and clerical procedures and systems such as word processing"
+    "name": "Clerical",
+    "def": "Knowledge of administrative and clerical procedures and systems such as word processing, managing files and records, stenography and transcription, designing forms, and other office procedures and terminology."
   },
   {
     "id": "know_com",
+    "name": "Communications",
     "def": "Knowledge of the science and art of delivering information"
   },
   {
     "id": "know_trans_1",
-    "def": "Knowledge of media production"
+    "name": "Communications and Media",
+    "def": "Knowledge of media production, communication, and dissemination techniques and methods. This includes alternative ways to inform and entertain via written, oral, and visual media."
   },
   {
     "id": "know_eng_2",
-    "def": "Knowledge of circuit boards"
+    "name": "Computers and Electronics",
+    "def": "Knowledge of circuit boards, processors, chips, electronic equipment, and computer hardware and software, including applications and programming."
   },
   {
     "id": "know_bis_5",
-    "def": "Knowledge of principles and processes for providing customer and personal services. This includes customer needs assessment"
+    "name": "Customer and Personal Service",
+    "def": "Knowledge of principles and processes for providing customer and personal services. This includes customer needs assessment, meeting quality standards for services, and evaluation of customer satisfaction."
   },
   {
     "id": "know_eng_4",
-    "def": "Knowledge of design techniques"
+    "name": "Design",
+    "def": "Knowledge of design techniques, tools, and principles involved in production of precision technical plans, blueprints, drawings, and models."
   },
   {
     "id": "know_bis_3",
-    "def": "Knowledge of economic and accounting principles and practices"
+    "name": "Economics and Accounting",
+    "def": "Knowledge of economic and accounting principles and practices, the financial markets, banking and the analysis and reporting of financial data."
   },
   {
     "id": "know_edu",
-    "def": "Knowledge of principles and methods for curriculum and training design"
+    "name": "Education and Training",
+    "def": "Knowledge of principles and methods for curriculum and training design, teaching and instruction for individuals and groups, and the measurement of training effects."
   },
   {
     "id": "know_eng_3",
-    "def": "Knowledge of the practical application of engineering science and technology. This includes applying principles"
+    "name": "Engineering and Technology",
+    "def": "Knowledge of the practical application of engineering science and technology. This includes applying principles, techniques, procedures, and equipment to the design and production of various goods and services."
   },
   {
     "id": "know_eng",
-    "def": "Knowledge of the design"
+    "name": "Engineering, Mechanics and Technology",
+    "def": "Knowledge of the design, development, and application of technology for specific purposes."
   },
   {
     "id": "know_arts_2",
-    "def": "Knowledge of the theory and techniques required to compose"
+    "name": "Fine Arts",
+    "def": "Knowledge of the theory and techniques required to compose, produce, and perform works of music, dance, visual arts, drama, and sculpture."
   },
   {
     "id": "know_eng_1",
-    "def": "Knowledge of techniques and equipment for planting"
+    "name": "Food Production",
+    "def": "Knowledge of techniques and equipment for planting, growing, and harvesting food products (both plant and animal) for consumption, including storage/handling techniques."
   },
   {
     "id": "know_health_1",
-    "def": "Knowledge of principles and methods for describing the features of land"
+    "name": "Geography",
+    "def": "Knowledge of principles and methods for describing the features of land, sea, and air masses, including their physical characteristics, locations, interrelationships, and distribution of plant, animal, and human life."
   },
   {
     "id": "know_health",
-    "def": "Knowledge of principles and facts regarding diagnosing"
+    "name": "Health Services",
+    "def": "Knowledge of principles and facts regarding diagnosing, curing, and preventing disease, and improving and preserving physical and mental health and well-being"
   },
   {
     "id": "know_arts_3",
-    "def": "Knowledge of historical events and their causes"
+    "name": "History and Archeology",
+    "def": "Knowledge of historical events and their causes, indicators, and effects on civilizations and cultures."
   },
   {
     "id": "know_com_1",
-    "def": "Knowledge of laws"
+    "name": "Law and Government",
+    "def": "Knowledge of laws, legal codes, court procedures, precedents, government regulations, executive orders, agency rules, and the democratic political process."
   },
   {
     "id": "know_law",
-    "def": "Knowledge of regulations and methods for maintaining people and property free from danger"
+    "name": "Law and Public Safety",
+    "def": "Knowledge of regulations and methods for maintaining people and property free from danger, injury, or damage; the rules of public conduct established and enforced by legislation, and the political process establishing such rules."
   },
   {
     "id": "know_manu",
-    "def": "Knowledge of principles and facts related to the production"
+    "name": "Manufacturnig and Production",
+    "def": "Knowledge of principles and facts related to the production, processing, storage, and distribution of manufactured and agricultural goods"
   },
   {
     "id": "know_math",
-    "def": "Knowledge of the history"
+    "name": "Mathematics and Science",
+    "def": "Knowledge of the history, theories, methods, and applications of the physical, biological, social, mathematical, and geography"
   },
   {
     "id": "know_math_2",
-    "def": "Knowledge of arithmetic"
+    "name": "Mathematics Knowledge",
+    "def": "Knowledge of arithmetic, algebra, geometry, calculus, statistics, and their applications."
   },
   {
     "id": "know_math_1",
-    "def": "Knowledge of machines and tools"
+    "name": "Mechanical",
+    "def": "Knowledge of machines and tools, including their designs, uses, repair, and maintenance."
   },
   {
     "id": "know_health_2",
-    "def": "Knowledge of the information and techniques needed to diagnose and treat human injuries"
+    "name": "Medicine and Dentistry",
+    "def": "Knowledge of the information and techniques needed to diagnose and treat human injuries, diseases, and deformities. This includes symptoms, treatment alternatives, drug properties and interactions, and preventive health-care measures."
   },
   {
     "id": "know_manu_1",
-    "def": "Knowledge of principles and procedures for personnel recruitment"
+    "name": "Personnel and Human Resources",
+    "def": "Knowledge of principles and procedures for personnel recruitment, selection, training, compensation and benefits, labor relations and negotiation, and personnel information systems."
   },
   {
     "id": "know_law_1",
-    "def": "Knowledge of different philosophical systems and religions. This includes their basic principles"
+    "name": "Philosophy and Theology",
+    "def": "Knowledge of different philosophical systems and religions. This includes their basic principles, values, ethics, ways of thinking, customs, practices, and their impact on human culture."
   },
   {
     "id": "know_math_3",
-    "def": "Knowledge and prediction of physical principles"
+    "name": "Physics",
+    "def": "Knowledge and prediction of physical principles, laws, their interrelationships, and applications to understanding fluid, material, and atmospheric dynamics, and mechanical, electrical, atomic and sub- atomic structures and processes."
   },
   {
     "id": "know_manu_2",
-    "def": "Knowledge of raw materials"
+    "name": "Production and Processing",
+    "def": "Knowledge of raw materials, production processes, quality control, costs, and other techniques for maximizing the effective manufacture and distribution of goods."
   },
   {
     "id": "know_math_6",
-    "def": "Knowledge of human behavior and performance; individual differences in ability"
+    "name": "Psychology",
+    "def": "Knowledge of human behavior and performance; individual differences in ability, personality, and interests; learning and motivation; psychological research methods; and the assessment and treatment of behavioral and affective disorders."
   },
   {
     "id": "know_law_2",
-    "def": "Knowledge of relevant equipment"
+    "name": "Public Safety and Security",
+    "def": "Knowledge of relevant equipment, policies, procedures, and strategies to promote effective local, state, or national security operations for the protection of people, data, property, and institutions."
   },
   {
     "id": "know_bis_4",
-    "def": "Knowledge of principles and methods for showing"
+    "name": "Sales and Marketing",
+    "def": "Knowledge of principles and methods for showing, promoting, and selling products or services. This includes marketing strategy and tactics, product demonstration, sales techniques, and sales control systems."
   },
   {
     "id": "know_math_7",
-    "def": "Knowledge of group behavior and dynamics"
+    "name": "Sociology and Anthropology",
+    "def": "Knowledge of group behavior and dynamics, societal trends and influences, human migrations, ethnicity, cultures and their history and origins."
   },
   {
     "id": "know_com_2",
-    "def": "Knowledge of transmission"
+    "name": "Telecommunications",
+    "def": "Knowledge of transmission, broadcasting, switching, control, and operation of telecommunications systems."
   },
   {
     "id": "know_arts_1",
-    "def": "Knowledge of principles"
+    "name": "Therapy and Counseling",
+    "def": "Knowledge of principles, methods, and procedures for diagnosis, treatment, and rehabilitation of physical and mental dysfunctions, and for career counseling and guidance."
   },
   {
     "id": "know_trans",
-    "def": "Knowledge of principles and methods for moving people or goods by air"
+    "name": "Transportation",
+    "def": "Knowledge of principles and methods for moving people or goods by air, rail, sea, or road, including the relative costs and benefits."
   },
   {
     "id": "skills_Basic_Cont",
+    "name": "Basic Skills (Content)",
     "def": "Developed capacities that facilitate learning or the more rapid acquisition of knowledge"
   },
   {
     "id": "skills_Basic_Process",
+    "name": "Basic Skills (Process)",
     "def": "Developed capacities that facilitate learning or the more rapid acquisition of knowledge"
   },
   {
     "id": "skills_Social",
+    "name": "Social Skills",
     "def": "Developed capacities used to work with people to achieve goals"
   },
   {
     "id": "skills_Complex_Pb",
-    "def": "Developed capacities used to solve novel"
+    "name": "Complex Problem Solving",
+    "def": "Developed capacities used to solve novel, ill-defined problems in complex, real-world settings"
   },
   {
     "id": "skills_Tech",
-    "def": "Developed capacities used to design"
+    "name": "Technical Skills",
+    "def": "Developed capacities used to design, set-up, operate, and correct malfunctions involving application of machines or technological systems"
   },
   {
     "id": "skills_Syst",
-    "def": "Developed capacities used to understand"
+    "name": "Systems Skills",
+    "def": "Developed capacities used to understand, monitor, and improve socio-technical systems"
   },
   {
     "id": "skills_Res_Mgmt",
+    "name": "Resource Management Skills",
     "def": "Developed capacities used to allocate resources efficiently"
   },
   {
     "id": "skills_act_le",
+    "name": "Active Learning",
     "def": "Understanding the implications of new information for both current and future problem-solving and decision-making."
   },
   {
     "id": "skills_act_li",
-    "def": "Giving full attention to what other people are saying"
+    "name": "Active Listening",
+    "def": "Giving full attention to what other people are saying, taking time to understand the points being made, asking questions as appropriate, and not interrupting at inappropriate times."
   },
   {
     "id": "skills_critical",
-    "def": "Using logic and reasoning to identify the strengths and weaknesses of alternative solutions"
+    "name": "Critical Thinking",
+    "def": "Using logic and reasoning to identify the strengths and weaknesses of alternative solutions, conclusions or approaches to problems."
   },
   {
     "id": "skills_learning",
+    "name": "Learning Strategies",
     "def": "Selecting and using training/instructional methods and procedures appropriate for the situation when learning or teaching new things."
   },
   {
     "id": "skills_math",
+    "name": "Mathematics Skills",
     "def": "Using mathematics to solve problems."
   },
   {
     "id": "skills_mon",
-    "def": "Monitoring/Assessing performance of yourself"
+    "name": "Monitoring",
+    "def": "Monitoring/Assessing performance of yourself, other individuals, or organizations to make improvements or take corrective action."
   },
   {
     "id": "skills_read_comp",
+    "name": "Reading Comprehension",
     "def": "Understanding written sentences and paragraphs in work related documents."
   },
   {
     "id": "skills_scie",
+    "name": "Science",
     "def": "Using scientific rules and methods to solve problems."
   },
   {
     "id": "skills_speak",
+    "name": "Speaking",
     "def": "Talking to others to convey information effectively."
   },
   {
     "id": "skills_writ",
+    "name": "Writing",
     "def": "Communicating effectively in writing as appropriate for the needs of the audience."
   },
   {
     "id": "skills_Basic_Cont_2",
+    "name": "Coordination",
     "def": "Adjusting actions in relation to others' actions."
   },
   {
     "id": "skills_Basic_Cont_5",
+    "name": "Instructing",
     "def": "Teaching others how to do something."
   },
   {
     "id": "skills_Basic_Cont_4",
+    "name": "Negotiation",
     "def": "Bringing others together and trying to reconcile differences."
   },
   {
     "id": "skills_Basic_Cont_3",
+    "name": "Persuasion",
     "def": "Persuading others to change their minds or behavior."
   },
   {
     "id": "skills_Basic_Cont_6",
+    "name": "Service Orientation",
     "def": "Actively looking for ways to help people."
   },
   {
     "id": "skills_Basic_Cont_1",
+    "name": "Social Perceptiveness",
     "def": "Being aware of others' reactions and understanding why they react as they do."
   },
   {
     "id": "skills_Complex_Pb_2",
+    "name": "Equipment Maintenance",
     "def": "Performing routine maintenance on equipment and determining when and what kind of maintenance is needed."
   },
   {
     "id": "skills_Basic_Process_3",
+    "name": "Equipment Selection",
     "def": "Determining the kind of tools and equipment needed to do a job."
   },
   {
     "id": "skills_Social_1",
-    "def": "Installing equipment"
+    "name": "Installation",
+    "def": "Installing equipment, machines, wiring, or programs to meet specifications."
   },
   {
     "id": "skills_Complex_Pb_1",
+    "name": "Operation and Control",
     "def": "Controlling operations of equipment or systems."
   },
   {
     "id": "skills_Social_3",
-    "def": "Watching gauges"
+    "name": "Operation Monitoring",
+    "def": "Watching gauges, dials, or other indicators to make sure a machine is working properly."
   },
   {
     "id": "skills_Basic_Process_1",
+    "name": "Operations Analysis",
     "def": "Analyzing needs and product requirements to create a design."
   },
   {
     "id": "skills_Social_2",
+    "name": "Programming",
     "def": "Writing computer programs for various purposes."
   },
   {
     "id": "skills_Complex_Pb_5",
-    "def": "Conducting tests and inspections of products"
+    "name": "Quality Control Analysis",
+    "def": "Conducting tests and inspections of products, services, or processes to evaluate quality or performance."
   },
   {
     "id": "skills_Complex_Pb_4",
+    "name": "Repairing",
     "def": "Repairing machines or systems using the needed tools."
   },
   {
     "id": "skills_Basic_Process_2",
+    "name": "Technology Design",
     "def": "Generating or adapting equipment and technology to serve user needs."
   },
   {
     "id": "skills_Complex_Pb_3",
+    "name": "Troubleshooting",
     "def": "Determining causes of operating errors and deciding what to do about it."
   },
   {
     "id": "skills_Tech_1",
+    "name": "Judgment and Decision Making",
     "def": "Considering the relative costs and benefits of potential actions to choose the most appropriate one."
   },
   {
     "id": "skills_Tech_2",
-    "def": "Determining how a system should work and how changes in conditions"
+    "name": "Systems Analysis",
+    "def": "Determining how a system should work and how changes in conditions, operations, and the environment will affect outcomes."
   },
   {
     "id": "skills_Syst_1",
-    "def": "Identifying measures or indicators of system performance and the actions needed to improve or correct performance"
+    "name": "Systems Evaluation",
+    "def": "Identifying measures or indicators of system performance and the actions needed to improve or correct performance, relative to the goals of the system."
   },
   {
     "id": "skills_Syst_3",
-    "def": "Determining how money will be spent to get the work done"
+    "name": "Management of Financial Resources",
+    "def": "Determining how money will be spent to get the work done, and accounting for these expenditures."
   },
   {
     "id": "skills_Res_Mgmt_1",
-    "def": "Obtaining and seeing to the appropriate use of equipment"
+    "name": "Management of Material Resources",
+    "def": "Obtaining and seeing to the appropriate use of equipment, facilities, and materials needed to do certain work."
   },
   {
     "id": "skills_Res_Mgmt_2",
-    "def": "Motivating"
+    "name": "Management of Personnel Resources",
+    "def": "Motivating, developing, and directing people as they work, identifying the best people for the job."
   },
   {
     "id": "skills_Syst_2",
+    "name": "Time Management",
     "def": "Managing one's own time and the time of others."
   }
 ]

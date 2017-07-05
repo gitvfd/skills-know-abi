@@ -9,8 +9,9 @@ function bubbleChart() {
   	var svg = null;
   	var bubbles = null;
   	var nodes = [];
-  	var maxRadius=width/35;
-  	var padding = 1;
+  	var padding = 1; // separation between same-color circles
+    var clusterPadding = 1; // separation between different-color circles
+    var maxRadius=width/35;
 
 	function charge(d) {
 		return -Math.pow(d.radius, 2) * forceStrength; //previously 2.3
@@ -26,7 +27,7 @@ function bubbleChart() {
     	.force('x', d3.forceX().strength(forceStrength).x(center.x))
     	.force('y', d3.forceY().strength(forceStrength).y(center.y))
     	.force('charge', d3.forceManyBody().strength(charge))
-    	.force("collide",d3.forceCollide( function(d){return d.radius +padding}).iterations(3) )
+        .force("collide",d3.forceCollide( function(d){return d.radius +padding}).iterations(3) )
     	.on('tick', ticked);
 
   	// @v4 Force starts up automatically,
@@ -52,6 +53,8 @@ function bubbleChart() {
 
 	    // convert raw data into nodes data
 		nodes = rawData[0].nodes
+
+      		nodes=nodes.filter(function(d) { return d.subgroup != -1 && d.subgroup != 0 })
 		nodes.forEach(function(d) {
    			d.radius= radiusScale(Math.abs(d.value));
 	   }); 
@@ -64,13 +67,20 @@ function bubbleChart() {
 	      .append('svg')
 	      .attr('width', width)
 	      .attr('height', height)
-      	  .style('background-color','#d8e9e5') ;
+      	  .style('background-color','#d0e4e0') ;
 
 
     	showTreeTitles();
 
 		addLegend(svg,radiusScale,maxValue);
 
+
+		svg.append('text')
+			.attr("class","temporary")
+	      	.attr('x', width/2)
+	      	.attr('y', 2.5*height/4)
+	      	.attr("text-anchor","middle")
+	      	.text("Click on a bubble to discover its subcategories");
 		
 
 		rawData[0].nodes.forEach(function(d) {
@@ -81,13 +91,17 @@ function bubbleChart() {
 						"target" : d.id,
 						"value" :0
 					})
-		  		} else **/if (d.subgroup=="1"){
+		  		} else **/
+		  		/////////////////////////////////////////////////////////////////////////////////////////
+		  		//REMOVED LINK TO CAT NODE
+		  		/////////////////////////////////////////////////////////////////////////////////////////
+		  		/**if (d.subgroup=="1"){
 					linkNetwork.push({
 						"source": d.group.toLowerCase(),
 						"target":d.id,
 						"value":0
 					})
-		  		}else if (d.subgroup=="2"){
+		  		}else **/if (d.subgroup=="2"){
 					linkNetwork.push({
 						"source": d.cat,
 						"target":d.id,
@@ -127,7 +141,7 @@ function bubbleChart() {
 	    // @v4 Selections are immutable, so lets capture the
 	    //  enter selection to apply our transtition to below.
 	    var bubblesE = bubbles.enter().append('circle')
-      		.filter(function(d) { return d.subgroup != -1 }) // Deleted the country node
+      		.filter(function(d) { return d.subgroup != -1 && d.subgroup != 0 }) // Deleted the country node and category node.
 	   		//.class('bubble', true)
 	   		.attr("class",function(d){
 	   			if (d.subgroup==1)
@@ -227,23 +241,27 @@ function bubbleChart() {
       		.attr('cy', function (d) { return d.y; });
   	}
 
+
+
+
   	/*
    	* Provides a x value for each node to be used with the split by year
    	* x force.
    	*/
   	function nodeTreePosX(d) {
-    	return treeCenters[d.group].x;
+  		var test=d.group+d.subgroup;
+    	return treeCenters[test].x;
   	}
 
   	function nodeTreePosY(d) {
-    	return treeCenters[d.group].y;
+  		var test2=d.group+d.subgroup;
+    	return treeCenters[test2].y;
   	}
 
 
 
  	function splitBubbles() {
 
-    	//showTreeTitles();
     	// @v4 Reset the 'x' force to draw the bubbles to their year centers
 	    simulation.force('x', d3.forceX().strength(forceStrength).x(nodeTreePosX)); 
 	    // @v4 Reset the 'y' force to draw the bubbles to their year centers
@@ -268,16 +286,16 @@ function bubbleChart() {
     	trees.enter().append('text')
       		.attr('class', 'treeText')
       		.attr('x', function (d) { return treeTitleX[d]; })
-      		.attr('y', 15/100*height)
+      		.attr('y', 90/100*height)
       		//.attr("transform", "rotate(-90)")
       		.attr('text-anchor', 
       			function(d,i){
       			if(i==0)
-      				return 'end';
+      				return 'middle';
       			else if(i==1)
-      				return 'start';
+      				return 'middle';
       			else
-      				return 'end';
+      				return 'middle';
 
 
       		})
@@ -304,8 +322,6 @@ function bubbleChart() {
 	        		filtered_nodes.push(k);
 	    		}
 			});
-
-
 			var filtered_links=[];
 
 	  		linkNetwork.forEach(function(k) {
@@ -330,17 +346,7 @@ function bubbleChart() {
 		  			.style("visibility","visible")
 
 	  		}
-	  		else{
 	  		
-				usageCircles.append('text')
-					.attr("class","usage temporary")
-			      	.attr('x', width/2)
-			      	.attr('y', height_usage/2)
-			      	.attr("text-anchor","middle")
-			      	.text("Click on this bubble to discover its subcategories");
-			}
-
-
 
 	  		if(d.subgroup>0 ){
 
@@ -438,8 +444,9 @@ function bubbleChart() {
 			.attr("dy", "0.35em")
       		.attr('text-anchor', 'middle')
       		.attr('font-size',"16px")
+
+      		.style('font-weight',"bold")
       		.style("fill","#7A7A7A")
-      		.style("font-weight","bold")
 			.attr("x",-maxRadius)
 			.attr("y",height_usage/4)
 			.text(function(d){

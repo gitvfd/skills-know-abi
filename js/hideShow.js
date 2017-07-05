@@ -1,4 +1,21 @@
 function hideShow(){
+	
+		d3.selectAll(".temporary")
+		.remove();
+
+
+		d3.selectAll("circle")
+			.attr("visibility",function(d){
+	      		if(d.subgroup==2)
+	      			return "hidden";
+	      		else 
+	      			return "visible";
+	      	});
+
+
+		d3.selectAll(".canDisappear")
+  			.attr("visibility",  "hidden");
+
 
 	var toDisplay = "#"+this.id;
 

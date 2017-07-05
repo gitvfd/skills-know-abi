@@ -11,9 +11,9 @@ function addLegend(svg,radiusUsage,maxValue){
 
 
 	var circleSize = 10, //dimensions of the colored square
-		columnWidth = 50, //height of a row in the legend
+		columnWidth = width/15, //height of a row in the legend
 		rowHeight = 20, //height of a row in the legend
-		maxWidth = 15; //widht of each row
+		maxWidth = 15; //width of each row
 		  
 	//Create container per rect/text pair  
 	var legend = legendWrapper.selectAll('.legendCircle')  	
@@ -21,6 +21,7 @@ function addLegend(svg,radiusUsage,maxValue){
 			  .enter().append('g')   
 			  .attr('class', 'legendCircle') 
 			  .attr("transform", function(d,i) { return "translate(" + ( squareMargin + i * columnWidth) + "," + (1.75*legendHeight/5 )+ ")"; });
+
 
 	
 	//Append small squares to Legend
@@ -34,8 +35,7 @@ function addLegend(svg,radiusUsage,maxValue){
 	legend.append('text')                                     
 		  .attr('transform', function(d,i) { return "translate(" + (0) + ","+ (-1.5*circleSize)+")"; })
 		  .attr("class", "legendText")
-		  .style("font-size", "12px")
-		  .attr("dy", ".35em")		  
+		  .attr('text-anchor', "middle")
 		  .text(function(d,i) { 
 		  	if (i==0)
 		  		return "Surplus"
