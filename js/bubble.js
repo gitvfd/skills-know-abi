@@ -141,7 +141,7 @@ function bubbleChart() {
 	      		if(d.subgroup>0){
 	      			return colorScale(parseFloat(d.value));
 	      		}else{
-	      			return "#39617D";
+	      			return "#ffffff";
 	      		}
 	      	})
 	      	.attr('opacity',1)

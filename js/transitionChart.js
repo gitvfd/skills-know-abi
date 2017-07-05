@@ -3,6 +3,8 @@ function transitionChart(){
 
 
 		var selectedCou= document.getElementById("dropDownButton").options[document.getElementById("dropDownButton").selectedIndex].text;
+		var selectedCouCode= document.getElementById("dropDownButton").options[document.getElementById("dropDownButton").selectedIndex].value;
+		console.log(selectedCouCode)
 		document.getElementById("countrySmallChartWhatIAm").innerHTML = selectedCou;
 		document.getElementById("countrySmallChartWhatIBecome").innerHTML = selectedCou;
 
@@ -15,13 +17,11 @@ function transitionChart(){
 		var whatIAmstock; var whatIBecomestock;
 
 		data.forEach(function(d){
-			if(d.occupation==document.getElementById("dropDownWhatIAm").options[document.getElementById("dropDownWhatIAm").selectedIndex].value)
+			if(d.Country==selectedCouCode && d.occupation==document.getElementById("dropDownWhatIAm").options[document.getElementById("dropDownWhatIAm").selectedIndex].value)
 				whatIAmstock=d.status;
-			
-			if(d.occupation==document.getElementById("dropDownWhatIBecome").options[document.getElementById("dropDownWhatIBecome").selectedIndex].value)
+			if(d.Country==selectedCouCode && d.occupation==document.getElementById("dropDownWhatIBecome").options[document.getElementById("dropDownWhatIBecome").selectedIndex].value)
 				whatIBecomestock=d.status;
 		});
-
 		document.getElementById("WhatIAmValue").innerHTML = whatIAmstock;
 		document.getElementById("WhatIBecomeValue").innerHTML = whatIBecomestock;
 

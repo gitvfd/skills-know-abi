@@ -58,7 +58,7 @@ function knowledgeChart(selector,data){
 		        });
 		        
 		    d3.select("#middleSkills")
-		        .text("knowledge");
+		        .text(" of knowledge");
 
 
 		    d3.select("#middleCat")

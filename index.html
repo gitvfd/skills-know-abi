@@ -12,6 +12,16 @@ body{
 	/**background:#DDE9EF;**/
 }
 
+#help{
+	float:right;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-family: TheSerif;
+	fill: #979797;
+	font-weight: normal;
+	cursor:help;
+}
+
 #footer{
 	float:left;
 	width:80%;
@@ -42,13 +52,13 @@ body{
 	font-size:28px ;
 	font-weight: 300;
 	font-style:italic;
-	color: #ffffff;/**#6c97b1;**/
+	color: #8EA4B1;/**#6c97b1;**/
 	margin-bottom: 10px;
 	margin-top: 10px;
 	padding:25px;
 }
 .treeText {
-	font: 1.5vw TheSerif;
+	font: 2.2vw TheSerif;
 	font-weight: 700; 
 	fill:#8EA4B1;
 	opacity: 1;
@@ -138,8 +148,8 @@ body{
 #dropDownButton{
 	margin:auto;
 	position: absolute;
-    left: 82%;
-    top: 210px;
+    left: 77.5%;
+    top: 85px;
 	z-index: 1;
 	
 	font-family:TheSerif;
@@ -218,7 +228,7 @@ body{
 	font-family: TheSerif;
 	/**fill: #6c97b1;**/
 	fill:#8EA4B1;
-	font-size: 1.55vw;
+	font-size: 2.3vw;
 	font-style:  italic;
 	font-weight:700;
 	-webkit-font-smoothing: antialiased;
@@ -301,7 +311,7 @@ body{
 .skillsChart, .knowledgeChart, .abilitiesChart,.transitionSkillsChart, .transitionKnowledgeChart, .transitionAbilitiesChart{
 	font-family: TheSerif;
 	fill: #8EA4B1;
-	font-size: 1.5vw;
+	font-size: 2.1vw;
 	font-weight: 700;
 	text-anchor: start;
 
@@ -463,10 +473,7 @@ section {
 	  	<option value="ZAF" >South Africa</option>
 		<option value="GBR" >United Kingdom</option>
 	</select>
-	<Br/>
-	
-
-	<Br/>
+	<div id="help" onclick=initialiseAll("PIC") >help</div>	
 	<!-- 	***********************************************
 		***********************************************
 		***********************************************
@@ -498,7 +505,7 @@ section {
   	<label id="hideShowToggle" for="toggle">For detail rankings of skills imbalances in <span id="countryNameSel">countryName</span>, please expand</label>
 	<div id="expand">
     <section>
-	<div id="vizIntro">Detailled view of the skills, abilities and knowledge shortages and surplus for <span id="countrySmallChart">the selected country</span>
+	<div id="vizIntro">Detailed view of the skills, abilities and knowledge shortages and surpluses for <span id="countrySmallChart">the selected country</span>
 	</div>
 	<Br/>   
 		<div id="skillsChart"></div>
@@ -515,12 +522,12 @@ section {
 	***********************************************-->
 
 	<div id="transitionChart">
-		<div id="title">Changing career?
+		<div id="title">Changing Career: Adult Learning and Training Profiles
 			<img id="logo" src="pics/Skills-visual-high-res.png"></img>
 		</div>
-		<div id="vizIntro">Find out which skills knowledge and abilities you have in surplus or shortage when passing from one activity to another. Select the activity you're currently in and the activity you would like to do , to see your assets and things to develop.</div><Br/>
+		<div id="vizIntro">Discover which skills, knowledge and abilities you need to acquire in order to pursue your desired occupation.  Enter your current occupation and the occupation you would like to pursue in order to find out which competencies you likely already have, and which ones you may need to develop.</div><Br/>
 		<div id="introWhatIAm" >My current occupation:</div>
-		<div id="introWhatIBecome">What I'd like to become:</div>
+		<div id="introWhatIBecome">Occupation I’d like to pursue:</div>
 		<Br/>
 		<select id="dropDownWhatIAm" ></select>
 		<select id="dropDownWhatIBecome" ></select>
@@ -557,7 +564,7 @@ section {
 	</div>
 
 	<div id="middleChartTooltip" class="hidden">
-		<span id="middleCountry">Country</span> has a <b><span id="middleSurplusShortage">surplus/shortage</span></b> of <span id="middleSkills">Skills/knowledge/abilities</span> in <i><span id="middleCat">XXX</span></i>
+		<span id="middleCountry">Country</span> has a <b><span id="middleSurplusShortage">surplus/shortage</span></b><span id="middleSkills">Skills/knowledge/abilities</span> in <i><span id="middleCat">XXX</span></i>
 	</div>
 
 	<!-- 	***********************************************
