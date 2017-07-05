@@ -153,6 +153,12 @@ function initialiseAll(isoCode) {
 		   .attr('height', 430)
 		      .attr("xlink:href", "pics/intro.jpg");
 
+
+		  	d3.select("#smallChartIntro").style("visibility","hidden")
+		  	d3.select("#transitionChart").style("visibility","hidden")
+		  	d3.select("#hideShowToggle").style("visibility","hidden")
+			d3.select("#map").selectAll("path").style("fill","#F8FAFC");
+
 	}else{
 		// Load the data.
 		d3.json('data/data.json', function(error,data){
