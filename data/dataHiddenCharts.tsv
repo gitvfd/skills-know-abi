@@ -21,14 +21,14 @@ know_law_1	Philosophy and Theology	Knowledge	2	know_arts	0.0101086	AUT
 skills_learning	Learning Strategies	Skills	2	skills_Basic_Process	0.0165099	AUT
 skills_Tech_2	Systems Analysis	Skills	2	skills_Syst	0.0173374	AUT
 skills_Complex_Pb_5	Quality Control Analysis	Skills	2	skills_Tech	-0.0010642	AUT
-know_math_1	Mechanical	Knowledge	2	know_eng	-0.0036557	AUT
-skills_math	Mathematics Skills	Skills	2	skills_Basic_Cont	0.0136036	AUT
+know_math_1	Mechanics	Knowledge	2	know_eng	-0.0036557	AUT
+skills_math	Mathematics	Skills	2	skills_Basic_Cont	0.0136036	AUT
 skills_Complex_Pb_2	Equipment Maintenance	Skills	2	skills_Tech	-0.0044061	AUT
 know_math_7	Sociology and Anthropology	Knowledge	2	know_math	0.013105	AUT
 skills_act_le	Active Learning	Skills	2	skills_Basic_Process	0.0165822	AUT
 ab_control_mov	Control Movement Abilities	Abilities	1	ab_control_mov	-0.0147268	AUT
-know_bis_2	Clerical	Knowledge	2	know_bis	0.0317354	AUT
-know_math_2	Mathematics Knowledge	Knowledge	2	know_math	0.0184435	AUT
+know_bis_2	Clergy	Knowledge	2	know_bis	0.0317354	AUT
+know_math_2	Mathematics	Knowledge	2	know_math	0.0184435	AUT
 ab_flex	Flexibility, Balance and Coordination	Abilities	1	ab_flex	-0.0106768	AUT
 know_bis_3	Economics and Accounting	Knowledge	2	know_bis	0.007173	AUT
 skills_Basic_Process_3	Equipment Selection	Skills	2	skills_Tech	-0.0003987	AUT
@@ -42,7 +42,7 @@ skills_Basic_Cont_6	Service Orientation	Skills	2	skills_Social	0.0058233	AUT
 know_eng_2	Computers and Electronics	Knowledge	2	know_eng	0.0347233	AUT
 skills_Res_Mgmt_1	Management of Material Resources	Skills	2	skills_Res_Mgmt	0.0014076	AUT
 ab_visual	Visual Abilities	Abilities	1	ab_visual	-0.0034686	AUT
-ab_mem	Memory	Abilities	1	ab_mem	0.0081094	AUT
+ab_mem	Memory Abilities	Abilities	1	ab_mem	0.0081094	AUT
 know_com_2	Telecommunications	Knowledge	2	know_com	0.0023192	AUT
 know_manu_1	Personnel and Human Resources	Knowledge	2	know_bis	0.0017604	AUT
 skills_critical	Critical Thinking	Skills	2	skills_Basic_Process	0.0154323	AUT
@@ -84,7 +84,7 @@ skills_learning	Learning Strategies	Skills	2	skills_Basic_Process	0.0187557	BEL
 know_eng	Engineering, Mechanics and Technology	Knowledge	1	know_eng	0.0002713	BEL
 know_math_5	Biology	Knowledge	2	know_math	0.0177343	BEL
 skills_Tech_2	Systems Analysis	Skills	2	skills_Syst	0.0128315	BEL
-know_math_2	Mathematics Knowledge	Knowledge	2	know_math	0.0060646	BEL
+know_math_2	Mathematics	Knowledge	2	know_math	0.0060646	BEL
 know_law_2	Public Safety and Security	Knowledge	2	know_law	0.0005366	BEL
 know_com_2	Telecommunications	Knowledge	2	know_com	0.0038227	BEL
 ab_reason	Reasoning Abilities	Abilities	1	ab_reason	0.0154297	BEL
@@ -94,7 +94,7 @@ skills_act_li	Active Listening	Skills	2	skills_Basic_Cont	0.0202275	BEL
 skills_Tech_1	Judgment and Decision Making	Skills	2	skills_Syst	0.0164852	BEL
 ab_audio	Auditory and Speech Abilities	Abilities	1	ab_audio	0.0056995	BEL
 ab_quant	Quantitative Abilities	Abilities	1	ab_quant	0.0069004	BEL
-skills_math	Mathematics Skills	Skills	2	skills_Basic_Cont	0.0071334	BEL
+skills_math	Mathematics	Skills	2	skills_Basic_Cont	0.0071334	BEL
 skills_Res_Mgmt_2	Management of Personnel Resources	Skills	2	skills_Res_Mgmt	0.0083487	BEL
 skills_speak	Speaking	Skills	2	skills_Basic_Cont	0.02053	BEL
 ab_attent	Attentiveness	Abilities	1	ab_attent	0.0062669	BEL
@@ -103,14 +103,14 @@ skills_Basic_Cont_1	Social Perceptiveness	Skills	2	skills_Social	0.018593	BEL
 know_eng_5	Building and Construction	Knowledge	2	know_eng	-0.013304	BEL
 skills_Basic_Cont_5	Instructing	Skills	2	skills_Social	0.0164066	BEL
 skills_Basic_Process_3	Equipment Selection	Skills	2	skills_Tech	-0.0030956	BEL
-know_bis_2	Clerical	Knowledge	2	know_bis	0.0153827	BEL
+know_bis_2	Clergy	Knowledge	2	know_bis	0.0153827	BEL
 know_bis_3	Economics and Accounting	Knowledge	2	know_bis	-0.0021811	BEL
 skills_Basic_Process_2	Technology Design	Skills	2	skills_Tech	0.0034424	BEL
 skills_scie	Science	Skills	2	skills_Basic_Cont	0.0183391	BEL
 skills_read_comp	Reading Comprehension	Skills	2	skills_Basic_Cont	0.0225686	BEL
 ab_spatial	Spatial Abilities	Abilities	1	ab_spatial	-0.0005864	BEL
 skills_Basic_Cont_6	Service Orientation	Skills	2	skills_Social	0.0130915	BEL
-know_math_1	Mechanical	Knowledge	2	know_eng	-0.0142278	BEL
+know_math_1	Mechanics	Knowledge	2	know_eng	-0.0142278	BEL
 skills_Social_1	Installation	Skills	2	skills_Tech	-0.0031641	BEL
 ab_verbal	Verbal Abilities	Abilities	1	ab_verbal	0.0209864	BEL
 ab_visual	Visual Abilities	Abilities	1	ab_visual	0.0011188	BEL
@@ -125,7 +125,7 @@ know_health_1	Geography	Knowledge	2	know_math	0.0045783	BEL
 ab_percep	Perceptual Abilities	Abilities	1	ab_percep	0.0092977	BEL
 ab_endur	Endurance	Abilities	1	ab_endur	-0.0070924	BEL
 know_bis_1	Administration and Management	Knowledge	2	know_bis	0.0025677	BEL
-ab_mem	Memory	Abilities	1	ab_mem	0.0090957	BEL
+ab_mem	Memory Abilities	Abilities	1	ab_mem	0.0090957	BEL
 know_arts_2	Fine Arts	Knowledge	2	know_arts	0.0050373	BEL
 skills_Basic_Cont_3	Persuasion	Skills	2	skills_Social	0.0101136	BEL
 know_trans	Transportation	Knowledge	1	know_trans	-0.0057892	BEL
@@ -198,16 +198,16 @@ skills_Social_3	Operation Monitoring	Skills	2	skills_Tech	-0.002615	BGR
 skills_Complex_Pb_4	Repairing	Skills	2	skills_Tech	-0.0071548	BGR
 ab_reason	Reasoning Abilities	Abilities	1	ab_reason	0.0128501	BGR
 know_law_2	Public Safety and Security	Knowledge	2	know_law	-0.0081477	BGR
-know_math_2	Mathematics Knowledge	Knowledge	2	know_math	0.0129093	BGR
+know_math_2	Mathematics	Knowledge	2	know_math	0.0129093	BGR
 ab_percep	Perceptual Abilities	Abilities	1	ab_percep	0.0054099	BGR
-ab_mem	Memory	Abilities	1	ab_mem	0.0082851	BGR
+ab_mem	Memory Abilities	Abilities	1	ab_mem	0.0082851	BGR
 know_math_7	Sociology and Anthropology	Knowledge	2	know_math	0.0106845	BGR
 skills_Social_1	Installation	Skills	2	skills_Tech	-0.0022007	BGR
 skills_Basic_Cont_5	Instructing	Skills	2	skills_Social	0.0138645	BGR
 skills_Syst_2	Time Management	Skills	2	skills_Res_Mgmt	0.0111436	BGR
 skills_mon	Monitoring	Skills	2	skills_Basic_Process	0.0124254	BGR
 skills_Tech_1	Judgment and Decision Making	Skills	2	skills_Syst	0.0144747	BGR
-know_bis_2	Clerical	Knowledge	2	know_bis	0.0136318	BGR
+know_bis_2	Clergy	Knowledge	2	know_bis	0.0136318	BGR
 know_bis_1	Administration and Management	Knowledge	2	know_bis	0.0054228	BGR
 know_math_3	Physics	Knowledge	2	know_math	0.0010415	BGR
 skills_Basic_Process_1	Operations Analysis	Skills	2	skills_Tech	0.0110287	BGR
@@ -231,9 +231,9 @@ know_health_2	Medicine and Dentistry	Knowledge	2	know_health	0.0187432	BGR
 know_health_1	Geography	Knowledge	2	know_math	0.0021926	BGR
 ab_visual	Visual Abilities	Abilities	1	ab_visual	-0.0020974	BGR
 skills_Syst_1	Systems Evaluation	Skills	2	skills_Syst	0.013752	BGR
-skills_math	Mathematics Skills	Skills	2	skills_Basic_Cont	0.0106157	BGR
+skills_math	Mathematics	Skills	2	skills_Basic_Cont	0.0106157	BGR
 skills_Syst_3	Management of Financial Resources	Skills	2	skills_Res_Mgmt	0.0046466	BGR
-know_math_1	Mechanical	Knowledge	2	know_eng	-0.0106775	BGR
+know_math_1	Mechanics	Knowledge	2	know_eng	-0.0106775	BGR
 know_com_2	Telecommunications	Knowledge	2	know_com	0.0034371	BGR
 skills_Res_Mgmt_2	Management of Personnel Resources	Skills	2	skills_Res_Mgmt	0.0074283	BGR
 skills_scie	Science	Skills	2	skills_Basic_Cont	0.0073554	CHE
@@ -275,7 +275,7 @@ ab_control_mov	Control Movement Abilities	Abilities	1	ab_control_mov	-0.0064026	
 skills_Complex_Pb_1	Operation and Control	Skills	2	skills_Tech	-0.0072167	CHE
 skills_Basic_Cont_2	Coordination	Skills	2	skills_Social	0.0038337	CHE
 know_bis_1	Administration and Management	Knowledge	2	know_bis	-0.0041626	CHE
-know_math_2	Mathematics Knowledge	Knowledge	2	know_math	-0.0076984	CHE
+know_math_2	Mathematics	Knowledge	2	know_math	-0.0076984	CHE
 know_health_1	Geography	Knowledge	2	know_math	0.0014339	CHE
 skills_act_le	Active Learning	Skills	2	skills_Basic_Process	0.0056333	CHE
 know_eng_5	Building and Construction	Knowledge	2	know_eng	-0.012515	CHE
@@ -295,21 +295,21 @@ know_arts_1	Therapy and Counseling	Knowledge	2	know_health	0.0161481	CHE
 know_bis_4	Sales and Marketing	Knowledge	2	know_bis	-0.0140729	CHE
 know_trans	Transportation	Knowledge	1	know_trans	-0.0071882	CHE
 ab_strength	Physical Strength	Abilities	1	ab_strength	-0.0024499	CHE
-know_bis_2	Clerical	Knowledge	2	know_bis	0.0093518	CHE
+know_bis_2	Clergy	Knowledge	2	know_bis	0.0093518	CHE
 ab_manip	Fine Manipulative Abilities	Abilities	1	ab_manip	-0.0015537	CHE
 ab_endur	Endurance	Abilities	1	ab_endur	-0.0021653	CHE
 skills_learning	Learning Strategies	Skills	2	skills_Basic_Process	0.0097364	CHE
 skills_Basic_Process_2	Technology Design	Skills	2	skills_Tech	0.0000153	CHE
 know_law_2	Public Safety and Security	Knowledge	2	know_law	-0.0029016	CHE
 know_manu_2	Production and Processing	Knowledge	2	know_manu	-0.0096542	CHE
-skills_math	Mathematics Skills	Skills	2	skills_Basic_Cont	-0.0035858	CHE
+skills_math	Mathematics	Skills	2	skills_Basic_Cont	-0.0035858	CHE
 know_com_1	Law and Government	Knowledge	2	know_law	0.0000184	CHE
 skills_Complex_Pb_5	Quality Control Analysis	Skills	2	skills_Tech	-0.0013394	CHE
-know_math_1	Mechanical	Knowledge	2	know_eng	-0.0105567	CHE
+know_math_1	Mechanics	Knowledge	2	know_eng	-0.0105567	CHE
 ab_flex	Flexibility, Balance and Coordination	Abilities	1	ab_flex	-0.002528	CHE
 skills_Basic_Cont_1	Social Perceptiveness	Skills	2	skills_Social	0.0106648	CHE
 know_law_1	Philosophy and Theology	Knowledge	2	know_arts	0.0123619	CHE
-ab_mem	Memory	Abilities	1	ab_mem	0.0030405	CHE
+ab_mem	Memory Abilities	Abilities	1	ab_mem	0.0030405	CHE
 skills_Res_Mgmt_2	Management of Personnel Resources	Skills	2	skills_Res_Mgmt	0.0028763	CHE
 skills_Basic_Cont_6	Service Orientation	Skills	2	skills_Social	0.0105119	CHE
 skills_Basic_Cont_5	Instructing	Skills	2	skills_Social	0.0086007	CHE
@@ -340,7 +340,7 @@ ab_percep	Perceptual Abilities	Abilities	1	ab_percep	0.0004573	CYP
 skills_Basic_Cont_6	Service Orientation	Skills	2	skills_Social	0.0040207	CYP
 skills_Tech_2	Systems Analysis	Skills	2	skills_Syst	0.0066027	CYP
 skills_mon	Monitoring	Skills	2	skills_Basic_Process	0.0039333	CYP
-skills_math	Mathematics Skills	Skills	2	skills_Basic_Cont	-0.0046459	CYP
+skills_math	Mathematics	Skills	2	skills_Basic_Cont	-0.0046459	CYP
 ab_quant	Quantitative Abilities	Abilities	1	ab_quant	-0.0031419	CYP
 ab_manip	Fine Manipulative Abilities	Abilities	1	ab_manip	-0.0132567	CYP
 know_eng	Engineering, Mechanics and Technology	Knowledge	1	know_eng	-0.0114222	CYP
@@ -361,10 +361,10 @@ know_bis_4	Sales and Marketing	Knowledge	2	know_bis	-0.0119724	CYP
 skills_act_le	Active Learning	Skills	2	skills_Basic_Process	0.0081588	CYP
 know_law_2	Public Safety and Security	Knowledge	2	know_law	-0.0108857	CYP
 skills_Syst_2	Time Management	Skills	2	skills_Res_Mgmt	0.003144	CYP
-know_math_1	Mechanical	Knowledge	2	know_eng	-0.0268843	CYP
+know_math_1	Mechanics	Knowledge	2	know_eng	-0.0268843	CYP
 ab_strength	Physical Strength	Abilities	1	ab_strength	-0.0120567	CYP
 know_eng_4	Design	Knowledge	2	know_eng	-0.0159157	CYP
-ab_mem	Memory	Abilities	1	ab_mem	0.0020994	CYP
+ab_mem	Memory Abilities	Abilities	1	ab_mem	0.0020994	CYP
 ab_reac_time	Reaction Time and Speed Abilities	Abilities	1	ab_reac_time	-0.0105603	CYP
 skills_Basic_Cont_3	Persuasion	Skills	2	skills_Social	0.0015047	CYP
 skills_Res_Mgmt_1	Management of Material Resources	Skills	2	skills_Res_Mgmt	-0.0034431	CYP
@@ -373,11 +373,11 @@ know_arts_3	History and Archeology	Knowledge	2	know_arts	0.0072519	CYP
 know_health_2	Medicine and Dentistry	Knowledge	2	know_health	0.0128829	CYP
 ab_attent	Attentiveness	Abilities	1	ab_attent	-0.0035344	CYP
 skills_Social_3	Operation Monitoring	Skills	2	skills_Tech	-0.0104679	CYP
-know_bis_2	Clerical	Knowledge	2	know_bis	0.0185164	CYP
+know_bis_2	Clergy	Knowledge	2	know_bis	0.0185164	CYP
 know_trans	Transportation	Knowledge	1	know_trans	-0.0129047	CYP
 skills_Basic_Cont_1	Social Perceptiveness	Skills	2	skills_Social	0.0075366	CYP
 skills_Complex_Pb_5	Quality Control Analysis	Skills	2	skills_Tech	-0.0073077	CYP
-know_math_2	Mathematics Knowledge	Knowledge	2	know_math	-0.0096821	CYP
+know_math_2	Mathematics	Knowledge	2	know_math	-0.0096821	CYP
 know_eng_5	Building and Construction	Knowledge	2	know_eng	-0.0316119	CYP
 know_health_1	Geography	Knowledge	2	know_math	0.0053717	CYP
 know_math_6	Psychology	Knowledge	2	know_math	0.0148328	CYP
@@ -401,7 +401,7 @@ know_eng_2	Computers and Electronics	Knowledge	2	know_eng	0.0145494	CZE
 skills_Basic_Cont_3	Persuasion	Skills	2	skills_Social	0.0020244	CZE
 ab_flex	Flexibility, Balance and Coordination	Abilities	1	ab_flex	-0.0049416	CZE
 know_manu_2	Production and Processing	Knowledge	2	know_manu	0.0042326	CZE
-know_bis_2	Clerical	Knowledge	2	know_bis	0.0105449	CZE
+know_bis_2	Clergy	Knowledge	2	know_bis	0.0105449	CZE
 know_arts_3	History and Archeology	Knowledge	2	know_arts	-0.0025755	CZE
 know_law_2	Public Safety and Security	Knowledge	2	know_law	-0.0100902	CZE
 know_com_2	Telecommunications	Knowledge	2	know_com	0.0012978	CZE
@@ -422,7 +422,7 @@ ab_verbal	Verbal Abilities	Abilities	1	ab_verbal	0.0076381	CZE
 skills_Complex_Pb_2	Equipment Maintenance	Skills	2	skills_Tech	0.0012081	CZE
 know_math_6	Psychology	Knowledge	2	know_math	0.0081561	CZE
 ab_spatial	Spatial Abilities	Abilities	1	ab_spatial	-0.0027633	CZE
-skills_math	Mathematics Skills	Skills	2	skills_Basic_Cont	0.0050669	CZE
+skills_math	Mathematics	Skills	2	skills_Basic_Cont	0.0050669	CZE
 ab_manip	Fine Manipulative Abilities	Abilities	1	ab_manip	0.0046303	CZE
 ab_percep	Perceptual Abilities	Abilities	1	ab_percep	0.0048373	CZE
 know_health_1	Geography	Knowledge	2	know_math	-0.0049571	CZE
@@ -466,11 +466,11 @@ skills_Basic_Process_2	Technology Design	Skills	2	skills_Tech	0.0040008	CZE
 know_bis_3	Economics and Accounting	Knowledge	2	know_bis	0.0026991	CZE
 know_trans_1	Communications and Media	Knowledge	2	know_com	0.0010051	CZE
 know_arts_1	Therapy and Counseling	Knowledge	2	know_health	0.0077041	CZE
-know_math_1	Mechanical	Knowledge	2	know_eng	0.0057714	CZE
+know_math_1	Mechanics	Knowledge	2	know_eng	0.0057714	CZE
 skills_learning	Learning Strategies	Skills	2	skills_Basic_Process	0.0037997	CZE
 skills_Res_Mgmt_2	Management of Personnel Resources	Skills	2	skills_Res_Mgmt	0.0029585	CZE
-ab_mem	Memory	Abilities	1	ab_mem	0.0049953	CZE
-know_math_2	Mathematics Knowledge	Knowledge	2	know_math	0.0090371	CZE
+ab_mem	Memory Abilities	Abilities	1	ab_mem	0.0049953	CZE
+know_math_2	Mathematics	Knowledge	2	know_math	0.0090371	CZE
 skills_Complex_Pb_4	Repairing	Skills	2	skills_Tech	0.0022881	CZE
 ab_reac_time	Reaction Time and Speed Abilities	Abilities	1	ab_reac_time	-0.003494	CZE
 know_health_2	Medicine and Dentistry	Knowledge	2	know_health	-0.0000912	DEU
@@ -485,7 +485,7 @@ skills_Social_1	Installation	Skills	2	skills_Tech	0.0013211	DEU
 know_arts_1	Therapy and Counseling	Knowledge	2	know_health	0.0126795	DEU
 skills_mon	Monitoring	Skills	2	skills_Basic_Process	0.0132644	DEU
 skills_Basic_Cont_4	Negotiation	Skills	2	skills_Social	0.0204416	DEU
-ab_mem	Memory	Abilities	1	ab_mem	0.0123997	DEU
+ab_mem	Memory Abilities	Abilities	1	ab_mem	0.0123997	DEU
 ab_quant	Quantitative Abilities	Abilities	1	ab_quant	0.0206758	DEU
 skills_act_li	Active Listening	Skills	2	skills_Basic_Cont	0.0223475	DEU
 know_law_1	Philosophy and Theology	Knowledge	2	know_arts	0.0053564	DEU
@@ -508,7 +508,7 @@ skills_speak	Speaking	Skills	2	skills_Basic_Cont	0.020669	DEU
 know_manu_2	Production and Processing	Knowledge	2	know_manu	-0.0018671	DEU
 ab_flex	Flexibility, Balance and Coordination	Abilities	1	ab_flex	-0.0109019	DEU
 know_math_4	Chemistry	Knowledge	2	know_math	-0.0073224	DEU
-know_bis_2	Clerical	Knowledge	2	know_bis	0.0167927	DEU
+know_bis_2	Clergy	Knowledge	2	know_bis	0.0167927	DEU
 ab_reac_time	Reaction Time and Speed Abilities	Abilities	1	ab_reac_time	-0.0115343	DEU
 know_eng_2	Computers and Electronics	Knowledge	2	know_eng	0.0239182	DEU
 skills_Social_2	Programming	Skills	2	skills_Tech	0.0063593	DEU
@@ -522,10 +522,10 @@ know_com_1	Law and Government	Knowledge	2	know_law	0.0148685	DEU
 skills_Basic_Process_2	Technology Design	Skills	2	skills_Tech	0.0066026	DEU
 ab_attent	Attentiveness	Abilities	1	ab_attent	0.0040315	DEU
 skills_Complex_Pb_5	Quality Control Analysis	Skills	2	skills_Tech	-0.0043752	DEU
-know_math_1	Mechanical	Knowledge	2	know_eng	-0.0003304	DEU
+know_math_1	Mechanics	Knowledge	2	know_eng	-0.0003304	DEU
 know_math_3	Physics	Knowledge	2	know_math	0.0073683	DEU
 skills_Basic_Cont_6	Service Orientation	Skills	2	skills_Social	0.0148941	DEU
-know_math_2	Mathematics Knowledge	Knowledge	2	know_math	0.020172	DEU
+know_math_2	Mathematics	Knowledge	2	know_math	0.020172	DEU
 skills_Res_Mgmt_2	Management of Personnel Resources	Skills	2	skills_Res_Mgmt	0.0099579	DEU
 know_eng	Engineering, Mechanics and Technology	Knowledge	1	know_eng	0.0145761	DEU
 ab_manip	Fine Manipulative Abilities	Abilities	1	ab_manip	-0.0142776	DEU
@@ -536,7 +536,7 @@ skills_Complex_Pb_4	Repairing	Skills	2	skills_Tech	-0.0054982	DEU
 ab_spatial	Spatial Abilities	Abilities	1	ab_spatial	-0.0012984	DEU
 know_eng_1	Food Production	Knowledge	2	know_manu	-0.0080367	DEU
 skills_Syst_3	Management of Financial Resources	Skills	2	skills_Res_Mgmt	0.0063658	DEU
-skills_math	Mathematics Skills	Skills	2	skills_Basic_Cont	0.0171706	DEU
+skills_math	Mathematics	Skills	2	skills_Basic_Cont	0.0171706	DEU
 know_bis_4	Sales and Marketing	Knowledge	2	know_bis	0.0225082	DEU
 know_bis_5	Customer and Personal Service	Knowledge	2	know_bis	0.0215893	DEU
 know_law_2	Public Safety and Security	Knowledge	2	know_law	-0.0026048	DEU
@@ -585,12 +585,12 @@ ab_audio	Auditory and Speech Abilities	Abilities	1	ab_audio	0.002124	DNK
 know_manu_1	Personnel and Human Resources	Knowledge	2	know_bis	0.0058566	DNK
 know_bis_4	Sales and Marketing	Knowledge	2	know_bis	-0.0088932	DNK
 skills_Basic_Process_2	Technology Design	Skills	2	skills_Tech	0.0024115	DNK
-skills_math	Mathematics Skills	Skills	2	skills_Basic_Cont	0.0111141	DNK
+skills_math	Mathematics	Skills	2	skills_Basic_Cont	0.0111141	DNK
 skills_Basic_Process_3	Equipment Selection	Skills	2	skills_Tech	0.0069645	DNK
 know_com_1	Law and Government	Knowledge	2	know_law	0.0132863	DNK
 ab_quant	Quantitative Abilities	Abilities	1	ab_quant	0.0085236	DNK
 skills_Complex_Pb_4	Repairing	Skills	2	skills_Tech	0.0079303	DNK
-know_bis_2	Clerical	Knowledge	2	know_bis	-0.0003022	DNK
+know_bis_2	Clergy	Knowledge	2	know_bis	-0.0003022	DNK
 skills_Social_2	Programming	Skills	2	skills_Tech	0.0045877	DNK
 know_math_6	Psychology	Knowledge	2	know_math	-0.0020437	DNK
 know_eng_2	Computers and Electronics	Knowledge	2	know_eng	0.0170464	DNK
@@ -600,16 +600,16 @@ know_com_2	Telecommunications	Knowledge	2	know_com	0.0043454	DNK
 know_bis_5	Customer and Personal Service	Knowledge	2	know_bis	-0.0154424	DNK
 know_health_2	Medicine and Dentistry	Knowledge	2	know_health	-0.0005991	DNK
 ab_strength	Physical Strength	Abilities	1	ab_strength	-0.0040709	DNK
-know_math_1	Mechanical	Knowledge	2	know_eng	0.0154598	DNK
+know_math_1	Mechanics	Knowledge	2	know_eng	0.0154598	DNK
 know_trans_1	Communications and Media	Knowledge	2	know_com	0.0039111	DNK
 know_math_3	Physics	Knowledge	2	know_math	0.0103729	DNK
 know_arts_2	Fine Arts	Knowledge	2	know_arts	0.0043047	DNK
 skills_Res_Mgmt_2	Management of Personnel Resources	Skills	2	skills_Res_Mgmt	0.0112115	DNK
 skills_Complex_Pb_3	Troubleshooting	Skills	2	skills_Tech	0.0079035	DNK
-know_math_2	Mathematics Knowledge	Knowledge	2	know_math	0.0163156	DNK
+know_math_2	Mathematics	Knowledge	2	know_math	0.0163156	DNK
 skills_learning	Learning Strategies	Skills	2	skills_Basic_Process	0.0118885	DNK
 skills_scie	Science	Skills	2	skills_Basic_Cont	0.0108668	DNK
-ab_mem	Memory	Abilities	1	ab_mem	0.0040167	DNK
+ab_mem	Memory Abilities	Abilities	1	ab_mem	0.0040167	DNK
 ab_percep	Perceptual Abilities	Abilities	1	ab_percep	0.0070806	DNK
 skills_Syst_3	Management of Financial Resources	Skills	2	skills_Res_Mgmt	0.0047312	DNK
 ab_reason	Reasoning Abilities	Abilities	1	ab_reason	0.0105993	DNK
@@ -634,7 +634,7 @@ skills_Basic_Cont_5	Instructing	Skills	2	skills_Social	0.009417	DNK
 skills_Tech_1	Judgment and Decision Making	Skills	2	skills_Syst	0.0193767	ESP
 know_com_2	Telecommunications	Knowledge	2	know_com	0.0095687	ESP
 skills_Complex_Pb_1	Operation and Control	Skills	2	skills_Tech	-0.0052349	ESP
-ab_mem	Memory	Abilities	1	ab_mem	0.0127503	ESP
+ab_mem	Memory Abilities	Abilities	1	ab_mem	0.0127503	ESP
 know_arts_1	Therapy and Counseling	Knowledge	2	know_health	0.0082588	ESP
 know_math_3	Physics	Knowledge	2	know_math	0.0041958	ESP
 skills_Basic_Process_2	Technology Design	Skills	2	skills_Tech	0.0067809	ESP
@@ -644,10 +644,10 @@ know_eng_5	Building and Construction	Knowledge	2	know_eng	-0.0163583	ESP
 skills_Social_3	Operation Monitoring	Skills	2	skills_Tech	-0.0012334	ESP
 ab_control_mov	Control Movement Abilities	Abilities	1	ab_control_mov	-0.0092777	ESP
 ab_manip	Fine Manipulative Abilities	Abilities	1	ab_manip	-0.011447	ESP
-skills_math	Mathematics Skills	Skills	2	skills_Basic_Cont	0.0177199	ESP
+skills_math	Mathematics	Skills	2	skills_Basic_Cont	0.0177199	ESP
 know_manu_2	Production and Processing	Knowledge	2	know_manu	-0.0002398	ESP
 skills_Basic_Cont_5	Instructing	Skills	2	skills_Social	0.0171088	ESP
-know_math_2	Mathematics Knowledge	Knowledge	2	know_math	0.0272001	ESP
+know_math_2	Mathematics	Knowledge	2	know_math	0.0272001	ESP
 skills_Syst_1	Systems Evaluation	Skills	2	skills_Syst	0.0195648	ESP
 know_health_1	Geography	Knowledge	2	know_math	0.0083467	ESP
 ab_visual	Visual Abilities	Abilities	1	ab_visual	0.0006549	ESP
@@ -662,7 +662,7 @@ know_eng_4	Design	Knowledge	2	know_eng	0.0040831	ESP
 know_trans_1	Communications and Media	Knowledge	2	know_com	0.0163356	ESP
 skills_Syst_2	Time Management	Skills	2	skills_Res_Mgmt	0.0121792	ESP
 know_math_6	Psychology	Knowledge	2	know_math	0.01744	ESP
-know_math_1	Mechanical	Knowledge	2	know_eng	-0.0023392	ESP
+know_math_1	Mechanics	Knowledge	2	know_eng	-0.0023392	ESP
 skills_writ	Writing	Skills	2	skills_Basic_Cont	0.0276702	ESP
 skills_Basic_Cont_3	Persuasion	Skills	2	skills_Social	0.0160493	ESP
 ab_endur	Endurance	Abilities	1	ab_endur	-0.0175215	ESP
@@ -670,7 +670,7 @@ know_health_2	Medicine and Dentistry	Knowledge	2	know_health	0.0065889	ESP
 know_arts_2	Fine Arts	Knowledge	2	know_arts	0.00331	ESP
 ab_quant	Quantitative Abilities	Abilities	1	ab_quant	0.0191237	ESP
 know_math_5	Biology	Knowledge	2	know_math	0.0019945	ESP
-know_bis_2	Clerical	Knowledge	2	know_bis	0.0332044	ESP
+know_bis_2	Clergy	Knowledge	2	know_bis	0.0332044	ESP
 know_bis_5	Customer and Personal Service	Knowledge	2	know_bis	0.0161158	ESP
 ab_flex	Flexibility, Balance and Coordination	Abilities	1	ab_flex	-0.0128252	ESP
 ab_attent	Attentiveness	Abilities	1	ab_attent	0.0075124	ESP
@@ -743,7 +743,7 @@ skills_Basic_Process_2	Technology Design	Skills	2	skills_Tech	0.0022082	EST
 skills_Tech_1	Judgment and Decision Making	Skills	2	skills_Syst	0.019628	EST
 skills_Social_3	Operation Monitoring	Skills	2	skills_Tech	-0.0121624	EST
 skills_critical	Critical Thinking	Skills	2	skills_Basic_Process	0.020212	EST
-ab_mem	Memory	Abilities	1	ab_mem	0.0114256	EST
+ab_mem	Memory Abilities	Abilities	1	ab_mem	0.0114256	EST
 know_trans	Transportation	Knowledge	1	know_trans	-0.0046754	EST
 know_manu_1	Personnel and Human Resources	Knowledge	2	know_bis	0.0175522	EST
 skills_act_le	Active Learning	Skills	2	skills_Basic_Process	0.0201607	EST
@@ -756,10 +756,10 @@ skills_Syst_3	Management of Financial Resources	Skills	2	skills_Res_Mgmt	0.00691
 know_math_4	Chemistry	Knowledge	2	know_math	0.0003219	EST
 skills_Social_2	Programming	Skills	2	skills_Tech	0.0040181	EST
 know_com_2	Telecommunications	Knowledge	2	know_com	0.0015614	EST
-know_math_1	Mechanical	Knowledge	2	know_eng	-0.0252949	EST
+know_math_1	Mechanics	Knowledge	2	know_eng	-0.0252949	EST
 know_law_2	Public Safety and Security	Knowledge	2	know_law	-0.010564	EST
 know_trans_1	Communications and Media	Knowledge	2	know_com	0.0176559	EST
-know_bis_2	Clerical	Knowledge	2	know_bis	0.0212725	EST
+know_bis_2	Clergy	Knowledge	2	know_bis	0.0212725	EST
 skills_Basic_Cont_5	Instructing	Skills	2	skills_Social	0.0205496	EST
 skills_Complex_Pb_1	Operation and Control	Skills	2	skills_Tech	-0.0186731	EST
 skills_Basic_Process_1	Operations Analysis	Skills	2	skills_Tech	0.0082228	EST
@@ -769,7 +769,7 @@ skills_Res_Mgmt_2	Management of Personnel Resources	Skills	2	skills_Res_Mgmt	0.0
 skills_Basic_Cont_1	Social Perceptiveness	Skills	2	skills_Social	0.0204843	EST
 ab_quant	Quantitative Abilities	Abilities	1	ab_quant	0.0109553	EST
 skills_Basic_Cont_2	Coordination	Skills	2	skills_Social	0.0122381	EST
-skills_math	Mathematics Skills	Skills	2	skills_Basic_Cont	0.008147	EST
+skills_math	Mathematics	Skills	2	skills_Basic_Cont	0.008147	EST
 skills_speak	Speaking	Skills	2	skills_Basic_Cont	0.0241808	EST
 skills_Complex_Pb_3	Troubleshooting	Skills	2	skills_Tech	-0.0115014	EST
 know_eng	Engineering, Mechanics and Technology	Knowledge	1	know_eng	-0.0081258	EST
@@ -785,12 +785,12 @@ ab_reac_time	Reaction Time and Speed Abilities	Abilities	1	ab_reac_time	-0.01327
 skills_Res_Mgmt_1	Management of Material Resources	Skills	2	skills_Res_Mgmt	0.0045835	EST
 know_math_6	Psychology	Knowledge	2	know_math	0.0271003	EST
 skills_Syst_1	Systems Evaluation	Skills	2	skills_Syst	0.0186803	EST
-know_math_2	Mathematics Knowledge	Knowledge	2	know_math	0.0113747	EST
+know_math_2	Mathematics	Knowledge	2	know_math	0.0113747	EST
 ab_control_mov	Control Movement Abilities	Abilities	1	ab_control_mov	-0.0188327	EST
 ab_strength	Physical Strength	Abilities	1	ab_strength	-0.0130632	EST
 know_health_1	Geography	Knowledge	2	know_math	0.0111148	EST
 skills_act_li	Active Listening	Skills	2	skills_Basic_Cont	0.0305589	FIN
-know_math_1	Mechanical	Knowledge	2	know_eng	-0.0142807	FIN
+know_math_1	Mechanics	Knowledge	2	know_eng	-0.0142807	FIN
 ab_reac_time	Reaction Time and Speed Abilities	Abilities	1	ab_reac_time	-0.0176514	FIN
 know_law_1	Philosophy and Theology	Knowledge	2	know_arts	0.0097704	FIN
 know_manu_2	Production and Processing	Knowledge	2	know_manu	-0.0009538	FIN
@@ -802,7 +802,7 @@ skills_Basic_Cont_6	Service Orientation	Skills	2	skills_Social	0.01519	FIN
 skills_Complex_Pb_3	Troubleshooting	Skills	2	skills_Tech	-0.0047259	FIN
 skills_Res_Mgmt_1	Management of Material Resources	Skills	2	skills_Res_Mgmt	0.0085411	FIN
 skills_Tech_2	Systems Analysis	Skills	2	skills_Syst	0.0332496	FIN
-know_bis_2	Clerical	Knowledge	2	know_bis	0.0278472	FIN
+know_bis_2	Clergy	Knowledge	2	know_bis	0.0278472	FIN
 ab_audio	Auditory and Speech Abilities	Abilities	1	ab_audio	0.0033823	FIN
 know_arts_1	Therapy and Counseling	Knowledge	2	know_health	0.0137767	FIN
 skills_Basic_Process_2	Technology Design	Skills	2	skills_Tech	0.0137125	FIN
@@ -811,7 +811,7 @@ ab_quant	Quantitative Abilities	Abilities	1	ab_quant	0.0302903	FIN
 skills_Complex_Pb_1	Operation and Control	Skills	2	skills_Tech	-0.0185195	FIN
 skills_speak	Speaking	Skills	2	skills_Basic_Cont	0.0308308	FIN
 skills_Basic_Process_3	Equipment Selection	Skills	2	skills_Tech	-0.0033196	FIN
-know_math_2	Mathematics Knowledge	Knowledge	2	know_math	0.0353925	FIN
+know_math_2	Mathematics	Knowledge	2	know_math	0.0353925	FIN
 know_bis_5	Customer and Personal Service	Knowledge	2	know_bis	0.0285457	FIN
 skills_Basic_Cont_5	Instructing	Skills	2	skills_Social	0.0235637	FIN
 know_com_2	Telecommunications	Knowledge	2	know_com	0.0113558	FIN
@@ -828,14 +828,14 @@ skills_read_comp	Reading Comprehension	Skills	2	skills_Basic_Cont	0.0417011	FIN
 ab_spatial	Spatial Abilities	Abilities	1	ab_spatial	-0.0049175	FIN
 know_math_7	Sociology and Anthropology	Knowledge	2	know_math	0.017322	FIN
 skills_act_le	Active Learning	Skills	2	skills_Basic_Process	0.0323875	FIN
-skills_math	Mathematics Skills	Skills	2	skills_Basic_Cont	0.0277665	FIN
+skills_math	Mathematics	Skills	2	skills_Basic_Cont	0.0277665	FIN
 skills_Syst_3	Management of Financial Resources	Skills	2	skills_Res_Mgmt	0.0127357	FIN
 ab_control_mov	Control Movement Abilities	Abilities	1	ab_control_mov	-0.0234224	FIN
 know_bis_1	Administration and Management	Knowledge	2	know_bis	0.0249379	FIN
 know_manu_1	Personnel and Human Resources	Knowledge	2	know_bis	0.0168158	FIN
 skills_writ	Writing	Skills	2	skills_Basic_Cont	0.0358522	FIN
 know_eng_1	Food Production	Knowledge	2	know_manu	-0.0138127	FIN
-ab_mem	Memory	Abilities	1	ab_mem	0.0156921	FIN
+ab_mem	Memory Abilities	Abilities	1	ab_mem	0.0156921	FIN
 know_arts_3	History and Archeology	Knowledge	2	know_arts	0.0054119	FIN
 ab_percep	Perceptual Abilities	Abilities	1	ab_percep	0.0124499	FIN
 know_arts_2	Fine Arts	Knowledge	2	know_arts	0.0031697	FIN
@@ -874,16 +874,16 @@ skills_scie	Science	Skills	2	skills_Basic_Cont	0.009448	FRA
 know_eng_2	Computers and Electronics	Knowledge	2	know_eng	0.0159597	FRA
 skills_Complex_Pb_2	Equipment Maintenance	Skills	2	skills_Tech	0.0086419	FRA
 skills_Basic_Process_3	Equipment Selection	Skills	2	skills_Tech	0.0062333	FRA
-know_math_2	Mathematics Knowledge	Knowledge	2	know_math	0.0129872	FRA
+know_math_2	Mathematics	Knowledge	2	know_math	0.0129872	FRA
 ab_visual	Visual Abilities	Abilities	1	ab_visual	0.00491	FRA
 skills_Basic_Cont_6	Service Orientation	Skills	2	skills_Social	0.0003763	FRA
 know_arts_2	Fine Arts	Knowledge	2	know_arts	0.0014888	FRA
 skills_Social_2	Programming	Skills	2	skills_Tech	0.003061	FRA
-know_bis_2	Clerical	Knowledge	2	know_bis	0.0113361	FRA
+know_bis_2	Clergy	Knowledge	2	know_bis	0.0113361	FRA
 know_com_1	Law and Government	Knowledge	2	know_law	0.006545	FRA
 know_law_2	Public Safety and Security	Knowledge	2	know_law	0.0083227	FRA
 ab_percep	Perceptual Abilities	Abilities	1	ab_percep	0.0069801	FRA
-ab_mem	Memory	Abilities	1	ab_mem	0.0050104	FRA
+ab_mem	Memory Abilities	Abilities	1	ab_mem	0.0050104	FRA
 skills_read_comp	Reading Comprehension	Skills	2	skills_Basic_Cont	0.0106766	FRA
 skills_Syst_2	Time Management	Skills	2	skills_Res_Mgmt	0.009561	FRA
 know_manu_2	Production and Processing	Knowledge	2	know_manu	0.0071692	FRA
@@ -933,7 +933,7 @@ know_health_2	Medicine and Dentistry	Knowledge	2	know_health	0.0004095	FRA
 ab_flex	Flexibility, Balance and Coordination	Abilities	1	ab_flex	-0.0031788	FRA
 skills_Res_Mgmt_2	Management of Personnel Resources	Skills	2	skills_Res_Mgmt	0.0135412	FRA
 skills_Tech_2	Systems Analysis	Skills	2	skills_Syst	0.0113806	FRA
-skills_math	Mathematics Skills	Skills	2	skills_Basic_Cont	0.0077925	FRA
+skills_math	Mathematics	Skills	2	skills_Basic_Cont	0.0077925	FRA
 ab_reac_time	Reaction Time and Speed Abilities	Abilities	1	ab_reac_time	0.0026444	FRA
 ab_attent	Attentiveness	Abilities	1	ab_attent	0.0049419	FRA
 skills_Syst_1	Systems Evaluation	Skills	2	skills_Syst	0.0120924	FRA
@@ -941,7 +941,7 @@ know_eng_1	Food Production	Knowledge	2	know_manu	0.0045779	FRA
 skills_Complex_Pb_5	Quality Control Analysis	Skills	2	skills_Tech	0.0100371	FRA
 skills_Complex_Pb_4	Repairing	Skills	2	skills_Tech	0.0094068	FRA
 skills_Complex_Pb_3	Troubleshooting	Skills	2	skills_Tech	0.0096278	FRA
-know_math_1	Mechanical	Knowledge	2	know_eng	0.0159748	FRA
+know_math_1	Mechanics	Knowledge	2	know_eng	0.0159748	FRA
 skills_writ	Writing	Skills	2	skills_Basic_Cont	0.0110539	FRA
 skills_Complex_Pb_1	Operation and Control	Skills	2	skills_Tech	0.0090649	FRA
 skills_Tech_1	Judgment and Decision Making	Skills	2	skills_Syst	0.0098978	FRA
@@ -952,7 +952,7 @@ skills_Basic_Process_1	Operations Analysis	Skills	2	skills_Tech	0.0120088	GBR
 know_health_2	Medicine and Dentistry	Knowledge	2	know_health	0.0142571	GBR
 ab_control_mov	Control Movement Abilities	Abilities	1	ab_control_mov	-0.0111175	GBR
 skills_Basic_Cont_6	Service Orientation	Skills	2	skills_Social	0.0119943	GBR
-ab_mem	Memory	Abilities	1	ab_mem	0.0080792	GBR
+ab_mem	Memory Abilities	Abilities	1	ab_mem	0.0080792	GBR
 ab_spatial	Spatial Abilities	Abilities	1	ab_spatial	-0.000465	GBR
 ab_percep	Perceptual Abilities	Abilities	1	ab_percep	0.0075156	GBR
 skills_Basic_Cont_3	Persuasion	Skills	2	skills_Social	0.0111044	GBR
@@ -979,19 +979,19 @@ skills_Basic_Process_2	Technology Design	Skills	2	skills_Tech	0.005433	GBR
 skills_Complex_Pb_5	Quality Control Analysis	Skills	2	skills_Tech	0.0032341	GBR
 skills_speak	Speaking	Skills	2	skills_Basic_Cont	0.0168035	GBR
 skills_Basic_Cont_5	Instructing	Skills	2	skills_Social	0.0183092	GBR
-know_math_2	Mathematics Knowledge	Knowledge	2	know_math	0.0180316	GBR
+know_math_2	Mathematics	Knowledge	2	know_math	0.0180316	GBR
 skills_Social_1	Installation	Skills	2	skills_Tech	0.0020613	GBR
 skills_act_li	Active Listening	Skills	2	skills_Basic_Cont	0.0154503	GBR
 skills_act_le	Active Learning	Skills	2	skills_Basic_Process	0.0202521	GBR
 know_math_6	Psychology	Knowledge	2	know_math	0.0179164	GBR
 know_health_1	Geography	Knowledge	2	know_math	0.0083293	GBR
-skills_math	Mathematics Skills	Skills	2	skills_Basic_Cont	0.0132204	GBR
+skills_math	Mathematics	Skills	2	skills_Basic_Cont	0.0132204	GBR
 skills_read_comp	Reading Comprehension	Skills	2	skills_Basic_Cont	0.0203534	GBR
 skills_Social_2	Programming	Skills	2	skills_Tech	0.0072869	GBR
 skills_Syst_2	Time Management	Skills	2	skills_Res_Mgmt	0.0155845	GBR
 know_com_2	Telecommunications	Knowledge	2	know_com	0.0058056	GBR
 know_trans	Transportation	Knowledge	1	know_trans	-0.0022359	GBR
-know_math_1	Mechanical	Knowledge	2	know_eng	-0.0012872	GBR
+know_math_1	Mechanics	Knowledge	2	know_eng	-0.0012872	GBR
 know_arts_1	Therapy and Counseling	Knowledge	2	know_health	0.0145822	GBR
 know_manu_2	Production and Processing	Knowledge	2	know_manu	-0.0021714	GBR
 skills_Syst_1	Systems Evaluation	Skills	2	skills_Syst	0.0191411	GBR
@@ -1020,7 +1020,7 @@ skills_Res_Mgmt_1	Management of Material Resources	Skills	2	skills_Res_Mgmt	0.01
 know_math_4	Chemistry	Knowledge	2	know_math	0.0021243	GBR
 ab_flex	Flexibility, Balance and Coordination	Abilities	1	ab_flex	-0.0085245	GBR
 know_bis_3	Economics and Accounting	Knowledge	2	know_bis	0.0086997	GBR
-know_bis_2	Clerical	Knowledge	2	know_bis	0.0164764	GBR
+know_bis_2	Clergy	Knowledge	2	know_bis	0.0164764	GBR
 ab_reac_time	Reaction Time and Speed Abilities	Abilities	1	ab_reac_time	-0.0072994	GBR
 know_law_2	Public Safety and Security	Knowledge	2	know_law	0.0009877	GBR
 skills_critical	Critical Thinking	Skills	2	skills_Basic_Process	0.018083	GBR
@@ -1044,10 +1044,10 @@ know_eng_4	Design	Knowledge	2	know_eng	0.0009679	GRC
 know_manu_2	Production and Processing	Knowledge	2	know_manu	0.0015309	GRC
 know_math_5	Biology	Knowledge	2	know_math	0.023584	GRC
 know_bis_1	Administration and Management	Knowledge	2	know_bis	0.0158265	GRC
-skills_math	Mathematics Skills	Skills	2	skills_Basic_Cont	0.0031184	GRC
+skills_math	Mathematics	Skills	2	skills_Basic_Cont	0.0031184	GRC
 skills_Syst_1	Systems Evaluation	Skills	2	skills_Syst	0.0080685	GRC
 ab_reac_time	Reaction Time and Speed Abilities	Abilities	1	ab_reac_time	-0.0011907	GRC
-know_math_2	Mathematics Knowledge	Knowledge	2	know_math	0.0010981	GRC
+know_math_2	Mathematics	Knowledge	2	know_math	0.0010981	GRC
 ab_visual	Visual Abilities	Abilities	1	ab_visual	0.0016529	GRC
 skills_Basic_Cont_6	Service Orientation	Skills	2	skills_Social	0.0011933	GRC
 skills_Basic_Process_3	Equipment Selection	Skills	2	skills_Tech	-0.0029689	GRC
@@ -1071,8 +1071,8 @@ ab_spatial	Spatial Abilities	Abilities	1	ab_spatial	-0.002718	GRC
 know_law_1	Philosophy and Theology	Knowledge	2	know_arts	0.0046314	GRC
 skills_Tech_2	Systems Analysis	Skills	2	skills_Syst	0.0082129	GRC
 skills_Tech_1	Judgment and Decision Making	Skills	2	skills_Syst	0.0105815	GRC
-know_math_1	Mechanical	Knowledge	2	know_eng	-0.0115014	GRC
-know_bis_2	Clerical	Knowledge	2	know_bis	0.0104563	GRC
+know_math_1	Mechanics	Knowledge	2	know_eng	-0.0115014	GRC
+know_bis_2	Clergy	Knowledge	2	know_bis	0.0104563	GRC
 know_com_1	Law and Government	Knowledge	2	know_law	0.0075616	GRC
 know_math_3	Physics	Knowledge	2	know_math	0.0008795	GRC
 skills_Basic_Process_2	Technology Design	Skills	2	skills_Tech	0.0009669	GRC
@@ -1100,7 +1100,7 @@ ab_percep	Perceptual Abilities	Abilities	1	ab_percep	0.0057533	GRC
 skills_scie	Science	Skills	2	skills_Basic_Cont	0.015293	GRC
 know_trans_1	Communications and Media	Knowledge	2	know_com	0.0049777	GRC
 skills_Basic_Cont_1	Social Perceptiveness	Skills	2	skills_Social	0.0110584	GRC
-ab_mem	Memory	Abilities	1	ab_mem	0.0037546	GRC
+ab_mem	Memory Abilities	Abilities	1	ab_mem	0.0037546	GRC
 ab_strength	Physical Strength	Abilities	1	ab_strength	-0.0085486	GRC
 skills_Basic_Cont_4	Negotiation	Skills	2	skills_Social	0.0064637	GRC
 skills_critical	Critical Thinking	Skills	2	skills_Basic_Process	0.0131674	GRC
@@ -1113,9 +1113,9 @@ skills_Social_3	Operation Monitoring	Skills	2	skills_Tech	-0.0088837	HUN
 skills_Syst_3	Management of Financial Resources	Skills	2	skills_Res_Mgmt	-0.0016263	HUN
 skills_Complex_Pb_5	Quality Control Analysis	Skills	2	skills_Tech	-0.0079984	HUN
 know_bis_4	Sales and Marketing	Knowledge	2	know_bis	0.0020606	HUN
-know_bis_2	Clerical	Knowledge	2	know_bis	0.0060154	HUN
+know_bis_2	Clergy	Knowledge	2	know_bis	0.0060154	HUN
 know_eng	Engineering, Mechanics and Technology	Knowledge	1	know_eng	-0.0140716	HUN
-know_math_2	Mathematics Knowledge	Knowledge	2	know_math	-0.0033858	HUN
+know_math_2	Mathematics	Knowledge	2	know_math	-0.0033858	HUN
 know_math_5	Biology	Knowledge	2	know_math	0.0015918	HUN
 know_trans	Transportation	Knowledge	1	know_trans	-0.0021384	HUN
 ab_verbal	Verbal Abilities	Abilities	1	ab_verbal	0.0093067	HUN
@@ -1137,11 +1137,11 @@ know_eng_1	Food Production	Knowledge	2	know_manu	-0.0021677	HUN
 ab_attent	Attentiveness	Abilities	1	ab_attent	0.0038165	HUN
 know_bis_3	Economics and Accounting	Knowledge	2	know_bis	-0.0022881	HUN
 skills_writ	Writing	Skills	2	skills_Basic_Cont	0.0096009	HUN
-skills_math	Mathematics Skills	Skills	2	skills_Basic_Cont	-0.0006815	HUN
+skills_math	Mathematics	Skills	2	skills_Basic_Cont	-0.0006815	HUN
 know_manu_2	Production and Processing	Knowledge	2	know_manu	-0.0126887	HUN
 know_law_1	Philosophy and Theology	Knowledge	2	know_arts	0.0107409	HUN
 skills_Syst_1	Systems Evaluation	Skills	2	skills_Syst	0.0031902	HUN
-ab_mem	Memory	Abilities	1	ab_mem	0.0069213	HUN
+ab_mem	Memory Abilities	Abilities	1	ab_mem	0.0069213	HUN
 skills_critical	Critical Thinking	Skills	2	skills_Basic_Process	0.0062639	HUN
 skills_Basic_Process_3	Equipment Selection	Skills	2	skills_Tech	-0.0069521	HUN
 know_math_4	Chemistry	Knowledge	2	know_math	-0.0040261	HUN
@@ -1174,7 +1174,7 @@ know_trans_1	Communications and Media	Knowledge	2	know_com	0.0058503	HUN
 skills_act_le	Active Learning	Skills	2	skills_Basic_Process	0.0084354	HUN
 know_manu_1	Personnel and Human Resources	Knowledge	2	know_bis	-0.0013314	HUN
 skills_act_li	Active Listening	Skills	2	skills_Basic_Cont	0.0098694	HUN
-know_math_1	Mechanical	Knowledge	2	know_eng	-0.0139822	HUN
+know_math_1	Mechanics	Knowledge	2	know_eng	-0.0139822	HUN
 know_health_1	Geography	Knowledge	2	know_math	0.0028739	HUN
 know_eng_2	Computers and Electronics	Knowledge	2	know_eng	0.0006244	HUN
 ab_audio	Auditory and Speech Abilities	Abilities	1	ab_audio	0.0036714	HUN
@@ -1184,7 +1184,7 @@ ab_reac_time	Reaction Time and Speed Abilities	Abilities	1	ab_reac_time	-0.00460
 ab_spatial	Spatial Abilities	Abilities	1	ab_spatial	-0.0037739	HUN
 skills_mon	Monitoring	Skills	2	skills_Basic_Process	0.0087906	HUN
 ab_control_mov	Control Movement Abilities	Abilities	1	ab_control_mov	-0.0079709	HUN
-know_math_2	Mathematics Knowledge	Knowledge	2	know_math	0.0115306	IRL
+know_math_2	Mathematics	Knowledge	2	know_math	0.0115306	IRL
 know_com_2	Telecommunications	Knowledge	2	know_com	0.0032356	IRL
 know_math_4	Chemistry	Knowledge	2	know_math	0.0079284	IRL
 know_manu_1	Personnel and Human Resources	Knowledge	2	know_bis	0.0193682	IRL
@@ -1201,7 +1201,7 @@ ab_verbal	Verbal Abilities	Abilities	1	ab_verbal	0.0268279	IRL
 skills_Complex_Pb_5	Quality Control Analysis	Skills	2	skills_Tech	-0.0043038	IRL
 skills_Social_2	Programming	Skills	2	skills_Tech	0.0075434	IRL
 know_health_1	Geography	Knowledge	2	know_math	0.0095279	IRL
-skills_math	Mathematics Skills	Skills	2	skills_Basic_Cont	0.0088734	IRL
+skills_math	Mathematics	Skills	2	skills_Basic_Cont	0.0088734	IRL
 ab_manip	Fine Manipulative Abilities	Abilities	1	ab_manip	-0.0197639	IRL
 skills_Tech_1	Judgment and Decision Making	Skills	2	skills_Syst	0.0230758	IRL
 skills_Syst_1	Systems Evaluation	Skills	2	skills_Syst	0.0253944	IRL
@@ -1222,8 +1222,8 @@ skills_act_le	Active Learning	Skills	2	skills_Basic_Process	0.0246965	IRL
 know_math_6	Psychology	Knowledge	2	know_math	0.0391071	IRL
 ab_attent	Attentiveness	Abilities	1	ab_attent	0.0047463	IRL
 know_trans	Transportation	Knowledge	1	know_trans	-0.0214775	IRL
-know_math_1	Mechanical	Knowledge	2	know_eng	-0.0269603	IRL
-ab_mem	Memory	Abilities	1	ab_mem	0.015529	IRL
+know_math_1	Mechanics	Knowledge	2	know_eng	-0.0269603	IRL
+ab_mem	Memory Abilities	Abilities	1	ab_mem	0.015529	IRL
 skills_Res_Mgmt_2	Management of Personnel Resources	Skills	2	skills_Res_Mgmt	0.0234221	IRL
 know_trans_1	Communications and Media	Knowledge	2	know_com	0.0154203	IRL
 skills_Complex_Pb_3	Troubleshooting	Skills	2	skills_Tech	-0.0107395	IRL
@@ -1249,7 +1249,7 @@ skills_Social_1	Installation	Skills	2	skills_Tech	-0.006594	IRL
 know_eng	Engineering, Mechanics and Technology	Knowledge	1	know_eng	-0.0056333	IRL
 skills_Tech_2	Systems Analysis	Skills	2	skills_Syst	0.0209603	IRL
 ab_spatial	Spatial Abilities	Abilities	1	ab_spatial	-0.0079175	IRL
-know_bis_2	Clerical	Knowledge	2	know_bis	0.0204462	IRL
+know_bis_2	Clergy	Knowledge	2	know_bis	0.0204462	IRL
 skills_Social_3	Operation Monitoring	Skills	2	skills_Tech	-0.011992	IRL
 skills_Basic_Cont_4	Negotiation	Skills	2	skills_Social	0.0214515	IRL
 skills_read_comp	Reading Comprehension	Skills	2	skills_Basic_Cont	0.0239789	IRL
@@ -1273,7 +1273,7 @@ skills_Complex_Pb_1	Operation and Control	Skills	2	skills_Tech	-0.00425	ISL
 skills_Basic_Cont_2	Coordination	Skills	2	skills_Social	0.0136728	ISL
 skills_Social_2	Programming	Skills	2	skills_Tech	0.0057074	ISL
 know_bis_4	Sales and Marketing	Knowledge	2	know_bis	-0.0067409	ISL
-know_bis_2	Clerical	Knowledge	2	know_bis	0.0179846	ISL
+know_bis_2	Clergy	Knowledge	2	know_bis	0.0179846	ISL
 know_eng_1	Food Production	Knowledge	2	know_manu	-0.0075189	ISL
 know_eng_4	Design	Knowledge	2	know_eng	0.0160858	ISL
 know_math_7	Sociology and Anthropology	Knowledge	2	know_math	0.0169802	ISL
@@ -1285,7 +1285,7 @@ know_trans_1	Communications and Media	Knowledge	2	know_com	0.0108148	ISL
 skills_scie	Science	Skills	2	skills_Basic_Cont	0.0150898	ISL
 skills_Basic_Process_2	Technology Design	Skills	2	skills_Tech	0.0047584	ISL
 skills_Syst_1	Systems Evaluation	Skills	2	skills_Syst	0.0245026	ISL
-skills_math	Mathematics Skills	Skills	2	skills_Basic_Cont	0.015734	ISL
+skills_math	Mathematics	Skills	2	skills_Basic_Cont	0.015734	ISL
 skills_Social_3	Operation Monitoring	Skills	2	skills_Tech	0.0014908	ISL
 know_law_1	Philosophy and Theology	Knowledge	2	know_arts	0.0109797	ISL
 know_arts_3	History and Archeology	Knowledge	2	know_arts	0.0072332	ISL
@@ -1307,8 +1307,8 @@ skills_Social_1	Installation	Skills	2	skills_Tech	0.0036648	ISL
 know_health_1	Geography	Knowledge	2	know_math	0.0105648	ISL
 skills_Basic_Cont_3	Persuasion	Skills	2	skills_Social	0.0078921	ISL
 skills_Basic_Cont_4	Negotiation	Skills	2	skills_Social	0.0084857	ISL
-know_math_2	Mathematics Knowledge	Knowledge	2	know_math	0.0187302	ISL
-know_math_1	Mechanical	Knowledge	2	know_eng	0.0066513	ISL
+know_math_2	Mathematics	Knowledge	2	know_math	0.0187302	ISL
+know_math_1	Mechanics	Knowledge	2	know_eng	0.0066513	ISL
 skills_Basic_Process_3	Equipment Selection	Skills	2	skills_Tech	0.0023345	ISL
 ab_percep	Perceptual Abilities	Abilities	1	ab_percep	0.0114615	ISL
 skills_read_comp	Reading Comprehension	Skills	2	skills_Basic_Cont	0.0252894	ISL
@@ -1316,7 +1316,7 @@ ab_endur	Endurance	Abilities	1	ab_endur	-0.0100415	ISL
 ab_flex	Flexibility, Balance and Coordination	Abilities	1	ab_flex	-0.0055654	ISL
 know_eng_2	Computers and Electronics	Knowledge	2	know_eng	0.0266119	ISL
 skills_critical	Critical Thinking	Skills	2	skills_Basic_Process	0.0216681	ISL
-ab_mem	Memory	Abilities	1	ab_mem	0.0098993	ISL
+ab_mem	Memory Abilities	Abilities	1	ab_mem	0.0098993	ISL
 skills_act_le	Active Learning	Skills	2	skills_Basic_Process	0.0234955	ISL
 skills_Basic_Process_1	Operations Analysis	Skills	2	skills_Tech	0.0190953	ISL
 skills_speak	Speaking	Skills	2	skills_Basic_Cont	0.018535	ISL
@@ -1359,14 +1359,14 @@ skills_Res_Mgmt_2	Management of Personnel Resources	Skills	2	skills_Res_Mgmt	0.0
 skills_Basic_Process_2	Technology Design	Skills	2	skills_Tech	0.0055526	ITA
 skills_Basic_Cont_6	Service Orientation	Skills	2	skills_Social	0.0000677	ITA
 skills_Tech_1	Judgment and Decision Making	Skills	2	skills_Syst	0.0116364	ITA
-skills_math	Mathematics Skills	Skills	2	skills_Basic_Cont	0.0127719	ITA
+skills_math	Mathematics	Skills	2	skills_Basic_Cont	0.0127719	ITA
 skills_Complex_Pb_4	Repairing	Skills	2	skills_Tech	0.0034813	ITA
 skills_learning	Learning Strategies	Skills	2	skills_Basic_Process	0.0093545	ITA
 skills_Complex_Pb_3	Troubleshooting	Skills	2	skills_Tech	0.0024895	ITA
 know_arts_2	Fine Arts	Knowledge	2	know_arts	0.0022859	ITA
-know_math_2	Mathematics Knowledge	Knowledge	2	know_math	0.0161308	ITA
+know_math_2	Mathematics	Knowledge	2	know_math	0.0161308	ITA
 ab_reason	Reasoning Abilities	Abilities	1	ab_reason	0.0113746	ITA
-know_bis_2	Clerical	Knowledge	2	know_bis	0.0233372	ITA
+know_bis_2	Clergy	Knowledge	2	know_bis	0.0233372	ITA
 ab_flex	Flexibility, Balance and Coordination	Abilities	1	ab_flex	-0.0118291	ITA
 know_arts_3	History and Archeology	Knowledge	2	know_arts	0.0037737	ITA
 skills_read_comp	Reading Comprehension	Skills	2	skills_Basic_Cont	0.0206498	ITA
@@ -1374,7 +1374,7 @@ ab_audio	Auditory and Speech Abilities	Abilities	1	ab_audio	0.004335	ITA
 ab_control_mov	Control Movement Abilities	Abilities	1	ab_control_mov	-0.0052323	ITA
 know_law_2	Public Safety and Security	Knowledge	2	know_law	-0.007791	ITA
 know_math_7	Sociology and Anthropology	Knowledge	2	know_math	0.0029705	ITA
-ab_mem	Memory	Abilities	1	ab_mem	0.0074738	ITA
+ab_mem	Memory Abilities	Abilities	1	ab_mem	0.0074738	ITA
 know_health_1	Geography	Knowledge	2	know_math	0.0077536	ITA
 ab_percep	Perceptual Abilities	Abilities	1	ab_percep	0.0078239	ITA
 ab_attent	Attentiveness	Abilities	1	ab_attent	0.0037757	ITA
@@ -1400,7 +1400,7 @@ know_trans_1	Communications and Media	Knowledge	2	know_com	0.0057302	ITA
 skills_Complex_Pb_1	Operation and Control	Skills	2	skills_Tech	-0.0008872	ITA
 know_bis_5	Customer and Personal Service	Knowledge	2	know_bis	-0.0042209	ITA
 know_eng_5	Building and Construction	Knowledge	2	know_eng	-0.0107673	ITA
-know_math_1	Mechanical	Knowledge	2	know_eng	0.0051131	ITA
+know_math_1	Mechanics	Knowledge	2	know_eng	0.0051131	ITA
 skills_Syst_2	Time Management	Skills	2	skills_Res_Mgmt	0.0068653	ITA
 know_math_6	Psychology	Knowledge	2	know_math	-0.0014672	ITA
 know_eng	Engineering, Mechanics and Technology	Knowledge	1	know_eng	0.0158753	ITA
@@ -1458,13 +1458,13 @@ know_arts_3	History and Archeology	Knowledge	2	know_arts	-0.007773	LTU
 skills_Basic_Cont_6	Service Orientation	Skills	2	skills_Social	-0.0032615	LTU
 know_bis_4	Sales and Marketing	Knowledge	2	know_bis	0.0092322	LTU
 skills_Syst_1	Systems Evaluation	Skills	2	skills_Syst	0.0028706	LTU
-know_math_1	Mechanical	Knowledge	2	know_eng	-0.0051115	LTU
+know_math_1	Mechanics	Knowledge	2	know_eng	-0.0051115	LTU
 skills_Basic_Cont_2	Coordination	Skills	2	skills_Social	-0.0044891	LTU
 know_math_3	Physics	Knowledge	2	know_math	-0.0074759	LTU
 know_health_1	Geography	Knowledge	2	know_math	-0.0047684	LTU
 skills_Basic_Cont_1	Social Perceptiveness	Skills	2	skills_Social	-0.00239	LTU
 know_math_5	Biology	Knowledge	2	know_math	-0.0042432	LTU
-ab_mem	Memory	Abilities	1	ab_mem	-0.0005106	LTU
+ab_mem	Memory Abilities	Abilities	1	ab_mem	-0.0005106	LTU
 ab_quant	Quantitative Abilities	Abilities	1	ab_quant	0.005202	LTU
 skills_Tech_1	Judgment and Decision Making	Skills	2	skills_Syst	0.0026289	LTU
 ab_attent	Attentiveness	Abilities	1	ab_attent	-0.0008185	LTU
@@ -1474,8 +1474,8 @@ skills_Social_1	Installation	Skills	2	skills_Tech	-0.0015633	LTU
 know_arts_1	Therapy and Counseling	Knowledge	2	know_health	-0.0077278	LTU
 ab_flex	Flexibility, Balance and Coordination	Abilities	1	ab_flex	-0.004564	LTU
 skills_writ	Writing	Skills	2	skills_Basic_Cont	0.0024357	LTU
-know_math_2	Mathematics Knowledge	Knowledge	2	know_math	-0.0015684	LTU
-know_bis_2	Clerical	Knowledge	2	know_bis	0.0009738	LTU
+know_math_2	Mathematics	Knowledge	2	know_math	-0.0015684	LTU
+know_bis_2	Clergy	Knowledge	2	know_bis	0.0009738	LTU
 skills_Tech_2	Systems Analysis	Skills	2	skills_Syst	0.0042715	LTU
 know_bis_5	Customer and Personal Service	Knowledge	2	know_bis	-0.0005488	LTU
 ab_strength	Physical Strength	Abilities	1	ab_strength	-0.0059024	LTU
@@ -1493,7 +1493,7 @@ ab_endur	Endurance	Abilities	1	ab_endur	-0.0068243	LTU
 ab_control_mov	Control Movement Abilities	Abilities	1	ab_control_mov	0.0036548	LTU
 know_math_4	Chemistry	Knowledge	2	know_math	-0.0034813	LTU
 skills_Res_Mgmt_2	Management of Personnel Resources	Skills	2	skills_Res_Mgmt	-0.0003997	LTU
-skills_math	Mathematics Skills	Skills	2	skills_Basic_Cont	0.0028106	LTU
+skills_math	Mathematics	Skills	2	skills_Basic_Cont	0.0028106	LTU
 know_arts_2	Fine Arts	Knowledge	2	know_arts	-0.0055335	LTU
 ab_audio	Auditory and Speech Abilities	Abilities	1	ab_audio	-0.000277	LTU
 skills_Basic_Cont_3	Persuasion	Skills	2	skills_Social	0.0013996	LTU
@@ -1529,7 +1529,7 @@ know_arts_3	History and Archeology	Knowledge	2	know_arts	0.0051617	LUX
 skills_Complex_Pb_4	Repairing	Skills	2	skills_Tech	-0.0097063	LUX
 know_eng	Engineering, Mechanics and Technology	Knowledge	1	know_eng	0.0052754	LUX
 know_math_5	Biology	Knowledge	2	know_math	0.0218783	LUX
-know_math_1	Mechanical	Knowledge	2	know_eng	-0.0138445	LUX
+know_math_1	Mechanics	Knowledge	2	know_eng	-0.0138445	LUX
 skills_Basic_Process_3	Equipment Selection	Skills	2	skills_Tech	-0.0057469	LUX
 skills_Complex_Pb_2	Equipment Maintenance	Skills	2	skills_Tech	-0.0107732	LUX
 skills_Tech_1	Judgment and Decision Making	Skills	2	skills_Syst	0.0247442	LUX
@@ -1537,7 +1537,7 @@ ab_verbal	Verbal Abilities	Abilities	1	ab_verbal	0.0320385	LUX
 skills_Social_1	Installation	Skills	2	skills_Tech	-0.0011592	LUX
 ab_strength	Physical Strength	Abilities	1	ab_strength	-0.0151899	LUX
 know_math_3	Physics	Knowledge	2	know_math	0.0074952	LUX
-know_bis_2	Clerical	Knowledge	2	know_bis	0.0407568	LUX
+know_bis_2	Clergy	Knowledge	2	know_bis	0.0407568	LUX
 ab_quant	Quantitative Abilities	Abilities	1	ab_quant	0.0229217	LUX
 know_law_1	Philosophy and Theology	Knowledge	2	know_arts	0.0134367	LUX
 skills_act_li	Active Listening	Skills	2	skills_Basic_Cont	0.0281868	LUX
@@ -1565,12 +1565,12 @@ skills_Syst_1	Systems Evaluation	Skills	2	skills_Syst	0.0231319	LUX
 skills_writ	Writing	Skills	2	skills_Basic_Cont	0.0341343	LUX
 ab_reac_time	Reaction Time and Speed Abilities	Abilities	1	ab_reac_time	-0.0107736	LUX
 know_math_6	Psychology	Knowledge	2	know_math	0.0303948	LUX
-know_math_2	Mathematics Knowledge	Knowledge	2	know_math	0.0261503	LUX
-skills_math	Mathematics Skills	Skills	2	skills_Basic_Cont	0.020887	LUX
+know_math_2	Mathematics	Knowledge	2	know_math	0.0261503	LUX
+skills_math	Mathematics	Skills	2	skills_Basic_Cont	0.020887	LUX
 skills_Res_Mgmt_1	Management of Material Resources	Skills	2	skills_Res_Mgmt	0.0064317	LUX
 ab_spatial	Spatial Abilities	Abilities	1	ab_spatial	-0.0035684	LUX
 skills_Basic_Cont_1	Social Perceptiveness	Skills	2	skills_Social	0.0213934	LUX
-ab_mem	Memory	Abilities	1	ab_mem	0.0122721	LUX
+ab_mem	Memory Abilities	Abilities	1	ab_mem	0.0122721	LUX
 know_manu_2	Production and Processing	Knowledge	2	know_manu	-0.0082724	LUX
 know_math_7	Sociology and Anthropology	Knowledge	2	know_math	0.0193403	LUX
 skills_Basic_Cont_5	Instructing	Skills	2	skills_Social	0.0205492	LUX
@@ -1584,13 +1584,13 @@ ab_verbal	Verbal Abilities	Abilities	1	ab_verbal	0.0195981	LVA
 know_eng	Engineering, Mechanics and Technology	Knowledge	1	know_eng	0.0115764	LVA
 know_bis_1	Administration and Management	Knowledge	2	know_bis	0.0094068	LVA
 skills_Complex_Pb_5	Quality Control Analysis	Skills	2	skills_Tech	-0.0004199	LVA
-know_bis_2	Clerical	Knowledge	2	know_bis	0.0216194	LVA
+know_bis_2	Clergy	Knowledge	2	know_bis	0.0216194	LVA
 know_trans_1	Communications and Media	Knowledge	2	know_com	0.011477	LVA
 skills_Res_Mgmt_2	Management of Personnel Resources	Skills	2	skills_Res_Mgmt	0.0093065	LVA
 skills_act_li	Active Listening	Skills	2	skills_Basic_Cont	0.0187508	LVA
 know_trans	Transportation	Knowledge	1	know_trans	-0.0037798	LVA
 skills_Social_3	Operation Monitoring	Skills	2	skills_Tech	-0.0068244	LVA
-skills_math	Mathematics Skills	Skills	2	skills_Basic_Cont	0.0108926	LVA
+skills_math	Mathematics	Skills	2	skills_Basic_Cont	0.0108926	LVA
 skills_critical	Critical Thinking	Skills	2	skills_Basic_Process	0.0166295	LVA
 skills_Tech_2	Systems Analysis	Skills	2	skills_Syst	0.0136375	LVA
 skills_Syst_1	Systems Evaluation	Skills	2	skills_Syst	0.0140261	LVA
@@ -1616,13 +1616,13 @@ know_manu_2	Production and Processing	Knowledge	2	know_manu	-0.010843	LVA
 know_math_6	Psychology	Knowledge	2	know_math	0.0118615	LVA
 skills_Complex_Pb_2	Equipment Maintenance	Skills	2	skills_Tech	-0.0052907	LVA
 skills_Basic_Cont_5	Instructing	Skills	2	skills_Social	0.0145378	LVA
-ab_mem	Memory	Abilities	1	ab_mem	0.009871	LVA
+ab_mem	Memory Abilities	Abilities	1	ab_mem	0.009871	LVA
 skills_Basic_Process_1	Operations Analysis	Skills	2	skills_Tech	0.0091259	LVA
 know_eng_1	Food Production	Knowledge	2	know_manu	-0.0079834	LVA
 know_law_2	Public Safety and Security	Knowledge	2	know_law	0.0014691	LVA
 skills_mon	Monitoring	Skills	2	skills_Basic_Process	0.0110474	LVA
 know_manu_1	Personnel and Human Resources	Knowledge	2	know_bis	0.0056191	LVA
-know_math_2	Mathematics Knowledge	Knowledge	2	know_math	0.0141264	LVA
+know_math_2	Mathematics	Knowledge	2	know_math	0.0141264	LVA
 know_health_2	Medicine and Dentistry	Knowledge	2	know_health	0.0061287	LVA
 skills_Basic_Cont_1	Social Perceptiveness	Skills	2	skills_Social	0.0133174	LVA
 skills_Social_2	Programming	Skills	2	skills_Tech	0.0069344	LVA
@@ -1643,7 +1643,7 @@ know_eng_2	Computers and Electronics	Knowledge	2	know_eng	0.0286751	LVA
 ab_reac_time	Reaction Time and Speed Abilities	Abilities	1	ab_reac_time	-0.0101319	LVA
 ab_audio	Auditory and Speech Abilities	Abilities	1	ab_audio	0.0040154	LVA
 know_arts_2	Fine Arts	Knowledge	2	know_arts	0.0029213	LVA
-know_math_1	Mechanical	Knowledge	2	know_eng	-0.0030926	LVA
+know_math_1	Mechanics	Knowledge	2	know_eng	-0.0030926	LVA
 skills_Tech_1	Judgment and Decision Making	Skills	2	skills_Syst	0.0131775	LVA
 skills_Basic_Process_2	Technology Design	Skills	2	skills_Tech	0.0070928	LVA
 skills_speak	Speaking	Skills	2	skills_Basic_Cont	0.0184738	LVA
@@ -1662,7 +1662,7 @@ skills_Basic_Process_3	Equipment Selection	Skills	2	skills_Tech	-0.0057758	NLD
 ab_spatial	Spatial Abilities	Abilities	1	ab_spatial	-0.004663	NLD
 ab_attent	Attentiveness	Abilities	1	ab_attent	0.002368	NLD
 skills_Complex_Pb_2	Equipment Maintenance	Skills	2	skills_Tech	-0.0129023	NLD
-know_math_2	Mathematics Knowledge	Knowledge	2	know_math	0.0129921	NLD
+know_math_2	Mathematics	Knowledge	2	know_math	0.0129921	NLD
 skills_Social_3	Operation Monitoring	Skills	2	skills_Tech	-0.0091091	NLD
 skills_Complex_Pb_3	Troubleshooting	Skills	2	skills_Tech	-0.0079934	NLD
 skills_Basic_Process_1	Operations Analysis	Skills	2	skills_Tech	0.0224954	NLD
@@ -1673,20 +1673,20 @@ skills_Tech_1	Judgment and Decision Making	Skills	2	skills_Syst	0.0239921	NLD
 skills_writ	Writing	Skills	2	skills_Basic_Cont	0.0249658	NLD
 skills_Complex_Pb_1	Operation and Control	Skills	2	skills_Tech	-0.0186529	NLD
 know_eng_1	Food Production	Knowledge	2	know_manu	-0.0010081	NLD
-know_math_1	Mechanical	Knowledge	2	know_eng	-0.0172481	NLD
+know_math_1	Mechanics	Knowledge	2	know_eng	-0.0172481	NLD
 skills_Basic_Process_2	Technology Design	Skills	2	skills_Tech	0.0067569	NLD
 skills_act_li	Active Listening	Skills	2	skills_Basic_Cont	0.0197419	NLD
 know_com_2	Telecommunications	Knowledge	2	know_com	0.0051112	NLD
 skills_Complex_Pb_5	Quality Control Analysis	Skills	2	skills_Tech	-0.0020733	NLD
 skills_Social_1	Installation	Skills	2	skills_Tech	-0.002931	NLD
-skills_math	Mathematics Skills	Skills	2	skills_Basic_Cont	0.0129856	NLD
+skills_math	Mathematics	Skills	2	skills_Basic_Cont	0.0129856	NLD
 skills_Basic_Cont_6	Service Orientation	Skills	2	skills_Social	0.0154385	NLD
 know_bis_5	Customer and Personal Service	Knowledge	2	know_bis	0.0194204	NLD
 skills_Res_Mgmt_2	Management of Personnel Resources	Skills	2	skills_Res_Mgmt	0.016779	NLD
 know_arts_3	History and Archeology	Knowledge	2	know_arts	0.007952	NLD
 know_trans	Transportation	Knowledge	1	know_trans	-0.0089096	NLD
 ab_visual	Visual Abilities	Abilities	1	ab_visual	-0.0047651	NLD
-know_bis_2	Clerical	Knowledge	2	know_bis	0.0060737	NLD
+know_bis_2	Clergy	Knowledge	2	know_bis	0.0060737	NLD
 skills_Syst_3	Management of Financial Resources	Skills	2	skills_Res_Mgmt	0.0121744	NLD
 skills_speak	Speaking	Skills	2	skills_Basic_Cont	0.0207385	NLD
 skills_learning	Learning Strategies	Skills	2	skills_Basic_Process	0.0223115	NLD
@@ -1702,7 +1702,7 @@ know_eng_4	Design	Knowledge	2	know_eng	0.0078814	NLD
 know_health_2	Medicine and Dentistry	Knowledge	2	know_health	0.0242747	NLD
 know_com_1	Law and Government	Knowledge	2	know_law	0.0159249	NLD
 know_math_7	Sociology and Anthropology	Knowledge	2	know_math	0.0221294	NLD
-ab_mem	Memory	Abilities	1	ab_mem	0.0102893	NLD
+ab_mem	Memory Abilities	Abilities	1	ab_mem	0.0102893	NLD
 know_math_4	Chemistry	Knowledge	2	know_math	0.0087877	NLD
 skills_Syst_1	Systems Evaluation	Skills	2	skills_Syst	0.0261709	NLD
 ab_reason	Reasoning Abilities	Abilities	1	ab_reason	0.0208696	NLD
@@ -1741,9 +1741,9 @@ know_math_3	Physics	Knowledge	2	know_math	0.0014237	NOR
 skills_Social_3	Operation Monitoring	Skills	2	skills_Tech	-0.0066887	NOR
 skills_Basic_Cont_1	Social Perceptiveness	Skills	2	skills_Social	0.0033511	NOR
 ab_strength	Physical Strength	Abilities	1	ab_strength	-0.0095205	NOR
-ab_mem	Memory	Abilities	1	ab_mem	0.0019301	NOR
+ab_mem	Memory Abilities	Abilities	1	ab_mem	0.0019301	NOR
 skills_Tech_1	Judgment and Decision Making	Skills	2	skills_Syst	0.0095238	NOR
-know_math_2	Mathematics Knowledge	Knowledge	2	know_math	0.0111249	NOR
+know_math_2	Mathematics	Knowledge	2	know_math	0.0111249	NOR
 skills_Res_Mgmt_2	Management of Personnel Resources	Skills	2	skills_Res_Mgmt	0.0075019	NOR
 skills_Basic_Cont_4	Negotiation	Skills	2	skills_Social	0.0016612	NOR
 skills_Complex_Pb_4	Repairing	Skills	2	skills_Tech	-0.0059788	NOR
@@ -1754,7 +1754,7 @@ know_math_5	Biology	Knowledge	2	know_math	-0.0098844	NOR
 skills_Syst_2	Time Management	Skills	2	skills_Res_Mgmt	0.0043183	NOR
 know_arts_1	Therapy and Counseling	Knowledge	2	know_health	-0.0003946	NOR
 know_com_2	Telecommunications	Knowledge	2	know_com	0.0039672	NOR
-know_math_1	Mechanical	Knowledge	2	know_eng	-0.0097485	NOR
+know_math_1	Mechanics	Knowledge	2	know_eng	-0.0097485	NOR
 skills_Syst_3	Management of Financial Resources	Skills	2	skills_Res_Mgmt	0.0101131	NOR
 skills_Complex_Pb_2	Equipment Maintenance	Skills	2	skills_Tech	-0.0058207	NOR
 know_health_2	Medicine and Dentistry	Knowledge	2	know_health	-0.0074279	NOR
@@ -1769,7 +1769,7 @@ skills_Complex_Pb_5	Quality Control Analysis	Skills	2	skills_Tech	-0.0012406	NOR
 ab_reason	Reasoning Abilities	Abilities	1	ab_reason	0.0076672	NOR
 know_math_4	Chemistry	Knowledge	2	know_math	-0.0037465	NOR
 ab_reac_time	Reaction Time and Speed Abilities	Abilities	1	ab_reac_time	-0.0092019	NOR
-skills_math	Mathematics Skills	Skills	2	skills_Basic_Cont	0.0063121	NOR
+skills_math	Mathematics	Skills	2	skills_Basic_Cont	0.0063121	NOR
 know_com_1	Law and Government	Knowledge	2	know_law	0.0113201	NOR
 skills_Basic_Cont_2	Coordination	Skills	2	skills_Social	0.0046059	NOR
 know_eng_5	Building and Construction	Knowledge	2	know_eng	-0.0030746	NOR
@@ -1786,7 +1786,7 @@ know_law_1	Philosophy and Theology	Knowledge	2	know_arts	0.0020986	NOR
 know_arts_2	Fine Arts	Knowledge	2	know_arts	0.0024936	NOR
 skills_Syst_1	Systems Evaluation	Skills	2	skills_Syst	0.0148303	NOR
 skills_Tech_2	Systems Analysis	Skills	2	skills_Syst	0.0150353	NOR
-know_bis_2	Clerical	Knowledge	2	know_bis	0.00976	NOR
+know_bis_2	Clergy	Knowledge	2	know_bis	0.00976	NOR
 know_eng_2	Computers and Electronics	Knowledge	2	know_eng	0.023855	NOR
 skills_Basic_Process_1	Operations Analysis	Skills	2	skills_Tech	0.0116751	NOR
 skills_read_comp	Reading Comprehension	Skills	2	skills_Basic_Cont	0.0098605	NOR
@@ -1818,8 +1818,8 @@ know_manu_1	Personnel and Human Resources	Knowledge	2	know_bis	0.0122117	NOR
 know_trans_1	Communications and Media	Knowledge	2	know_com	0.0070496	NOR
 ab_visual	Visual Abilities	Abilities	1	ab_visual	0.0003814	POL
 know_eng_1	Food Production	Knowledge	2	know_manu	0.0097591	POL
-know_math_2	Mathematics Knowledge	Knowledge	2	know_math	0.0113725	POL
-ab_mem	Memory	Abilities	1	ab_mem	0.0082924	POL
+know_math_2	Mathematics	Knowledge	2	know_math	0.0113725	POL
+ab_mem	Memory Abilities	Abilities	1	ab_mem	0.0082924	POL
 skills_Basic_Cont_4	Negotiation	Skills	2	skills_Social	0.0048139	POL
 know_bis_4	Sales and Marketing	Knowledge	2	know_bis	-0.0043361	POL
 know_arts_3	History and Archeology	Knowledge	2	know_arts	0.0122552	POL
@@ -1839,11 +1839,11 @@ ab_attent	Attentiveness	Abilities	1	ab_attent	0.004852	POL
 ab_reac_time	Reaction Time and Speed Abilities	Abilities	1	ab_reac_time	-0.0056593	POL
 skills_Social_1	Installation	Skills	2	skills_Tech	-0.0001678	POL
 know_math_3	Physics	Knowledge	2	know_math	0.0075179	POL
-know_math_1	Mechanical	Knowledge	2	know_eng	-0.0033268	POL
+know_math_1	Mechanics	Knowledge	2	know_eng	-0.0033268	POL
 know_eng_5	Building and Construction	Knowledge	2	know_eng	-0.0060376	POL
 skills_Basic_Process_3	Equipment Selection	Skills	2	skills_Tech	0.0010008	POL
 skills_Syst_2	Time Management	Skills	2	skills_Res_Mgmt	0.0079832	POL
-skills_math	Mathematics Skills	Skills	2	skills_Basic_Cont	0.0083281	POL
+skills_math	Mathematics	Skills	2	skills_Basic_Cont	0.0083281	POL
 ab_percep	Perceptual Abilities	Abilities	1	ab_percep	0.007444	POL
 skills_writ	Writing	Skills	2	skills_Basic_Cont	0.0189952	POL
 skills_critical	Critical Thinking	Skills	2	skills_Basic_Process	0.015194	POL
@@ -1885,7 +1885,7 @@ know_bis_3	Economics and Accounting	Knowledge	2	know_bis	0.00023	POL
 know_math_6	Psychology	Knowledge	2	know_math	0.0147102	POL
 know_math_5	Biology	Knowledge	2	know_math	0.0053735	POL
 know_manu_1	Personnel and Human Resources	Knowledge	2	know_bis	0.006744	POL
-know_bis_2	Clerical	Knowledge	2	know_bis	0.0014701	POL
+know_bis_2	Clergy	Knowledge	2	know_bis	0.0014701	POL
 skills_Syst_3	Management of Financial Resources	Skills	2	skills_Res_Mgmt	0.0015792	POL
 ab_reason	Reasoning Abilities	Abilities	1	ab_reason	0.0147896	POL
 skills_Basic_Cont_3	Persuasion	Skills	2	skills_Social	0.0072657	POL
@@ -1916,7 +1916,7 @@ skills_Basic_Process_2	Technology Design	Skills	2	skills_Tech	-0.0001142	PRT
 skills_Basic_Cont_4	Negotiation	Skills	2	skills_Social	-0.0013282	PRT
 know_com_2	Telecommunications	Knowledge	2	know_com	0.0045846	PRT
 skills_critical	Critical Thinking	Skills	2	skills_Basic_Process	0.0090735	PRT
-know_math_1	Mechanical	Knowledge	2	know_eng	-0.0054452	PRT
+know_math_1	Mechanics	Knowledge	2	know_eng	-0.0054452	PRT
 ab_attent	Attentiveness	Abilities	1	ab_attent	0.0049106	PRT
 know_eng	Engineering, Mechanics and Technology	Knowledge	1	know_eng	-0.0071571	PRT
 skills_scie	Science	Skills	2	skills_Basic_Cont	0.0096547	PRT
@@ -1938,7 +1938,7 @@ skills_Basic_Process_3	Equipment Selection	Skills	2	skills_Tech	0.0021493	PRT
 skills_Complex_Pb_4	Repairing	Skills	2	skills_Tech	0.0047728	PRT
 skills_Complex_Pb_1	Operation and Control	Skills	2	skills_Tech	0.0055561	PRT
 skills_Basic_Cont_6	Service Orientation	Skills	2	skills_Social	0.0024955	PRT
-know_math_2	Mathematics Knowledge	Knowledge	2	know_math	-0.0074343	PRT
+know_math_2	Mathematics	Knowledge	2	know_math	-0.0074343	PRT
 know_eng_1	Food Production	Knowledge	2	know_manu	0.0130059	PRT
 know_eng_4	Design	Knowledge	2	know_eng	-0.0046333	PRT
 ab_quant	Quantitative Abilities	Abilities	1	ab_quant	-0.00317	PRT
@@ -1950,7 +1950,7 @@ know_math_6	Psychology	Knowledge	2	know_math	0.0231055	PRT
 ab_control_mov	Control Movement Abilities	Abilities	1	ab_control_mov	0.0039991	PRT
 know_health_1	Geography	Knowledge	2	know_math	0.011266	PRT
 know_math_5	Biology	Knowledge	2	know_math	0.0160348	PRT
-skills_math	Mathematics Skills	Skills	2	skills_Basic_Cont	-0.0027	PRT
+skills_math	Mathematics	Skills	2	skills_Basic_Cont	-0.0027	PRT
 ab_verbal	Verbal Abilities	Abilities	1	ab_verbal	0.0105828	PRT
 ab_manip	Fine Manipulative Abilities	Abilities	1	ab_manip	-0.0013927	PRT
 know_trans	Transportation	Knowledge	1	know_trans	-0.0021084	PRT
@@ -1960,7 +1960,7 @@ skills_Social_1	Installation	Skills	2	skills_Tech	-0.0006243	PRT
 skills_Tech_1	Judgment and Decision Making	Skills	2	skills_Syst	0.0095638	PRT
 skills_Complex_Pb_5	Quality Control Analysis	Skills	2	skills_Tech	0.0029986	PRT
 know_com_1	Law and Government	Knowledge	2	know_law	0.0082112	PRT
-know_bis_2	Clerical	Knowledge	2	know_bis	0.0068282	PRT
+know_bis_2	Clergy	Knowledge	2	know_bis	0.0068282	PRT
 know_bis_1	Administration and Management	Knowledge	2	know_bis	0.002129	PRT
 ab_audio	Auditory and Speech Abilities	Abilities	1	ab_audio	0.0061381	PRT
 ab_reac_time	Reaction Time and Speed Abilities	Abilities	1	ab_reac_time	0.0024726	PRT
@@ -1969,14 +1969,14 @@ know_bis_3	Economics and Accounting	Knowledge	2	know_bis	-0.0048564	PRT
 know_math_7	Sociology and Anthropology	Knowledge	2	know_math	0.017793	PRT
 ab_flex	Flexibility, Balance and Coordination	Abilities	1	ab_flex	-0.003247	PRT
 ab_endur	Endurance	Abilities	1	ab_endur	-0.0036298	PRT
-ab_mem	Memory	Abilities	1	ab_mem	0.0059646	PRT
+ab_mem	Memory Abilities	Abilities	1	ab_mem	0.0059646	PRT
 skills_Tech_2	Systems Analysis	Skills	2	skills_Syst	0.0073531	PRT
 ab_percep	Perceptual Abilities	Abilities	1	ab_percep	0.0065927	PRT
 skills_Basic_Cont_5	Instructing	Skills	2	skills_Social	0.0129877	PRT
 skills_Res_Mgmt_2	Management of Personnel Resources	Skills	2	skills_Res_Mgmt	0.0049986	PRT
 skills_Social_3	Operation Monitoring	Skills	2	skills_Tech	-0.0138574	ROU
 skills_Complex_Pb_4	Repairing	Skills	2	skills_Tech	-0.0136649	ROU
-skills_math	Mathematics Skills	Skills	2	skills_Basic_Cont	0.0097283	ROU
+skills_math	Mathematics	Skills	2	skills_Basic_Cont	0.0097283	ROU
 skills_Syst_3	Management of Financial Resources	Skills	2	skills_Res_Mgmt	0.003687	ROU
 skills_Basic_Cont_5	Instructing	Skills	2	skills_Social	0.0088183	ROU
 know_manu_1	Personnel and Human Resources	Knowledge	2	know_bis	-0.0034751	ROU
@@ -2002,7 +2002,7 @@ know_com_1	Law and Government	Knowledge	2	know_law	0.0055323	ROU
 ab_endur	Endurance	Abilities	1	ab_endur	-0.0096871	ROU
 know_trans_1	Communications and Media	Knowledge	2	know_com	0.0099931	ROU
 know_math_7	Sociology and Anthropology	Knowledge	2	know_math	0.0084018	ROU
-know_bis_2	Clerical	Knowledge	2	know_bis	0.0189093	ROU
+know_bis_2	Clergy	Knowledge	2	know_bis	0.0189093	ROU
 skills_Syst_1	Systems Evaluation	Skills	2	skills_Syst	0.0091	ROU
 know_math_3	Physics	Knowledge	2	know_math	-0.0019154	ROU
 know_com_2	Telecommunications	Knowledge	2	know_com	-0.0015431	ROU
@@ -2015,9 +2015,9 @@ skills_Basic_Process_2	Technology Design	Skills	2	skills_Tech	0.0036709	ROU
 ab_visual	Visual Abilities	Abilities	1	ab_visual	-0.0063664	ROU
 ab_spatial	Spatial Abilities	Abilities	1	ab_spatial	-0.0044696	ROU
 ab_audio	Auditory and Speech Abilities	Abilities	1	ab_audio	-0.0018196	ROU
-ab_mem	Memory	Abilities	1	ab_mem	0.0057955	ROU
+ab_mem	Memory Abilities	Abilities	1	ab_mem	0.0057955	ROU
 skills_speak	Speaking	Skills	2	skills_Basic_Cont	0.0107005	ROU
-know_math_1	Mechanical	Knowledge	2	know_eng	-0.0133957	ROU
+know_math_1	Mechanics	Knowledge	2	know_eng	-0.0133957	ROU
 know_bis_4	Sales and Marketing	Knowledge	2	know_bis	0.0082188	ROU
 skills_Basic_Cont_4	Negotiation	Skills	2	skills_Social	0.0071387	ROU
 know_law_1	Philosophy and Theology	Knowledge	2	know_arts	0.0073206	ROU
@@ -2025,7 +2025,7 @@ skills_Basic_Cont_2	Coordination	Skills	2	skills_Social	0.0035621	ROU
 skills_Basic_Process_3	Equipment Selection	Skills	2	skills_Tech	-0.0068618	ROU
 skills_Basic_Cont_3	Persuasion	Skills	2	skills_Social	0.0061979	ROU
 know_bis_1	Administration and Management	Knowledge	2	know_bis	-0.004303	ROU
-know_math_2	Mathematics Knowledge	Knowledge	2	know_math	0.0152927	ROU
+know_math_2	Mathematics	Knowledge	2	know_math	0.0152927	ROU
 ab_manip	Fine Manipulative Abilities	Abilities	1	ab_manip	-0.0110604	ROU
 know_math_4	Chemistry	Knowledge	2	know_math	-0.0183689	ROU
 know_math_5	Biology	Knowledge	2	know_math	-0.0067779	ROU
@@ -2054,7 +2054,7 @@ skills_mon	Monitoring	Skills	2	skills_Basic_Process	0.0061283	ROU
 skills_scie	Science	Skills	2	skills_Basic_Cont	0.0003622	ROU
 know_eng_4	Design	Knowledge	2	know_eng	-0.0083878	ROU
 know_health_1	Geography	Knowledge	2	know_math	0.004814	SVK
-know_math_1	Mechanical	Knowledge	2	know_eng	0.0077796	SVK
+know_math_1	Mechanics	Knowledge	2	know_eng	0.0077796	SVK
 know_math_6	Psychology	Knowledge	2	know_math	0.0193413	SVK
 skills_Tech_1	Judgment and Decision Making	Skills	2	skills_Syst	0.0145433	SVK
 know_arts_3	History and Archeology	Knowledge	2	know_arts	0.0005476	SVK
@@ -2065,7 +2065,7 @@ know_arts_1	Therapy and Counseling	Knowledge	2	know_health	0.0110234	SVK
 know_eng_4	Design	Knowledge	2	know_eng	0.0158321	SVK
 ab_reac_time	Reaction Time and Speed Abilities	Abilities	1	ab_reac_time	0.0008053	SVK
 know_eng_1	Food Production	Knowledge	2	know_manu	-0.0009206	SVK
-know_math_2	Mathematics Knowledge	Knowledge	2	know_math	0.0175363	SVK
+know_math_2	Mathematics	Knowledge	2	know_math	0.0175363	SVK
 know_trans_1	Communications and Media	Knowledge	2	know_com	0.005939	SVK
 skills_Res_Mgmt_2	Management of Personnel Resources	Skills	2	skills_Res_Mgmt	0.011418	SVK
 ab_visual	Visual Abilities	Abilities	1	ab_visual	0.0029869	SVK
@@ -2102,7 +2102,7 @@ skills_Res_Mgmt_1	Management of Material Resources	Skills	2	skills_Res_Mgmt	0.00
 skills_read_comp	Reading Comprehension	Skills	2	skills_Basic_Cont	0.0186014	SVK
 skills_Social_1	Installation	Skills	2	skills_Tech	0.0004686	SVK
 skills_Complex_Pb_5	Quality Control Analysis	Skills	2	skills_Tech	0.0084711	SVK
-know_bis_2	Clerical	Knowledge	2	know_bis	0.0122938	SVK
+know_bis_2	Clergy	Knowledge	2	know_bis	0.0122938	SVK
 skills_Basic_Cont_2	Coordination	Skills	2	skills_Social	0.0101891	SVK
 ab_flex	Flexibility, Balance and Coordination	Abilities	1	ab_flex	-0.0042264	SVK
 know_math_7	Sociology and Anthropology	Knowledge	2	know_math	0.0067553	SVK
@@ -2119,13 +2119,13 @@ ab_strength	Physical Strength	Abilities	1	ab_strength	-0.0052397	SVK
 skills_act_li	Active Listening	Skills	2	skills_Basic_Cont	0.0149355	SVK
 skills_Basic_Process_2	Technology Design	Skills	2	skills_Tech	0.0074705	SVK
 skills_Complex_Pb_4	Repairing	Skills	2	skills_Tech	0.0010447	SVK
-skills_math	Mathematics Skills	Skills	2	skills_Basic_Cont	0.0132341	SVK
+skills_math	Mathematics	Skills	2	skills_Basic_Cont	0.0132341	SVK
 know_math_5	Biology	Knowledge	2	know_math	0.0100898	SVK
 know_com_2	Telecommunications	Knowledge	2	know_com	0.0076747	SVK
 skills_Complex_Pb_2	Equipment Maintenance	Skills	2	skills_Tech	-0.00054	SVK
 skills_Tech_2	Systems Analysis	Skills	2	skills_Syst	0.014754	SVK
 know_math_4	Chemistry	Knowledge	2	know_math	0.0096313	SVK
-ab_mem	Memory	Abilities	1	ab_mem	0.0076914	SVK
+ab_mem	Memory Abilities	Abilities	1	ab_mem	0.0076914	SVK
 ab_spatial	Spatial Abilities	Abilities	1	ab_spatial	0.0041121	SVK
 skills_Syst_3	Management of Financial Resources	Skills	2	skills_Res_Mgmt	0.0058622	SVK
 skills_Basic_Process_3	Equipment Selection	Skills	2	skills_Tech	0.0025074	SVK
@@ -2148,7 +2148,7 @@ ab_quant	Quantitative Abilities	Abilities	1	ab_quant	0.0051149	SVN
 know_math_4	Chemistry	Knowledge	2	know_math	-0.0044536	SVN
 know_math_6	Psychology	Knowledge	2	know_math	0.005775	SVN
 know_health_2	Medicine and Dentistry	Knowledge	2	know_health	0.0110444	SVN
-know_bis_2	Clerical	Knowledge	2	know_bis	0.0100569	SVN
+know_bis_2	Clergy	Knowledge	2	know_bis	0.0100569	SVN
 ab_percep	Perceptual Abilities	Abilities	1	ab_percep	-0.0002524	SVN
 skills_Basic_Cont_3	Persuasion	Skills	2	skills_Social	0.0075097	SVN
 skills_Basic_Cont_2	Coordination	Skills	2	skills_Social	-0.0007434	SVN
@@ -2156,15 +2156,15 @@ know_bis_3	Economics and Accounting	Knowledge	2	know_bis	-0.0061799	SVN
 ab_verbal	Verbal Abilities	Abilities	1	ab_verbal	0.008283	SVN
 know_math_5	Biology	Knowledge	2	know_math	0.0051767	SVN
 skills_Tech_2	Systems Analysis	Skills	2	skills_Syst	0.0002303	SVN
-know_math_1	Mechanical	Knowledge	2	know_eng	-0.0122098	SVN
+know_math_1	Mechanics	Knowledge	2	know_eng	-0.0122098	SVN
 skills_Social_1	Installation	Skills	2	skills_Tech	-0.0009171	SVN
-know_math_2	Mathematics Knowledge	Knowledge	2	know_math	0.0058638	SVN
+know_math_2	Mathematics	Knowledge	2	know_math	0.0058638	SVN
 ab_attent	Attentiveness	Abilities	1	ab_attent	-0.000997	SVN
 skills_mon	Monitoring	Skills	2	skills_Basic_Process	-0.0004456	SVN
 skills_Res_Mgmt_1	Management of Material Resources	Skills	2	skills_Res_Mgmt	-0.0035377	SVN
 know_manu_1	Personnel and Human Resources	Knowledge	2	know_bis	-0.008472	SVN
 ab_reac_time	Reaction Time and Speed Abilities	Abilities	1	ab_reac_time	-0.0089134	SVN
-ab_mem	Memory	Abilities	1	ab_mem	0.002458	SVN
+ab_mem	Memory Abilities	Abilities	1	ab_mem	0.002458	SVN
 skills_critical	Critical Thinking	Skills	2	skills_Basic_Process	0.0047436	SVN
 know_eng_5	Building and Construction	Knowledge	2	know_eng	-0.0159191	SVN
 ab_control_mov	Control Movement Abilities	Abilities	1	ab_control_mov	-0.0101704	SVN
@@ -2182,7 +2182,7 @@ skills_Basic_Cont_5	Instructing	Skills	2	skills_Social	0.0017503	SVN
 know_bis_1	Administration and Management	Knowledge	2	know_bis	-0.0091411	SVN
 know_health_1	Geography	Knowledge	2	know_math	-0.003809	SVN
 skills_Basic_Process_3	Equipment Selection	Skills	2	skills_Tech	-0.0043093	SVN
-skills_math	Mathematics Skills	Skills	2	skills_Basic_Cont	0.0040509	SVN
+skills_math	Mathematics	Skills	2	skills_Basic_Cont	0.0040509	SVN
 skills_read_comp	Reading Comprehension	Skills	2	skills_Basic_Cont	0.0095575	SVN
 skills_act_li	Active Listening	Skills	2	skills_Basic_Cont	0.0081065	SVN
 skills_Tech_1	Judgment and Decision Making	Skills	2	skills_Syst	0.0010957	SVN
@@ -2253,12 +2253,12 @@ skills_Syst_3	Management of Financial Resources	Skills	2	skills_Res_Mgmt	0.00751
 ab_reac_time	Reaction Time and Speed Abilities	Abilities	1	ab_reac_time	-0.0102483	SWE
 skills_act_li	Active Listening	Skills	2	skills_Basic_Cont	0.0133649	SWE
 ab_verbal	Verbal Abilities	Abilities	1	ab_verbal	0.0177756	SWE
-know_bis_2	Clerical	Knowledge	2	know_bis	0.0191602	SWE
+know_bis_2	Clergy	Knowledge	2	know_bis	0.0191602	SWE
 skills_Social_2	Programming	Skills	2	skills_Tech	0.0068512	SWE
 know_com_1	Law and Government	Knowledge	2	know_law	0.0137359	SWE
 ab_control_mov	Control Movement Abilities	Abilities	1	ab_control_mov	-0.016224	SWE
 know_eng_2	Computers and Electronics	Knowledge	2	know_eng	0.0220425	SWE
-ab_mem	Memory	Abilities	1	ab_mem	0.0080783	SWE
+ab_mem	Memory Abilities	Abilities	1	ab_mem	0.0080783	SWE
 skills_Res_Mgmt_2	Management of Personnel Resources	Skills	2	skills_Res_Mgmt	0.0113676	SWE
 know_eng_5	Building and Construction	Knowledge	2	know_eng	-0.0016558	SWE
 skills_Complex_Pb_3	Troubleshooting	Skills	2	skills_Tech	-0.0062583	SWE
@@ -2267,11 +2267,11 @@ skills_Syst_2	Time Management	Skills	2	skills_Res_Mgmt	0.0122508	SWE
 skills_Complex_Pb_2	Equipment Maintenance	Skills	2	skills_Tech	-0.0088913	SWE
 ab_spatial	Spatial Abilities	Abilities	1	ab_spatial	-0.0049359	SWE
 know_bis_5	Customer and Personal Service	Knowledge	2	know_bis	0.0097305	SWE
-know_math_2	Mathematics Knowledge	Knowledge	2	know_math	0.0162273	SWE
+know_math_2	Mathematics	Knowledge	2	know_math	0.0162273	SWE
 ab_reason	Reasoning Abilities	Abilities	1	ab_reason	0.0146621	SWE
 know_eng	Engineering, Mechanics and Technology	Knowledge	1	know_eng	-0.0006246	SWE
 know_manu_2	Production and Processing	Knowledge	2	know_manu	-0.0056931	SWE
-skills_math	Mathematics Skills	Skills	2	skills_Basic_Cont	0.0112838	SWE
+skills_math	Mathematics	Skills	2	skills_Basic_Cont	0.0112838	SWE
 know_manu_1	Personnel and Human Resources	Knowledge	2	know_bis	0.0113294	SWE
 skills_act_le	Active Learning	Skills	2	skills_Basic_Process	0.0195223	SWE
 know_bis_4	Sales and Marketing	Knowledge	2	know_bis	-0.0034585	SWE
@@ -2279,7 +2279,7 @@ skills_Basic_Process_3	Equipment Selection	Skills	2	skills_Tech	-0.0037532	SWE
 know_eng_4	Design	Knowledge	2	know_eng	-0.0022832	SWE
 know_trans_1	Communications and Media	Knowledge	2	know_com	0.0107731	SWE
 ab_percep	Perceptual Abilities	Abilities	1	ab_percep	0.005785	SWE
-know_math_1	Mechanical	Knowledge	2	know_eng	-0.0129054	SWE
+know_math_1	Mechanics	Knowledge	2	know_eng	-0.0129054	SWE
 skills_Basic_Cont_4	Negotiation	Skills	2	skills_Social	0.006796	SWE
 ab_quant	Quantitative Abilities	Abilities	1	ab_quant	0.0119736	SWE
 know_math_4	Chemistry	Knowledge	2	know_math	-0.0013701	SWE
@@ -2303,7 +2303,7 @@ know_eng_4	Design	Knowledge	2	know_eng	-0.0121329	ZAF
 know_math_4	Chemistry	Knowledge	2	know_math	-0.0052239	ZAF
 skills_Res_Mgmt_1	Management of Material Resources	Skills	2	skills_Res_Mgmt	0.0015579	ZAF
 ab_manip	Fine Manipulative Abilities	Abilities	1	ab_manip	-0.0095866	ZAF
-skills_math	Mathematics Skills	Skills	2	skills_Basic_Cont	0.001076	ZAF
+skills_math	Mathematics	Skills	2	skills_Basic_Cont	0.001076	ZAF
 ab_audio	Auditory and Speech Abilities	Abilities	1	ab_audio	-0.0020297	ZAF
 know_eng_2	Computers and Electronics	Knowledge	2	know_eng	0.0041411	ZAF
 ab_reac_time	Reaction Time and Speed Abilities	Abilities	1	ab_reac_time	-0.0079203	ZAF
@@ -2325,7 +2325,7 @@ know_arts_2	Fine Arts	Knowledge	2	know_arts	0.0019148	ZAF
 ab_flex	Flexibility, Balance and Coordination	Abilities	1	ab_flex	-0.0062305	ZAF
 know_bis_4	Sales and Marketing	Knowledge	2	know_bis	-0.0065747	ZAF
 know_math_6	Psychology	Knowledge	2	know_math	0.0056351	ZAF
-know_math_2	Mathematics Knowledge	Knowledge	2	know_math	-0.0015865	ZAF
+know_math_2	Mathematics	Knowledge	2	know_math	-0.0015865	ZAF
 skills_Basic_Process_3	Equipment Selection	Skills	2	skills_Tech	-0.0061051	ZAF
 skills_Basic_Process_2	Technology Design	Skills	2	skills_Tech	-0.0002034	ZAF
 ab_percep	Perceptual Abilities	Abilities	1	ab_percep	0.0005598	ZAF
@@ -2337,12 +2337,12 @@ skills_Basic_Cont_5	Instructing	Skills	2	skills_Social	0.0077983	ZAF
 ab_endur	Endurance	Abilities	1	ab_endur	-0.0038016	ZAF
 know_manu_1	Personnel and Human Resources	Knowledge	2	know_bis	0.0045449	ZAF
 skills_speak	Speaking	Skills	2	skills_Basic_Cont	0.0044553	ZAF
-know_bis_2	Clerical	Knowledge	2	know_bis	0.0000868	ZAF
+know_bis_2	Clergy	Knowledge	2	know_bis	0.0000868	ZAF
 skills_Syst_3	Management of Financial Resources	Skills	2	skills_Res_Mgmt	0.006052	ZAF
 know_health_1	Geography	Knowledge	2	know_math	0.0028374	ZAF
 skills_act_le	Active Learning	Skills	2	skills_Basic_Process	0.0055414	ZAF
 know_arts_3	History and Archeology	Knowledge	2	know_arts	0.0042615	ZAF
-know_math_1	Mechanical	Knowledge	2	know_eng	-0.0172637	ZAF
+know_math_1	Mechanics	Knowledge	2	know_eng	-0.0172637	ZAF
 skills_Basic_Cont_6	Service Orientation	Skills	2	skills_Social	0.0038497	ZAF
 skills_Basic_Cont_2	Coordination	Skills	2	skills_Social	0.0028805	ZAF
 ab_verbal	Verbal Abilities	Abilities	1	ab_verbal	0.0050779	ZAF
@@ -2360,7 +2360,7 @@ ab_quant	Quantitative Abilities	Abilities	1	ab_quant	0.0024993	ZAF
 know_com_2	Telecommunications	Knowledge	2	know_com	-0.0002823	ZAF
 skills_Syst_1	Systems Evaluation	Skills	2	skills_Syst	0.0051749	ZAF
 skills_Basic_Cont_3	Persuasion	Skills	2	skills_Social	0.0012177	ZAF
-ab_mem	Memory	Abilities	1	ab_mem	0.001919	ZAF
+ab_mem	Memory Abilities	Abilities	1	ab_mem	0.001919	ZAF
 ab_attent	Attentiveness	Abilities	1	ab_attent	-0.0026359	ZAF
 ab_spatial	Spatial Abilities	Abilities	1	ab_spatial	-0.007948	ZAF
 know_eng_5	Building and Construction	Knowledge	2	know_eng	-0.0214701	ZAF

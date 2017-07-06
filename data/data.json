@@ -102,7 +102,7 @@
 			  },
 			  {
 			    "id": "ab_spatial_2",
-			    "name": "Visualization",
+			    "name": "Visualization Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_spatial",
@@ -150,7 +150,7 @@
 			  },
 			  {
 			    "id": "know_bis_2",
-			    "name": "Clerical",
+			    "name": "Clergy",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_bis",
@@ -246,7 +246,7 @@
 			  },
 			  {
 			    "id": "know_math_2",
-			    "name": "Mathematics Knowledge",
+			    "name": "Mathematics",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_math",
@@ -302,7 +302,7 @@
 			  },
 			  {
 			    "id": "skills_Res_Mgmt",
-			    "name": "Resource Management Skills",
+			    "name": "Resource Management",
 			    "group": "Skills",
 			    "subgroup": 1,
 			    "cat": "skills_Res_Mgmt",
@@ -558,7 +558,7 @@
 			  },
 			  {
 			    "id": "ab_mem",
-			    "name": "Memory",
+			    "name": "Memory Abilities",
 			    "group": "Abilities",
 			    "subgroup": 1,
 			    "cat": "ab_mem",
@@ -622,7 +622,7 @@
 			  },
 			  {
 			    "id": "know_math_1",
-			    "name": "Mechanical",
+			    "name": "Mechanics",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_eng",
@@ -638,7 +638,7 @@
 			  },
 			  {
 			    "id": "ab_mem_1",
-			    "name": "Memorization",
+			    "name": "Memorization Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_mem",
@@ -894,7 +894,7 @@
 			  },
 			  {
 			    "id": "ab_reason_1",
-			    "name": "Fluency of Ideas",
+			    "name": "Fluency of Ideas Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_reason",
@@ -998,7 +998,7 @@
 			  },
 			  {
 			    "id": "skills_math",
-			    "name": "Mathematics Skills",
+			    "name": "Mathematics",
 			    "group": "Skills",
 			    "subgroup": 2,
 			    "cat": "skills_Basic_Cont",
@@ -1094,7 +1094,7 @@
 			  },
 			  {
 			    "id": "ab_spatial_1",
-			    "name": "Spatial Orientation",
+			    "name": "Spatial Orientation Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_spatial",
@@ -1158,7 +1158,7 @@
 			  },
 			  {
 			    "id": "ab_attent_2",
-			    "name": "Time Sharing",
+			    "name": "Time Sharing Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_attent",
@@ -1310,7 +1310,7 @@
 			  },
 			  {
 			    "id": "know_math_2",
-			    "name": "Mathematics Knowledge",
+			    "name": "Mathematics",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_math",
@@ -1350,7 +1350,7 @@
 			  },
 			  {
 			    "id": "ab_reason_1",
-			    "name": "Fluency of Ideas",
+			    "name": "Fluency of Ideas Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_reason",
@@ -1630,7 +1630,7 @@
 			  },
 			  {
 			    "id": "skills_math",
-			    "name": "Mathematics Skills",
+			    "name": "Mathematics",
 			    "group": "Skills",
 			    "subgroup": 2,
 			    "cat": "skills_Basic_Cont",
@@ -1670,7 +1670,7 @@
 			  },
 			  {
 			    "id": "ab_spatial_1",
-			    "name": "Spatial Orientation",
+			    "name": "Spatial Orientation Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_spatial",
@@ -1806,7 +1806,7 @@
 			  },
 			  {
 			    "id": "ab_mem_1",
-			    "name": "Memorization",
+			    "name": "Memorization Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_mem",
@@ -1822,7 +1822,7 @@
 			  },
 			  {
 			    "id": "ab_attent_2",
-			    "name": "Time Sharing",
+			    "name": "Time Sharing Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_attent",
@@ -1838,7 +1838,7 @@
 			  },
 			  {
 			    "id": "know_bis_2",
-			    "name": "Clerical",
+			    "name": "Clergy",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_bis",
@@ -2198,7 +2198,7 @@
 			  },
 			  {
 			    "id": "skills_Res_Mgmt",
-			    "name": "Resource Management Skills",
+			    "name": "Resource Management",
 			    "group": "Skills",
 			    "subgroup": 1,
 			    "cat": "skills_Res_Mgmt",
@@ -2206,7 +2206,7 @@
 			  },
 			  {
 			    "id": "ab_spatial_2",
-			    "name": "Visualization",
+			    "name": "Visualization Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_spatial",
@@ -2262,7 +2262,7 @@
 			  },
 			  {
 			    "id": "ab_mem",
-			    "name": "Memory",
+			    "name": "Memory Abilities",
 			    "group": "Abilities",
 			    "subgroup": 1,
 			    "cat": "ab_mem",
@@ -2310,7 +2310,7 @@
 			  },
 			  {
 			    "id": "know_math_1",
-			    "name": "Mechanical",
+			    "name": "Mechanics",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_eng",
@@ -2566,7 +2566,7 @@
 			  },
 			  {
 			    "id": "know_math_2",
-			    "name": "Mathematics Knowledge",
+			    "name": "Mathematics",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_math",
@@ -2582,7 +2582,7 @@
 			  },
 			  {
 			    "id": "ab_mem",
-			    "name": "Memory",
+			    "name": "Memory Abilities",
 			    "group": "Abilities",
 			    "subgroup": 1,
 			    "cat": "ab_mem",
@@ -2614,7 +2614,7 @@
 			  },
 			  {
 			    "id": "ab_spatial_1",
-			    "name": "Spatial Orientation",
+			    "name": "Spatial Orientation Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_spatial",
@@ -2622,7 +2622,7 @@
 			  },
 			  {
 			    "id": "skills_math",
-			    "name": "Mathematics Skills",
+			    "name": "Mathematics",
 			    "group": "Skills",
 			    "subgroup": 2,
 			    "cat": "skills_Basic_Cont",
@@ -2750,7 +2750,7 @@
 			  },
 			  {
 			    "id": "know_math_1",
-			    "name": "Mechanical",
+			    "name": "Mechanics",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_eng",
@@ -2934,7 +2934,7 @@
 			  },
 			  {
 			    "id": "know_bis_2",
-			    "name": "Clerical",
+			    "name": "Clergy",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_bis",
@@ -2982,7 +2982,7 @@
 			  },
 			  {
 			    "id": "ab_reason_1",
-			    "name": "Fluency of Ideas",
+			    "name": "Fluency of Ideas Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_reason",
@@ -3158,7 +3158,7 @@
 			  },
 			  {
 			    "id": "skills_Res_Mgmt",
-			    "name": "Resource Management Skills",
+			    "name": "Resource Management",
 			    "group": "Skills",
 			    "subgroup": 1,
 			    "cat": "skills_Res_Mgmt",
@@ -3286,7 +3286,7 @@
 			  },
 			  {
 			    "id": "ab_spatial_2",
-			    "name": "Visualization",
+			    "name": "Visualization Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_spatial",
@@ -3342,7 +3342,7 @@
 			  },
 			  {
 			    "id": "ab_mem_1",
-			    "name": "Memorization",
+			    "name": "Memorization Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_mem",
@@ -3606,7 +3606,7 @@
 			  },
 			  {
 			    "id": "ab_attent_2",
-			    "name": "Time Sharing",
+			    "name": "Time Sharing Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_attent",
@@ -3702,7 +3702,7 @@
 			  },
 			  {
 			    "id": "know_bis_2",
-			    "name": "Clerical",
+			    "name": "Clergy",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_bis",
@@ -3902,7 +3902,7 @@
 			  },
 			  {
 			    "id": "know_math_2",
-			    "name": "Mathematics Knowledge",
+			    "name": "Mathematics",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_math",
@@ -3998,7 +3998,7 @@
 			  },
 			  {
 			    "id": "skills_Res_Mgmt",
-			    "name": "Resource Management Skills",
+			    "name": "Resource Management",
 			    "group": "Skills",
 			    "subgroup": 1,
 			    "cat": "skills_Res_Mgmt",
@@ -4126,7 +4126,7 @@
 			  },
 			  {
 			    "id": "ab_mem_1",
-			    "name": "Memorization",
+			    "name": "Memorization Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_mem",
@@ -4286,7 +4286,7 @@
 			  },
 			  {
 			    "id": "ab_spatial_2",
-			    "name": "Visualization",
+			    "name": "Visualization Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_spatial",
@@ -4366,7 +4366,7 @@
 			  },
 			  {
 			    "id": "ab_reason_1",
-			    "name": "Fluency of Ideas",
+			    "name": "Fluency of Ideas Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_reason",
@@ -4430,7 +4430,7 @@
 			  },
 			  {
 			    "id": "ab_mem",
-			    "name": "Memory",
+			    "name": "Memory Abilities",
 			    "group": "Abilities",
 			    "subgroup": 1,
 			    "cat": "ab_mem",
@@ -4478,7 +4478,7 @@
 			  },
 			  {
 			    "id": "ab_spatial_1",
-			    "name": "Spatial Orientation",
+			    "name": "Spatial Orientation Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_spatial",
@@ -4486,7 +4486,7 @@
 			  },
 			  {
 			    "id": "ab_attent_2",
-			    "name": "Time Sharing",
+			    "name": "Time Sharing Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_attent",
@@ -4606,7 +4606,7 @@
 			  },
 			  {
 			    "id": "know_math_1",
-			    "name": "Mechanical",
+			    "name": "Mechanics",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_eng",
@@ -4822,7 +4822,7 @@
 			  },
 			  {
 			    "id": "skills_math",
-			    "name": "Mathematics Skills",
+			    "name": "Mathematics",
 			    "group": "Skills",
 			    "subgroup": 2,
 			    "cat": "skills_Basic_Cont",
@@ -4997,7 +4997,7 @@
 			  },
 			  {
 			    "id": "ab_mem",
-			    "name": "Memory",
+			    "name": "Memory Abilities",
 			    "group": "Abilities",
 			    "subgroup": 1,
 			    "cat": "ab_mem",
@@ -5021,7 +5021,7 @@
 			  },
 			  {
 			    "id": "know_math_2",
-			    "name": "Mathematics Knowledge",
+			    "name": "Mathematics",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_math",
@@ -5061,7 +5061,7 @@
 			  },
 			  {
 			    "id": "know_bis_2",
-			    "name": "Clerical",
+			    "name": "Clergy",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_bis",
@@ -5157,7 +5157,7 @@
 			  },
 			  {
 			    "id": "ab_attent_2",
-			    "name": "Time Sharing",
+			    "name": "Time Sharing Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_attent",
@@ -5357,7 +5357,7 @@
 			  },
 			  {
 			    "id": "ab_spatial_1",
-			    "name": "Spatial Orientation",
+			    "name": "Spatial Orientation Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_spatial",
@@ -5389,7 +5389,7 @@
 			  },
 			  {
 			    "id": "skills_Res_Mgmt",
-			    "name": "Resource Management Skills",
+			    "name": "Resource Management",
 			    "group": "Skills",
 			    "subgroup": 1,
 			    "cat": "skills_Res_Mgmt",
@@ -5421,7 +5421,7 @@
 			  },
 			  {
 			    "id": "ab_spatial_2",
-			    "name": "Visualization",
+			    "name": "Visualization Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_spatial",
@@ -5453,7 +5453,7 @@
 			  },
 			  {
 			    "id": "ab_reason_1",
-			    "name": "Fluency of Ideas",
+			    "name": "Fluency of Ideas Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_reason",
@@ -5661,7 +5661,7 @@
 			  },
 			  {
 			    "id": "skills_math",
-			    "name": "Mathematics Skills",
+			    "name": "Mathematics",
 			    "group": "Skills",
 			    "subgroup": 2,
 			    "cat": "skills_Basic_Cont",
@@ -5693,7 +5693,7 @@
 			  },
 			  {
 			    "id": "know_math_1",
-			    "name": "Mechanical",
+			    "name": "Mechanics",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_eng",
@@ -5933,7 +5933,7 @@
 			  },
 			  {
 			    "id": "ab_mem_1",
-			    "name": "Memorization",
+			    "name": "Memorization Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_mem",
@@ -6141,7 +6141,7 @@
 			  },
 			  {
 			    "id": "ab_mem",
-			    "name": "Memory",
+			    "name": "Memory Abilities",
 			    "group": "Abilities",
 			    "subgroup": 1,
 			    "cat": "ab_mem",
@@ -6189,7 +6189,7 @@
 			  },
 			  {
 			    "id": "ab_attent_2",
-			    "name": "Time Sharing",
+			    "name": "Time Sharing Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_attent",
@@ -6237,7 +6237,7 @@
 			  },
 			  {
 			    "id": "skills_math",
-			    "name": "Mathematics Skills",
+			    "name": "Mathematics",
 			    "group": "Skills",
 			    "subgroup": 2,
 			    "cat": "skills_Basic_Cont",
@@ -6389,7 +6389,7 @@
 			  },
 			  {
 			    "id": "ab_reason_1",
-			    "name": "Fluency of Ideas",
+			    "name": "Fluency of Ideas Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_reason",
@@ -6421,7 +6421,7 @@
 			  },
 			  {
 			    "id": "know_math_2",
-			    "name": "Mathematics Knowledge",
+			    "name": "Mathematics",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_math",
@@ -6493,7 +6493,7 @@
 			  },
 			  {
 			    "id": "skills_Res_Mgmt",
-			    "name": "Resource Management Skills",
+			    "name": "Resource Management",
 			    "group": "Skills",
 			    "subgroup": 1,
 			    "cat": "skills_Res_Mgmt",
@@ -6501,7 +6501,7 @@
 			  },
 			  {
 			    "id": "know_math_1",
-			    "name": "Mechanical",
+			    "name": "Mechanics",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_eng",
@@ -6597,7 +6597,7 @@
 			  },
 			  {
 			    "id": "know_bis_2",
-			    "name": "Clerical",
+			    "name": "Clergy",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_bis",
@@ -7037,7 +7037,7 @@
 			  },
 			  {
 			    "id": "ab_spatial_2",
-			    "name": "Visualization",
+			    "name": "Visualization Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_spatial",
@@ -7101,7 +7101,7 @@
 			  },
 			  {
 			    "id": "ab_mem_1",
-			    "name": "Memorization",
+			    "name": "Memorization Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_mem",
@@ -7221,7 +7221,7 @@
 			  },
 			  {
 			    "id": "ab_spatial_1",
-			    "name": "Spatial Orientation",
+			    "name": "Spatial Orientation Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_spatial",
@@ -7389,7 +7389,7 @@
 			  },
 			  {
 			    "id": "ab_spatial_2",
-			    "name": "Visualization",
+			    "name": "Visualization Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_spatial",
@@ -7445,7 +7445,7 @@
 			  },
 			  {
 			    "id": "ab_spatial_1",
-			    "name": "Spatial Orientation",
+			    "name": "Spatial Orientation Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_spatial",
@@ -7573,7 +7573,7 @@
 			  },
 			  {
 			    "id": "ab_mem_1",
-			    "name": "Memorization",
+			    "name": "Memorization Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_mem",
@@ -7581,7 +7581,7 @@
 			  },
 			  {
 			    "id": "ab_reason_1",
-			    "name": "Fluency of Ideas",
+			    "name": "Fluency of Ideas Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_reason",
@@ -7589,7 +7589,7 @@
 			  },
 			  {
 			    "id": "know_math_1",
-			    "name": "Mechanical",
+			    "name": "Mechanics",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_eng",
@@ -7629,7 +7629,7 @@
 			  },
 			  {
 			    "id": "know_bis_2",
-			    "name": "Clerical",
+			    "name": "Clergy",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_bis",
@@ -7765,7 +7765,7 @@
 			  },
 			  {
 			    "id": "skills_math",
-			    "name": "Mathematics Skills",
+			    "name": "Mathematics",
 			    "group": "Skills",
 			    "subgroup": 2,
 			    "cat": "skills_Basic_Cont",
@@ -8085,7 +8085,7 @@
 			  },
 			  {
 			    "id": "ab_attent_2",
-			    "name": "Time Sharing",
+			    "name": "Time Sharing Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_attent",
@@ -8149,7 +8149,7 @@
 			  },
 			  {
 			    "id": "know_math_2",
-			    "name": "Mathematics Knowledge",
+			    "name": "Mathematics",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_math",
@@ -8285,7 +8285,7 @@
 			  },
 			  {
 			    "id": "ab_mem",
-			    "name": "Memory",
+			    "name": "Memory Abilities",
 			    "group": "Abilities",
 			    "subgroup": 1,
 			    "cat": "ab_mem",
@@ -8477,7 +8477,7 @@
 			  },
 			  {
 			    "id": "skills_Res_Mgmt",
-			    "name": "Resource Management Skills",
+			    "name": "Resource Management",
 			    "group": "Skills",
 			    "subgroup": 1,
 			    "cat": "skills_Res_Mgmt",
@@ -8621,7 +8621,7 @@
 			  },
 			  {
 			    "id": "ab_spatial_2",
-			    "name": "Visualization",
+			    "name": "Visualization Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_spatial",
@@ -8645,7 +8645,7 @@
 			  },
 			  {
 			    "id": "ab_mem",
-			    "name": "Memory",
+			    "name": "Memory Abilities",
 			    "group": "Abilities",
 			    "subgroup": 1,
 			    "cat": "ab_mem",
@@ -8677,7 +8677,7 @@
 			  },
 			  {
 			    "id": "ab_mem_1",
-			    "name": "Memorization",
+			    "name": "Memorization Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_mem",
@@ -8701,7 +8701,7 @@
 			  },
 			  {
 			    "id": "know_math_1",
-			    "name": "Mechanical",
+			    "name": "Mechanics",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_eng",
@@ -8709,7 +8709,7 @@
 			  },
 			  {
 			    "id": "know_bis_2",
-			    "name": "Clerical",
+			    "name": "Clergy",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_bis",
@@ -8773,7 +8773,7 @@
 			  },
 			  {
 			    "id": "ab_attent_2",
-			    "name": "Time Sharing",
+			    "name": "Time Sharing Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_attent",
@@ -9005,7 +9005,7 @@
 			  },
 			  {
 			    "id": "skills_Res_Mgmt",
-			    "name": "Resource Management Skills",
+			    "name": "Resource Management",
 			    "group": "Skills",
 			    "subgroup": 1,
 			    "cat": "skills_Res_Mgmt",
@@ -9045,7 +9045,7 @@
 			  },
 			  {
 			    "id": "know_math_2",
-			    "name": "Mathematics Knowledge",
+			    "name": "Mathematics",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_math",
@@ -9069,7 +9069,7 @@
 			  },
 			  {
 			    "id": "ab_spatial_1",
-			    "name": "Spatial Orientation",
+			    "name": "Spatial Orientation Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_spatial",
@@ -9149,7 +9149,7 @@
 			  },
 			  {
 			    "id": "ab_reason_1",
-			    "name": "Fluency of Ideas",
+			    "name": "Fluency of Ideas Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_reason",
@@ -9701,7 +9701,7 @@
 			  },
 			  {
 			    "id": "skills_math",
-			    "name": "Mathematics Skills",
+			    "name": "Mathematics",
 			    "group": "Skills",
 			    "subgroup": 2,
 			    "cat": "skills_Basic_Cont",
@@ -9861,7 +9861,7 @@
 			  },
 			  {
 			    "id": "know_math_1",
-			    "name": "Mechanical",
+			    "name": "Mechanics",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_eng",
@@ -10021,7 +10021,7 @@
 			  },
 			  {
 			    "id": "ab_spatial_1",
-			    "name": "Spatial Orientation",
+			    "name": "Spatial Orientation Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_spatial",
@@ -10149,7 +10149,7 @@
 			  },
 			  {
 			    "id": "ab_attent_2",
-			    "name": "Time Sharing",
+			    "name": "Time Sharing Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_attent",
@@ -10189,7 +10189,7 @@
 			  },
 			  {
 			    "id": "skills_math",
-			    "name": "Mathematics Skills",
+			    "name": "Mathematics",
 			    "group": "Skills",
 			    "subgroup": 2,
 			    "cat": "skills_Basic_Cont",
@@ -10269,7 +10269,7 @@
 			  },
 			  {
 			    "id": "ab_spatial_2",
-			    "name": "Visualization",
+			    "name": "Visualization Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_spatial",
@@ -10373,7 +10373,7 @@
 			  },
 			  {
 			    "id": "know_bis_2",
-			    "name": "Clerical",
+			    "name": "Clergy",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_bis",
@@ -10397,7 +10397,7 @@
 			  },
 			  {
 			    "id": "ab_mem_1",
-			    "name": "Memorization",
+			    "name": "Memorization Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_mem",
@@ -10445,7 +10445,7 @@
 			  },
 			  {
 			    "id": "skills_Res_Mgmt",
-			    "name": "Resource Management Skills",
+			    "name": "Resource Management",
 			    "group": "Skills",
 			    "subgroup": 1,
 			    "cat": "skills_Res_Mgmt",
@@ -10661,7 +10661,7 @@
 			  },
 			  {
 			    "id": "ab_reason_1",
-			    "name": "Fluency of Ideas",
+			    "name": "Fluency of Ideas Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_reason",
@@ -10733,7 +10733,7 @@
 			  },
 			  {
 			    "id": "ab_mem",
-			    "name": "Memory",
+			    "name": "Memory Abilities",
 			    "group": "Abilities",
 			    "subgroup": 1,
 			    "cat": "ab_mem",
@@ -10901,7 +10901,7 @@
 			  },
 			  {
 			    "id": "know_math_2",
-			    "name": "Mathematics Knowledge",
+			    "name": "Mathematics",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_math",
@@ -11029,7 +11029,7 @@
 			  },
 			  {
 			    "id": "ab_reason_1",
-			    "name": "Fluency of Ideas",
+			    "name": "Fluency of Ideas Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_reason",
@@ -11085,7 +11085,7 @@
 			  },
 			  {
 			    "id": "skills_math",
-			    "name": "Mathematics Skills",
+			    "name": "Mathematics",
 			    "group": "Skills",
 			    "subgroup": 2,
 			    "cat": "skills_Basic_Cont",
@@ -11245,7 +11245,7 @@
 			  },
 			  {
 			    "id": "know_bis_2",
-			    "name": "Clerical",
+			    "name": "Clergy",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_bis",
@@ -11445,7 +11445,7 @@
 			  },
 			  {
 			    "id": "know_math_2",
-			    "name": "Mathematics Knowledge",
+			    "name": "Mathematics",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_math",
@@ -11645,7 +11645,7 @@
 			  },
 			  {
 			    "id": "ab_attent_2",
-			    "name": "Time Sharing",
+			    "name": "Time Sharing Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_attent",
@@ -11685,7 +11685,7 @@
 			  },
 			  {
 			    "id": "ab_spatial_2",
-			    "name": "Visualization",
+			    "name": "Visualization Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_spatial",
@@ -11813,7 +11813,7 @@
 			  },
 			  {
 			    "id": "know_math_1",
-			    "name": "Mechanical",
+			    "name": "Mechanics",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_eng",
@@ -11877,7 +11877,7 @@
 			  },
 			  {
 			    "id": "skills_Res_Mgmt",
-			    "name": "Resource Management Skills",
+			    "name": "Resource Management",
 			    "group": "Skills",
 			    "subgroup": 1,
 			    "cat": "skills_Res_Mgmt",
@@ -11909,7 +11909,7 @@
 			  },
 			  {
 			    "id": "ab_mem_1",
-			    "name": "Memorization",
+			    "name": "Memorization Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_mem",
@@ -11957,7 +11957,7 @@
 			  },
 			  {
 			    "id": "ab_spatial_1",
-			    "name": "Spatial Orientation",
+			    "name": "Spatial Orientation Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_spatial",
@@ -12109,7 +12109,7 @@
 			  },
 			  {
 			    "id": "ab_mem",
-			    "name": "Memory",
+			    "name": "Memory Abilities",
 			    "group": "Abilities",
 			    "subgroup": 1,
 			    "cat": "ab_mem",
@@ -12725,7 +12725,7 @@
 			  },
 			  {
 			    "id": "ab_mem",
-			    "name": "Memory",
+			    "name": "Memory Abilities",
 			    "group": "Abilities",
 			    "subgroup": 1,
 			    "cat": "ab_mem",
@@ -12741,7 +12741,7 @@
 			  },
 			  {
 			    "id": "ab_reason_1",
-			    "name": "Fluency of Ideas",
+			    "name": "Fluency of Ideas Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_reason",
@@ -12805,7 +12805,7 @@
 			  },
 			  {
 			    "id": "skills_math",
-			    "name": "Mathematics Skills",
+			    "name": "Mathematics",
 			    "group": "Skills",
 			    "subgroup": 2,
 			    "cat": "skills_Basic_Cont",
@@ -12813,7 +12813,7 @@
 			  },
 			  {
 			    "id": "ab_attent_2",
-			    "name": "Time Sharing",
+			    "name": "Time Sharing Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_attent",
@@ -12837,7 +12837,7 @@
 			  },
 			  {
 			    "id": "know_math_2",
-			    "name": "Mathematics Knowledge",
+			    "name": "Mathematics",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_math",
@@ -12957,7 +12957,7 @@
 			  },
 			  {
 			    "id": "ab_spatial_1",
-			    "name": "Spatial Orientation",
+			    "name": "Spatial Orientation Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_spatial",
@@ -12981,7 +12981,7 @@
 			  },
 			  {
 			    "id": "skills_Res_Mgmt",
-			    "name": "Resource Management Skills",
+			    "name": "Resource Management",
 			    "group": "Skills",
 			    "subgroup": 1,
 			    "cat": "skills_Res_Mgmt",
@@ -13173,7 +13173,7 @@
 			  },
 			  {
 			    "id": "ab_spatial_2",
-			    "name": "Visualization",
+			    "name": "Visualization Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_spatial",
@@ -13181,7 +13181,7 @@
 			  },
 			  {
 			    "id": "ab_mem_1",
-			    "name": "Memorization",
+			    "name": "Memorization Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_mem",
@@ -13213,7 +13213,7 @@
 			  },
 			  {
 			    "id": "know_math_1",
-			    "name": "Mechanical",
+			    "name": "Mechanics",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_eng",
@@ -13309,7 +13309,7 @@
 			  },
 			  {
 			    "id": "know_bis_2",
-			    "name": "Clerical",
+			    "name": "Clergy",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_bis",
@@ -13821,7 +13821,7 @@
 			  },
 			  {
 			    "id": "know_bis_2",
-			    "name": "Clerical",
+			    "name": "Clergy",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_bis",
@@ -13845,7 +13845,7 @@
 			  },
 			  {
 			    "id": "know_math_1",
-			    "name": "Mechanical",
+			    "name": "Mechanics",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_eng",
@@ -14029,7 +14029,7 @@
 			  },
 			  {
 			    "id": "skills_math",
-			    "name": "Mathematics Skills",
+			    "name": "Mathematics",
 			    "group": "Skills",
 			    "subgroup": 2,
 			    "cat": "skills_Basic_Cont",
@@ -14189,7 +14189,7 @@
 			  },
 			  {
 			    "id": "ab_spatial_2",
-			    "name": "Visualization",
+			    "name": "Visualization Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_spatial",
@@ -14229,7 +14229,7 @@
 			  },
 			  {
 			    "id": "ab_mem_1",
-			    "name": "Memorization",
+			    "name": "Memorization Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_mem",
@@ -14261,7 +14261,7 @@
 			  },
 			  {
 			    "id": "skills_Res_Mgmt",
-			    "name": "Resource Management Skills",
+			    "name": "Resource Management",
 			    "group": "Skills",
 			    "subgroup": 1,
 			    "cat": "skills_Res_Mgmt",
@@ -14317,7 +14317,7 @@
 			  },
 			  {
 			    "id": "know_math_2",
-			    "name": "Mathematics Knowledge",
+			    "name": "Mathematics",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_math",
@@ -14333,7 +14333,7 @@
 			  },
 			  {
 			    "id": "ab_mem",
-			    "name": "Memory",
+			    "name": "Memory Abilities",
 			    "group": "Abilities",
 			    "subgroup": 1,
 			    "cat": "ab_mem",
@@ -14437,7 +14437,7 @@
 			  },
 			  {
 			    "id": "ab_reason_1",
-			    "name": "Fluency of Ideas",
+			    "name": "Fluency of Ideas Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_reason",
@@ -14509,7 +14509,7 @@
 			  },
 			  {
 			    "id": "ab_spatial_1",
-			    "name": "Spatial Orientation",
+			    "name": "Spatial Orientation Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_spatial",
@@ -14581,7 +14581,7 @@
 			  },
 			  {
 			    "id": "ab_attent_2",
-			    "name": "Time Sharing",
+			    "name": "Time Sharing Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_attent",
@@ -14637,7 +14637,7 @@
 			  },
 			  {
 			    "id": "know_bis_2",
-			    "name": "Clerical",
+			    "name": "Clergy",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_bis",
@@ -14773,7 +14773,7 @@
 			  },
 			  {
 			    "id": "ab_attent_2",
-			    "name": "Time Sharing",
+			    "name": "Time Sharing Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_attent",
@@ -14869,7 +14869,7 @@
 			  },
 			  {
 			    "id": "ab_mem",
-			    "name": "Memory",
+			    "name": "Memory Abilities",
 			    "group": "Abilities",
 			    "subgroup": 1,
 			    "cat": "ab_mem",
@@ -15253,7 +15253,7 @@
 			  },
 			  {
 			    "id": "ab_spatial_1",
-			    "name": "Spatial Orientation",
+			    "name": "Spatial Orientation Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_spatial",
@@ -15293,7 +15293,7 @@
 			  },
 			  {
 			    "id": "know_math_2",
-			    "name": "Mathematics Knowledge",
+			    "name": "Mathematics",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_math",
@@ -15309,7 +15309,7 @@
 			  },
 			  {
 			    "id": "skills_math",
-			    "name": "Mathematics Skills",
+			    "name": "Mathematics",
 			    "group": "Skills",
 			    "subgroup": 2,
 			    "cat": "skills_Basic_Cont",
@@ -15325,7 +15325,7 @@
 			  },
 			  {
 			    "id": "ab_reason_1",
-			    "name": "Fluency of Ideas",
+			    "name": "Fluency of Ideas Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_reason",
@@ -15381,7 +15381,7 @@
 			  },
 			  {
 			    "id": "know_math_1",
-			    "name": "Mechanical",
+			    "name": "Mechanics",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_eng",
@@ -15549,7 +15549,7 @@
 			  },
 			  {
 			    "id": "ab_mem_1",
-			    "name": "Memorization",
+			    "name": "Memorization Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_mem",
@@ -15669,7 +15669,7 @@
 			  },
 			  {
 			    "id": "skills_Res_Mgmt",
-			    "name": "Resource Management Skills",
+			    "name": "Resource Management",
 			    "group": "Skills",
 			    "subgroup": 1,
 			    "cat": "skills_Res_Mgmt",
@@ -15709,7 +15709,7 @@
 			  },
 			  {
 			    "id": "ab_spatial_2",
-			    "name": "Visualization",
+			    "name": "Visualization Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_spatial",
@@ -16212,7 +16212,7 @@
 			  },
 			  {
 			    "id": "ab_spatial_1",
-			    "name": "Spatial Orientation",
+			    "name": "Spatial Orientation Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_spatial",
@@ -16300,7 +16300,7 @@
 			  },
 			  {
 			    "id": "know_math_2",
-			    "name": "Mathematics Knowledge",
+			    "name": "Mathematics",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_math",
@@ -16428,7 +16428,7 @@
 			  },
 			  {
 			    "id": "ab_attent_2",
-			    "name": "Time Sharing",
+			    "name": "Time Sharing Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_attent",
@@ -16516,7 +16516,7 @@
 			  },
 			  {
 			    "id": "know_bis_2",
-			    "name": "Clerical",
+			    "name": "Clergy",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_bis",
@@ -16524,7 +16524,7 @@
 			  },
 			  {
 			    "id": "ab_mem",
-			    "name": "Memory",
+			    "name": "Memory Abilities",
 			    "group": "Abilities",
 			    "subgroup": 1,
 			    "cat": "ab_mem",
@@ -16644,7 +16644,7 @@
 			  },
 			  {
 			    "id": "ab_spatial_2",
-			    "name": "Visualization",
+			    "name": "Visualization Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_spatial",
@@ -16732,7 +16732,7 @@
 			  },
 			  {
 			    "id": "skills_Res_Mgmt",
-			    "name": "Resource Management Skills",
+			    "name": "Resource Management",
 			    "group": "Skills",
 			    "subgroup": 1,
 			    "cat": "skills_Res_Mgmt",
@@ -16740,7 +16740,7 @@
 			  },
 			  {
 			    "id": "skills_math",
-			    "name": "Mathematics Skills",
+			    "name": "Mathematics",
 			    "group": "Skills",
 			    "subgroup": 2,
 			    "cat": "skills_Basic_Cont",
@@ -16780,7 +16780,7 @@
 			  },
 			  {
 			    "id": "ab_reason_1",
-			    "name": "Fluency of Ideas",
+			    "name": "Fluency of Ideas Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_reason",
@@ -16788,7 +16788,7 @@
 			  },
 			  {
 			    "id": "ab_mem_1",
-			    "name": "Memorization",
+			    "name": "Memorization Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_mem",
@@ -16892,7 +16892,7 @@
 			  },
 			  {
 			    "id": "know_math_1",
-			    "name": "Mechanical",
+			    "name": "Mechanics",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_eng",
@@ -17116,7 +17116,7 @@
 			  },
 			  {
 			    "id": "know_math_2",
-			    "name": "Mathematics Knowledge",
+			    "name": "Mathematics",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_math",
@@ -17220,7 +17220,7 @@
 			  },
 			  {
 			    "id": "ab_spatial_1",
-			    "name": "Spatial Orientation",
+			    "name": "Spatial Orientation Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_spatial",
@@ -17380,7 +17380,7 @@
 			  },
 			  {
 			    "id": "ab_reason_1",
-			    "name": "Fluency of Ideas",
+			    "name": "Fluency of Ideas Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_reason",
@@ -17460,7 +17460,7 @@
 			  },
 			  {
 			    "id": "skills_Res_Mgmt",
-			    "name": "Resource Management Skills",
+			    "name": "Resource Management",
 			    "group": "Skills",
 			    "subgroup": 1,
 			    "cat": "skills_Res_Mgmt",
@@ -17476,7 +17476,7 @@
 			  },
 			  {
 			    "id": "ab_attent_2",
-			    "name": "Time Sharing",
+			    "name": "Time Sharing Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_attent",
@@ -17660,7 +17660,7 @@
 			  },
 			  {
 			    "id": "know_math_1",
-			    "name": "Mechanical",
+			    "name": "Mechanics",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_eng",
@@ -17684,7 +17684,7 @@
 			  },
 			  {
 			    "id": "ab_spatial_2",
-			    "name": "Visualization",
+			    "name": "Visualization Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_spatial",
@@ -17828,7 +17828,7 @@
 			  },
 			  {
 			    "id": "ab_mem",
-			    "name": "Memory",
+			    "name": "Memory Abilities",
 			    "group": "Abilities",
 			    "subgroup": 1,
 			    "cat": "ab_mem",
@@ -17924,7 +17924,7 @@
 			  },
 			  {
 			    "id": "skills_math",
-			    "name": "Mathematics Skills",
+			    "name": "Mathematics",
 			    "group": "Skills",
 			    "subgroup": 2,
 			    "cat": "skills_Basic_Cont",
@@ -18012,7 +18012,7 @@
 			  },
 			  {
 			    "id": "know_bis_2",
-			    "name": "Clerical",
+			    "name": "Clergy",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_bis",
@@ -18172,7 +18172,7 @@
 			  },
 			  {
 			    "id": "ab_mem_1",
-			    "name": "Memorization",
+			    "name": "Memorization Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_mem",
@@ -18316,7 +18316,7 @@
 			  },
 			  {
 			    "id": "know_bis_2",
-			    "name": "Clerical",
+			    "name": "Clergy",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_bis",
@@ -18364,7 +18364,7 @@
 			  },
 			  {
 			    "id": "skills_Res_Mgmt",
-			    "name": "Resource Management Skills",
+			    "name": "Resource Management",
 			    "group": "Skills",
 			    "subgroup": 1,
 			    "cat": "skills_Res_Mgmt",
@@ -18380,7 +18380,7 @@
 			  },
 			  {
 			    "id": "know_math_1",
-			    "name": "Mechanical",
+			    "name": "Mechanics",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_eng",
@@ -18556,7 +18556,7 @@
 			  },
 			  {
 			    "id": "ab_spatial_1",
-			    "name": "Spatial Orientation",
+			    "name": "Spatial Orientation Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_spatial",
@@ -18596,7 +18596,7 @@
 			  },
 			  {
 			    "id": "ab_spatial_2",
-			    "name": "Visualization",
+			    "name": "Visualization Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_spatial",
@@ -18732,7 +18732,7 @@
 			  },
 			  {
 			    "id": "ab_mem",
-			    "name": "Memory",
+			    "name": "Memory Abilities",
 			    "group": "Abilities",
 			    "subgroup": 1,
 			    "cat": "ab_mem",
@@ -18916,7 +18916,7 @@
 			  },
 			  {
 			    "id": "know_math_2",
-			    "name": "Mathematics Knowledge",
+			    "name": "Mathematics",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_math",
@@ -19116,7 +19116,7 @@
 			  },
 			  {
 			    "id": "ab_mem_1",
-			    "name": "Memorization",
+			    "name": "Memorization Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_mem",
@@ -19172,7 +19172,7 @@
 			  },
 			  {
 			    "id": "skills_math",
-			    "name": "Mathematics Skills",
+			    "name": "Mathematics",
 			    "group": "Skills",
 			    "subgroup": 2,
 			    "cat": "skills_Basic_Cont",
@@ -19268,7 +19268,7 @@
 			  },
 			  {
 			    "id": "ab_reason_1",
-			    "name": "Fluency of Ideas",
+			    "name": "Fluency of Ideas Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_reason",
@@ -19444,7 +19444,7 @@
 			  },
 			  {
 			    "id": "ab_attent_2",
-			    "name": "Time Sharing",
+			    "name": "Time Sharing Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_attent",
@@ -19524,7 +19524,7 @@
 			  },
 			  {
 			    "id": "know_bis_2",
-			    "name": "Clerical",
+			    "name": "Clergy",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_bis",
@@ -19548,7 +19548,7 @@
 			  },
 			  {
 			    "id": "skills_math",
-			    "name": "Mathematics Skills",
+			    "name": "Mathematics",
 			    "group": "Skills",
 			    "subgroup": 2,
 			    "cat": "skills_Basic_Cont",
@@ -19748,7 +19748,7 @@
 			  },
 			  {
 			    "id": "know_math_1",
-			    "name": "Mechanical",
+			    "name": "Mechanics",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_eng",
@@ -19756,7 +19756,7 @@
 			  },
 			  {
 			    "id": "ab_spatial_1",
-			    "name": "Spatial Orientation",
+			    "name": "Spatial Orientation Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_spatial",
@@ -19764,7 +19764,7 @@
 			  },
 			  {
 			    "id": "skills_Res_Mgmt",
-			    "name": "Resource Management Skills",
+			    "name": "Resource Management",
 			    "group": "Skills",
 			    "subgroup": 1,
 			    "cat": "skills_Res_Mgmt",
@@ -19868,7 +19868,7 @@
 			  },
 			  {
 			    "id": "ab_attent_2",
-			    "name": "Time Sharing",
+			    "name": "Time Sharing Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_attent",
@@ -19980,7 +19980,7 @@
 			  },
 			  {
 			    "id": "ab_mem_1",
-			    "name": "Memorization",
+			    "name": "Memorization Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_mem",
@@ -19988,7 +19988,7 @@
 			  },
 			  {
 			    "id": "ab_mem",
-			    "name": "Memory",
+			    "name": "Memory Abilities",
 			    "group": "Abilities",
 			    "subgroup": 1,
 			    "cat": "ab_mem",
@@ -20252,7 +20252,7 @@
 			  },
 			  {
 			    "id": "ab_reason_1",
-			    "name": "Fluency of Ideas",
+			    "name": "Fluency of Ideas Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_reason",
@@ -20332,7 +20332,7 @@
 			  },
 			  {
 			    "id": "know_math_2",
-			    "name": "Mathematics Knowledge",
+			    "name": "Mathematics",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_math",
@@ -20388,7 +20388,7 @@
 			  },
 			  {
 			    "id": "ab_spatial_2",
-			    "name": "Visualization",
+			    "name": "Visualization Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_spatial",
@@ -20724,7 +20724,7 @@
 				  },
 				  {
 				    "id": "ab_attent_2",
-				    "name": "Time Sharing",
+				    "name": "Time Sharing Abilities",
 				    "group": "Abilities",
 				    "subgroup": 2,
 				    "cat": "ab_attent",
@@ -20908,7 +20908,7 @@
 				  },
 				  {
 				    "id": "ab_mem",
-				    "name": "Memory",
+				    "name": "Memory Abilities",
 				    "group": "Abilities",
 				    "subgroup": 1,
 				    "cat": "ab_mem",
@@ -20916,7 +20916,7 @@
 				  },
 				  {
 				    "id": "ab_mem_1",
-				    "name": "Memorization",
+				    "name": "Memorization Abilities",
 				    "group": "Abilities",
 				    "subgroup": 2,
 				    "cat": "ab_mem",
@@ -21020,7 +21020,7 @@
 				  },
 				  {
 				    "id": "ab_reason_1",
-				    "name": "Fluency of Ideas",
+				    "name": "Fluency of Ideas Abilities",
 				    "group": "Abilities",
 				    "subgroup": 2,
 				    "cat": "ab_reason",
@@ -21084,7 +21084,7 @@
 				  },
 				  {
 				    "id": "ab_spatial_1",
-				    "name": "Spatial Orientation",
+				    "name": "Spatial Orientation Abilities",
 				    "group": "Abilities",
 				    "subgroup": 2,
 				    "cat": "ab_spatial",
@@ -21092,7 +21092,7 @@
 				  },
 				  {
 				    "id": "ab_spatial_2",
-				    "name": "Visualization",
+				    "name": "Visualization Abilities",
 				    "group": "Abilities",
 				    "subgroup": 2,
 				    "cat": "ab_spatial",
@@ -21292,7 +21292,7 @@
 				  },
 				  {
 				    "id": "know_bis_2",
-				    "name": "Clerical",
+				    "name": "Clergy",
 				    "group": "Knowledge",
 				    "subgroup": 2,
 				    "cat": "know_bis",
@@ -21484,7 +21484,7 @@
 				  },
 				  {
 				    "id": "know_math_1",
-				    "name": "Mechanical",
+				    "name": "Mechanics",
 				    "group": "Knowledge",
 				    "subgroup": 2,
 				    "cat": "know_eng",
@@ -21492,7 +21492,7 @@
 				  },
 				  {
 				    "id": "know_math_2",
-				    "name": "Mathematics Knowledge",
+				    "name": "Mathematics",
 				    "group": "Knowledge",
 				    "subgroup": 2,
 				    "cat": "know_math",
@@ -21692,7 +21692,7 @@
 				  },
 				  {
 				    "id": "skills_Res_Mgmt",
-				    "name": "Resource Management Skills",
+				    "name": "Resource Management",
 				    "group": "Skills",
 				    "subgroup": 1,
 				    "cat": "skills_Res_Mgmt",
@@ -21836,7 +21836,7 @@
 				  },
 				  {
 				    "id": "skills_math",
-				    "name": "Mathematics Skills",
+				    "name": "Mathematics",
 				    "group": "Skills",
 				    "subgroup": 2,
 				    "cat": "skills_Basic_Cont",
@@ -22132,7 +22132,7 @@
 			  },
 			  {
 			    "id": "know_math_2",
-			    "name": "Mathematics Knowledge",
+			    "name": "Mathematics",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_math",
@@ -22180,7 +22180,7 @@
 			  },
 			  {
 			    "id": "ab_spatial_1",
-			    "name": "Spatial Orientation",
+			    "name": "Spatial Orientation Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_spatial",
@@ -22348,7 +22348,7 @@
 			  },
 			  {
 			    "id": "ab_mem_1",
-			    "name": "Memorization",
+			    "name": "Memorization Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_mem",
@@ -22460,7 +22460,7 @@
 			  },
 			  {
 			    "id": "ab_mem",
-			    "name": "Memory",
+			    "name": "Memory Abilities",
 			    "group": "Abilities",
 			    "subgroup": 1,
 			    "cat": "ab_mem",
@@ -22588,7 +22588,7 @@
 			  },
 			  {
 			    "id": "know_bis_2",
-			    "name": "Clerical",
+			    "name": "Clergy",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_bis",
@@ -22652,7 +22652,7 @@
 			  },
 			  {
 			    "id": "know_math_1",
-			    "name": "Mechanical",
+			    "name": "Mechanics",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_eng",
@@ -22900,7 +22900,7 @@
 			  },
 			  {
 			    "id": "ab_reason_1",
-			    "name": "Fluency of Ideas",
+			    "name": "Fluency of Ideas Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_reason",
@@ -22924,7 +22924,7 @@
 			  },
 			  {
 			    "id": "ab_spatial_2",
-			    "name": "Visualization",
+			    "name": "Visualization Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_spatial",
@@ -22940,7 +22940,7 @@
 			  },
 			  {
 			    "id": "skills_Res_Mgmt",
-			    "name": "Resource Management Skills",
+			    "name": "Resource Management",
 			    "group": "Skills",
 			    "subgroup": 1,
 			    "cat": "skills_Res_Mgmt",
@@ -23028,7 +23028,7 @@
 			  },
 			  {
 			    "id": "skills_math",
-			    "name": "Mathematics Skills",
+			    "name": "Mathematics",
 			    "group": "Skills",
 			    "subgroup": 2,
 			    "cat": "skills_Basic_Cont",
@@ -23076,7 +23076,7 @@
 			  },
 			  {
 			    "id": "ab_attent_2",
-			    "name": "Time Sharing",
+			    "name": "Time Sharing Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_attent",
@@ -23212,7 +23212,7 @@
 			  },
 			  {
 			    "id": "skills_Res_Mgmt",
-			    "name": "Resource Management Skills",
+			    "name": "Resource Management",
 			    "group": "Skills",
 			    "subgroup": 1,
 			    "cat": "skills_Res_Mgmt",
@@ -23252,7 +23252,7 @@
 			  },
 			  {
 			    "id": "know_bis_2",
-			    "name": "Clerical",
+			    "name": "Clergy",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_bis",
@@ -23300,7 +23300,7 @@
 			  },
 			  {
 			    "id": "skills_math",
-			    "name": "Mathematics Skills",
+			    "name": "Mathematics",
 			    "group": "Skills",
 			    "subgroup": 2,
 			    "cat": "skills_Basic_Cont",
@@ -23332,7 +23332,7 @@
 			  },
 			  {
 			    "id": "ab_spatial_1",
-			    "name": "Spatial Orientation",
+			    "name": "Spatial Orientation Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_spatial",
@@ -23380,7 +23380,7 @@
 			  },
 			  {
 			    "id": "ab_mem_1",
-			    "name": "Memorization",
+			    "name": "Memorization Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_mem",
@@ -23508,7 +23508,7 @@
 			  },
 			  {
 			    "id": "ab_reason_1",
-			    "name": "Fluency of Ideas",
+			    "name": "Fluency of Ideas Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_reason",
@@ -23676,7 +23676,7 @@
 			  },
 			  {
 			    "id": "ab_attent_2",
-			    "name": "Time Sharing",
+			    "name": "Time Sharing Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_attent",
@@ -23836,7 +23836,7 @@
 			  },
 			  {
 			    "id": "know_math_2",
-			    "name": "Mathematics Knowledge",
+			    "name": "Mathematics",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_math",
@@ -24068,7 +24068,7 @@
 			  },
 			  {
 			    "id": "ab_mem",
-			    "name": "Memory",
+			    "name": "Memory Abilities",
 			    "group": "Abilities",
 			    "subgroup": 1,
 			    "cat": "ab_mem",
@@ -24084,7 +24084,7 @@
 			  },
 			  {
 			    "id": "ab_spatial_2",
-			    "name": "Visualization",
+			    "name": "Visualization Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_spatial",
@@ -24196,7 +24196,7 @@
 			  },
 			  {
 			    "id": "know_math_1",
-			    "name": "Mechanical",
+			    "name": "Mechanics",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_eng",
@@ -24372,7 +24372,7 @@
 			  },
 			  {
 			    "id": "know_bis_2",
-			    "name": "Clerical",
+			    "name": "Clergy",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_bis",
@@ -24516,7 +24516,7 @@
 			  },
 			  {
 			    "id": "skills_Res_Mgmt",
-			    "name": "Resource Management Skills",
+			    "name": "Resource Management",
 			    "group": "Skills",
 			    "subgroup": 1,
 			    "cat": "skills_Res_Mgmt",
@@ -24644,7 +24644,7 @@
 			  },
 			  {
 			    "id": "ab_attent_2",
-			    "name": "Time Sharing",
+			    "name": "Time Sharing Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_attent",
@@ -24948,7 +24948,7 @@
 			  },
 			  {
 			    "id": "skills_math",
-			    "name": "Mathematics Skills",
+			    "name": "Mathematics",
 			    "group": "Skills",
 			    "subgroup": 2,
 			    "cat": "skills_Basic_Cont",
@@ -25004,7 +25004,7 @@
 			  },
 			  {
 			    "id": "know_math_2",
-			    "name": "Mathematics Knowledge",
+			    "name": "Mathematics",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_math",
@@ -25132,7 +25132,7 @@
 			  },
 			  {
 			    "id": "ab_reason_1",
-			    "name": "Fluency of Ideas",
+			    "name": "Fluency of Ideas Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_reason",
@@ -25220,7 +25220,7 @@
 			  },
 			  {
 			    "id": "ab_mem_1",
-			    "name": "Memorization",
+			    "name": "Memorization Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_mem",
@@ -25260,7 +25260,7 @@
 			  },
 			  {
 			    "id": "know_math_1",
-			    "name": "Mechanical",
+			    "name": "Mechanics",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_eng",
@@ -25340,7 +25340,7 @@
 			  },
 			  {
 			    "id": "ab_spatial_2",
-			    "name": "Visualization",
+			    "name": "Visualization Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_spatial",
@@ -25348,7 +25348,7 @@
 			  },
 			  {
 			    "id": "ab_mem",
-			    "name": "Memory",
+			    "name": "Memory Abilities",
 			    "group": "Abilities",
 			    "subgroup": 1,
 			    "cat": "ab_mem",
@@ -25420,7 +25420,7 @@
 			  },
 			  {
 			    "id": "ab_spatial_1",
-			    "name": "Spatial Orientation",
+			    "name": "Spatial Orientation Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_spatial",
@@ -25636,7 +25636,7 @@
 			  },
 			  {
 			    "id": "ab_mem",
-			    "name": "Memory",
+			    "name": "Memory Abilities",
 			    "group": "Abilities",
 			    "subgroup": 1,
 			    "cat": "ab_mem",
@@ -25708,7 +25708,7 @@
 			  },
 			  {
 			    "id": "know_math_2",
-			    "name": "Mathematics Knowledge",
+			    "name": "Mathematics",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_math",
@@ -25820,7 +25820,7 @@
 			  },
 			  {
 			    "id": "skills_math",
-			    "name": "Mathematics Skills",
+			    "name": "Mathematics",
 			    "group": "Skills",
 			    "subgroup": 2,
 			    "cat": "skills_Basic_Cont",
@@ -25860,7 +25860,7 @@
 			  },
 			  {
 			    "id": "ab_spatial_1",
-			    "name": "Spatial Orientation",
+			    "name": "Spatial Orientation Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_spatial",
@@ -26100,7 +26100,7 @@
 			  },
 			  {
 			    "id": "skills_Res_Mgmt",
-			    "name": "Resource Management Skills",
+			    "name": "Resource Management",
 			    "group": "Skills",
 			    "subgroup": 1,
 			    "cat": "skills_Res_Mgmt",
@@ -26284,7 +26284,7 @@
 			  },
 			  {
 			    "id": "know_math_1",
-			    "name": "Mechanical",
+			    "name": "Mechanics",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_eng",
@@ -26308,7 +26308,7 @@
 			  },
 			  {
 			    "id": "ab_spatial_2",
-			    "name": "Visualization",
+			    "name": "Visualization Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_spatial",
@@ -26484,7 +26484,7 @@
 			  },
 			  {
 			    "id": "ab_reason_1",
-			    "name": "Fluency of Ideas",
+			    "name": "Fluency of Ideas Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_reason",
@@ -26492,7 +26492,7 @@
 			  },
 			  {
 			    "id": "ab_mem_1",
-			    "name": "Memorization",
+			    "name": "Memorization Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_mem",
@@ -26684,7 +26684,7 @@
 			  },
 			  {
 			    "id": "know_bis_2",
-			    "name": "Clerical",
+			    "name": "Clergy",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_bis",
@@ -26708,7 +26708,7 @@
 			  },
 			  {
 			    "id": "ab_attent_2",
-			    "name": "Time Sharing",
+			    "name": "Time Sharing Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_attent",
@@ -26844,7 +26844,7 @@
 			  },
 			  {
 			    "id": "know_math_1",
-			    "name": "Mechanical",
+			    "name": "Mechanics",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_eng",
@@ -26916,7 +26916,7 @@
 			  },
 			  {
 			    "id": "skills_math",
-			    "name": "Mathematics Skills",
+			    "name": "Mathematics",
 			    "group": "Skills",
 			    "subgroup": 2,
 			    "cat": "skills_Basic_Cont",
@@ -27124,7 +27124,7 @@
 			  },
 			  {
 			    "id": "ab_attent_2",
-			    "name": "Time Sharing",
+			    "name": "Time Sharing Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_attent",
@@ -27228,7 +27228,7 @@
 			  },
 			  {
 			    "id": "ab_spatial_2",
-			    "name": "Visualization",
+			    "name": "Visualization Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_spatial",
@@ -27420,7 +27420,7 @@
 			  },
 			  {
 			    "id": "know_math_2",
-			    "name": "Mathematics Knowledge",
+			    "name": "Mathematics",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_math",
@@ -27428,7 +27428,7 @@
 			  },
 			  {
 			    "id": "skills_Res_Mgmt",
-			    "name": "Resource Management Skills",
+			    "name": "Resource Management",
 			    "group": "Skills",
 			    "subgroup": 1,
 			    "cat": "skills_Res_Mgmt",
@@ -27444,7 +27444,7 @@
 			  },
 			  {
 			    "id": "ab_reason_1",
-			    "name": "Fluency of Ideas",
+			    "name": "Fluency of Ideas Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_reason",
@@ -27596,7 +27596,7 @@
 			  },
 			  {
 			    "id": "ab_mem",
-			    "name": "Memory",
+			    "name": "Memory Abilities",
 			    "group": "Abilities",
 			    "subgroup": 1,
 			    "cat": "ab_mem",
@@ -27612,7 +27612,7 @@
 			  },
 			  {
 			    "id": "know_bis_2",
-			    "name": "Clerical",
+			    "name": "Clergy",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_bis",
@@ -27644,7 +27644,7 @@
 			  },
 			  {
 			    "id": "ab_mem_1",
-			    "name": "Memorization",
+			    "name": "Memorization Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_mem",
@@ -27916,7 +27916,7 @@
 			  },
 			  {
 			    "id": "ab_spatial_1",
-			    "name": "Spatial Orientation",
+			    "name": "Spatial Orientation Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_spatial",
@@ -28020,7 +28020,7 @@
 			  },
 			  {
 			    "id": "ab_attent_2",
-			    "name": "Time Sharing",
+			    "name": "Time Sharing Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_attent",
@@ -28060,7 +28060,7 @@
 			  },
 			  {
 			    "id": "know_math_1",
-			    "name": "Mechanical",
+			    "name": "Mechanics",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_eng",
@@ -28092,7 +28092,7 @@
 			  },
 			  {
 			    "id": "ab_mem",
-			    "name": "Memory",
+			    "name": "Memory Abilities",
 			    "group": "Abilities",
 			    "subgroup": 1,
 			    "cat": "ab_mem",
@@ -28100,7 +28100,7 @@
 			  },
 			  {
 			    "id": "ab_spatial_1",
-			    "name": "Spatial Orientation",
+			    "name": "Spatial Orientation Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_spatial",
@@ -28212,7 +28212,7 @@
 			  },
 			  {
 			    "id": "know_bis_2",
-			    "name": "Clerical",
+			    "name": "Clergy",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_bis",
@@ -28476,7 +28476,7 @@
 			  },
 			  {
 			    "id": "know_math_2",
-			    "name": "Mathematics Knowledge",
+			    "name": "Mathematics",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_math",
@@ -28508,7 +28508,7 @@
 			  },
 			  {
 			    "id": "skills_Res_Mgmt",
-			    "name": "Resource Management Skills",
+			    "name": "Resource Management",
 			    "group": "Skills",
 			    "subgroup": 1,
 			    "cat": "skills_Res_Mgmt",
@@ -28532,7 +28532,7 @@
 			  },
 			  {
 			    "id": "ab_spatial_2",
-			    "name": "Visualization",
+			    "name": "Visualization Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_spatial",
@@ -28628,7 +28628,7 @@
 			  },
 			  {
 			    "id": "ab_mem_1",
-			    "name": "Memorization",
+			    "name": "Memorization Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_mem",
@@ -28804,7 +28804,7 @@
 			  },
 			  {
 			    "id": "ab_reason_1",
-			    "name": "Fluency of Ideas",
+			    "name": "Fluency of Ideas Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_reason",
@@ -28956,7 +28956,7 @@
 			  },
 			  {
 			    "id": "skills_math",
-			    "name": "Mathematics Skills",
+			    "name": "Mathematics",
 			    "group": "Skills",
 			    "subgroup": 2,
 			    "cat": "skills_Basic_Cont",
@@ -29324,7 +29324,7 @@
 			  },
 			  {
 			    "id": "ab_mem_1",
-			    "name": "Memorization",
+			    "name": "Memorization Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_mem",
@@ -29412,7 +29412,7 @@
 			  },
 			  {
 			    "id": "skills_math",
-			    "name": "Mathematics Skills",
+			    "name": "Mathematics",
 			    "group": "Skills",
 			    "subgroup": 2,
 			    "cat": "skills_Basic_Cont",
@@ -29452,7 +29452,7 @@
 			  },
 			  {
 			    "id": "ab_spatial_2",
-			    "name": "Visualization",
+			    "name": "Visualization Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_spatial",
@@ -29500,7 +29500,7 @@
 			  },
 			  {
 			    "id": "know_math_1",
-			    "name": "Mechanical",
+			    "name": "Mechanics",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_eng",
@@ -29580,7 +29580,7 @@
 			  },
 			  {
 			    "id": "ab_mem",
-			    "name": "Memory",
+			    "name": "Memory Abilities",
 			    "group": "Abilities",
 			    "subgroup": 1,
 			    "cat": "ab_mem",
@@ -29748,7 +29748,7 @@
 			  },
 			  {
 			    "id": "ab_attent_2",
-			    "name": "Time Sharing",
+			    "name": "Time Sharing Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_attent",
@@ -29796,7 +29796,7 @@
 			  },
 			  {
 			    "id": "ab_reason_1",
-			    "name": "Fluency of Ideas",
+			    "name": "Fluency of Ideas Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_reason",
@@ -29916,7 +29916,7 @@
 			  },
 			  {
 			    "id": "ab_spatial_1",
-			    "name": "Spatial Orientation",
+			    "name": "Spatial Orientation Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_spatial",
@@ -30068,7 +30068,7 @@
 			  },
 			  {
 			    "id": "skills_Res_Mgmt",
-			    "name": "Resource Management Skills",
+			    "name": "Resource Management",
 			    "group": "Skills",
 			    "subgroup": 1,
 			    "cat": "skills_Res_Mgmt",
@@ -30260,7 +30260,7 @@
 			  },
 			  {
 			    "id": "know_math_2",
-			    "name": "Mathematics Knowledge",
+			    "name": "Mathematics",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_math",
@@ -30316,7 +30316,7 @@
 			  },
 			  {
 			    "id": "know_bis_2",
-			    "name": "Clerical",
+			    "name": "Clergy",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_bis",
@@ -30644,7 +30644,7 @@
 			  },
 			  {
 			    "id": "skills_math",
-			    "name": "Mathematics Skills",
+			    "name": "Mathematics",
 			    "group": "Skills",
 			    "subgroup": 2,
 			    "cat": "skills_Basic_Cont",
@@ -30652,7 +30652,7 @@
 			  },
 			  {
 			    "id": "ab_spatial_2",
-			    "name": "Visualization",
+			    "name": "Visualization Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_spatial",
@@ -30684,7 +30684,7 @@
 			  },
 			  {
 			    "id": "skills_Res_Mgmt",
-			    "name": "Resource Management Skills",
+			    "name": "Resource Management",
 			    "group": "Skills",
 			    "subgroup": 1,
 			    "cat": "skills_Res_Mgmt",
@@ -30836,7 +30836,7 @@
 			  },
 			  {
 			    "id": "ab_mem_1",
-			    "name": "Memorization",
+			    "name": "Memorization Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_mem",
@@ -30948,7 +30948,7 @@
 			  },
 			  {
 			    "id": "ab_reason_1",
-			    "name": "Fluency of Ideas",
+			    "name": "Fluency of Ideas Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_reason",
@@ -31004,7 +31004,7 @@
 			  },
 			  {
 			    "id": "ab_spatial_1",
-			    "name": "Spatial Orientation",
+			    "name": "Spatial Orientation Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_spatial",
@@ -31124,7 +31124,7 @@
 			  },
 			  {
 			    "id": "ab_attent_2",
-			    "name": "Time Sharing",
+			    "name": "Time Sharing Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_attent",
@@ -31156,7 +31156,7 @@
 			  },
 			  {
 			    "id": "know_math_2",
-			    "name": "Mathematics Knowledge",
+			    "name": "Mathematics",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_math",
@@ -31212,7 +31212,7 @@
 			  },
 			  {
 			    "id": "ab_mem",
-			    "name": "Memory",
+			    "name": "Memory Abilities",
 			    "group": "Abilities",
 			    "subgroup": 1,
 			    "cat": "ab_mem",
@@ -31292,7 +31292,7 @@
 			  },
 			  {
 			    "id": "know_math_1",
-			    "name": "Mechanical",
+			    "name": "Mechanics",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_eng",
@@ -31532,7 +31532,7 @@
 			  },
 			  {
 			    "id": "know_bis_2",
-			    "name": "Clerical",
+			    "name": "Clergy",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_bis",
@@ -31660,7 +31660,7 @@
 			  },
 			  {
 			    "id": "ab_reason_1",
-			    "name": "Fluency of Ideas",
+			    "name": "Fluency of Ideas Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_reason",
@@ -31748,7 +31748,7 @@
 			  },
 			  {
 			    "id": "ab_mem",
-			    "name": "Memory",
+			    "name": "Memory Abilities",
 			    "group": "Abilities",
 			    "subgroup": 1,
 			    "cat": "ab_mem",
@@ -31756,7 +31756,7 @@
 			  },
 			  {
 			    "id": "know_math_1",
-			    "name": "Mechanical",
+			    "name": "Mechanics",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_eng",
@@ -31852,7 +31852,7 @@
 			  },
 			  {
 			    "id": "know_bis_2",
-			    "name": "Clerical",
+			    "name": "Clergy",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_bis",
@@ -32268,7 +32268,7 @@
 			  },
 			  {
 			    "id": "know_math_2",
-			    "name": "Mathematics Knowledge",
+			    "name": "Mathematics",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_math",
@@ -32380,7 +32380,7 @@
 			  },
 			  {
 			    "id": "ab_attent_2",
-			    "name": "Time Sharing",
+			    "name": "Time Sharing Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_attent",
@@ -32500,7 +32500,7 @@
 			  },
 			  {
 			    "id": "ab_spatial_2",
-			    "name": "Visualization",
+			    "name": "Visualization Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_spatial",
@@ -32516,7 +32516,7 @@
 			  },
 			  {
 			    "id": "skills_math",
-			    "name": "Mathematics Skills",
+			    "name": "Mathematics",
 			    "group": "Skills",
 			    "subgroup": 2,
 			    "cat": "skills_Basic_Cont",
@@ -32572,7 +32572,7 @@
 			  },
 			  {
 			    "id": "ab_spatial_1",
-			    "name": "Spatial Orientation",
+			    "name": "Spatial Orientation Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_spatial",
@@ -32580,7 +32580,7 @@
 			  },
 			  {
 			    "id": "ab_mem_1",
-			    "name": "Memorization",
+			    "name": "Memorization Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_mem",
@@ -32764,7 +32764,7 @@
 			  },
 			  {
 			    "id": "skills_Res_Mgmt",
-			    "name": "Resource Management Skills",
+			    "name": "Resource Management",
 			    "group": "Skills",
 			    "subgroup": 1,
 			    "cat": "skills_Res_Mgmt",
@@ -32900,7 +32900,7 @@
 			  },
 			  {
 			    "id": "know_bis_2",
-			    "name": "Clerical",
+			    "name": "Clergy",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_bis",
@@ -32956,7 +32956,7 @@
 			  },
 			  {
 			    "id": "ab_spatial_1",
-			    "name": "Spatial Orientation",
+			    "name": "Spatial Orientation Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_spatial",
@@ -33164,7 +33164,7 @@
 			  },
 			  {
 			    "id": "know_math_1",
-			    "name": "Mechanical",
+			    "name": "Mechanics",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_eng",
@@ -33204,7 +33204,7 @@
 			  },
 			  {
 			    "id": "ab_attent_2",
-			    "name": "Time Sharing",
+			    "name": "Time Sharing Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_attent",
@@ -33428,7 +33428,7 @@
 			  },
 			  {
 			    "id": "ab_mem",
-			    "name": "Memory",
+			    "name": "Memory Abilities",
 			    "group": "Abilities",
 			    "subgroup": 1,
 			    "cat": "ab_mem",
@@ -33500,7 +33500,7 @@
 			  },
 			  {
 			    "id": "ab_spatial_2",
-			    "name": "Visualization",
+			    "name": "Visualization Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_spatial",
@@ -33660,7 +33660,7 @@
 			  },
 			  {
 			    "id": "ab_mem_1",
-			    "name": "Memorization",
+			    "name": "Memorization Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_mem",
@@ -33676,7 +33676,7 @@
 			  },
 			  {
 			    "id": "ab_reason_1",
-			    "name": "Fluency of Ideas",
+			    "name": "Fluency of Ideas Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_reason",
@@ -33916,7 +33916,7 @@
 			  },
 			  {
 			    "id": "skills_Res_Mgmt",
-			    "name": "Resource Management Skills",
+			    "name": "Resource Management",
 			    "group": "Skills",
 			    "subgroup": 1,
 			    "cat": "skills_Res_Mgmt",
@@ -33988,7 +33988,7 @@
 			  },
 			  {
 			    "id": "skills_math",
-			    "name": "Mathematics Skills",
+			    "name": "Mathematics",
 			    "group": "Skills",
 			    "subgroup": 2,
 			    "cat": "skills_Basic_Cont",
@@ -34004,7 +34004,7 @@
 			  },
 			  {
 			    "id": "know_math_2",
-			    "name": "Mathematics Knowledge",
+			    "name": "Mathematics",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_math",
@@ -34108,7 +34108,7 @@
 			  },
 			  {
 			    "id": "ab_reason_1",
-			    "name": "Fluency of Ideas",
+			    "name": "Fluency of Ideas Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_reason",
@@ -34116,7 +34116,7 @@
 			  },
 			  {
 			    "id": "ab_mem_1",
-			    "name": "Memorization",
+			    "name": "Memorization Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_mem",
@@ -34356,7 +34356,7 @@
 			  },
 			  {
 			    "id": "ab_spatial_2",
-			    "name": "Visualization",
+			    "name": "Visualization Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_spatial",
@@ -34724,7 +34724,7 @@
 			  },
 			  {
 			    "id": "ab_spatial_1",
-			    "name": "Spatial Orientation",
+			    "name": "Spatial Orientation Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_spatial",
@@ -34788,7 +34788,7 @@
 			  },
 			  {
 			    "id": "know_bis_2",
-			    "name": "Clerical",
+			    "name": "Clergy",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_bis",
@@ -34852,7 +34852,7 @@
 			  },
 			  {
 			    "id": "skills_Res_Mgmt",
-			    "name": "Resource Management Skills",
+			    "name": "Resource Management",
 			    "group": "Skills",
 			    "subgroup": 1,
 			    "cat": "skills_Res_Mgmt",
@@ -34884,7 +34884,7 @@
 			  },
 			  {
 			    "id": "know_math_2",
-			    "name": "Mathematics Knowledge",
+			    "name": "Mathematics",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_math",
@@ -34908,7 +34908,7 @@
 			  },
 			  {
 			    "id": "ab_attent_2",
-			    "name": "Time Sharing",
+			    "name": "Time Sharing Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_attent",
@@ -34980,7 +34980,7 @@
 			  },
 			  {
 			    "id": "skills_math",
-			    "name": "Mathematics Skills",
+			    "name": "Mathematics",
 			    "group": "Skills",
 			    "subgroup": 2,
 			    "cat": "skills_Basic_Cont",
@@ -35028,7 +35028,7 @@
 			  },
 			  {
 			    "id": "ab_mem",
-			    "name": "Memory",
+			    "name": "Memory Abilities",
 			    "group": "Abilities",
 			    "subgroup": 1,
 			    "cat": "ab_mem",
@@ -35196,7 +35196,7 @@
 			  },
 			  {
 			    "id": "know_math_1",
-			    "name": "Mechanical",
+			    "name": "Mechanics",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_eng",
@@ -35364,7 +35364,7 @@
 			  },
 			  {
 			    "id": "ab_mem",
-			    "name": "Memory",
+			    "name": "Memory Abilities",
 			    "group": "Abilities",
 			    "subgroup": 1,
 			    "cat": "ab_mem",
@@ -35508,7 +35508,7 @@
 			  },
 			  {
 			    "id": "skills_math",
-			    "name": "Mathematics Skills",
+			    "name": "Mathematics",
 			    "group": "Skills",
 			    "subgroup": 2,
 			    "cat": "skills_Basic_Cont",
@@ -35540,7 +35540,7 @@
 			  },
 			  {
 			    "id": "know_math_2",
-			    "name": "Mathematics Knowledge",
+			    "name": "Mathematics",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_math",
@@ -35660,7 +35660,7 @@
 			  },
 			  {
 			    "id": "know_math_1",
-			    "name": "Mechanical",
+			    "name": "Mechanics",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_eng",
@@ -35732,7 +35732,7 @@
 			  },
 			  {
 			    "id": "ab_attent_2",
-			    "name": "Time Sharing",
+			    "name": "Time Sharing Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_attent",
@@ -35916,7 +35916,7 @@
 			  },
 			  {
 			    "id": "know_bis_2",
-			    "name": "Clerical",
+			    "name": "Clergy",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_bis",
@@ -35932,7 +35932,7 @@
 			  },
 			  {
 			    "id": "skills_Res_Mgmt",
-			    "name": "Resource Management Skills",
+			    "name": "Resource Management",
 			    "group": "Skills",
 			    "subgroup": 1,
 			    "cat": "skills_Res_Mgmt",
@@ -35964,7 +35964,7 @@
 			  },
 			  {
 			    "id": "ab_mem_1",
-			    "name": "Memorization",
+			    "name": "Memorization Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_mem",
@@ -36020,7 +36020,7 @@
 			  },
 			  {
 			    "id": "ab_reason_1",
-			    "name": "Fluency of Ideas",
+			    "name": "Fluency of Ideas Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_reason",
@@ -36140,7 +36140,7 @@
 			  },
 			  {
 			    "id": "ab_spatial_2",
-			    "name": "Visualization",
+			    "name": "Visualization Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_spatial",
@@ -36268,7 +36268,7 @@
 			  },
 			  {
 			    "id": "ab_spatial_1",
-			    "name": "Spatial Orientation",
+			    "name": "Spatial Orientation Abilities",
 			    "group": "Abilities",
 			    "subgroup": 2,
 			    "cat": "ab_spatial",
