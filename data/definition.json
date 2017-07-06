@@ -16,7 +16,7 @@
   },
   {
     "id": "ab_mem",
-    "name": "Memory",
+    "name": "Memory Abilities",
     "def": "Abilities related to the recall of available information"
   },
   {
@@ -96,7 +96,7 @@
   },
   {
     "id": "ab_reason_1",
-    "name": "Fluency of Ideas",
+    "name": "Fluency of Ideas Abilities",
     "def": "The ability to come up with a number of ideas about a topic (the number of ideas is important, not their quality, correctness, or creativity)."
   },
   {
@@ -141,7 +141,7 @@
   },
   {
     "id": "ab_mem_1",
-    "name": "Memorization",
+    "name": "Memorization Abilities",
     "def": "The ability to remember information such as words, numbers, pictures, and procedures."
   },
   {
@@ -161,12 +161,12 @@
   },
   {
     "id": "ab_spatial_1",
-    "name": "Spatial Orientation",
+    "name": "Spatial Orientation Abilities",
     "def": "The ability to know your location in relation to the environment or to know where other objects are in relation to you."
   },
   {
     "id": "ab_spatial_2",
-    "name": "Visualization",
+    "name": "Visualization Abilities",
     "def": "The ability to imagine how something will look after it is moved around or when its parts are moved or rearranged."
   },
   {
@@ -176,7 +176,7 @@
   },
   {
     "id": "ab_attent_2",
-    "name": "Time Sharing",
+    "name": "Time Sharing Abilities",
     "def": "The ability to shift back and forth between two or more activities or sources of information (such as speech, sounds, touch, or other sources)."
   },
   {
@@ -366,7 +366,7 @@
   },
   {
     "id": "know_bis_2",
-    "name": "Clerical",
+    "name": "Clergy",
     "def": "Knowledge of administrative and clerical procedures and systems such as word processing, managing files and records, stenography and transcription, designing forms, and other office procedures and terminology."
   },
   {
@@ -461,12 +461,12 @@
   },
   {
     "id": "know_math_2",
-    "name": "Mathematics Knowledge",
+    "name": "Mathematics",
     "def": "Knowledge of arithmetic, algebra, geometry, calculus, statistics, and their applications."
   },
   {
     "id": "know_math_1",
-    "name": "Mechanical",
+    "name": "Mechanics",
     "def": "Knowledge of machines and tools, including their designs, uses, repair, and maintenance."
   },
   {
@@ -561,7 +561,7 @@
   },
   {
     "id": "skills_Res_Mgmt",
-    "name": "Resource Management Skills",
+    "name": "Resource Management",
     "def": "Developed capacities used to allocate resources efficiently"
   },
   {
@@ -586,7 +586,7 @@
   },
   {
     "id": "skills_math",
-    "name": "Mathematics Skills",
+    "name": "Mathematics",
     "def": "Using mathematics to solve problems."
   },
   {
