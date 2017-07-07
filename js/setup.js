@@ -133,6 +133,13 @@ function initialiseAll(isoCode) {
 		.selectAll(".usage")
 			.remove();
 
+	if(isoCode=="CYP"){
+  		d3.select("#footer")
+  			.style("visibility","visible");
+  	}else{
+  		d3.select("#footer")
+  			.style("visibility","hidden");
+  	}
 
 	linkNetwork=[];
 	data_usage=[];	
