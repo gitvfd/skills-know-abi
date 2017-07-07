@@ -141,6 +141,14 @@ function initialiseAll(isoCode) {
   			.style("visibility","hidden");
   	}
 
+	if(isoCode=="PIC"){
+  		d3.select("#help")
+  			.style("visibility","hidden");
+  	}else{
+  		d3.select("#help")
+  			.style("visibility","visible");
+  	}
+
 	linkNetwork=[];
 	data_usage=[];	
 	//Initialisation
