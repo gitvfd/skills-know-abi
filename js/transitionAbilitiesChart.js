@@ -38,7 +38,7 @@ function transitionAbilitiesChart(selector,data){
 				.attr("opacity",0.5);
 
 			var xPosition = d3.event.pageX-60;
-			var yPosition = d3.event.pageY+130;
+			var yPosition = d3.event.pageY+30;
 
 			if (yPosition>window.innerHeight-200)
 				yPosition=yPosition-100;
