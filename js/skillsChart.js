@@ -56,13 +56,15 @@ function skillsChart(selector,data){
 		        	else
 		        		return "surplus"
 		        });
+
+		    var string = "of skills in " + d.name;
 		        
 		    d3.select("#middleSkills")
-		        .text(" of skills");
+		        .text("");
 
 
 		    d3.select("#middleCat")
-		        .text(d.name);
+		        .text(string);
 
 
 		    d3.select("#middleCountry")
