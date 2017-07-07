@@ -57,12 +57,16 @@ function knowledgeChart(selector,data){
 		        		return "surplus"
 		        });
 		        
+
+
+		    var string = "of " + d.name;
+		        
 		    d3.select("#middleSkills")
-		        .text(" of knowledge");
+		        .text("knowledge");
 
 
 		    d3.select("#middleCat")
-		        .text(d.name);
+		        .text(string);
 
 
 		    d3.select("#middleCountry")

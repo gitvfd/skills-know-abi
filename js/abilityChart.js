@@ -60,9 +60,10 @@ function abilitiesChart(selector,data){
 		    d3.select("#middleSkills")
 		        .text("");
 
+		    var string = "in " + d.name;
 
 		    d3.select("#middleCat")
-		        .text(d.name);
+		        .text(string);
 
 
 		    d3.select("#middleCountry")
