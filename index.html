@@ -221,7 +221,6 @@ body{
 	fill: #8EA4B1;
 	stroke:none;
 	font-size: 0.9vw;
-	text-anchor: middle;
 
 }
 
@@ -300,7 +299,12 @@ body{
 	color: #575757;
 }
 
-
+.domain{
+	fill:none;
+}
+.tick{
+	opacity:0;
+}
 
 
 #skillsChart, #knowledgeChart, #abilitiesChart,#transitionSkillsChart, #transitionKnowledgeChart, #transitionAbilitiesChart{
@@ -491,9 +495,10 @@ section {
 		***********************************************
 		***********************************************-->
 	<!--<div id="usageIntro">In <span id="countryName">Italy</span>, the following occupations contribute most to the skill imbalance</div>-->
-	<div id="usageIntro">In <span id="countryName">Italy</span>, the following occupations contribute most to the <b><span id="bubbleOrientation">shortage or surplus</span></b> of  <b><span id="selBubble">bubble</span></b></div>
+	<div id="usageIntro">In <span id="countryName">Italy</span>, the occupations below are in <b><span id="bubbleOrientation">shortage or surplus</span></b> and require a strong command of  <b><span id="selBubble">bubble</span></b></div>
 	<div id="usage"></div>
 	<Br/>
+
 	<!-- 	***********************************************
 	***********************************************
 	***********************************************
