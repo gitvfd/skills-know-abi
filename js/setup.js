@@ -53,7 +53,7 @@
   // X locations of the year titles.
   	var treeTitleX = {
     	"Skills": 1*width/4,
-    	"Knowledge": 2*width / 5,
+    	"Knowledge": 2*width / 4,
     	"Abilities": 3 * width / 4
   	};
 
@@ -147,6 +147,10 @@ function initialiseAll(isoCode) {
   	}else{
   		d3.select("#help")
   			.style("visibility","visible");
+
+		d3.selectAll(".tempBox")
+							.remove();
+
   	}
 
 	linkNetwork=[];
@@ -214,10 +218,10 @@ function initialiseAll(isoCode) {
 		});
 
 
-		d3.json('data/data_occupation.json', function(usage){ 
-			usage.forEach (function(d,i) {		
+		d3.tsv('data/data_occupation.tsv', function(usage){ 
+			usage.forEach (function(d,i) {	
 				if(d.country==isoCode)
-					data_usage.push(d.data);
+					data_usage.push(d);
 			});
 		});
 

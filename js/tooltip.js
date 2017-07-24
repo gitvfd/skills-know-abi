@@ -56,14 +56,27 @@ function floatingTooltip(tooltipId, width) {
     var wscrY = window.scrollY;
     var wscrX = window.scrollX;
 
+
     var curX = (document.all) ? event.clientX + wscrX : event.pageX;
     var curY = (document.all) ? event.clientY + wscrY : event.pageY;
     var ttleft = ((curX - wscrX + xOffset * 2 + ttw) > window.innerWidth) ?
                  curX - ttw - xOffset * 2 : curX + xOffset;
 
+
+
     if (ttleft < wscrX + xOffset) {
       ttleft = wscrX + xOffset;
     }
+
+    ttwNoPx=ttw.substring(0, ttw.length-2)
+
+    var totalLength=ttleft + parseFloat(ttw.substring(0, ttw.length-2))
+    var widthSetter=0.8*document.getElementById("viz").offsetWidth;
+
+    if (totalLength > widthSetter) {
+      ttleft = 0.9*document.getElementById("viz").offsetWidth- parseFloat(ttw.substring(0, ttw.length-2));
+    }
+
 
     var tttop = ((curY - wscrY + yOffset * 2 + tth) > window.innerHeight) ?
                 curY - tth - yOffset * 2 : curY + yOffset;

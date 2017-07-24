@@ -275,9 +275,9 @@ function bubbleChart() {
       			if(i==0)
       				return 'end';
       			else if(i==1)
-      				return 'start';
+      				return 'middle';
       			else
-      				return 'end';
+      				return 'start';
 
 
       		})
@@ -299,7 +299,7 @@ function bubbleChart() {
 	  		var filtered_nodes=[];
 
 
-	  		data_usage[0].nodes.forEach(function(k) {
+	  		data_usage.forEach(function(k) {
 	    		if (k.group === d.name) {
 	        		filtered_nodes.push(k);
 	    		}
