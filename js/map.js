@@ -83,12 +83,39 @@
 		.attr("y",1.85*height_usage/5)
 		.text("by selecting a country of interest.")
 		
-map.append("text")
+	map.append("text")
 		.attr("class","inVizCountryName")
-.attr("x",2.82*width/4)
-.attr("y",2.95*height_usage/2)
-.text("South Africa")
-               
+	.attr("x",2.82*width/4)
+	.attr("y",2.95*height_usage/2)
+	.text("South Africa")
+
+
+
+	var text = map.append("text")
+		.attr("class","tempBox")
+	    .attr("x", width/35)
+	    .attr("y", 9*height_usage/10)
+	    .attr("dy", ".35em")
+	    .attr("text-anchor", "start")
+	    .style("font", "700 italic 2.3vw TheSerif")
+	    .style("fill","rgb(231,55,65)" )
+	    .text("Click on a country!");
+
+	var bbox = text.node().getBBox();
+
+	var rect = map.append("rect")
+		.attr("class","tempBox")
+	    .attr("x", bbox.x-5)
+	    .attr("y", bbox.y-5)
+	    .attr("width", bbox.width+10)
+	    .attr("height", bbox.height+10)
+	    .style("fill", "#fff")
+	    .style("fill-opacity", ".2")
+	    .style("stroke", "rgb(231,55,65)")
+	    .style("stroke-width", "1.5px");
+
+
+
     d3.json("data/Europe.json", function(error, worldData) {
                 europeMap.selectAll(".Europe")
                         .data(worldData.features)
@@ -124,6 +151,9 @@ map.append("text")
 						})
 						.on("click",function(d){	
 
+
+							d3.selectAll(".tempBox")
+							.remove();
 
                     		d3.selectAll("path").style("fill","#F8FAFC");
 
@@ -173,6 +203,10 @@ map.append("text")
 							d3.select("#countryTooltipSetUP").classed("hidden", true);
 						})
 						.on("click",function(d){
+
+
+							d3.selectAll(".tempBox")
+							.remove();
 
                     		d3.selectAll("path").style("fill","#F8FAFC");
 

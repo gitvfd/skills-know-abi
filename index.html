@@ -1,5 +1,6 @@
 <!--http://www.isbarackobamathepresident.com/-->
 <!DOCTYPE html>
+
 <meta charset="utf-8">
 <head>
 <script src="libs/d3.v4.min.js"></script>
@@ -176,7 +177,7 @@ body{
 	color:#575757;
 }
 
-#vizIntro{
+#vizIntro,#vizIntroDisplay{
 	font-size:16px;
 	color:#575757;
 }
@@ -538,10 +539,11 @@ section {
 		<select id="dropDownWhatIAm" ></select>
 		<select id="dropDownWhatIBecome" ></select>
 		<Br/>
-		<div id="WhatIAm"><span class="toHighlight" id="countrySmallChartWhatIAm">the selected country</span> has a <span class="toHighlight"  id="WhatIAmValue">shortage/surplus</span> of <span class="toHighlight"  id="WhatIAmName">the occupation</span>.</div>
+		<div id="WhatIAm"><span class="toHighlight" id="countrySmallChartWhatIAm">the selected country</span> has a <span class="toHighlight"  id="WhatIAmValue">shortage/surplus</span> of <span class="toHighlight"  id="WhatIAmName">the occupation</span>.
+		</div>
 		<div id="WhatIBecome"><span class="toHighlight"  id="countrySmallChartWhatIBecome">the selected country</span> has a <span class="toHighlight"  id="WhatIBecomeValue">shortage/surplus</span> of <span class="toHighlight"  id="WhatIBecomeName">the occupation</span>.</div>
 		<Br/>		
-		<div id="vizIntro">You see below the skills, abilities and knowledge you have to develop and the ones you have in surplus.</div>
+		<div id="vizIntroDisplay"><b><span id="occupationA"></span></b> who want to become <b><span id="occupationB"></span></b> should strengthen the following skills, abilities and knowledge types.</div>
 		<Br/>
 		<div id="transitionSkillsChart"></div>
 		<div id="transitionKnowledgeChart"></div>

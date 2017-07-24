@@ -20,7 +20,7 @@ function addLegend(svg,radiusUsage,maxValue){
 			  .data(colorScale.range())                              
 			  .enter().append('g')   
 			  .attr('class', 'legendCircle') 
-			  .attr("transform", function(d,i) { return "translate(" + ( squareMargin + i * columnWidth) + "," + (1.75*legendHeight/5 )+ ")"; });
+			  .attr("transform", function(d,i) { return "translate(" + ( squareMargin + i * columnWidth) + "," + (2*legendHeight/5 )+ ")"; });
 
 	
 	//Append small squares to Legend
@@ -32,10 +32,11 @@ function addLegend(svg,radiusUsage,maxValue){
 
 	//Append text to Legend
 	legend.append('text')                                     
-		  .attr('transform', function(d,i) { return "translate(" + (0) + ","+ (-1.5*circleSize)+")"; })
+		  .attr('transform', function(d,i) { return "translate(" + (0) + ","+ (1.5*circleSize)+")"; })
 		  .attr("class", "legendText")
 		  .style("font-size", "12px")
-		  .attr("dy", ".35em")		  
+		  .attr("dy", ".35em")		
+		  .attr("text-anchor","middle")  
 		  .text(function(d,i) { 
 		  	if (i==0)
 		  		return "Surplus"
@@ -46,7 +47,16 @@ function addLegend(svg,radiusUsage,maxValue){
 		  	//return formatDecimalRectLegend(-1 + 2*i/5)
 		  	 });  
 
-	/**legendWrapper.append("text")
+	//Append text to Legend
+	legendWrapper.append('text')                                     
+		  .attr('transform', function(d,i) { return "translate(" + (squareMargin-2*circleSize) + ","+ (0.1*legendHeight/5)+")"; })
+		  .attr("class", "legendText")
+		  .style("font-size", "12px")
+		  .attr("dy", ".35em")	
+		  .attr("text-anchor","start")  
+		  .style("font-style","italic")
+		  .text("Larger bubbles mean larger surpluses or larger shortages"	)
+		  /**legendWrapper.append("text")
 		.attr("class","legendTitle")
 		.attr("transform", "translate(" + 50 + "," + (height - legendHeight ) +")")
 		.attr("x", 0 + "px")

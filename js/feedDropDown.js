@@ -19,7 +19,7 @@ function feedDropDown(){
           return d.code; })
         .text(function(d) { return d.Occupation; });
 
-    document.getElementById("dropDownWhatIBecome").value="21";
+    document.getElementById("dropDownWhatIBecome").value="11";
        
 	})
 }

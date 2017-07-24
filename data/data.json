@@ -246,7 +246,7 @@
 			  },
 			  {
 			    "id": "know_math_2",
-			    "name": "Mathematics",
+			    "name": "Mathematics Knowledge",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_math",
@@ -262,7 +262,7 @@
 			  },
 			  {
 			    "id": "know_manu",
-			    "name": "Manufacturnig and Production",
+			    "name": "Manufacturing and Production",
 			    "group": "Knowledge",
 			    "subgroup": 1,
 			    "cat": "know_manu",
@@ -998,7 +998,7 @@
 			  },
 			  {
 			    "id": "skills_math",
-			    "name": "Mathematics",
+			    "name": "Mathematics Skills",
 			    "group": "Skills",
 			    "subgroup": 2,
 			    "cat": "skills_Basic_Cont",
@@ -1310,7 +1310,7 @@
 			  },
 			  {
 			    "id": "know_math_2",
-			    "name": "Mathematics",
+			    "name": "Mathematics Knowledge",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_math",
@@ -1630,7 +1630,7 @@
 			  },
 			  {
 			    "id": "skills_math",
-			    "name": "Mathematics",
+			    "name": "Mathematics Skills",
 			    "group": "Skills",
 			    "subgroup": 2,
 			    "cat": "skills_Basic_Cont",
@@ -2054,7 +2054,7 @@
 			  },
 			  {
 			    "id": "know_manu",
-			    "name": "Manufacturnig and Production",
+			    "name": "Manufacturing and Production",
 			    "group": "Knowledge",
 			    "subgroup": 1,
 			    "cat": "know_manu",
@@ -2566,7 +2566,7 @@
 			  },
 			  {
 			    "id": "know_math_2",
-			    "name": "Mathematics",
+			    "name": "Mathematics Knowledge",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_math",
@@ -2622,7 +2622,7 @@
 			  },
 			  {
 			    "id": "skills_math",
-			    "name": "Mathematics",
+			    "name": "Mathematics Skills",
 			    "group": "Skills",
 			    "subgroup": 2,
 			    "cat": "skills_Basic_Cont",
@@ -3422,7 +3422,7 @@
 			  },
 			  {
 			    "id": "know_manu",
-			    "name": "Manufacturnig and Production",
+			    "name": "Manufacturing and Production",
 			    "group": "Knowledge",
 			    "subgroup": 1,
 			    "cat": "know_manu",
@@ -3902,7 +3902,7 @@
 			  },
 			  {
 			    "id": "know_math_2",
-			    "name": "Mathematics",
+			    "name": "Mathematics Knowledge",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_math",
@@ -4350,7 +4350,7 @@
 			  },
 			  {
 			    "id": "know_manu",
-			    "name": "Manufacturnig and Production",
+			    "name": "Manufacturing and Production",
 			    "group": "Knowledge",
 			    "subgroup": 1,
 			    "cat": "know_manu",
@@ -4822,7 +4822,7 @@
 			  },
 			  {
 			    "id": "skills_math",
-			    "name": "Mathematics",
+			    "name": "Mathematics Skills",
 			    "group": "Skills",
 			    "subgroup": 2,
 			    "cat": "skills_Basic_Cont",
@@ -5021,7 +5021,7 @@
 			  },
 			  {
 			    "id": "know_math_2",
-			    "name": "Mathematics",
+			    "name": "Mathematics Knowledge",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_math",
@@ -5045,7 +5045,7 @@
 			  },
 			  {
 			    "id": "know_manu",
-			    "name": "Manufacturnig and Production",
+			    "name": "Manufacturing and Production",
 			    "group": "Knowledge",
 			    "subgroup": 1,
 			    "cat": "know_manu",
@@ -5661,7 +5661,7 @@
 			  },
 			  {
 			    "id": "skills_math",
-			    "name": "Mathematics",
+			    "name": "Mathematics Skills",
 			    "group": "Skills",
 			    "subgroup": 2,
 			    "cat": "skills_Basic_Cont",
@@ -6237,7 +6237,7 @@
 			  },
 			  {
 			    "id": "skills_math",
-			    "name": "Mathematics",
+			    "name": "Mathematics Skills",
 			    "group": "Skills",
 			    "subgroup": 2,
 			    "cat": "skills_Basic_Cont",
@@ -6421,7 +6421,7 @@
 			  },
 			  {
 			    "id": "know_math_2",
-			    "name": "Mathematics",
+			    "name": "Mathematics Knowledge",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_math",
@@ -6901,7 +6901,7 @@
 			  },
 			  {
 			    "id": "know_manu",
-			    "name": "Manufacturnig and Production",
+			    "name": "Manufacturing and Production",
 			    "group": "Knowledge",
 			    "subgroup": 1,
 			    "cat": "know_manu",
@@ -7765,7 +7765,7 @@
 			  },
 			  {
 			    "id": "skills_math",
-			    "name": "Mathematics",
+			    "name": "Mathematics Skills",
 			    "group": "Skills",
 			    "subgroup": 2,
 			    "cat": "skills_Basic_Cont",
@@ -8117,7 +8117,7 @@
 			  },
 			  {
 			    "id": "know_manu",
-			    "name": "Manufacturnig and Production",
+			    "name": "Manufacturing and Production",
 			    "group": "Knowledge",
 			    "subgroup": 1,
 			    "cat": "know_manu",
@@ -8149,7 +8149,7 @@
 			  },
 			  {
 			    "id": "know_math_2",
-			    "name": "Mathematics",
+			    "name": "Mathematics Knowledge",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_math",
@@ -8757,7 +8757,7 @@
 			  },
 			  {
 			    "id": "know_manu",
-			    "name": "Manufacturnig and Production",
+			    "name": "Manufacturing and Production",
 			    "group": "Knowledge",
 			    "subgroup": 1,
 			    "cat": "know_manu",
@@ -9045,7 +9045,7 @@
 			  },
 			  {
 			    "id": "know_math_2",
-			    "name": "Mathematics",
+			    "name": "Mathematics Knowledge",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_math",
@@ -9701,7 +9701,7 @@
 			  },
 			  {
 			    "id": "skills_math",
-			    "name": "Mathematics",
+			    "name": "Mathematics Skills",
 			    "group": "Skills",
 			    "subgroup": 2,
 			    "cat": "skills_Basic_Cont",
@@ -10029,7 +10029,7 @@
 			  },
 			  {
 			    "id": "know_manu",
-			    "name": "Manufacturnig and Production",
+			    "name": "Manufacturing and Production",
 			    "group": "Knowledge",
 			    "subgroup": 1,
 			    "cat": "know_manu",
@@ -10189,7 +10189,7 @@
 			  },
 			  {
 			    "id": "skills_math",
-			    "name": "Mathematics",
+			    "name": "Mathematics Skills",
 			    "group": "Skills",
 			    "subgroup": 2,
 			    "cat": "skills_Basic_Cont",
@@ -10901,7 +10901,7 @@
 			  },
 			  {
 			    "id": "know_math_2",
-			    "name": "Mathematics",
+			    "name": "Mathematics Knowledge",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_math",
@@ -11085,7 +11085,7 @@
 			  },
 			  {
 			    "id": "skills_math",
-			    "name": "Mathematics",
+			    "name": "Mathematics Skills",
 			    "group": "Skills",
 			    "subgroup": 2,
 			    "cat": "skills_Basic_Cont",
@@ -11445,7 +11445,7 @@
 			  },
 			  {
 			    "id": "know_math_2",
-			    "name": "Mathematics",
+			    "name": "Mathematics Knowledge",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_math",
@@ -11501,7 +11501,7 @@
 			  },
 			  {
 			    "id": "know_manu",
-			    "name": "Manufacturnig and Production",
+			    "name": "Manufacturing and Production",
 			    "group": "Knowledge",
 			    "subgroup": 1,
 			    "cat": "know_manu",
@@ -12245,7 +12245,7 @@
 			  },
 			  {
 			    "id": "know_manu",
-			    "name": "Manufacturnig and Production",
+			    "name": "Manufacturing and Production",
 			    "group": "Knowledge",
 			    "subgroup": 1,
 			    "cat": "know_manu",
@@ -12805,7 +12805,7 @@
 			  },
 			  {
 			    "id": "skills_math",
-			    "name": "Mathematics",
+			    "name": "Mathematics Skills",
 			    "group": "Skills",
 			    "subgroup": 2,
 			    "cat": "skills_Basic_Cont",
@@ -12837,7 +12837,7 @@
 			  },
 			  {
 			    "id": "know_math_2",
-			    "name": "Mathematics",
+			    "name": "Mathematics Knowledge",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_math",
@@ -14029,7 +14029,7 @@
 			  },
 			  {
 			    "id": "skills_math",
-			    "name": "Mathematics",
+			    "name": "Mathematics Skills",
 			    "group": "Skills",
 			    "subgroup": 2,
 			    "cat": "skills_Basic_Cont",
@@ -14309,7 +14309,7 @@
 			  },
 			  {
 			    "id": "know_manu",
-			    "name": "Manufacturnig and Production",
+			    "name": "Manufacturing and Production",
 			    "group": "Knowledge",
 			    "subgroup": 1,
 			    "cat": "know_manu",
@@ -14317,7 +14317,7 @@
 			  },
 			  {
 			    "id": "know_math_2",
-			    "name": "Mathematics",
+			    "name": "Mathematics Knowledge",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_math",
@@ -15293,7 +15293,7 @@
 			  },
 			  {
 			    "id": "know_math_2",
-			    "name": "Mathematics",
+			    "name": "Mathematics Knowledge",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_math",
@@ -15309,7 +15309,7 @@
 			  },
 			  {
 			    "id": "skills_math",
-			    "name": "Mathematics",
+			    "name": "Mathematics Skills",
 			    "group": "Skills",
 			    "subgroup": 2,
 			    "cat": "skills_Basic_Cont",
@@ -15637,7 +15637,7 @@
 			  },
 			  {
 			    "id": "know_manu",
-			    "name": "Manufacturnig and Production",
+			    "name": "Manufacturing and Production",
 			    "group": "Knowledge",
 			    "subgroup": 1,
 			    "cat": "know_manu",
@@ -16012,7 +16012,7 @@
 			  },
 			  {
 			    "id": "know_manu",
-			    "name": "Manufacturnig and Production",
+			    "name": "Manufacturing and Production",
 			    "group": "Knowledge",
 			    "subgroup": 1,
 			    "cat": "know_manu",
@@ -16300,7 +16300,7 @@
 			  },
 			  {
 			    "id": "know_math_2",
-			    "name": "Mathematics",
+			    "name": "Mathematics Knowledge",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_math",
@@ -16740,7 +16740,7 @@
 			  },
 			  {
 			    "id": "skills_math",
-			    "name": "Mathematics",
+			    "name": "Mathematics Skills",
 			    "group": "Skills",
 			    "subgroup": 2,
 			    "cat": "skills_Basic_Cont",
@@ -17116,7 +17116,7 @@
 			  },
 			  {
 			    "id": "know_math_2",
-			    "name": "Mathematics",
+			    "name": "Mathematics Knowledge",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_math",
@@ -17188,7 +17188,7 @@
 			  },
 			  {
 			    "id": "know_manu",
-			    "name": "Manufacturnig and Production",
+			    "name": "Manufacturing and Production",
 			    "group": "Knowledge",
 			    "subgroup": 1,
 			    "cat": "know_manu",
@@ -17924,7 +17924,7 @@
 			  },
 			  {
 			    "id": "skills_math",
-			    "name": "Mathematics",
+			    "name": "Mathematics Skills",
 			    "group": "Skills",
 			    "subgroup": 2,
 			    "cat": "skills_Basic_Cont",
@@ -18764,7 +18764,7 @@
 			  },
 			  {
 			    "id": "know_manu",
-			    "name": "Manufacturnig and Production",
+			    "name": "Manufacturing and Production",
 			    "group": "Knowledge",
 			    "subgroup": 1,
 			    "cat": "know_manu",
@@ -18916,7 +18916,7 @@
 			  },
 			  {
 			    "id": "know_math_2",
-			    "name": "Mathematics",
+			    "name": "Mathematics Knowledge",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_math",
@@ -19172,7 +19172,7 @@
 			  },
 			  {
 			    "id": "skills_math",
-			    "name": "Mathematics",
+			    "name": "Mathematics Skills",
 			    "group": "Skills",
 			    "subgroup": 2,
 			    "cat": "skills_Basic_Cont",
@@ -19548,7 +19548,7 @@
 			  },
 			  {
 			    "id": "skills_math",
-			    "name": "Mathematics",
+			    "name": "Mathematics Skills",
 			    "group": "Skills",
 			    "subgroup": 2,
 			    "cat": "skills_Basic_Cont",
@@ -20332,7 +20332,7 @@
 			  },
 			  {
 			    "id": "know_math_2",
-			    "name": "Mathematics",
+			    "name": "Mathematics Knowledge",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_math",
@@ -20564,7 +20564,7 @@
 			  },
 			  {
 			    "id": "know_manu",
-			    "name": "Manufacturnig and Production",
+			    "name": "Manufacturing and Production",
 			    "group": "Knowledge",
 			    "subgroup": 1,
 			    "cat": "know_manu",
@@ -21452,7 +21452,7 @@
 				  },
 				  {
 				    "id": "know_manu",
-				    "name": "Manufacturnig and Production",
+				    "name": "Manufacturing and Production",
 				    "group": "Knowledge",
 				    "subgroup": 1,
 				    "cat": "know_manu",
@@ -22132,7 +22132,7 @@
 			  },
 			  {
 			    "id": "know_math_2",
-			    "name": "Mathematics",
+			    "name": "Mathematics Knowledge",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_math",
@@ -22628,7 +22628,7 @@
 			  },
 			  {
 			    "id": "know_manu",
-			    "name": "Manufacturnig and Production",
+			    "name": "Manufacturing and Production",
 			    "group": "Knowledge",
 			    "subgroup": 1,
 			    "cat": "know_manu",
@@ -23028,7 +23028,7 @@
 			  },
 			  {
 			    "id": "skills_math",
-			    "name": "Mathematics",
+			    "name": "Mathematics Skills",
 			    "group": "Skills",
 			    "subgroup": 2,
 			    "cat": "skills_Basic_Cont",
@@ -23300,7 +23300,7 @@
 			  },
 			  {
 			    "id": "skills_math",
-			    "name": "Mathematics",
+			    "name": "Mathematics Skills",
 			    "group": "Skills",
 			    "subgroup": 2,
 			    "cat": "skills_Basic_Cont",
@@ -23500,7 +23500,7 @@
 			  },
 			  {
 			    "id": "know_manu",
-			    "name": "Manufacturnig and Production",
+			    "name": "Manufacturing and Production",
 			    "group": "Knowledge",
 			    "subgroup": 1,
 			    "cat": "know_manu",
@@ -23836,7 +23836,7 @@
 			  },
 			  {
 			    "id": "know_math_2",
-			    "name": "Mathematics",
+			    "name": "Mathematics Knowledge",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_math",
@@ -24580,7 +24580,7 @@
 			  },
 			  {
 			    "id": "know_manu",
-			    "name": "Manufacturnig and Production",
+			    "name": "Manufacturing and Production",
 			    "group": "Knowledge",
 			    "subgroup": 1,
 			    "cat": "know_manu",
@@ -24948,7 +24948,7 @@
 			  },
 			  {
 			    "id": "skills_math",
-			    "name": "Mathematics",
+			    "name": "Mathematics Skills",
 			    "group": "Skills",
 			    "subgroup": 2,
 			    "cat": "skills_Basic_Cont",
@@ -25004,7 +25004,7 @@
 			  },
 			  {
 			    "id": "know_math_2",
-			    "name": "Mathematics",
+			    "name": "Mathematics Knowledge",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_math",
@@ -25708,7 +25708,7 @@
 			  },
 			  {
 			    "id": "know_math_2",
-			    "name": "Mathematics",
+			    "name": "Mathematics Knowledge",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_math",
@@ -25820,7 +25820,7 @@
 			  },
 			  {
 			    "id": "skills_math",
-			    "name": "Mathematics",
+			    "name": "Mathematics Skills",
 			    "group": "Skills",
 			    "subgroup": 2,
 			    "cat": "skills_Basic_Cont",
@@ -26012,7 +26012,7 @@
 			  },
 			  {
 			    "id": "know_manu",
-			    "name": "Manufacturnig and Production",
+			    "name": "Manufacturing and Production",
 			    "group": "Knowledge",
 			    "subgroup": 1,
 			    "cat": "know_manu",
@@ -26860,7 +26860,7 @@
 			  },
 			  {
 			    "id": "know_manu",
-			    "name": "Manufacturnig and Production",
+			    "name": "Manufacturing and Production",
 			    "group": "Knowledge",
 			    "subgroup": 1,
 			    "cat": "know_manu",
@@ -26916,7 +26916,7 @@
 			  },
 			  {
 			    "id": "skills_math",
-			    "name": "Mathematics",
+			    "name": "Mathematics Skills",
 			    "group": "Skills",
 			    "subgroup": 2,
 			    "cat": "skills_Basic_Cont",
@@ -27420,7 +27420,7 @@
 			  },
 			  {
 			    "id": "know_math_2",
-			    "name": "Mathematics",
+			    "name": "Mathematics Knowledge",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_math",
@@ -28476,7 +28476,7 @@
 			  },
 			  {
 			    "id": "know_math_2",
-			    "name": "Mathematics",
+			    "name": "Mathematics Knowledge",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_math",
@@ -28956,7 +28956,7 @@
 			  },
 			  {
 			    "id": "skills_math",
-			    "name": "Mathematics",
+			    "name": "Mathematics Skills",
 			    "group": "Skills",
 			    "subgroup": 2,
 			    "cat": "skills_Basic_Cont",
@@ -29100,7 +29100,7 @@
 			  },
 			  {
 			    "id": "know_manu",
-			    "name": "Manufacturnig and Production",
+			    "name": "Manufacturing and Production",
 			    "group": "Knowledge",
 			    "subgroup": 1,
 			    "cat": "know_manu",
@@ -29412,7 +29412,7 @@
 			  },
 			  {
 			    "id": "skills_math",
-			    "name": "Mathematics",
+			    "name": "Mathematics Skills",
 			    "group": "Skills",
 			    "subgroup": 2,
 			    "cat": "skills_Basic_Cont",
@@ -30180,7 +30180,7 @@
 			  },
 			  {
 			    "id": "know_manu",
-			    "name": "Manufacturnig and Production",
+			    "name": "Manufacturing and Production",
 			    "group": "Knowledge",
 			    "subgroup": 1,
 			    "cat": "know_manu",
@@ -30260,7 +30260,7 @@
 			  },
 			  {
 			    "id": "know_math_2",
-			    "name": "Mathematics",
+			    "name": "Mathematics Knowledge",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_math",
@@ -30644,7 +30644,7 @@
 			  },
 			  {
 			    "id": "skills_math",
-			    "name": "Mathematics",
+			    "name": "Mathematics Skills",
 			    "group": "Skills",
 			    "subgroup": 2,
 			    "cat": "skills_Basic_Cont",
@@ -31156,7 +31156,7 @@
 			  },
 			  {
 			    "id": "know_math_2",
-			    "name": "Mathematics",
+			    "name": "Mathematics Knowledge",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_math",
@@ -31388,7 +31388,7 @@
 			  },
 			  {
 			    "id": "know_manu",
-			    "name": "Manufacturnig and Production",
+			    "name": "Manufacturing and Production",
 			    "group": "Knowledge",
 			    "subgroup": 1,
 			    "cat": "know_manu",
@@ -31668,7 +31668,7 @@
 			  },
 			  {
 			    "id": "know_manu",
-			    "name": "Manufacturnig and Production",
+			    "name": "Manufacturing and Production",
 			    "group": "Knowledge",
 			    "subgroup": 1,
 			    "cat": "know_manu",
@@ -32268,7 +32268,7 @@
 			  },
 			  {
 			    "id": "know_math_2",
-			    "name": "Mathematics",
+			    "name": "Mathematics Knowledge",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_math",
@@ -32516,7 +32516,7 @@
 			  },
 			  {
 			    "id": "skills_math",
-			    "name": "Mathematics",
+			    "name": "Mathematics Skills",
 			    "group": "Skills",
 			    "subgroup": 2,
 			    "cat": "skills_Basic_Cont",
@@ -33404,7 +33404,7 @@
 			  },
 			  {
 			    "id": "know_manu",
-			    "name": "Manufacturnig and Production",
+			    "name": "Manufacturing and Production",
 			    "group": "Knowledge",
 			    "subgroup": 1,
 			    "cat": "know_manu",
@@ -33988,7 +33988,7 @@
 			  },
 			  {
 			    "id": "skills_math",
-			    "name": "Mathematics",
+			    "name": "Mathematics Skills",
 			    "group": "Skills",
 			    "subgroup": 2,
 			    "cat": "skills_Basic_Cont",
@@ -34004,7 +34004,7 @@
 			  },
 			  {
 			    "id": "know_math_2",
-			    "name": "Mathematics",
+			    "name": "Mathematics Knowledge",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_math",
@@ -34580,7 +34580,7 @@
 			  },
 			  {
 			    "id": "know_manu",
-			    "name": "Manufacturnig and Production",
+			    "name": "Manufacturing and Production",
 			    "group": "Knowledge",
 			    "subgroup": 1,
 			    "cat": "know_manu",
@@ -34884,7 +34884,7 @@
 			  },
 			  {
 			    "id": "know_math_2",
-			    "name": "Mathematics",
+			    "name": "Mathematics Knowledge",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_math",
@@ -34980,7 +34980,7 @@
 			  },
 			  {
 			    "id": "skills_math",
-			    "name": "Mathematics",
+			    "name": "Mathematics Skills",
 			    "group": "Skills",
 			    "subgroup": 2,
 			    "cat": "skills_Basic_Cont",
@@ -35508,7 +35508,7 @@
 			  },
 			  {
 			    "id": "skills_math",
-			    "name": "Mathematics",
+			    "name": "Mathematics Skills",
 			    "group": "Skills",
 			    "subgroup": 2,
 			    "cat": "skills_Basic_Cont",
@@ -35540,7 +35540,7 @@
 			  },
 			  {
 			    "id": "know_math_2",
-			    "name": "Mathematics",
+			    "name": "Mathematics Knowledge",
 			    "group": "Knowledge",
 			    "subgroup": 2,
 			    "cat": "know_math",
@@ -35612,7 +35612,7 @@
 			  },
 			  {
 			    "id": "know_manu",
-			    "name": "Manufacturnig and Production",
+			    "name": "Manufacturing and Production",
 			    "group": "Knowledge",
 			    "subgroup": 1,
 			    "cat": "know_manu",
